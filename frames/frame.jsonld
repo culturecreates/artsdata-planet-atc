@@ -27,9 +27,6 @@
         "@id": "schema:addressCountry",
         "@container": "@language"
       },
-      "uri": {
-        "@id": "@id"
-      },
       "type": {
         "@id": "@type"
       }
@@ -46,8 +43,6 @@
   "description":  {},
   "url": {},
   "sameAs": {},
- 
-  
   "telephone":  {},
   "email": {},
   "address": {}
