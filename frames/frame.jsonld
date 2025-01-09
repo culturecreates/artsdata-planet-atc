@@ -45,12 +45,21 @@
   "sameAs": [{}],
   "telephone":  {},
   "email": {},
-  "address": {},
-  "workLocation" : {
+  "location": {
     "@type":"Place",
     "address" : {
       "@type":"PostalAddress",
       "addressCountry" : {},
+      "addressRegion" : {},
+      "addressCountry" : {},
+      
+    }
+  },
+  "workLocation" : {
+    "@type":"Place",
+    "address" : {
+      "@type":"PostalAddress",
+      "addressCountry" : {"@language": @none"},
       "addressRegion" : {}
     }
   }
