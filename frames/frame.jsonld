@@ -59,7 +59,7 @@
     "@type":"Place",
     "address" : {
       "@type":"PostalAddress",
-      "addressCountry" : {"@language": @none"},
+      "addressCountry" : {"@language": "@none"},
       "addressRegion" : {}
     }
   }
