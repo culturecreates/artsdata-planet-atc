@@ -11,6 +11,10 @@
         "@id": "schema:description",
         "@container": "@language"
       },
+      "sameAs":{
+         "@id": "schema:sameAs",
+         "@container": "@set"
+      },
       "streetAddress": {
         "@id": "schema:streetAddress",
         "@container": "@language"
@@ -42,7 +46,7 @@
   "name":  {},
   "description":  {},
   "url": {},
-  "sameAs": {},
+  "sameAs": [{}],
   "telephone":  {},
   "email": {},
   "address": {},
