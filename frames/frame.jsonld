@@ -47,9 +47,9 @@
   "email": {},
   "address": {},
   "workLocation" : {
-    "@type":"Place",
+  
     "address" : {
-       "@type":"PostalAddress",
+     
       "addressCountry" : {},
       "addressRegion" : {}
     }
