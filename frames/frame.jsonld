@@ -45,5 +45,13 @@
   "sameAs": {},
   "telephone":  {},
   "email": {},
-  "address": {}
+  "address": {},
+  "workLocation" : {
+    "@type":"Place",
+    "address" : {
+       "@type":"PostalAddress",
+      "addressCountry" : {},
+      "addressRegion" : {}
+    }
+  }
 }
