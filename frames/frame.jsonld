@@ -12,7 +12,6 @@
         "@container": "@language"
       },
       "sameAs":{
-         "@id": "schema:sameAs",
          "@container": "@set"
       },
       "streetAddress": {
