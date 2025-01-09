@@ -11,9 +11,6 @@
         "@id": "schema:description",
         "@container": "@language"
       },
-      "sameAs":{
-         "@container": "@set"
-      },
       "streetAddress": {
         "@id": "schema:streetAddress",
         "@container": "@language"
