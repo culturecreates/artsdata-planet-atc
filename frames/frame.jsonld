@@ -49,17 +49,18 @@
     "@type":"Place",
     "address" : {
       "@type":"PostalAddress",
-      "addressCountry" : {},
+      "addressCountry" :  {"@language": ""},
       "addressRegion" : {},
-      "addressCountry" : {},
-      
+      "addressLocality" : {},
+      "streetAddress" : {},
+      "postalCode" : {}
     }
   },
   "workLocation" : {
     "@type":"Place",
     "address" : {
       "@type":"PostalAddress",
-      "addressCountry" : {"@language": "@none"},
+      "addressCountry" : {"@language": ""},
       "addressRegion" : {}
     }
   }
