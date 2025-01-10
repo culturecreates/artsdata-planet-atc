@@ -1,71 +1,91 @@
 {
   "@version": 1.0,
-  "@context": [ 
-    "http://schema.org", 
-    { 
+  "@context": [
+    "http://schema.org",
+    {
       "name": {
-        "@id": "schema:name",
         "@language": "en"
       },
       "description": {
-        "@id": "schema:description",
         "@language": "en"
       },
       "streetAddress": {
-        "@id": "schema:streetAddress",
-         "@language": "en"
+        "@language": "en"
       },
       "addressLocality": {
-        "@id": "schema:addressLocality",
-         "@language": "en"
+        "@language": "en"
       },
       "addressRegion": {
-        "@id": "schema:addressRegion",
         "@language": "en"
       },
       "addressCountry": {
-        "@id": "schema:addressCountry",
         "@language": "en"
-      },
-      "type": {
-        "@id": "@type"
       }
     }
   ],
   "@explicit": true,
   "@requireAll": false,
-  "@omitDefault": true,
   "@type": [
     "Organization",
     "Person"
   ],
-  "name":  {"@value": {},"@language": "en"},
-  "description": {"@value": {},"@language": "en"},
+  "name": {
+    "@value": {},
+    "@language": "en"
+  },
+  "description": {
+    "@value": {},
+    "@language": "en"
+  },
   "url": {},
-  "sameAs": [{}],
-  "telephone":  {},
+  "sameAs": [
+    {}
+  ],
+  "telephone": {},
   "email": {},
   "location": {
-    "@type":"Place",
+    "@type": "Place",
     "@explicit": true,
-    "address" : {
-      "@type":"PostalAddress",
+    "address": {
+      "@type": "PostalAddress",
       "@explicit": true,
       "@omitDefault": true,
-      "addressCountry" :  {"@value": {},"@language": "en"},
-      "addressRegion" : {"@value": {},"@language": "en"},
-      "addressLocality" : {"@value": {},"@language": "en"},
-      "streetAddress" : {"@value": {},"@language": "en"},
-      "postalCode" : {}
+      "addressCountry": {
+        "@value": {},
+        "@language": "en"
+      },
+      "addressRegion": {
+        "@value": {},
+        "@language": "en"
+      },
+      "addressLocality": {
+        "@value": {},
+        "@language": "en"
+      },
+      "streetAddress": {
+        "@value": {},
+        "@language": "en"
+      },
+      "postalCode": {}
     }
   },
-  "workLocation" : {
-    "@type": {"@default": "Place"},
-    "address" : {
-    "@type": {"@default": "PostalAddress"},
-    "@explicit": true,
-    "addressCountry" : {"@value": {},"@language": "en"},
-    "addressRegion" : {"@value": {},"@language": "en"}
+  "workLocation": {
+    "@type": {
+      "@default": "Place"
+    },
+    "address": {
+      "@type": {
+        "@default": "PostalAddress"
+      },
+      "@explicit": true,
+      "addressCountry": {
+        "@value": {},
+        "@language": "en"
+      },
+      "addressRegion": {
+        "@value": {},
+        "@language": "en"
+      }
     }
   }
 }
