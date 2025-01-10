@@ -5,27 +5,27 @@
     { 
       "name": {
         "@id": "schema:name",
-        "@container": "@language"
+        "@language": "en"
       },
       "description": {
         "@id": "schema:description",
-        "@container": "@language"
+        "@language": "en"
       },
       "streetAddress": {
         "@id": "schema:streetAddress",
-        "@container": "@language"
+         "@language": "en"
       },
       "addressLocality": {
         "@id": "schema:addressLocality",
-        "@container": "@language"
+         "@language": "en"
       },
       "addressRegion": {
         "@id": "schema:addressRegion",
-        "@container": "@language"
+        "@language": "en"
       },
       "addressCountry": {
         "@id": "schema:addressCountry",
-        "@container": "@language"
+        "@language": "en"
       },
       "type": {
         "@id": "@type"
@@ -39,29 +39,33 @@
     "Organization",
     "Person"
   ],
-  "name":  {},
-  "description":  {},
+  "name":  {"@value": {},"@language": "en"},
+  "description": {"@value": {},"@language": "en"},
   "url": {},
   "sameAs": [{}],
   "telephone":  {},
   "email": {},
   "location": {
     "@type":"Place",
+    "@explicit": true,
     "address" : {
       "@type":"PostalAddress",
-      "addressCountry" :  {"@language": ""},
-      "addressRegion" : {},
-      "addressLocality" : {},
-      "streetAddress" : {},
+      "@explicit": true,
+      "@omitDefault": true,
+      "addressCountry" :  {"@value": {},"@language": "en"},
+      "addressRegion" : {"@value": {},"@language": "en"},
+      "addressLocality" : {"@value": {},"@language": "en"},
+      "streetAddress" : {"@value": {},"@language": "en"},
       "postalCode" : {}
     }
   },
   "workLocation" : {
-    "@type":"Place",
+    "@type": {"@default": "Place"},
     "address" : {
-      "@type":"PostalAddress",
-      "addressCountry" : {"@language": ""},
-      "addressRegion" : {}
+    "@type": {"@default": "PostalAddress"},
+    "@explicit": true,
+    "addressCountry" : {"@value": {},"@language": "en"},
+    "addressRegion" : {"@value": {},"@language": "en"}
     }
   }
 }
