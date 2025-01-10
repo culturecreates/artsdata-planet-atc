@@ -1,5 +1,4 @@
 {
-  "@version": 1.0,
   "@context": [
     "http://schema.org",
     {
@@ -41,8 +40,12 @@
   "sameAs": [
     {}
   ],
-  "telephone": {},
-  "email": {},
+  "telephone": {
+    "@value": {}
+  },
+  "email": {
+    "@value": {}
+  },
   "location": {
     "@type": "Place",
     "@explicit": true,
@@ -66,7 +69,9 @@
         "@value": {},
         "@language": "en"
       },
-      "postalCode": {}
+      "postalCode": {
+        "@value": {}
+      }
     }
   },
   "workLocation": {
