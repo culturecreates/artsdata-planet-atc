@@ -3,24 +3,22 @@
     "http://schema.org",
     {
       "xsd": "http://www.w3.org/2001/XMLSchema#",
-      "name": {
-        "@language": "en"
-      },
       "maximumAttendeeCapacity": {
         "@type": "xsd:integer"
       }
+     
     }
   ],
   "@explicit": true,
   "@requireAll": false,
   "@type": "Place",
   "name": {
-    "@value": {},
-    "@language": "en"
+    "@value": {}
   },
   "maximumAttendeeCapacity": {},
-  "techArticleUrl": {},
-  "sameAs": [
-    {}
-  ]
+  "sameAs": {},
+  "techArticleUrl": {
+    "@type": "TechArticle",
+    "url": {}
+  }
 }
