@@ -1,27 +1,5 @@
 {
-  "@context": [
-    "http://schema.org",
-    {
-      "name": {
-        "@language": "en"
-      },
-      "description": {
-        "@language": "en"
-      },
-      "streetAddress": {
-        "@language": "en"
-      },
-      "addressLocality": {
-        "@language": "en"
-      },
-      "addressRegion": {
-        "@language": "en"
-      },
-      "addressCountry": {
-        "@language": "en"
-      }
-    }
-  ],
+  "@context": "http://schema.org",
   "@explicit": true,
   "@requireAll": false,
   "@type": [
@@ -29,23 +7,18 @@
     "Person"
   ],
   "name": {
-    "@value": {},
-    "@language": "en"
+    "@value": {}
   },
   "description": {
-    "@value": {},
-    "@language": "en"
+    "@value": {}
+  },
+  "descriptionSource": {
+    "@value": {}
   },
   "url": {},
-  "sameAs": [
-    {}
-  ],
-  "telephone": {
-    "@value": {}
-  },
-  "email": {
-    "@value": {}
-  },
+  "sameAs": {},
+  "telephone": {},
+  "email": {},
   "location": {
     "@type": "Place",
     "@explicit": true,
@@ -54,24 +27,18 @@
       "@explicit": true,
       "@omitDefault": true,
       "addressCountry": {
-        "@value": {},
-        "@language": "en"
+        "@value": {}
       },
       "addressRegion": {
-        "@value": {},
-        "@language": "en"
+        "@value": {}
       },
       "addressLocality": {
-        "@value": {},
-        "@language": "en"
+        "@value": {}
       },
       "streetAddress": {
-        "@value": {},
-        "@language": "en"
-      },
-      "postalCode": {
         "@value": {}
-      }
+      },
+      "postalCode": {}
     }
   },
   "workLocation": {
@@ -84,12 +51,10 @@
       },
       "@explicit": true,
       "addressCountry": {
-        "@value": {},
-        "@language": "en"
+        "@value": {}
       },
       "addressRegion": {
-        "@value": {},
-        "@language": "en"
+        "@value": {}
       }
     }
   }
