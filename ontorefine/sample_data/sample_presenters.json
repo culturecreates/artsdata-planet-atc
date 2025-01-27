@@ -1,0 +1,42 @@
+{
+    "data": [
+      {
+        "type": "presenter",
+        "id": "4deef3e8-f034-4599-b821-0b09d99cdc1d",
+        "attributes": {
+          "nid": 26,
+          "name": "Rice Lake Performing Arts Centre",
+          "created": "2022-02-23T20:06:15+00:00",
+          "changed": "2022-06-01T02:21:09+00:00",
+          "langcode": "en",
+          "address": {
+            "langcode": "en",
+            "country_code": "CA",
+            "administrative_area": "ON",
+            "locality": "Rice Lake",
+            "postal_code": "",
+            "address_line1": "",
+            "address_line2": "",
+            "address_line3": null
+          },
+          "contact": {
+            "first_name": "Donovan",
+            "last_name": "Sparrow",
+            "email": "don@ricelake.ca",
+            "phone": null
+          },
+          "email": null,
+          "fax": null,
+          "identifiers": {
+            "artsdata": null,
+            "isni": null,
+            "wikidata": null,
+            "atc": 26
+          },
+          "phone": null,
+          "tech_info": null,
+          "website": "https://ricelakecanada.com/"
+        }
+      }
+    ]
+  }

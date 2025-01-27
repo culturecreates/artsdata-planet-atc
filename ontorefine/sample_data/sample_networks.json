@@ -1,0 +1,34 @@
+{
+    "data": [
+      {
+        "type": "network",
+        "id": "2bf2ca20-885c-4793-a089-645413ce877b",
+        "attributes": {
+          "nid": 122,
+          "name": "Test RPN",
+          "created": "2022-06-29T20:16:20+00:00",
+          "changed": "2024-07-11T00:21:59+00:00",
+          "langcode": "en",
+          "code": "TRPN",
+          "contact": {
+            "name": "Ceilidh Wood",
+            "title": "Ontario Presents",
+            "email": "ceilidh@ontariopresents.ca",
+            "phone": "4167036709",
+            "address": {
+              "langcode": "en",
+              "country_code": "CA",
+              "administrative_area": "ON",
+              "locality": "Toronto",
+              "dependent_locality": null,
+              "postal_code": "M5T 2C2",
+              "sorting_code": null,
+              "address_line1": "305-192 Spadina Ave",
+              "address_line2": "",
+              "address_line3": null
+            }
+          }
+        }
+      }
+    ]
+  }

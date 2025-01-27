@@ -1,0 +1,313 @@
+{
+    "importOptions": [
+      {
+        "recordPath": [
+          "_",
+          "data",
+          "_"
+        ],
+        "limit": -1,
+        "trimStrings": false,
+        "guessCellValueTypes": false,
+        "storeEmptyStrings": true,
+        "includeFileSources": false,
+        "includeArchiveFileName": false,
+        "disableAutoPreview": false,
+        "projectName": "atc json",
+        "projectTags": [],
+        "fileSource": "data.json",
+        "archiveFileName": null
+      }
+    ],
+    "operations": [
+        {
+          "op": "mapping-editor/save-rdf-mapping",
+          "mapping": {
+            "baseIRI": "http://example.com/base/",
+            "namespaces": {
+              "artist": "https://arts-tc.ca/artist/",
+              "schema": "http://schema.org/"
+            },
+            "subjectMappings": [
+              {
+                "subject": {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "_ - attributes - nid"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "artist"
+                  }
+                },
+                "typeMappings": [
+                  {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "PerformingGroup"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  }
+                ],
+                "propertyMappings": [
+                  {
+                    "property": {
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "name"
+                      },
+                      "transformation": {
+                        "language": "prefix",
+                        "expression": "schema"
+                      }
+                    },
+                    "values": [
+                      {
+                        "valueSource": {
+                          "source": "column",
+                          "columnName": "_ - attributes - name"
+                        },
+                        "valueType": {
+                          "type": "literal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "property": {
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "description"
+                      },
+                      "transformation": {
+                        "language": "prefix",
+                        "expression": "schema"
+                      }
+                    },
+                    "values": [
+                      {
+                        "valueSource": {
+                          "source": "column",
+                          "columnName": "_ - attributes - biography"
+                        },
+                        "valueType": {
+                          "type": "literal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "property": {
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "sameAs"
+                      },
+                      "transformation": {
+                        "language": "prefix",
+                        "expression": "schema"
+                      }
+                    },
+                    "values": [
+                      {
+                        "valueSource": {
+                          "source": "column",
+                          "columnName": "_ - attributes - identifiers - artsdata"
+                        },
+                        "transformation": {
+                          "language": "raw"
+                        },
+                        "valueType": {
+                          "type": "iri",
+                          "typeMappings": [],
+                          "propertyMappings": []
+                        }
+                      },
+                      {
+                        "valueSource": {
+                          "source": "column",
+                          "columnName": "_ - attributes - identifiers - wikidata"
+                        },
+                        "transformation": {
+                          "language": "raw"
+                        },
+                        "valueType": {
+                          "type": "iri",
+                          "typeMappings": [],
+                          "propertyMappings": []
+                        }
+                      },
+                      {
+                        "valueSource": {
+                          "source": "column",
+                          "columnName": "_ - attributes - identifiers - isni"
+                        },
+                        "transformation": {
+                          "language": "raw"
+                        },
+                        "valueType": {
+                          "type": "iri",
+                          "typeMappings": [],
+                          "propertyMappings": []
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "property": {
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "location"
+                      },
+                      "transformation": {
+                        "language": "prefix",
+                        "expression": "schema"
+                      }
+                    },
+                    "values": [
+                      {
+                        "valueSource": {
+                          "source": "column",
+                          "columnName": "_ - attributes - nid"
+                        },
+                        "valueType": {
+                          "type": "unique_bnode",
+                          "typeMappings": [
+                            {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "Place"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "schema"
+                              }
+                            }
+                          ],
+                          "propertyMappings": [
+                            {
+                              "property": {
+                                "valueSource": {
+                                  "source": "constant",
+                                  "constant": "address"
+                                },
+                                "transformation": {
+                                  "language": "prefix",
+                                  "expression": "schema"
+                                }
+                              },
+                              "values": [
+                                {
+                                  "valueSource": {
+                                    "source": "column",
+                                    "columnName": "_ - attributes - nid"
+                                  },
+                                  "valueType": {
+                                    "type": "unique_bnode",
+                                    "typeMappings": [
+                                      {
+                                        "valueSource": {
+                                          "source": "constant",
+                                          "constant": "PostalAddress"
+                                        },
+                                        "transformation": {
+                                          "language": "prefix",
+                                          "expression": "schema"
+                                        }
+                                      }
+                                    ],
+                                    "propertyMappings": [
+                                      {
+                                        "property": {
+                                          "valueSource": {
+                                            "source": "constant",
+                                            "constant": "addressCountry"
+                                          },
+                                          "transformation": {
+                                            "language": "prefix",
+                                            "expression": "schema"
+                                          }
+                                        },
+                                        "values": [
+                                          {
+                                            "valueSource": {
+                                              "source": "column",
+                                              "columnName": "_ - attributes - location - country_code"
+                                            },
+                                            "valueType": {
+                                              "type": "literal"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "property": {
+                                          "valueSource": {
+                                            "source": "constant",
+                                            "constant": "addressRegion"
+                                          },
+                                          "transformation": {
+                                            "language": "prefix",
+                                            "expression": "schema"
+                                          }
+                                        },
+                                        "values": [
+                                          {
+                                            "valueSource": {
+                                              "source": "column",
+                                              "columnName": "_ - attributes - location - administrative_area"
+                                            },
+                                            "valueType": {
+                                              "type": "literal"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "property": {
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "url"
+                      },
+                      "transformation": {
+                        "language": "prefix",
+                        "expression": "schema"
+                      }
+                    },
+                    "values": [
+                      {
+                        "valueSource": {
+                          "source": "column",
+                          "columnName": "_ - attributes - website"
+                        },
+                        "transformation": {
+                          "language": "raw"
+                        },
+                        "valueType": {
+                          "type": "iri",
+                          "typeMappings": [],
+                          "propertyMappings": []
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "description": "Save RDF Mapping"
+        }
+      ]
+  }
