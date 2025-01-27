@@ -1,0 +1,872 @@
+@base <http://example.com/base/> .
+@prefix artist: <https://arts-tc.ca/artist/> .
+@prefix schema: <http://schema.org/> .
+
+artist:124 a schema:PerformingGroup;
+  schema:name "Shakespearience Productions";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff91;
+  schema:url <http://www.shakespeariencelive.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff91 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff92 .
+
+_:42ac356601db4bd1ad81e36c09203ff92 a schema:PostalAddress;
+  schema:addressCountry "GB" .
+
+artist:187 a schema:PerformingGroup;
+  schema:name "Gil Marsalla";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff93;
+  schema:url <https://stationbleue.com/artistes/piaf-le-spectacle/> .
+
+_:42ac356601db4bd1ad81e36c09203ff93 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff94 .
+
+_:42ac356601db4bd1ad81e36c09203ff94 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:191 a schema:PerformingGroup;
+  schema:name "Lemon Bucket Orchestra";
+  schema:description """<p><strong>Lemon Bucket Orkestra</strong> are Toronto's original guerrilla-folk party-punk massive. The multi-award-winning ensemble has been heralded as a groundbreaking, genre-bending phenomenon by media and fans alike, and over the past 13 years they have performed all over the world from <strong>WOMAD</strong> in England and New Zealand and <strong>Pohoda</strong> in Slovakia, to <strong>Festival D’Été</strong> in Québec City, and <strong>Luminato</strong> in Toronto. <strong>The Guardian</strong> proclaimed that their performances are \"gorgeously sung and passionately played\" and <strong>The New York Times</strong> declared them \"charismatic...handsome and ambitious.”</p>
+
+<p>Equal parts exhilarating precision and reckless abandon, LBO’s live shows are a truly immersive experience ranging from the ecstatic to the cathartic and all points in between. Now they have been weaving that unique blend of energy and emotion onto their upcoming album <strong>Cuckoo</strong>. Set for release in May 2024, the new record pens strong lines through powerful Ukrainian polyphony, driving Balkan rhythms, and a deep undertone of modern Western sensibilities. This mixture of Eastern Europe and the America's is further elevated with the special feature of Macedonian master trumpeter, hailing from <strong>Kocani Orkestar, Nizo Alimov</strong>.</p>
+
+<p>The band will be busy <strong>touring US</strong> festivals and PACs in the <strong>Summer of 2024</strong> touting their powerful new album, with a following <strong>Fall Canadian tour</strong>. Along with the worldwide release of the new album, LBO will also be premiering a <strong>new video for their song Freebird</strong>. Filmed on Toronto’s iconic Ward's Island earlier this year, it captures the band in their natural element - taking the viewer through a boisterous, bright, and impassioned journey from a party at the beach to the Balkans. Get on your feet and surround yourself in this sonic juggernaut if you can. To quote the <strong>Winnipeg Free Press</strong>, the experience will be: \"Amazing, frenetic, gloriously anarchic and ultimately joyous!”</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff95;
+  schema:url <https://www.lemonbucket.com/music> .
+
+_:42ac356601db4bd1ad81e36c09203ff95 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff96 .
+
+_:42ac356601db4bd1ad81e36c09203ff96 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON" .
+
+artist:195 a schema:PerformingGroup;
+  schema:name "Mermaid Theatre of Nova Scotia";
+  schema:description """<p>Mermaid Theatre has been in continuous operation since it was founded in 1972 in Wolfville, Nova Scotia. We moved to the neighboring town of Windsor in 1987, and helped to revitalize the historic town’s downtown business core. Our extensive headquarters encompass production studios, administrative offices, rehearsal quarters, a versatile studio, animation studios, film &amp; television recording capacity, and an elegant 400-seat performance facility known as The Mermaid Imperial Performing Arts Centre (MIPAC).&nbsp;The enthusiastic response to our innovative family audiences programming has enabled us to establish unparalleled touring circuits.</p>
+
+<p>Note: Mermaid can perform or travel 6 days within a week and need 1-day off.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff97;
+  schema:url <https://mermaidtheatre.ca/> .
+
+_:42ac356601db4bd1ad81e36c09203ff97 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff98 .
+
+_:42ac356601db4bd1ad81e36c09203ff98 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS" .
+
+artist:203 a schema:PerformingGroup;
+  schema:name "Afrikana Soul Sister";
+  schema:description """<p>Led by seasoned Quebec multi-instrumentalist, producer and arranger Jean-François Lemieux (Jean Leloup, Daniel Bélanger, Ariane Moffatt), and completed by Senegalese percussionist Fa Cissokho and Malian singer Djely Tapa (named Révélation CBC/Radio-Canada for the year 2019-2020 in the World Music category), the trio embodies the unclassifiable meeting of West Africa and North America in a vibrant place where tradition and the thirst to create outweigh ego. Delivering its unique Afro-electro music infused with percussive yet futuristic flavours, Afrikana Soul Sister is the happy collision of landscapes and people who don’t usually tend to intertwine. Carried by frenzied rhythms and intoxicating grooves, the outcome is a stunning, memorable experience where one can feel the powerful complicity within the trio.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff99;
+  schema:url <https://afrikanasoulsister.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff99 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff910 .
+
+_:42ac356601db4bd1ad81e36c09203ff910 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:206 a schema:PerformingGroup;
+  schema:name "Ballets Jazz Montréal";
+  schema:description """<p><b>As part of its 50th Anniversary season, Ballet Jazz Montréal has curated a Triple Bill that includes <i>We Can’t Forget What’s His Name</i>, a new creation by company member, Ausia Jones, <i>Ten Duets on a Theme of Rescue </i>by Crystal Pite, and <i>Les Chambres des Jacques </i>by Aszure Barton. The landmark anniversary program pays homage to the company’s roots but also serves as a springboard for a new artistic vision – a balance between the company’s DNA and the evolution of its mission into the next half-century. </b></p>
+
+<p><b>Throughout its history, the company hasn’t been afraid to explore new ideas and ways of moving. Moreover, the company’s high calibre dancers have used their distinct personalities to bring life to the movement and stories evolving on stage. This fearless vulnerability and humanity are what have allowed the company to connect to their audiences and how audiences have been able to see themselves in its artists. Standing in this truth, this program is symbolic and contains voices that are capable of carrying and driving the company forward. </b></p>
+
+<p><b>Ms. Damiani’s kinetic response to the work of Aszure Barton and Crystal Pite was an indicator that these artists – whose talent was cultivated by Ballets Jazz Montréal at the beginning of their choreographic careers – are the perfect ambassadors for the company. Innovative, sensual, human, complex – the work by these prolific choreographers, who constantly use their voices and platform to explore and push against their limits, also moves the milieu forward. They challenge. They go beyond. They refused to settle for safe. </b></p>
+
+<p><b>In order to complement these two established artistic voices, Damiani had a strong desire to cultivate emerging talent similar to Ballets Jazz Montréal founder, Geneviève Salbaing. Having been mentored by William Forsythe, company member Ausia Jones has a choreographic voice that reflects her generation - confident, witty, spontaneous, informed. Her movement language offers the audience another perspective during this evening - one that is inspired by diverse movement languages, groove, and counterpoint. </b></p>
+
+<p><b>The company will step onto the stage for the next 50 years taking these distinct voices with them – ones that are alive, adapting, listening, reacting, innovating, and evolving. This is the DNA of Ballets Jazz Montréal and the <i>ESSENCE </i>of this program.</b></p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff911;
+  schema:url <https://www.bjmdanse.ca/en/repertoire/essence/> .
+
+_:42ac356601db4bd1ad81e36c09203ff911 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff912 .
+
+_:42ac356601db4bd1ad81e36c09203ff912 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:207 a schema:PerformingGroup;
+  schema:name "Afrikana Soul Sister";
+  schema:description """<p>Led by seasoned Quebec multi-instrumentalist, producer and arranger Jean-François Lemieux (Jean Leloup, Daniel Bélanger, Ariane Moffatt), and completed by Senegalese percussionist Fa Cissokho and Malian singer Djely Tapa (named Révélation CBC/Radio-Canada for the year 2019-2020 in the World Music category), the trio embodies the unclassifiable meeting of West Africa and North America in a vibrant place where tradition and the thirst to create outweigh ego. Delivering its unique Afro-electro music infused with percussive yet futuristic flavours, Afrikana Soul Sister is the happy collision of landscapes and people who don’t usually tend to intertwine. Carried by frenzied rhythms and intoxicating grooves, the outcome is a stunning, memorable experience where one can feel the powerful complicity within the trio.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff913;
+  schema:url <https://afrikanasoulsister.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff913 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff914 .
+
+_:42ac356601db4bd1ad81e36c09203ff914 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:208 a schema:PerformingGroup;
+  schema:name "Basset";
+  schema:description """<p>Toronto-based folk duo, Basset, are full of timeless heart. Acoustic songwriters Sam Clark and Yasmine Shelton will take you through the city streets in the hours before the world has woken, or to a corrugated steel home north of the treeline. Basset bring a deep love of the natural world to their gorgeously meditative and assured debut album, In The Clay, set to release on September 30th, 2022. Produced by Joshua Van Tassel (Sarah Slean, David Myles), the ten songs on In The Clay explore various themes of life in change, Shelton and Clark’s travels around Northern Ontario, the Canadian and American prairies, their lives in Toronto, and the many characters who have crossed their paths. With comparisons to The Milk Carton Kids, Hozier, and Bon Iver, their inventiveness shines on fiddle and intricate harmonies, with Shelton and Clark’s voices wrapping around each other like twin flames in a warm fire. In Spring/Summer 2022, Basset performed at NXNE in Toronto, and as Official Showcase Artists at Folk Alliance International. They took part in a 15-stop Canadian East coast tour and performed at the Winnipeg Folk Festival Youth Stage. In 2021 they performed at Boston-based Club Passim’s virtual Campfire Festival, as well as the Honey Jam developing artist showcase (Nelly Furtado, Jully Black, Haviah Mighty) in Toronto. They’ve performed across Ontario and Quebec promoting their self-titled EP and are looking forward to touring their Debut Album, In the Clay, in the Northeastern USA in Fall/Winter 2022.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff915;
+  schema:url <https://bassettheband.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff915 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff916 .
+
+_:42ac356601db4bd1ad81e36c09203ff916 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON" .
+
+artist:214 a schema:PerformingGroup;
+  schema:name "L'aubergine";
+  schema:description """<p>Since its founding in 1974, our Aubergine has moved from one garden to another to the delight of both the young and the young heart.</p>
+
+<p>L'Aubergine has carved out its own unique niche by cultivating a specific artistic vision combining the arts of clowning, the circus, music, and theatrical and movement techniques.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff917;
+  schema:url <https://www.laubergine.qc.ca/> .
+
+_:42ac356601db4bd1ad81e36c09203ff917 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff918 .
+
+_:42ac356601db4bd1ad81e36c09203ff918 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:224 a schema:PerformingGroup;
+  schema:name "Burton Cummings";
+  schema:description """<p class=\"MsoNormal\">Burton Cummings is that rare artist who has transcended time, genres and generations with a body of work that continues to resonate with fans both old and new. His voice has been rated among the finest in rock music and his extensive catalogue of songs is the envy of his contemporaries. Burton continues at the top of his game as a performer, singer, songwriter and recording artist second to none.<o:p></o:p></p>
+
+<p class=\"MsoNormal\">As a member of the Canadian Music Hall of Fame, Canadian Songwriters Hall of Fame, Canadian Music Industry Hall of Fame, Canadian Walk of Fame, Canadian Music Industry Hall of Fame, Prairie Music Hall of Fame, multiple Juno Award winner, recipient of the Order of Canada, the Order of Manitoba, the Governor-General’s Performance Arts Award, and several BMI (Broadcast Music Industry) awards for over 1 million airplays of his songs, Burton is one of the most celebrated rock artists in Canadian music history. Beyond his many awards, accolades and accomplishments he is also unquestionably Canada’s most beloved rock ‘n’ roll son. How many Canadian rock stars can boast both a community centre and a performing arts theatre named in their honor? Yet Burton also enjoys a world-wide stature shared by only a handful of other Canadian artists.<o:p></o:p></p>
+
+<p class=\"MsoNormal\">With Canada’s original rock ‘n’ roll superstars The Guess Who, Burton scored an unprecedented string of international hit singles and albums including These Eyes, Laughing, No Time, American Woman, Share The Land, Hang On To Your Life, Albert Flasher, Sour Suite, Orly, Glamour Boy, Star Baby, Clap For The Wolfman and Dancin’ Fool, all written or co-written by Burton. By 1970 the Guess Who had sold more records than the entire Canadian music industry combined to that point and their achievements remain unparalleled. The group notched up a long list of firsts including the first Canadian group to reach #1 on the Billboard charts (holding that spot for three weeks) and the first to earn a platinum album for sales of over 1 million copies in the US. Rolling Stone magazine hailed the Guess Who as “one of rock’s most consistently fascinating maverick bands, with a succession of meritorious songs that has few equals among contemporary North American groups.” Dick Clark described the group as rock innovators and ambassadors of Canadian music. Staples of classic rock and oldies radio today as well as in feature films including American Beauty, Almost Famous, Cable Guy, Austin Powers: The Spy Who Shagged Me, and Jackie Brown, the Guess Who’s vast catalog of songs remains enduring. “When I think back on having five million-selling records in the Top 10, one after the other I can hardly believe it,” states Burton with justifiable pride. “I was just twenty years old and every time I turned around I was getting a gold record. The scope and magnitude of our success escaped all of us. It really didn’t sink in until years later.”<o:p></o:p></p>
+
+<p class=\"MsoNormal\">Striking out on his own in 1976, Burton continued his winning streak with a gold record for his debut solo single Stand Tall produced by legendary hit-maker Richard Perry who numbered among his clients Barbra Streisand, Carly Simon and Ringo Starr. The choice of producer was evidence of Burton’s star power in the music industry. He followed that with more than a dozen hit singles and albums including I’m Scared, My Own Way To Rock, I Will Play a Rhapsody, Timeless Love, Break It To Them Gently, Dream Of A Child, Fine State of Affairs, Love Dreams and You Saved My Soul. Sold out tours across Canada and the United States solidified Burton’s stature as a top attraction. He starred in several top-rated television specials and earned five Juno Awards between 1977 and 1980 for Best Male Vocalist and Best Album, serving as host of the gala annual event a record four times. His 1978 album Dream Of A Child became the first quadruple platinum-selling album by a Canadian artist.<o:p></o:p></p>
+
+<p class=\"MsoNormal\">Through the ‘80s and ‘90s Burton continued to tour including joining Beatles drummer Ringo Starr’s All Starr Band. A starring role in the feature film Melanie alongside Miami Vice star Don Johnson in 1980 earned Burton a Genie Award for Best Original Song along with praise for his acting ability. He also launched his acclaimed Up Close and Alone solo concert series featuring the singer alone onstage recounting the stories behind his best-known songs and sharing personal moments from his career. A live album of the same name followed.<o:p></o:p></p>
+
+<p class=\"MsoNormal\">The success of Lenny Kravitz’ cover of American Woman from the hit feature film Austin Powers: The Spy Who Shagged Me brought renewed attention to the original Guess Who. The group reunited in 1999 for the closing ceremonies of the Pan-American Games (with a television audience numbering in the tens of millions) and mounted several high-profile North American tours. Burton later teamed with Guess Who alumnus Randy Bachman as Bachman-Cummings for further touring and recording success. The Bachman Cummings Songbook, released in 2006, became another platinum seller, followed the next year by Jukebox.<o:p></o:p></p>
+
+<p class=\"MsoNormal\">His 2008 solo album, the critically-acclaimed Above The Ground, was his first to feature all original songs by Burton. Fans and critics glowed with superlatives citing the album as his best work in decades. Despite his many years in the music business, Burton still possessed the muse and the uncanny ability to craft magic in the recording studio.<o:p></o:p></p>
+
+<p class=\"MsoNormal\">In 2012, Burton released his first ever live solo album Massey Hall which was recorded at the famed Massey Hall in Toronto, Canada. Massey Hall features some of Burton’s largest hits from his The Guess Who and solo career which span five decades These Eyes, American Woman, No Sugar Tonight, Undun, Timeless Love, Stand Tall and Above The Ground. Reflecting on the album Burton says “I still try my best to recreate the records just the way they sounded. I have no trouble with singing these songs the rest of my life”.<o:p></o:p></p>
+
+<p class=\"MsoNormal\">Never content to rest on his extraordinary accomplishments, Burton Cummings continues to write, record and perform. “Not all artists are lucky enough to have that kind of staying power,” he admits. “It’s pretty amazing.” A consummate artist, performer and professional, he possesses an extraordinary gift for entertaining, never failing to delight audiences from 10 to 10,000 across the United States and Canada.<o:p></o:p></p>
+
+<p class=\"MsoNormal\">Audiences nightly, both those in the United States and Canada, are dancing in the aisles to the hits that defined a generation. Fans are treated night after night to inspiring concerts that they will remember forever. In the Summer of 2013 Burton is touring to Sold Out audiences across the United States and Canada.<o:p></o:p></p>
+
+<p class=\"MsoNormal\">After all these years he has nothing to prove to anyone, except himself. Few artists are as scrupulously dedicated to their craft as Burton is.<o:p></o:p></p>
+
+<p class=\"MsoNormal\">Described as Canadian rock ‘n’ roll royalty, a national treasure, and a living legend, for Burton Cummings there has always been one constant: he remains true to himself and his own way to rock.<o:p></o:p></p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff919;
+  schema:url <https://www.burtoncummings.com> .
+
+_:42ac356601db4bd1ad81e36c09203ff919 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff920 .
+
+_:42ac356601db4bd1ad81e36c09203ff920 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON" .
+
+artist:262 a schema:PerformingGroup;
+  schema:name "Axis Theatre";
+  schema:description """<p>Axis’ productions are performed in theatres and schools, enriching curriculum, drawing children into stories and giving them access to ideas in new ways. In the age of “looking down,” Axis draws young eyes up to engage them in interactive experiences that educate, inspire and transform. Audiences experience smart, entertaining interpretations of traditional and cutting edge physical theatre. Axis incorporates combinations of red-nose clown, mime, movement, mask work, puppetry and improvisation to expand the meaning and impact of the stories presented. It is deceptively simple, completely fresh and memorable.</p>
+
+<p>Their 59 original works have earned 21 Jessie Richardson Awards, A Betty Mitchell Award and a Drama Desk Nomination for Unique Theatrical Experience. For over 45 years, Axis Theatre Company continues to create original physical theatre productions for the young and young at heart.</p>
+
+<p><em>Axis Theatre acknowledges that we live, work and play on the unceded and traditional territories of the Coast Salish peoples – sḵwx̱wú7mesh (Squamish), sel̓íl̓witulh (Tsleil-Waututh), and xʷməθkʷəy̓əm (Musqueam) nations.</em></p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff921;
+  schema:url <https://www.axistheatre.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff921 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff922 .
+
+_:42ac356601db4bd1ad81e36c09203ff922 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "BC" .
+
+artist:313 a schema:PerformingGroup;
+  schema:name "Breaking Circus";
+  schema:description """<p>Breaking Circus Collective (BCC) is a collection of contemporary circus arts working out of Kjipuktuk (Halifax, NS). Breaking Circus sets and breaks their own rules in order to create, explore and engage with the full spectrum of our human experience. The company reaches into the unknown and finds new ways to weave stories through cross-discipline experiments and integration of technology. The current collective includes the original 6 members plus a small roster of talented new recruits/ interns. BCC is Black-led with at least half of its members being IBPOC-identified since its inception in 2016. The BCC is deeply committed to inclusion, diversity, equity and accessibility and was formed out of the desire to create a supportive ecosystem for IBPOC artists and artists from other underrepresented groups.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff923;
+  schema:url <https://breakingcircus.ca/> .
+
+_:42ac356601db4bd1ad81e36c09203ff923 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff924 .
+
+_:42ac356601db4bd1ad81e36c09203ff924 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS" .
+
+artist:315 a schema:PerformingGroup;
+  schema:name "Élage Diouf";
+  schema:description """<p>Élage Diouf is a Senegalese-born singer-songwriter and master percussionist who has been living in Canada for 25 years now. His career took a major turn when he released his first solo album in 2010. Since then, he has received many awards and has collaborated with some of the biggest names in the music and art scene, including Cirque du Soleil and Johnny Reid.</p>
+
+<p>His shows are a source of joy and emotion. His unique voice and incredible stage presence immerse the audience in a festive universe, but also very introspective. He is usually accompanied on stage by four musicians, but smaller versions of his show can also be offered depending on the context.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff925;
+  schema:url <https://www.elagediouf.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff925 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff926 .
+
+_:42ac356601db4bd1ad81e36c09203ff926 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:317 a schema:PerformingGroup;
+  schema:name "Huu Bac Quintet";
+  schema:description """<p>Of Sino-Vietnamese origins, Montreal-based Huu Bac Quach masters a wide array of musical instruments, including the dan bau (single chord Vietnamese instrument), the erhu (Chinese fiddle), the quena (Peruvian flute), and the guitar. In concert, he presents his compositions which skillfully fuse the traditional sounds of his Vietnamese and Chinese heritages with North American jazz music.</p>
+
+<p>He performs with his quintet from Montreal comprising some of the most prominent musicians on the Canadian jazz scene.</p>
+
+<p>The Huu Bac Quintet delivers a true dialogue between Asian, North, and South American cultures in a contemporary and unique way.</p>
+
+<p>Huu Bac Quintet was founded in 2013 and has since toured in Canada, the USA, China, Korea, Vietnam, Peru, and Africa.&nbsp; The group has garnered multiple awards including: “RIDEAU/ROSEQ Award 2014”, “Entrées en Scène Loto-Québec 2015-16”, “Stingray Rising Stars Award 2015”, “MUZ Public Choice Award 2016”, and a nomination for \"Montreal International Jazz Festival TD Grand Jazz Award 2017\".&nbsp;</p>
+
+<p>Huu Bac's first album as a composer/performer, \"On the Steps of St-Paul's\", was released in November 2017.&nbsp; He's currently working on his second album due to be released in September of 2023.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff927;
+  schema:url <http://www.huubac.com/en/> .
+
+_:42ac356601db4bd1ad81e36c09203ff927 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff928 .
+
+_:42ac356601db4bd1ad81e36c09203ff928 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:319 a schema:PerformingGroup;
+  schema:name "Inn Echo";
+  schema:description """<p>Inn Echo weave hundreds of years of traditional tunes with contemporary originals and arrangements that both soar and make you catch your breath simultaneously. With technical precision, their mastery of instruments is the talk in the national and international folk music scene. From Music PEI awards to tours of Austria and Ireland, Inn Echo is bar none the traditional band to watch as they emerge as Prince Edwards Islands greatest Celtic fusion exports in years to come.&nbsp;</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff929;
+  schema:url <https://innechomusic.com> .
+
+_:42ac356601db4bd1ad81e36c09203ff929 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff930 .
+
+_:42ac356601db4bd1ad81e36c09203ff930 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "PE" .
+
+artist:321 a schema:PerformingGroup;
+  schema:name "Janoah Bailin - janoah...anygoodjokes?";
+  schema:description """<p>Janoah Bailin (janoah…anygoodjokes?) learned to unicycle in the empty after-hour corridors of his middle school. He grew up juggling with the Suspenders Juggling Troupe in Falmouth (MA) then traveled New England with the Circus Smirkus Big Top Tour. He graduated in 2014 from College of the Atlantic, focusing in performance and movement.</p>
+
+<p>Janoah now coaches the Gym Dandies Children’s Circus of Scarborough (ME), as well as the Children's Circus of Middletown (CT). In 2016 he helped form the Living Room Dance Collective in Portland (ME), a space devoted to contemporary movement and performance. Janoah has trained contemporary dance through the Lion’s Jaw, Bates Dance and Fresh Festivals.</p>
+
+<p>In the summer of 2019 he toured SpinS, a full-length solo circus-puppetry performance, across the Canadian Fringe Festival circuit, including Montreal, Winnipeg, Edmonton and Vancouver, winning \"Best Variety\" in London. Janoah premiered meSSeS, a second full-length show in which the audience learns to juggle during the performance, in May of 2019 with funding from the Maine Arts Commission (MAC) and NEFA. He has brought the show to BarnFest in NYC, the Dance Complex in Boston, SCDT in North Hampton (MA), Redfern in Keene (NH), as well as SPACE Gallery in Portland (ME). Janoah was recently awarded the 2020 MAC Fellowship in the Performing Arts, as well as NEFA's Public Art Learning Fund 2022.</p>
+
+<p>He is currently creating film projects with funding from MAC and NEFA, and performing for New England festivals, stages and parades, leaving behind a wake of tumbled juggling props.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff931;
+  schema:url <https://www.janoahanygoodjokes.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff931 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff932 .
+
+_:42ac356601db4bd1ad81e36c09203ff932 a schema:PostalAddress;
+  schema:addressCountry "US";
+  schema:addressRegion "" .
+
+artist:323 a schema:PerformingGroup;
+  schema:name "Les Chanterelles";
+  schema:description """<p>It’s been an exciting year for Fredericton’s Les Chanterelles. A superb Harvest Music Festival debut, a fantastic CBC recording, and an exciting new EP released on May 5th are just a few of the many recent achievements that have landed them on the east coast map.</p>
+
+<p>The air tight, 3 part harmonies of Sylvia Reentovich, Juanita Bourque and Justine Everett have converted many fans, while the entire band balances originality, an Acadian heritage and a faithfulness to some of their own heroes to make up an exciting music experience you won’t soon forget.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff933;
+  schema:url <https://leschanterelles.bandcamp.com/releases> .
+
+_:42ac356601db4bd1ad81e36c09203ff933 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff934 .
+
+_:42ac356601db4bd1ad81e36c09203ff934 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NB" .
+
+artist:325 a schema:PerformingGroup;
+  schema:name "Liliona Quarmyne";
+  schema:description """<p>My body is a conduit, a link to past and to future generations. It takes me back, it takes me forward, it carries the present. My body is story.</p>
+
+<p>Based in Kjipuktuk (Halifax), on the powerful, unceded and unsurrendered ancestral territory of the Mi'kmaq people, Liliona is a dancer, choreographer, actor, singer, and community facilitator. From Ghana and the Philippines, she has an eclectic background that has taken her through many performance styles on four different continents. Liliona performs across the country and internationally, creates original works as an independent artist, facilitates community programming, and is the Artistic Director of Kinetic. The scope of Liliona’s artistic work is broad, but is particularly focused on the relationship between art and social justice, on the body’s ability to carry ancestral memory, and on the role the performing arts can play in creating change. Liliona loves to work in collaboration and community, and is mom to two wonderful kids.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff935;
+  schema:url <https://www.lilionaq.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff935 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff936 .
+
+_:42ac356601db4bd1ad81e36c09203ff936 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS" .
+
+artist:327 a schema:PerformingGroup;
+  schema:name "Marian";
+  schema:description """<p>MARIAN is a music lover’s band. Guided by their collective love for lush harmonies, big riffs, and unforgettable hooks, their debut album, Hit Record, blends the best of rock music’s heyday with a fearless appreciation for the here and now. Whether you’re into the classics or keep your ear to the ground for the next big sound - you need to hear the latest from Marian. Rock and roll hasn’t sounded this sweet in too long.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff937;
+  schema:url <https://mariantheband.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff937 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff938 .
+
+_:42ac356601db4bd1ad81e36c09203ff938 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NB" .
+
+artist:329 a schema:PerformingGroup;
+  schema:name "Mocean Dance";
+  schema:description """<p>Mocean Dance is an award-winning contemporary dance company based in Kjipuktuk/Halifax, Nova Scotia. Led by Co-Artistic Directors Susanne Chui and Sara Coffin, Mocean commissions Canadian and international choreographers to create dance that is highly physical, collaborative, and technically and emotionally rich. Founded in 2001, Mocean is recognized nationally as a leading dance company from the Atlantic Region. The company was honoured with The Lieutenant Governor of Nova Scotia Masterworks Art Award in 2016 for Canvas 5 x 5, which was the first and only time this esteemed provincial award was given to a Nova Scotia dance work.</p>
+
+<p>Mocean is committed to its home base in Nova Scotia. The company provides fertile ground for exciting artistic endeavours and cultivates potential in the field of dance for the region. Through our work, Mocean aims to support Halifax as a hotspot for creation, research, experimentation, collaboration, and performance, as well as nurturing community vitality through education and outreach programs that celebrate dance as a vehicle for transformation. Our activities range from professional opportunities for local dance artists to community-based classes for youth and senior citizens.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff939;
+  schema:url <https://moceandance.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff939 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff940 .
+
+_:42ac356601db4bd1ad81e36c09203ff940 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS" .
+
+artist:331 a schema:PerformingGroup;
+  schema:name "Piano Heist - Nico Rhodes & Patrick Courtin";
+  schema:description """<p>Lifelong friends, and colleagues, Nico Rhodes, and Patrick Courtin, shocked and appalled by the realization that piano just isn’t cool anymore, set off on a divine quest to redeem the keyboard and reinstate its reputation as the greatest instrument of ALL TIME! Armed with the music of the greatest composers, songwriters and performers of the past 400 years, and the technology of the 21st century - their virtual orchestra (Bob), Nico and Patrick deliver everything from classical piano raptures to bombastic boogie woogie, from romantic piano ballads to 80’s keyboard synth battles in their show Piano Heist! What ensues is a mishmash of theatrical wonder, comedy, audience participation, heartfelt stories, a pinch of history, and a world of musical madness.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff941;
+  schema:url <https://pianoheist.com> .
+
+_:42ac356601db4bd1ad81e36c09203ff941 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff942 .
+
+_:42ac356601db4bd1ad81e36c09203ff942 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "BC" .
+
+artist:333 a schema:PerformingGroup;
+  schema:name "Santiago Guzmán";
+  schema:description """<p>Santiago Guzmán (PLAYWRIGHT/PERFORMER) (he/him) is a writer, performer, director and producer for theatre and film originally from Metepec, Mexico, now based in St. John’s, Newfoundland and Labrador. He is the Artistic Director of TODOS Productions (NL), the Artistic Associate for Playwrights Atlantic Resource Centre (NS) and General Manager for Neighbourhood Dance Works (NL). He is a proud member of The Quilted Collective. His work as a writer aims to put local, under-represented narratives and characters on the frontlines, whilst inviting audiences to appreciate the vibrancy of Newfoundland and Labrador from a diverse perspective. His plays have been supported, developed and/or produced by theatre companies and festivals across the country, like TODOS Productions (NL), Resource Centre for the Arts Theatre Company (NL), Artistic Fraud of Newfoundland (NL), Rising Tide Theatre (NL), Neighbourhood Dance Works (NL), Eastern Front Theatre (NS), Playwrights Atlantic Resource Centre (NS), Ship’s Theatre Company (NS), Boca Del Lupo (BC), Paprika Festival (ON), and the National Theatre School of Canada’s Art Apart Program (QC).</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff943;
+  schema:url <https://www.todosproductions.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff943 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff944 .
+
+_:42ac356601db4bd1ad81e36c09203ff944 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NL" .
+
+artist:335 a schema:PerformingGroup;
+  schema:name "Tio Chorinho";
+  schema:description """<p><strong>Tio Chorinho</strong>&nbsp;is&nbsp;the first ensemble in Canada&nbsp;dedicated to performing Brazilian&nbsp;<em>choro</em>&nbsp;music. Founded over a decade ago, the group performs frequently throughout Toronto and southern Ontario, and has also toured parts of the US (California, Michigan, Maryland). The group’s debut album \"Chora Brazil,\" earned two Canadian Folk Music Awards nominations (World Music Album of the Year and Instrumental Group of the Year) and was described by Wholenote Magazine as&nbsp;<em>“an absolute delight from start to finish…a terrific debut CD; play it on a grey day and your room will be filled with sunshine!”</em>&nbsp;The group is currently near completion on its second album (delayed for a over a year due to COVID-19), slated for release in spring 2022.&nbsp;<strong>Tio Chorinho</strong>’s growing profile has been bolstered by official showcase selections at recent industry conferences like Folk Music Ontario, Global Toronto and World Music Fest @Taiwan.<br />
+<br />
+Choro (pronounced SHOH-roh) is a primarily instrumental style originating in Rio de Janeiro in the late-19th century. Choro is the original Brazilian soul music, combining popular and classical European styles with Afro-Brazilian influences. It is the foundation of many modern Brazilian music styles, and is often described as “the New Orleans jazz of Brazil.” Exciting, energetic, soulful, intimate, nostalgic and virtuosic, choro is an infectious popular style whose universal appeal belies its musical complexity.<br />
+<br />
+Inspired primarily by the recordings and compositions of the great Brazilian mandolin master&nbsp;<strong>Jacob do Bandolim</strong>&nbsp;(1918-1969), Tio Chorinho also performs music by other essential composers of the genre, including&nbsp;<strong>Ernesto Nazareth, Pixinguinha, Waldir Azevedo, Luiz Americano,</strong>&nbsp;and others. They have recently begun to integrate original compositions in their repertoire, extending their stylistic range while still capturing the authentic spirit of&nbsp;<em>choro</em>. Wherever they play, audiences are consistently thrilled by the group's virtuosity and dynamics, and by their easy-going charm on stage.&nbsp;</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff945;
+  schema:url <https://tiochorinho.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff945 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff946 .
+
+_:42ac356601db4bd1ad81e36c09203ff946 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:337 a schema:PerformingGroup;
+  schema:name "Wesli";
+  schema:description """<h3>An Haitian Born&nbsp;Musician</h3>
+
+<p><strong>One of eight children raised in a home where music was a big part of daily life, it became a second nature to him, a way to escape the misery that surrounded him.</strong></p>
+
+<p>Wesli (Wesley Louissaint) built his first guitar out of an old NGO-provided oil can and nylon shoe lace when he was just eight years old.</p>
+
+<p>Be it in an acoustic formation (guitar, voice and percussion) or with his bigger band, Wesli consistently delivers a rich, festive and uniquely engaging sound. He conquers the heart of his audience through complex musical arrangements and universal messages of hope, truth and peace.</p>
+
+<p>Critics have crowned him “the most formidable creature in world music Montreal presently has to offer the rest of the plant” (Alain Brunet, La Presse). Bringing together a wide range of Montreal talents, Wesli's music unites Haitian voodoo and rara<br />
+styles with roots, Afrobeat and hip-hop styles.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff947;
+  schema:url <https://wesliband.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff947 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff948 .
+
+_:42ac356601db4bd1ad81e36c09203ff948 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:339 a schema:PerformingGroup;
+  schema:name "Winnie Churchill";
+  schema:description """<p>Winnie Churchill is a Toronto born, Newfoundland-based songwriter/musician. As a multidisciplinary creative Winnie has collaborated with The National Arts Centre of Canada, Neighbourhood Dance Works of St. John’s, Canadian Broadcasting Company (CBC), Rogers Canada, MusicNL and Playbill Broadway. He has been a supporting act for such artists as Fetty Wap, Machine Gun Kelly, A$AP Ferg, Madchild, Preme, Royce da 5’9”, and Jazz Cartier.</p>
+
+<p>In 2019, Winnie released his debut album titled ‘i’, and in 2020 he released his sophomore album ‘Us’. His musical style lends itself to Neo-Soul, R&amp;B, and Hip-hop influences. Winnie’s music is a no holds barred expression of his vulnerability and character, readily reflecting on the multiplicity of his identity and creative expression.</p>
+
+<p>Presently, Winnie is working on his latest album, Mansion in the Woods, concurrently with its ArtsNL-funded multidisciplinary production.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff949;
+  schema:url <https://winniechurchill.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff949 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff950 .
+
+_:42ac356601db4bd1ad81e36c09203ff950 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NL" .
+
+artist:341 a schema:PerformingGroup;
+  schema:name "Zay Nova";
+  schema:description """<p>Zay Nova is a new Canadian country singer-songwriter and radio producer based in St. John’s, NL. He was born in a small village called Sempan on Bangka Island, Indonesia. He was introduced to country music while Shania Twain was very popular in country music around the world. He started to learn and memorize some lyrics from the cover of her album and taught himself more English by listening to western country music.</p>
+
+<p>After finishing school in 2002, Zay moved again to the Special Region of Yogyakarta close to central Java to study Arabic Literature. Shortly thereafter, he moved to the Communication and Broadcast faculty at the State Islamic University, Sunan Kalijaga, in Yogyakarta. In that city, Zay discovered western country music which was broadcast by a local Christian radio station. He fell in love right away with the music and started to teach himself to be a radio announcer and scriptwriter. When he felt confident enough, he applied for a job at the same radio station that played western country music. He was successful in his job application. From the very first day he was hired, he improved his English by bringing a dictionary to the station and practicing how to pronounce each word from many country songs on the daily radio playlist.</p>
+
+<p>In 2005, while attending university, he kept working at the radio station as a means to pay his university tuition. At the same time, he started a band and wrote many songs. After the band broke up in 2010, he played solo at some local events and then moved to Jakarta, Indonesia’s capital, in 2014. Zay started a new career in TV and as a radio producer, audio commercial production, and video producer. He also worked as a host for a Jakarta TV program. He decided to move to Canada in 2017 to start a new life and adventure. He chose St. John’s, Newfoundland, as his home. His three singles “Locked in All Night Long,” “The Lighthouse” and “Don’t Tell Me Mudder” are now available online.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff951;
+  schema:url <https://www.zaynovamusic.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff951 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff952 .
+
+_:42ac356601db4bd1ad81e36c09203ff952 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NL" .
+
+artist:343 a schema:PerformingGroup;
+  schema:name "Zuppa Theatre";
+  schema:description """<p>Founded in 1998, Zuppa is a Halifax-based, artist-led ensemble creating original works that experiment with form and provoke the consideration of new perspectives and ideas. Zuppa has been touring since 2004 and has an excellent reputation locally, nationally and internationally. Nationally we have been presented at: Groundswell (Toronto), Tremors (Vancouver), FTA (Montreal), In the Soil (St. Catharines), The Shadbolt Centre (Burnaby) and The Magnetic North Theatre Festival (Ottawa, Halifax and Whitehorse). Internationally we have performed in the UK at Chapter Arts (Cardiff), Mayfest (Bristol), and Derelict (Preston, Lancaster, Manchester) and in the U.S. (Charlestown Working Theatre (Boston), Cleveland Playhouse Square (Cleveland), NaCl (The Catskills). Locally: Sydney (Boardmore), Antigonish (Bauer), Saint John (BMO Studio), Moncton (Capitol), Chester Playhouse, Liverpool (Astor), Annapolis Royal (King’s), Fredericton (STU Black Box) and The Ross Creek Centre for the Arts.&nbsp;</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff953;
+  schema:url <https://zuppatheatre.com/about-us> .
+
+_:42ac356601db4bd1ad81e36c09203ff953 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff954 .
+
+_:42ac356601db4bd1ad81e36c09203ff954 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS" .
+
+artist:345 a schema:PerformingGroup;
+  schema:name "Ebnflōh";
+  schema:description """<p>The Ebnflōh Dance Company, founded in 2015 by Alexandra ‘Spicey’ Landé, offers a unique choreographic language and artistic vision. She promotes creative exploration by broadening the field of research for street dance in Canada while remaining true and faithful to the base of Hip-Hop’s origins. Her artistic signature, her community involvement, and her contribution to the growth and development of dancers and the discipline itself, make the company an acclaimed actor in the dance milieu in Quebec. Inclusive at the core, it equally values the practices of emerging talent along with those of the culturally diverse. The company hopes to make street dance more accessible - its diversified public is a testament to the company’s success.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff955;
+  schema:url <https://ebnfloh.com/en/> .
+
+_:42ac356601db4bd1ad81e36c09203ff955 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff956 .
+
+_:42ac356601db4bd1ad81e36c09203ff956 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:347 a schema:PerformingGroup;
+  schema:name "Keonte Beals";
+  schema:description """<p>&nbsp;</p>
+
+<p>Keonté Beals is an accomplished singer, songwriter, piano player, dancer and author. Keonté triumphs among the East Coast music scene as a multi-talented, award-winning R&amp;B/Pop artist.</p>
+
+<p>Born and raised in North Preston. In 2016, Keonté released “Man Down” from his self-titled EP, followed by a second single “4 Ever” in 2017. Keonté, is a natural-born entertainer who has collected many accolades. In 2020, CBC produced a special “Keonte Beals: Christmas in North Preston” and was rated number one story in Canada and featured in “Being Black in Canada”. 2020 saw the birth of Keonte Beals Entertainment; (Kebe.ca) where Keonte launched his first book under his label.</p>
+
+<p>Keonte is the co- author and illustrator of his first children’s book with his younger brother Antonio, “I am Perfectly Me”. This book expresses historical pride within the African Nova Scotian community and celebrates diversity.</p>
+
+<p>Keonte propelled project ‘King’ in 2020 under his own company name, which, received ANSMA song of the year 2021.</p>
+
+<p>Keonte received acclaimed ECMA status in 2021 for R&amp;B album of the year for ‘King’, and also collected three Music Nova Scotia awards: R&amp;B solo recording, African Nova Scotian Artist of the Year &amp; Inspirational recording of the year.<br />
+&nbsp;</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff957;
+  schema:url <https://www.keontebeals.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff957 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff958 .
+
+_:42ac356601db4bd1ad81e36c09203ff958 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS" .
+
+artist:349 a schema:PerformingGroup;
+  schema:name "Noël Wan";
+  schema:description """<p>In the words of lecturer and pianist Bart van Oort, Noël Wan is \"a huge talent [with] hidden power and amazing maturity.”</p>
+
+<p>An international prize-winning harpist, Taiwanese-American harpist Dr. Noël Wan (1994) made her international debut in 2010, performing Alberto Ginastera’s Harp Concerto with the Utrecht Symphony Orchestra. Dr. Wan is the youngest First Prize winner in the history of the Dutch Harp Festival Competition (now World Harp Competition), and has concertized across North America, Europe, and Asia as a soloist at Carnegie Hall, Eslite Hall, the Muziekgebouw, the Yellow Barn Summer Music Festival, and on NPO Radio 4’s Spiegelzaal.</p>
+
+<p>Dr. Wan explores imaginative intersections between the harp, identity, and spaces. A boundary-pushing artist, her recent projects include new materialism and feminist phenomenology in Georges Aperghis’ Fidélité, and affect and the environment in the music of Toru Takemitsu and Zhou Long. She seeks to advocate the solo harp through programming repertoire that illuminates the diverse traditions of the instrument - such as classical, jazz, and folk music - and fostering inclusivity and mutual understanding within musical spaces.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff959;
+  schema:url <https://nywharp.com/bio> .
+
+_:42ac356601db4bd1ad81e36c09203ff959 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff960 .
+
+_:42ac356601db4bd1ad81e36c09203ff960 a schema:PostalAddress;
+  schema:addressCountry "US";
+  schema:addressRegion "" .
+
+artist:352 a schema:PerformingGroup;
+  schema:name "Scott Parsons Trio";
+  schema:description """<p><em>Singer-Songwriter Scott Parsons is a versatile and multi-dimensional talent whose musicianship and performance capabilities have taken him to many countries around the world. His perseverance as an independent artist is a testament to the Maritime Spirit. Parsons is a gifted songwriter, a solid musician and an emotionally expressive vocalist with a powerful set of pipes that can take a song anywhere he wants that song to go.</em><br />
+—&nbsp;<strong>Doug Gallant, The Guardian</strong></p>
+
+<p>Scott Parsons is a multi-disciplined Island musician who has consistently utilized his accomplishments to enrich both himself and his community. His involvement with theatre, film, radio and television has sparked an artistic creativity that carries over to his work with disabled and high-priority youth.</p>
+
+<p>Scott’s body of work spans nearly five decades and he has played too many benefits, bars and small venues to be named. His folk festival appearances have included the Mariposa Folk Festival (Toronto), Winnipeg Folk Festival, Calgary Folk Festival, Vancouver Folk Festival, the Islands Folk Festival (Vancouver Island), Lunenburg Folk Harbour Festival, Deep Roots Festival (Wolfville, NS), the Wymarsh Festival (Ontario), Seattle Folklife Fair, Montreal Celtic Festival, Gene MacLellan Song Festival (PEI), PEI Jazz and Blues Festival, and the Stan Rogers Festival.</p>
+
+<p>He has done two extensive tours of Switzerland and has played across Canada, the U.S., England, Wales, Scotland and the Orkney Islands. He has opened for Blue Rodeo, Jesse Winchester, backed up the infamous Daisy Debolt and was bass player for Gene MacLellan. He was also honored to do a concert at Metro Detroit’s “Gilda’s Club,” dedicated to comedian Gilda Radner.</p>
+
+<p>Throughout his career, Scott has been more than willing to donate his time and energy to his community. He has played at many benefits for individuals and organizations and performed at citizenship ceremonies for the province of PEI and the government of Canada.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff961;
+  schema:url <https://scottparsons.net/about/> .
+
+_:42ac356601db4bd1ad81e36c09203ff961 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff962 .
+
+_:42ac356601db4bd1ad81e36c09203ff962 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "PE" .
+
+artist:358 a schema:PerformingGroup;
+  schema:name "Circa";
+  schema:description """<p>Circa Contemporary Circus is one of the world’s leading performance companies.&nbsp; Since 2004, from our base in Brisbane, Australia, we have toured the world – performing in more than 40 countries to over 1.5 million people. Our works have been greeted with standing ovations, rave reviews and sold-out houses across six continents.</p>
+
+<p>Circa is at the forefront of the new wave of contemporary Australian circus – pioneering how extreme physicality can create powerful and moving performances. It continues to push the boundaries of the art form, blurring the lines between movement, dance, theatre and circus. Fuelled by the question ‘what is possible in circus?’ Circa is leading the way with a diverse range of thrilling creations that “redraw the limits to which circus can aspire.” (The Age).</p>
+
+<p>Under the direction of circus visionary Yaron Lifschitz, Circa features an ensemble of exceptional, multi-skilled circus artists.&nbsp; We are a regular fixture at leading festivals and venues in New York, London, Berlin and Montreal with seasons at Brooklyn Academy of Music, The Barbican Centre, Les Nuits de Fourvière, Chamäleon Theatre as well as major Australian Festivals.</p>
+
+<p>Find a&nbsp;<a data-uw-rm-brl=\"false\" href=\"http://circa.org.au/shows/tour-dates/\">Circa performance</a>&nbsp;near you and discover why Circa has been hailed as nothing short of “… a revolution in the spectacle of circus.” (Les Echos).</p>
+
+<p>We are committed to fostering the next generation of circus artists and run public&nbsp;<a data-uw-rm-brl=\"false\" href=\"http://circa.org.au/circa-classes/\">circus classes</a>&nbsp;from our studio in Brisbane. We also run regular circus programs with communities throughout Queensland and around Australia.</p>
+
+<p>As a champion of live performance, we were the Creative Lead for&nbsp;the&nbsp;<a data-uw-rm-brl=\"false\" href=\"https://gc2018.com/festival2018\"><u>Gold Coast 2018 Commonwealth Ga</u><u>mes arts and cultural program</u></a>.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff963;
+  schema:url <https://circa.org.au> .
+
+_:42ac356601db4bd1ad81e36c09203ff963 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff964 .
+
+_:42ac356601db4bd1ad81e36c09203ff964 a schema:PostalAddress;
+  schema:addressCountry "AU";
+  schema:addressRegion "" .
+
+artist:365 a schema:PerformingGroup;
+  schema:name "Bboyizm Dance Company";
+  schema:description """<p>Bboyizm Dance Company’s mandate is to promote and preserve the foundation, authenticity, and essence of all street dances. Through dance, we demonstrate how authentic self-expression enables an individual – and by extension, a community – to realize their full potential.</p>
+
+<p>Bboyizm was founded in 2004 by Artistic Director and b-boy Crazy Smooth to fulfill the above mandate through the creation and touring of professional full-length street dance theatre works and to engage in meaningful and substantive outreach activity. Bboyizm considers community development and education to be critical components for achieving its goals.</p>
+
+<p>Bboyizm has grown into an award-winning Canadian street dance company and one of the few to have achieved prominence in the performing arts world. In 2020, The Banff Centre for Arts and Creativity recognized Crazy Smooth's work with the Clifford E. Lee Choreography award.</p>
+
+<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:107%\"><span style=\"font-family:Calibri,sans-serif\">Notable Bboyizm Facts:</span></span></span></p>
+
+<ul>
+	<li style=\"margin-left:8px\"><span style=\"font-size:11pt\"><span style=\"background:white\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#222222\">Four nationally toured full-length theatre works </span></span></span></span></span></li>
+	<li style=\"margin-left:8px\"><span style=\"font-size:11pt\"><span style=\"background:white\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#222222\">Dora Award winners (2022) in four categories, including Outstanding Performance for its co-presentation by Canadian Stage, dance Immersion and TO Live; Outstanding Original Choreography (Crazy Smooth); Outstanding Performance by an Ensemble (Bboyizm Company Dancers); and Outstanding Achievement in Design (Multimedia/Video Design, Thomas Payette) for<i> In My Body</i> </span></span></span></span></span></li>
+	<li style=\"margin-left:8px\"><span style=\"font-size:11pt\"><span style=\"background:white\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#222222\">NAC National Creation Fund award recipient for <i>In My Body</i> </span></span></span></span></span></li>
+	<li style=\"margin-left:8px\"><span style=\"font-size:11pt\"><span style=\"background:white\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#222222\">Banff Centre for Arts and Creativity 2020 Clifford E Lee award recipient (Crazy Smooth) </span></span></span></span></span></li>
+	<li style=\"margin-left:8px\"><span style=\"font-size:11pt\"><span style=\"background:white\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#222222\">Dora Award nominee (2012) for <i>IZM</i></span></span></span></span></span></li>
+	<li style=\"margin-left:8px\"><span style=\"font-size:11pt\"><span style=\"background:white\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#222222\">Ontario Presenters Network Emerging Touring Artist of the Year (2012)</span></span></span></span></span></li>
+	<li style=\"margin-left:8px\"><span style=\"font-size:11pt\"><span style=\"background:white\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#222222\">Atlantic Presenters Association Touring Performer of the Year (2013)</span></span></span></span></span></li>
+</ul>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff965;
+  schema:url <http://bboyizm.ca/> .
+
+_:42ac356601db4bd1ad81e36c09203ff965 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff966 .
+
+_:42ac356601db4bd1ad81e36c09203ff966 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:369 a schema:PerformingGroup;
+  schema:name "Productions Onishka";
+  schema:description """<p>At the intersection of theatre, performance and media arts, the practice of Émilie Monnet is most often presented in the form of interdisciplinary theatre or performative installations. Her artistic approach favors collaborative and multilingual creative processes, and explores themes of memory, history and transformation.</p>
+
+<p>She founded Onishka Productions in 2011 in order to forge ties between artists from different Indigenous peoples, regardless of their disciplines. Since 2016, she produces Indigenous Contemporary Scene, a nomadic platform for the presentation of live arts and creative exchanges between Indigenous artists and communities. Five editions have been created to date. She was the artist in residence at Centre du Théâtre d'Aujourd'hui from 2018 until 2021 where she presented Okinum (2018) Kiciweok: Lexique de treize mots autochtones qui donnent un sens (2019) and developed a soundwalk for Marguerite. She is an associated artist to Théâtre de la Ville in Longueuil, as well as the new artist in residence at Théâtre Espace Go. Émilie is of Anishnaabe-Algonquin and French descent and currently lives in the Outaouais region and in Tiohtià:ke/Mooniyaang/Montreal.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff967;
+  schema:url <https://onishka.org/> .
+
+_:42ac356601db4bd1ad81e36c09203ff967 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff968 .
+
+_:42ac356601db4bd1ad81e36c09203ff968 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:373 a schema:PerformingGroup;
+  schema:name "Rhodnie Désir";
+  schema:description """<p>Choreographer-documentalist and artistic director of RD Créations, Rhodnie Désir has created about fifteen pieces, like BOW'T TRAIL Retrospek and her pioneering memoir journey BOW'T TRAIL have earned her two awards from the Prix de la danse de Montréal (2020): The Prix Envol and the Grand Prix. In 2021, she was chosen as one of the \"25 to watch\" by Dance Magazine in New York and nominated for the prestigious career award “The APAP Award of Merit”. In 2022, she received the “Danseuse de l’année” award at the Gala Dynastie and she became the first Associate Artist of the famous Place des Arts institution in Montreal.</p>
+
+<p>Her documentary and Afro-contemporary choreographic signature is rooted in rhythmic languages. A performer and orator of remarkable power, her words and her international civic actions unite beyond dance, and then shine as at UNESCO.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff969;
+  schema:url <http://rhodniedesir.com/en/rhodnie-desir> .
+
+_:42ac356601db4bd1ad81e36c09203ff969 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff970 .
+
+_:42ac356601db4bd1ad81e36c09203ff970 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:377 a schema:PerformingGroup;
+  schema:name "Hilary Ladd";
+  schema:description """<p>&nbsp;</p>
+
+<p>Hilary Ladd is a multi-faceted musician, actor, writer and teacher who’s been appearing on stages for the past 29 years. Over the last decade she has worked as the lead vocal director at InterAction School of Performing Arts, the only arts school of its kind in Atlantic Canada. Her first love and main focus has always been as a singer-songwriter. Ladd is best known for her honest and vulnerable lyrics, and heartfelt story-telling.</p>
+
+<p>In 2017 she released a collection of songs with her band Ladd &amp; Lasses titled “She Wanders”, written post-divorce as an act of self-rediscovery. With less time to wander these days, Ladd began writing high-energy pop songs between diaper changes and loads of laundry. Not knowing how to perform them as a folk artist, she opted to write them into a narrative concert entitled Breastmilk + Tears.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff971;
+  schema:url <https://breastmilkandtears.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff971 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff972 .
+
+_:42ac356601db4bd1ad81e36c09203ff972 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NB" .
+
+artist:381 a schema:PerformingGroup;
+  schema:name "The Villains Theatre";
+  schema:description """<p>The Villains Theatre is dedicated to creating transformative theatrical experiences. Our work is vibrant, provocative, and full of play. We collaborate with creators who inspire us as we strive to grow artistically and share our work with new audiences. We believe that the more accessible our spaces are, the better our theatre will be. We are committed to providing opportunities for artists of all levels of experience, addressing systemic injustices, and contributing to the national theatre landscape.</p>
+
+<p>The Villains Theatre is run by Artistic Director Dan Bray and Artistic Producer Colleen MacIsaac. We were founded in 2009 and have been a registered not-for-profit society since 2011.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff973;
+  schema:url <https://villainstheatre.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff973 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff974 .
+
+_:42ac356601db4bd1ad81e36c09203ff974 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS" .
+
+artist:388 a schema:PerformingGroup;
+  schema:name "Fay And Fluffy's Storytime";
+  schema:description """<p>Drag stars&nbsp;<a href=\"https://www.instagram.com/fay_slift/\" rel=\"noopener\" target=\"_blank\">Fay Slift</a>&nbsp;+&nbsp;<a href=\"https://www.instagram.com/heyfluffyhey/\" rel=\"noopener\" target=\"_blank\">Fluffy Soufflé</a>&nbsp;have been doing drag storytimes since June 2016. Based in Toronto, they have been fortunate to do so many local events at some of Toronto’s biggest cultural institutions, as well as hit the road to adventures beyond the city. Their special events focus on books, songs and include lots of laughs to show that Reading is FUN-damental! They especially want to support families with LGBTQ2S parent(s) and gender variant children, and read culturally diverse books, by providing a supportive and inclusive environment focused on fun. Everyone is welcome!</p>
+
+<p><strong>About the readers:</strong><br />
+JP (Fay) + Kaleb (Fluffy) are both drag performers and experienced child educators. By day JP is an educator with the TDSB. Kaleb is currently an independent Cultural Producer (DJ, performer, event host…), but is also a child care provider, and has worked as a “manny” for years, as well as formerly running a home daycare called the Trail Mix Playgroup (cuz we’re a little nutty but we’re good for you).</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff975;
+  schema:url <https://fayandfluffy.com/about/> .
+
+_:42ac356601db4bd1ad81e36c09203ff975 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff976 .
+
+_:42ac356601db4bd1ad81e36c09203ff976 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "" .
+
+artist:432 a schema:PerformingGroup;
+  schema:name "Barbra Lica";
+  schema:description """<p style=\"margin-bottom:11px\">Barbra Lica is a JUNO-nominated, Canadian jazz and folk vocalist and songwriter of exceptional talent, and has been receiving accolades for her unique vocal ability that stresses subtlety, grace, and expression. Based in Toronto, Barbra’s performances have captivated audiences all over the world with her genuine warmth and engaging stage presence. Her&nbsp;work spans 6 albums and has amassed millions of streams. She recently won the 2023 CMRRA “Song of the Year” for&nbsp;<em>The Ghost of Me (2022)</em>, and is nominated for two Canadian Folk Music Awards (2024).</p>
+
+<p style=\"margin-bottom:11px\">&nbsp;</p>
+
+<p style=\"line-height:1.2\"><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Barbra’s debut album </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:italic\"><span style=\"text-decoration:none\">That’s What I Do</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\"> (</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Triplet / Universal Jazz Japan</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">) was released to widespread acclaim in 2012, ranking her in </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Canada’s Top 5 Jazz singers on the CBC</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">, as well </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Top</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\"> </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">5 up-and-coming Toronto jazz artists on blogTO</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">. Shortly after, her band made their Japanese debut live at the&nbsp;</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Tokyo International Jazz Festival</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">&nbsp;in 2015 for over a thousand Japanese fans. Her first album with </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Justin Time Records</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">, </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:italic\"><span style=\"text-decoration:none\">I'm Still Learning</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">, was released September 2016 and subsequently </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">nominated for a 2017 JUNO Award</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\"> in the category of “Best Vocal Jazz Album”. Her subsequent project, </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:italic\"><span style=\"text-decoration:none\">You're Fine</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\"> (Justin Time Records), marked the introduction of Folk and Americana elements to her repertoire and has amassed over 4.4 million streams to date on Spotify. In addition to writing for herself, Barbra has written cuts for such artists as jazz crooner </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Matt Dusk</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\"> (</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Entertainment One/Universal</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">), rising J-Pop singer </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Harumi</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\"> (</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Sony Music Japan</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">), and Taiwanese pop recording artist, </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Morrison Ma</span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\"> (</span></span></span><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">Universal Music Group/X Entertainment</span></span></span><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">). She released her first self-produced project in 2022 with support from </span></span></span></span></span></span><span style=\"font-size:12pt; font-variant:normal; white-space:pre-wrap\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"color:#000000\"><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">FACTOR</span></span></span><span style=\"font-weight:400\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">, a series of monthly singles culminating in a highly acclaimed EP release</span></span></span><span style=\"font-weight:700\"><span style=\"font-style:normal\"><span style=\"text-decoration:none\">--<em>Imposter Syndrome</em>.&nbsp;</span></span></span></span></span></span></p>
+
+<p style=\"margin-bottom:11px\">&nbsp;</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff977;
+  schema:url <https://barbralicamusic.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff977 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff978 .
+
+_:42ac356601db4bd1ad81e36c09203ff978 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON" .
+
+artist:435 a schema:PerformingGroup;
+  schema:name "Sammy Jackson";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff979;
+  schema:url <https://www.sammyjackson.com/> .
+
+_:42ac356601db4bd1ad81e36c09203ff979 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff980 .
+
+_:42ac356601db4bd1ad81e36c09203ff980 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON" .
+
+artist:440 a schema:PerformingGroup;
+  schema:name "Bboyizm";
+  schema:description """<p>Dancing since 1997, Crazy Smooth is one of Canada’s top street dancers, performers, choreographers, instructors, judges, and community leaders. He is the founder and artistic director of Bboyizm, an award-winning street-dance company that has been instrumental in the preservation and proliferation of street dance in Canada and internationally. Crazy Smooth was named the 2020 Clifford E. Lee award recipient by the Banff Centre for the Arts for his work-in-progress In My Body, currently in creation as the 2019-2021 Long Term Artist in Residence at the Centre de Création O Vertigo in Montreal. The project has received a CanDance Creation Fund grant and significant investment from the NAC National Creation Fund. In 2004, Smooth founded Bboyizm and the company has successfully brought authentic street dance into the professional theatre setting. Three of his full-length creations— The Evolution of B-boying, IZM, and Music Creates Opportunity—have toured throughout Canada. The company has been nominated for a Dora award (2012) and won both the Atlantic Presenters Association Touring Performers of the Year Award (2013) and the Ontario Presenters Network Emerging Touring Artist of the Year (2012). Crazy Smooth has performed, taught, and judged competitions in cities and events throughout North America and Europe. He continually strives to be a positive example for the community and an ambassador of the street dance culture at large.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff981;
+  schema:url <https://bboyizm.ca/> .
+
+_:42ac356601db4bd1ad81e36c09203ff981 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff982 .
+
+_:42ac356601db4bd1ad81e36c09203ff982 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:442 a schema:PerformingGroup;
+  schema:name "Green Thumb Theatre";
+  schema:description """<p>‍Founded in 1975, Green Thumb Theatre is a force within the field of theatre for young audiences, not only in British Columbia, but across the country and throughout the world. In our more than 47 year history, Green Thumb has performed for over 4 million people and has toured to every province and two territories in&nbsp;Canada, 36 US States, and 11 countries overseas. Committed to producing excellent material that is rewarding for artists and audiences alike, Green Thumb remains in high demand because we place youth engagement and artistic integrity on an even plane.&nbsp;</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff983;
+  schema:url <https://www.greenthumb.bc.ca/> .
+
+_:42ac356601db4bd1ad81e36c09203ff983 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff984 .
+
+_:42ac356601db4bd1ad81e36c09203ff984 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "BC" .
+
+artist:444 a schema:PerformingGroup;
+  schema:name "Chilina Kennedy";
+  schema:description """<p>ABOUT Chilina is known for playing Carole King in the musical Beautiful on Broadway for over 1,200 performances. She also recently originated the Tony-award winning role of Dina on the First Broadway National Tour of The Band’s Visit. Chilina’s first appearance on Broadway was in 2012 when she played Mary Magdalene in Des McAnuff’s Jesus Christ Superstar, which also had successful runs at the Stratford Festival of Canada and the La Jolla Playhouse. Other US credits include the world premiere of A Gentleman’s Guide to Love and Murder, in which she originated the role of Phoebe at Hartford Stage and The Old Globe in San Diego (San Diego and Connecticut Outer Critics nominations), the world premiere of A Sign Of The Times as Cindy (Delaware Theatre Company), Binky in the Off-Broadway world premiere of This Ain’t No Disco (Dir. Darko Tresnjak/Chor. Camille A. Brown) and Sophie in the 1st US National Tour of Mamma Mia!. Selected Canadian credits include the title role in Ted Dykstra’s Evangeline (Charlottetown Festival and original recording), the title role in Ross Petty’s Pantomime The Little Mermaid (Toronto Critic’s Award), three seasons at the Stratford Festival (three Broadways World Awards) including Maria in Gary Griffin’s West Side Story, Eva Peròn in Evita, Lois Lane in Kiss Me Kate, three seasons at the Shaw Festival, the World Premiere of The Lord of the Rings (Mirvish), Philia in A Funny Thing Happened On The Way To The Forum (Stratford/Toronto), Cecily in The Importance of Being Earnest (Neptune) and the title role in Mary Poppins (Theatre Aquarius). ​ Chilina is also a singer/songwriter with a debut album “What You Find In A Bottle”, released in 2015. Chilina has written a new musical Call It Love with Eric Holmes, who is known for being a writer for The Good Fight on CBS. Featuring music and lyrics by Chilina, book co-written by Eric and Chilina, and musical arrangements by Rick Fox, Call It Love has been developed in the New York City area by Eclipse Theatre Company with the first Canadian workshop planned for May 2020. Chilina has worked with Burt Bacharach, guest starred in concert with the TSO, Colm Wilkinson and Jason Robert Brown. You can hear Chilina’s voice on CBC’s Celebrate The Seasons and Carols For A Cure. Chilina is a graduate of Sheridan College and the Birmingham Conservatory for classical theatre in Stratford.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff985;
+  schema:url <https://www.chilinakennedy.com/home> .
+
+_:42ac356601db4bd1ad81e36c09203ff985 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff986 .
+
+_:42ac356601db4bd1ad81e36c09203ff986 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON" .
+
+artist:446 a schema:PerformingGroup;
+  schema:name "Oktopus";
+  schema:description """<p>Oktopus is a major presence on the Canadian world music scene, with over 250 performances to its credit at home and abroad. The group is primarily devoted to klezmer—the musical heritage of Eastern European Jews—distinguished by a novel approach that incorporates various components of the classical and Quebecois repertoire, with some jazz and Balkan accents. ​ The group’s eight virtuoso musicians offer festive, high-energy performances, at once melancholic and profound, sprinkled with humour and spiced with narrative, in which original compositions and finely crafted arrangements combine with improvisation. Its members’ complicity, shared passion, and hard work are what makes each of their performances so memorable— whether on stage, in the street, on a ship, in a hot air balloon or in your living room, Oktopus is simply… spectentacular! Oktopus’ distinctive music is undeniably rooted in the klezmer tradition, reflecting the rich history of a thousand-year old community, its persecutions and celebrations, tears and laughter, or both at the same time. Musicians of yesteryear incorporated in their repertoire the music they encountered on their journeys, and just like them, the members of Oktopus are inspired by the music they hear throughout their own travels. Thus, the melodies of several classical composers, such as Bartók, ​Brahms, Prokofiev or Enescu are rearranged by the octet, particularly their works derived from folk themes. Quebec songwriters are also sources of inspiration, with Leclerc and Vigneault being added to the group’s repertoire. ​ MUSICIANS Gabriel Paquin-Buki – clarinet, composition and arrangements Veronica Ungureanu– violin Noémie Caron-Marcotte​ – flute Matthieu Bourget – bass trombone Madeleine Doyon – tenor trombone Guillaume Martineau – piano Maxime Philippe – drums and percussions Francis Pigeon – trumpet​</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff987;
+  schema:url <http://www.oktopus.ca> .
+
+_:42ac356601db4bd1ad81e36c09203ff987 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff988 .
+
+_:42ac356601db4bd1ad81e36c09203ff988 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "" .
+
+artist:459 a schema:PerformingGroup;
+  schema:name "DynamO Theatre";
+  schema:description """<h3>DynamO Théâtre has been part of Quebec’s young people’s theatre landscape for over 40 years.</h3>
+
+<p>With its 25 original productions performed all over the world for more than 1.5 million spectators, the company undeniably contributes to renewing the practice in theatre for young audiences. Its unique approach challenges, reflects and defines the art of acrobatic movement and clowning in theatre by carrying on its work with the same fieriness and passion it had when it began in 1981.</p>
+
+<p>Its work method is based on in-rehearsal playwriting. It searches, explores and creates using bodies in space, in the same way a playwright does with words on a blank page. Its playwriting is therefore carried out on a stage and collaborators are invited throughout the creative process.&nbsp;This type of theatre involves risk-taking.&nbsp;Over the years, the company developed a unique physical vocabulary, method and language, all of which have fashioned the company’s signature style. It deals with rhythms, speeds, scale, fixed points, momentum, freeze and acrobatics … We speak movement! Yet, the company keeps highlighting dramaturgy, that of bodies as well as that of words.&nbsp;&nbsp;In rehearsal, the ever-evolving scriptwriting is enhanced and each new production demonstrates it.</p>
+
+<p>The company wants to offer daring theatre to wide-ranging audiences -children, teenagers and families- and tell stories that will thrill them both physically and emotionally by considering the world through a whole range of movements, images and text. The playground is large and wide and the company’s greater ambition is to touch the hearts of humans, young and old.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff989;
+  schema:url <https://dynamotheatre.qc.ca/> .
+
+_:42ac356601db4bd1ad81e36c09203ff989 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff990 .
+
+_:42ac356601db4bd1ad81e36c09203ff990 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:463 a schema:PerformingGroup;
+  schema:name "Productions Strada";
+  schema:description """<p>For 30 years, Strada has been walking down the road of music of memory. A bit unclassifiable, at the crossroads of multiple trends, the company pursues its joyful and disconcerting quest for the unheard of.</p>
+
+<p>Versatile, the musicians and singers master many repertoires: klezmer, gypsy, Occitan, Greek, Italian, Irish, Quebecois, Martinique, Cajun. Multilingual, their colorful songs recreate amazing musical landscapes. Driven by an infectious enthusiasm, the artists of the Strada ensemble do not seek to transmit their knowledge of world music, but rather the pleasure they bring!</p>
+
+<p>Strada is also the street, a place suspended between origin and destination, where stories cross and destinies are woven. It is also where people from all over the world gather to celebrate! Strada carries a universal baggage. Its music belongs to everyone.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff991;
+  schema:url <https://www.strada.ca/> .
+
+_:42ac356601db4bd1ad81e36c09203ff991 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff992 .
+
+_:42ac356601db4bd1ad81e36c09203ff992 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:467 a schema:PerformingGroup;
+  schema:name "The Fugitives";
+  schema:description """<p><em>Trench Songs</em> is The Fugitives fifth record. It was nominated for a JUNO Award for Traditional Roots Album of the Year and for two Canadian Folk Music Awards— Ensemble of the Year and Vocal Group of the Year. Its companion theatre piece, <em>Ridge, (</em>written by band member Brenda McLeod) was a Globe &amp; Mail “Top Arts Pick of 2020”. Their 2018 album, <em>The Promise of Strangers,</em> was also nominated for Canadian Folk and Western Canadian Music Awards, and won Best Folk Album of 2019 from the German Music Critic's Association. Before that, 2013’s <em>Everything Will Happen</em>, spent ten weeks on the top ten Canadian folk charts, and earned them a support slot across Western Canada with Buffy Sainte-Marie and an appearance at UK’s Glastonbury Festival.</p>
+
+<p>A folk collective headed by songwriters Adrian Glynn and Brendan McLeod, the band has toured extensively through Canada, Western Europe, and the UK. They're joined by banjo player Chris Suen (Viper Central) and violinist Carly Frey (The Coal Porters). Over the past twelve years, they’ve earned a reputation for unforgettable live shows, brimming with complex harmonies, infectious storytelling and top-notch musicianship. As the CBC has it:<em> “</em>This show is simply brilliant<em>”. </em>Performance highlights include major folk festivals across Canada, headlining slots in overseas americana festivals, and a 2019 sold-out run across Germany.</p>
+
+<p>Artist Website: https://www.fugitives.ca/<br />
+Facebook: https://www.facebook.com/fugitivesmusic/<br />
+YouTube: https://www.youtube.com/@CanadianFugitives<br />
+Instagram: https://www.instagram.com/fugitivesmusic/<br />
+Spotify: https://open.spotify.com/album/6dOqISgO6OKofUEZnb5X1y</p>
+
+<p>The Fugitives | RIDER &amp; PROMO ASSETS: https://drive.google.com/drive/folders/1M9lwRecGSyC_-TD9H-8ZRNIVYc3T-yQ7?usp=sharing</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff993;
+  schema:url <https://www.fugitives.ca/> .
+
+_:42ac356601db4bd1ad81e36c09203ff993 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff994 .
+
+_:42ac356601db4bd1ad81e36c09203ff994 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "BC" .
+
+artist:471 a schema:PerformingGroup;
+  schema:name "Productions Juste pour rire II Inc ";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff995;
+  schema:url <https://www.hahaha.com/en> .
+
+_:42ac356601db4bd1ad81e36c09203ff995 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff996 .
+
+_:42ac356601db4bd1ad81e36c09203ff996 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC" .
+
+artist:475 a schema:PerformingGroup;
+  schema:name "Native Earth Performing Arts";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff997;
+  schema:url <https://www.nativeearth.ca> .
+
+_:42ac356601db4bd1ad81e36c09203ff997 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff998 .
+
+_:42ac356601db4bd1ad81e36c09203ff998 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON" .
+
+artist:479 a schema:PerformingGroup;
+  schema:name "Steven Wright";
+  schema:description """<p>Steven Alexander Wright is an American stand-up comedian, actor, writer, and film producer. He is known for his distinctly lethargic voice and slow, deadpan delivery of ironic, philosophical and sometimes nonsensical jokes, paraprosdokians, non sequiturs, anti-humor, and one-liners with contrived situations.</p>
+""";
+  schema:location _:42ac356601db4bd1ad81e36c09203ff999;
+  schema:url <http://www.stevenwright.com> .
+
+_:42ac356601db4bd1ad81e36c09203ff999 a schema:Place;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9100 .
+
+_:42ac356601db4bd1ad81e36c09203ff9100 a schema:PostalAddress;
+  schema:addressCountry "US";
+  schema:addressRegion "" .

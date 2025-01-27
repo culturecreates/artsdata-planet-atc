@@ -1,0 +1,1101 @@
+@base <http://example.com/base/> .
+@prefix presenter: <https://arts-tc.ca/presenter/> .
+@prefix schema: <http://schema.org/> .
+
+presenter:25 a schema:Organization;
+  schema:name "Royal Test Theatre";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9109;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9110;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9111 .
+
+_:42ac356601db4bd1ad81e36c09203ff9109 a schema:ContactPoint;
+  schema:name "Deanna Durrant";
+  schema:email "deanna@royaltest.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9110 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS";
+  schema:addressLocality "Halifax";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9111 a schema:TechArticle .
+
+presenter:26 a schema:Organization;
+  schema:name "Rice Lake Performing Arts Centre";
+  schema:url <https://ricelakecanada.com/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9112;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9113;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9114 .
+
+_:42ac356601db4bd1ad81e36c09203ff9112 a schema:ContactPoint;
+  schema:name "Donovan Sparrow";
+  schema:email "don@ricelake.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9113 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Rice Lake";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9114 a schema:TechArticle .
+
+presenter:13 a schema:Organization;
+  schema:name "Coyote Hall";
+  schema:email "contact@member-a.ca";
+  schema:telephone "519-123-4567";
+  schema:faxNumber "519-987-1234";
+  schema:url <https://www.member-a.ca/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9115;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9116;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9117 .
+
+_:42ac356601db4bd1ad81e36c09203ff9115 a schema:ContactPoint;
+  schema:name "John Smith";
+  schema:email "john@member-a.ca";
+  schema:telephone "218-123-4444" .
+
+_:42ac356601db4bd1ad81e36c09203ff9116 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "London";
+  schema:postalCode "K1Z 7K4";
+  schema:streetAddress "123 Test Street Block A" .
+
+_:42ac356601db4bd1ad81e36c09203ff9117 a schema:TechArticle;
+  schema:url "https://www.member-a.ca/tech-info" .
+
+presenter:50 a schema:Organization;
+  schema:name "The Oscar Peterson Centre ";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9118;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9119;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9120 .
+
+_:42ac356601db4bd1ad81e36c09203ff9118 a schema:ContactPoint;
+  schema:name "Duke Ellington";
+  schema:email "SElse@organization.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9119 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Mississauga";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9120 a schema:TechArticle .
+
+presenter:73 a schema:Organization;
+  schema:name "The Hummingbird Centre";
+  schema:url <https://hummingbirdcentreforhope.com/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9121;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9122;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9123 .
+
+_:42ac356601db4bd1ad81e36c09203ff9121 a schema:ContactPoint;
+  schema:name "Jane Doe";
+  schema:email "jane@hummigbirdtoronto.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9122 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Toronto";
+  schema:postalCode "";
+  schema:streetAddress "Front st. " .
+
+_:42ac356601db4bd1ad81e36c09203ff9123 a schema:TechArticle .
+
+presenter:90 a schema:Organization;
+  schema:name "Lake Test Folk Festival";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9124;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9125;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9126 .
+
+_:42ac356601db4bd1ad81e36c09203ff9124 a schema:ContactPoint;
+  schema:name "Janine Fielder";
+  schema:email "janine@laketest.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9125 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NB";
+  schema:addressLocality "Sackville";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9126 a schema:TechArticle .
+
+presenter:142 a schema:Organization;
+  schema:name "Sanderson Centre for the Performing Arts";
+  schema:email "sandersoncentre@brantford.ca";
+  schema:telephone "5197529910";
+  schema:url <https://www.sandersoncentre.ca>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9127;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9128;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9129 .
+
+_:42ac356601db4bd1ad81e36c09203ff9127 a schema:ContactPoint;
+  schema:name "Glenn Brown";
+  schema:email "GBrown@brantford.ca";
+  schema:telephone "5197529910x5029" .
+
+_:42ac356601db4bd1ad81e36c09203ff9128 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Brantford";
+  schema:postalCode "N3T 2J2";
+  schema:streetAddress "88 Dalhousie St. PO Box 1762" .
+
+_:42ac356601db4bd1ad81e36c09203ff9129 a schema:TechArticle;
+  schema:url "https://www.sandersoncentre.ca/en/about-us/resources/Documents/SC-TechnicalPackage.pdf" .
+
+presenter:150 a schema:Organization;
+  schema:name "Lower Case Theatre";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9130;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9131;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9132 .
+
+_:42ac356601db4bd1ad81e36c09203ff9130 a schema:ContactPoint;
+  schema:name "Lower Case";
+  schema:email "lowercase@theatre.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9131 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "North Bay";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9132 a schema:TechArticle .
+
+presenter:160 a schema:Organization;
+  schema:name "City of Kingston - Kingston Grand Theatre";
+  schema:email "jduggan@cityofkingston.ca";
+  schema:telephone "6136507395";
+  schema:url <https://www.kingstongrand.ca/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9133;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9134;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9135 .
+
+_:42ac356601db4bd1ad81e36c09203ff9133 a schema:ContactPoint;
+  schema:name "Jayson Duggan";
+  schema:email "jduggan@cityofkingston.ca";
+  schema:telephone "6136507395" .
+
+_:42ac356601db4bd1ad81e36c09203ff9134 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Kingston";
+  schema:postalCode "K7L 1B2";
+  schema:streetAddress "218 Princess St. " .
+
+_:42ac356601db4bd1ad81e36c09203ff9135 a schema:TechArticle;
+  schema:url "https://www.kingstongrand.ca/sites/kingstongrand.ca/files/files/Technical%20Specs%20-%20Regina%20Rosen%20-%20November%202019.pdf" .
+
+presenter:161 a schema:Organization;
+  schema:name "Oakville Centre for the Performing Arts";
+  schema:email "ronnie.brown@oakville.ca";
+  schema:telephone "9053384161";
+  schema:url <https://www.oakvillecentre.ca/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9136;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9137;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9138 .
+
+_:42ac356601db4bd1ad81e36c09203ff9136 a schema:ContactPoint;
+  schema:name "Ronnie Brown";
+  schema:email "ronnie.brown@oakville.ca";
+  schema:telephone "19055990967" .
+
+_:42ac356601db4bd1ad81e36c09203ff9137 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Oakville";
+  schema:postalCode "L6J 2Z4";
+  schema:streetAddress "130 Navy St. " .
+
+_:42ac356601db4bd1ad81e36c09203ff9138 a schema:TechArticle;
+  schema:url "https://www.oakvillecentre.ca/aeg-liebherr-auditorium.html" .
+
+presenter:162 a schema:Organization;
+  schema:name "Jeanne and Peter Lougheed Performing Arts Centre";
+  schema:email "nbeach@camroselive.ca";
+  schema:telephone "780 608-2925";
+  schema:url <https://www.camroselive.ca>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9139;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9140;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9141 .
+
+_:42ac356601db4bd1ad81e36c09203ff9139 a schema:ContactPoint;
+  schema:name "Nicholas Beach";
+  schema:email "nbeach@camroselive.ca";
+  schema:telephone "780 608-2925" .
+
+_:42ac356601db4bd1ad81e36c09203ff9140 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "AB";
+  schema:addressLocality "Camrose";
+  schema:postalCode "T4V 5J1";
+  schema:streetAddress "4501 50th Street " .
+
+_:42ac356601db4bd1ad81e36c09203ff9141 a schema:TechArticle;
+  schema:url "https://camroselive.ca/presenter-services/technical-specifications" .
+
+presenter:163 a schema:Organization;
+  schema:name "TOHU / Montréal Complètement Cirque Festival";
+  schema:email "info@tohu.ca";
+  schema:telephone "+1 5143743522";
+  schema:url <https://tohu.ca/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9142;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9143;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9144 .
+
+_:42ac356601db4bd1ad81e36c09203ff9142 a schema:ContactPoint;
+  schema:name "Ruth Wikler";
+  schema:email "ruth.wikler@tohu.ca";
+  schema:telephone "+1 514 264 0373" .
+
+_:42ac356601db4bd1ad81e36c09203ff9143 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "QC";
+  schema:addressLocality "Montréal";
+  schema:postalCode "H1Z 4P3";
+  schema:streetAddress "2345 Rue Jarry E " .
+
+_:42ac356601db4bd1ad81e36c09203ff9144 a schema:TechArticle .
+
+presenter:164 a schema:Organization;
+  schema:name "Winnipeg International Children's Festival";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9145;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9146;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9147 .
+
+_:42ac356601db4bd1ad81e36c09203ff9145 a schema:ContactPoint;
+  schema:name "Neal Rempel";
+  schema:email "rempel@kidsfest.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9146 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9147 a schema:TechArticle .
+
+presenter:165 a schema:Organization;
+  schema:name "Tkaronto Music Festival";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9148;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9149;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9150 .
+
+_:42ac356601db4bd1ad81e36c09203ff9148 a schema:ContactPoint;
+  schema:name "Cynthia Lickers-Sage";
+  schema:email "cynthialickerssage@gmail.com" .
+
+_:42ac356601db4bd1ad81e36c09203ff9149 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9150 a schema:TechArticle .
+
+presenter:171 a schema:Organization;
+  schema:name "Trade Routes";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9151;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9152;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9153 .
+
+_:42ac356601db4bd1ad81e36c09203ff9151 a schema:ContactPoint;
+  schema:name "Michael Owen";
+  schema:email "traderoutes.ca@gmail.com" .
+
+_:42ac356601db4bd1ad81e36c09203ff9152 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9153 a schema:TechArticle .
+
+presenter:205 a schema:Organization;
+  schema:name "Imperial Theatre";
+  schema:email "bethany@imperialtheatre.ca";
+  schema:telephone "506.674.4129";
+  schema:url <https://imperialtheatre.ca>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9154;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9155;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9156 .
+
+_:42ac356601db4bd1ad81e36c09203ff9154 a schema:ContactPoint;
+  schema:name "Bethany  Stout";
+  schema:email "bethany@imperialtheatre.ca";
+  schema:telephone "506.674.4129" .
+
+_:42ac356601db4bd1ad81e36c09203ff9155 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NB";
+  schema:addressLocality "Saint John";
+  schema:postalCode "E2L 5B8";
+  schema:streetAddress "12 King Square South  " .
+
+_:42ac356601db4bd1ad81e36c09203ff9156 a schema:TechArticle;
+  schema:url "https://imperialtheatre.ca/wp-content/uploads/2021/01/Imperial-Theatre-Technical-Information-and-Inventory-2021.pdf" .
+
+presenter:263 a schema:Organization;
+  schema:name "Department of Canadian Heritage";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9157;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9158;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9159 .
+
+_:42ac356601db4bd1ad81e36c09203ff9157 a schema:ContactPoint;
+  schema:name "Emily Chan";
+  schema:email "emily.chan@pch.gc.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9158 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9159 a schema:TechArticle .
+
+presenter:264 a schema:Organization;
+  schema:name "Fredericton Playhouse";
+  schema:email "admin@theplayhouse.ca";
+  schema:telephone "(506) 458-8345";
+  schema:faxNumber "(506) 459-6206";
+  schema:url <https://theplayhouse.ca>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9160;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9161;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9162 .
+
+_:42ac356601db4bd1ad81e36c09203ff9160 a schema:ContactPoint;
+  schema:name "Lesandra Dodson";
+  schema:email "lesandra@theplayhouse.ca";
+  schema:telephone "506-459-6209" .
+
+_:42ac356601db4bd1ad81e36c09203ff9161 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NB";
+  schema:addressLocality "Fredericton";
+  schema:postalCode "E3B 1C2";
+  schema:streetAddress "686 Queen Street  " .
+
+_:42ac356601db4bd1ad81e36c09203ff9162 a schema:TechArticle;
+  schema:url "https://theplayhouse.ca/en/our-theatre/rental-information" .
+
+presenter:265 a schema:Organization;
+  schema:name "Acadia Performing Arts Series";
+  schema:email "cotefra@gmail.com";
+  schema:telephone "902-670-3248";
+  schema:url <https://artsacadia.acadiau.ca/acadia-performing-arts-series>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9163;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9164;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9165 .
+
+_:42ac356601db4bd1ad81e36c09203ff9163 a schema:ContactPoint;
+  schema:name "Francois    Cote";
+  schema:email "francois.cote@acadiau.ca";
+  schema:telephone "9026703248" .
+
+_:42ac356601db4bd1ad81e36c09203ff9164 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS";
+  schema:addressLocality "Wolfville";
+  schema:postalCode "B4P 1C5";
+  schema:streetAddress "235 Main Street apt 1" .
+
+_:42ac356601db4bd1ad81e36c09203ff9165 a schema:TechArticle .
+
+presenter:266 a schema:Organization;
+  schema:name "Carlton-Victoria Arts Council ";
+  schema:email "carletonvictoriaarts@gmail.com";
+  schema:telephone "(506) 278-5154";
+  schema:url <http://cvarts.ca/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9166;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9167;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9168 .
+
+_:42ac356601db4bd1ad81e36c09203ff9166 a schema:ContactPoint;
+  schema:name "Pearl  Black ";
+  schema:email "Pearlcblack2018@gmail.com" .
+
+_:42ac356601db4bd1ad81e36c09203ff9167 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NB";
+  schema:addressLocality "Perth-Andover ";
+  schema:postalCode "E7H 3B6";
+  schema:streetAddress "59 McLaughlin Street " .
+
+_:42ac356601db4bd1ad81e36c09203ff9168 a schema:TechArticle .
+
+presenter:267 a schema:Organization;
+  schema:name "Harbourfront Theatre";
+  schema:email "admin@harbourfronttheatre.com";
+  schema:telephone "(800) 708-6505";
+  schema:url <https://www.harbourfronttheatre.com/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9169;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9170;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9171 .
+
+_:42ac356601db4bd1ad81e36c09203ff9169 a schema:ContactPoint;
+  schema:name "Mary Dennis";
+  schema:email "Mary@harbourfronttheatre.com";
+  schema:telephone "902-888-4471" .
+
+_:42ac356601db4bd1ad81e36c09203ff9170 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "PE";
+  schema:addressLocality "Summerside";
+  schema:postalCode "C1N 5Y8";
+  schema:streetAddress "124 Heather Moyse Dr " .
+
+_:42ac356601db4bd1ad81e36c09203ff9171 a schema:TechArticle;
+  schema:url "https://www.harbourfronttheatre.com/rentalsmeetings/" .
+
+presenter:269 a schema:Organization;
+  schema:name "IMPPACTfest, Atlantic Ballet Theatre of Canada";
+  schema:telephone "(506) 383-5951";
+  schema:url <https://impact-fest.com/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9172;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9173;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9174 .
+
+_:42ac356601db4bd1ad81e36c09203ff9172 a schema:ContactPoint;
+  schema:name "Susan Chalmers-Gauvin";
+  schema:email "susan@atlanticballet.ca";
+  schema:telephone "(506) 383-5951 ext. 102" .
+
+_:42ac356601db4bd1ad81e36c09203ff9173 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NB";
+  schema:addressLocality "Moncton";
+  schema:postalCode "E1C 9X6";
+  schema:streetAddress "PO Box 1783  " .
+
+_:42ac356601db4bd1ad81e36c09203ff9174 a schema:TechArticle .
+
+presenter:270 a schema:Organization;
+  schema:name "Mermaid Imperial Performing Arts Centre";
+  schema:email "puppets@mermaidtheatre.ca";
+  schema:url <https://www.mermaidtheatre.ca/tickets>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9175;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9176;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9177 .
+
+_:42ac356601db4bd1ad81e36c09203ff9175 a schema:ContactPoint;
+  schema:name "Danny   Everson";
+  schema:email "dannyeverson@mermaidtheatre.ca";
+  schema:telephone "902-798-5841" .
+
+_:42ac356601db4bd1ad81e36c09203ff9176 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS";
+  schema:addressLocality "Windsor";
+  schema:postalCode "B0N 2T0";
+  schema:streetAddress "P.O. Box 2697 " .
+
+_:42ac356601db4bd1ad81e36c09203ff9177 a schema:TechArticle .
+
+presenter:271 a schema:Organization;
+  schema:name "Antigonish Performing Arts Series";
+  schema:email "msteinit@stfx.ca";
+  schema:telephone "902-863-1639";
+  schema:faxNumber "902-867-2414";
+  schema:url <https://people.stfx.ca/msteinit/schedule.htm>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9178;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9179;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9180 .
+
+_:42ac356601db4bd1ad81e36c09203ff9178 a schema:ContactPoint;
+  schema:name "Michael Steinitz";
+  schema:email "msteinit@stfx.ca";
+  schema:telephone "9028631639" .
+
+_:42ac356601db4bd1ad81e36c09203ff9179 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS";
+  schema:addressLocality "ANTIGONISH";
+  schema:postalCode "B2G 1Z1";
+  schema:streetAddress "156 St. Ninian St. " .
+
+_:42ac356601db4bd1ad81e36c09203ff9180 a schema:TechArticle .
+
+presenter:272 a schema:Organization;
+  schema:name "Astor Theatre";
+  schema:email "manager@astortheatre.ns.ca";
+  schema:telephone "902-354-5250";
+  schema:url <https://astortheatre.ns.ca/wp/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9181;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9182;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9183 .
+
+_:42ac356601db4bd1ad81e36c09203ff9181 a schema:ContactPoint;
+  schema:name "Jean Robinson-Dexter";
+  schema:email "manager@astortheatre.ns.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9182 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS";
+  schema:addressLocality "Liverpool";
+  schema:postalCode "B0T 1K0";
+  schema:streetAddress "219 Main Street   PO Box 1148 " .
+
+_:42ac356601db4bd1ad81e36c09203ff9183 a schema:TechArticle;
+  schema:url "https://astortheatre.ns.ca/wp/technical/" .
+
+presenter:273 a schema:Organization;
+  schema:name "Halifax Fringe Festival";
+  schema:email "leeanne@halifaxfringe.ca";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9184;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9185;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9186 .
+
+_:42ac356601db4bd1ad81e36c09203ff9184 a schema:ContactPoint;
+  schema:name "Lee-Anne Poole";
+  schema:email "leeanne@halifaxfringe.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9185 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS";
+  schema:addressLocality "Halifax";
+  schema:postalCode "B3J 1C9";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9186 a schema:TechArticle .
+
+presenter:274 a schema:Organization;
+  schema:name "Meridian Theatres at Centrepointe, Ottawa";
+  schema:email "allan.sansom@ottawa.ca";
+  schema:telephone "613-580-244 x 46653";
+  schema:faxNumber "613-580-2704";
+  schema:url <https://meridiancentrepointe.com/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9187;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9188;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9189 .
+
+_:42ac356601db4bd1ad81e36c09203ff9187 a schema:ContactPoint;
+  schema:name "Allan Sansom";
+  schema:email "allan.sansom@ottawa.ca";
+  schema:telephone "613-580-2424 x 46653" .
+
+_:42ac356601db4bd1ad81e36c09203ff9188 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Ottawa";
+  schema:postalCode "K2G 5K7";
+  schema:streetAddress "101 Centrepointe Drive " .
+
+_:42ac356601db4bd1ad81e36c09203ff9189 a schema:TechArticle;
+  schema:url "https://meridiancentrepointe.com/en/mainstage-technical-specifications" .
+
+presenter:275 a schema:Organization;
+  schema:name "Chrysler Theatre ";
+  schema:email "vmancini@stclaircollege.ca";
+  schema:telephone "519 252 8311 - Box Office";
+  schema:url <http://www.chryslertheatre.com>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9190;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9191;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9192 .
+
+_:42ac356601db4bd1ad81e36c09203ff9190 a schema:ContactPoint;
+  schema:name "Veronica Mancini";
+  schema:email "vmancini@stclaircollege.ca";
+  schema:telephone "519 252-8311 ext. 4601" .
+
+_:42ac356601db4bd1ad81e36c09203ff9191 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "WINDSOR";
+  schema:postalCode "N9A 5C9";
+  schema:streetAddress "201 Riverside Dr. West " .
+
+_:42ac356601db4bd1ad81e36c09203ff9192 a schema:TechArticle;
+  schema:url "https://www.chryslertheatre.com/renters/" .
+
+presenter:276 a schema:Organization;
+  schema:name "Cobalt Classic Theatre";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9193;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9194;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9195 .
+
+_:42ac356601db4bd1ad81e36c09203ff9193 a schema:ContactPoint;
+  schema:name "Rick Caldwell";
+  schema:email "rctoucan@persona.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9194 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9195 a schema:TechArticle .
+
+presenter:277 a schema:Organization;
+  schema:name "Wolf Performance Hall - London Public Library";
+  schema:email "catherine.coreno@lpl.ca";
+  schema:url <http://wolfperformancehall.ca>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9196;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9197;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9198 .
+
+_:42ac356601db4bd1ad81e36c09203ff9196 a schema:ContactPoint;
+  schema:name "Catherine Coreno";
+  schema:email "catherine.coreno@lpl.ca";
+  schema:telephone "519-661-5100 x7451" .
+
+_:42ac356601db4bd1ad81e36c09203ff9197 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "London";
+  schema:postalCode "N6A 6H9";
+  schema:streetAddress "251 Dundas Street " .
+
+_:42ac356601db4bd1ad81e36c09203ff9198 a schema:TechArticle;
+  schema:url "https://www.londonpubliclibrary.ca/about-my-library/library-spaces/wolf-performance-hall" .
+
+presenter:278 a schema:Organization;
+  schema:name "River Run Centre - City of Guelph";
+  schema:telephone "519-837-5662x3476";
+  schema:url <https://riverrun.ca/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9199;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9200;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9201 .
+
+_:42ac356601db4bd1ad81e36c09203ff9199 a schema:ContactPoint;
+  schema:name "Bill Nuhn";
+  schema:email "Bill.Nuhn@guelph.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9200 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Guelph";
+  schema:postalCode "N1H 3V1";
+  schema:streetAddress "35 Woolwich St " .
+
+_:42ac356601db4bd1ad81e36c09203ff9201 a schema:TechArticle;
+  schema:url "https://riverrun.ca/rent-the-centre/technical-specifications/" .
+
+presenter:279 a schema:Organization;
+  schema:name "Flato Markham Theatre";
+  schema:url <https://www.flatomarkhamtheatre.ca/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9202;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9203;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9204 .
+
+_:42ac356601db4bd1ad81e36c09203ff9202 a schema:ContactPoint;
+  schema:name "Scott Hill";
+  schema:email "shill@markham.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9203 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Markham";
+  schema:postalCode "L3R 8G5";
+  schema:streetAddress "171 Town Centre Boulevard  " .
+
+_:42ac356601db4bd1ad81e36c09203ff9204 a schema:TechArticle;
+  schema:url "https://flatomarkhamtheatre.ca/content/Files/PDFs/Technical%20Specifications%20as%20of%20March%202022.docx.pdf" .
+
+presenter:280 a schema:Organization;
+  schema:name "Grand Theatre - City of Kingston";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9205;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9206;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9207 .
+
+_:42ac356601db4bd1ad81e36c09203ff9205 a schema:ContactPoint;
+  schema:name "Jayson Duggan";
+  schema:email "jduggan@cityofkingston.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9206 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9207 a schema:TechArticle .
+
+presenter:281 a schema:Organization;
+  schema:name "FirstOntario Arts Centre Milton";
+  schema:email "lorrie.ferrante@milton.ca";
+  schema:telephone "905-875-5399  ext 4915";
+  schema:url <http://www.firstontarioartscentremilton.ca>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9208;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9209;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9210 .
+
+_:42ac356601db4bd1ad81e36c09203ff9208 a schema:ContactPoint;
+  schema:name "Lorrie Ferrante";
+  schema:email "lorrie.ferrante@milton.ca";
+  schema:telephone "905-878-7252 ext 4915" .
+
+_:42ac356601db4bd1ad81e36c09203ff9209 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Milton";
+  schema:postalCode "L9T 6H7";
+  schema:streetAddress "1010 Main Street East " .
+
+_:42ac356601db4bd1ad81e36c09203ff9210 a schema:TechArticle .
+
+presenter:282 a schema:Organization;
+  schema:name "Shenkman Arts Centre - City of Ottawa";
+  schema:email "jahn.fawcett@ottawa.ca";
+  schema:telephone "613-580-ARTS (2787)";
+  schema:url <https://shenkmanarts.ca/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9211;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9212;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9213 .
+
+_:42ac356601db4bd1ad81e36c09203ff9211 a schema:ContactPoint;
+  schema:name "Jahn Fawcett";
+  schema:email "Jahn.Fawcett@ottawa.ca";
+  schema:telephone "613-580-2424x23897" .
+
+_:42ac356601db4bd1ad81e36c09203ff9212 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Ottawa";
+  schema:postalCode "K1E0A1";
+  schema:streetAddress "245 Centrum Blvd " .
+
+_:42ac356601db4bd1ad81e36c09203ff9213 a schema:TechArticle;
+  schema:url "https://shenkmanarts.ca/en/harold-shenkman-hall-technical-specifications" .
+
+presenter:283 a schema:Organization;
+  schema:name "Brampton On Stage Presents";
+  schema:email "danny.harvey@brampton.ca";
+  schema:telephone "14168064551";
+  schema:url <https://tickets.brampton.ca/Online/default.asp>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9214;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9215;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9216 .
+
+_:42ac356601db4bd1ad81e36c09203ff9214 a schema:ContactPoint;
+  schema:name "Danny Harvey";
+  schema:email "danny.harvey@brampton.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9215 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Brampton";
+  schema:postalCode "L6Y4R2";
+  schema:streetAddress "2 Wellington Rd W " .
+
+_:42ac356601db4bd1ad81e36c09203ff9216 a schema:TechArticle;
+  schema:url "https://tickets.brampton.ca/content/Files/Marketing/RoseMainstageTechnicalSpecifications2019-Smaller.pdf" .
+
+presenter:284 a schema:Organization;
+  schema:name "Richmond Hill Centre for the Performing Arts";
+  schema:email "eli.lukawitz@richmondhill.ca";
+  schema:telephone "905-747-6549";
+  schema:url <https://www.rhcentre.ca/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9217;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9218;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9219 .
+
+_:42ac356601db4bd1ad81e36c09203ff9217 a schema:ContactPoint;
+  schema:name "Eli Lukawitz";
+  schema:email "eli.lukawitz@richmondhill.ca";
+  schema:telephone "905-747-6549" .
+
+_:42ac356601db4bd1ad81e36c09203ff9218 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Richmond Hill";
+  schema:postalCode "L4C 3B7";
+  schema:streetAddress "10268 Yonge Street " .
+
+_:42ac356601db4bd1ad81e36c09203ff9219 a schema:TechArticle;
+  schema:url "https://www.rhcentre.ca/Rent-the-RHCPA/Technical-Specifications.html" .
+
+presenter:285 a schema:Organization;
+  schema:name "Capitol Centre";
+  schema:email "dmisturada@capitolcentre.org";
+  schema:telephone "7054741944";
+  schema:url <http://capitolcentre.org/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9220;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9221;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9222 .
+
+_:42ac356601db4bd1ad81e36c09203ff9220 a schema:ContactPoint;
+  schema:name "Dan Misturada";
+  schema:email "dmisturada@capitolcentre.org";
+  schema:telephone "7054741944x223" .
+
+_:42ac356601db4bd1ad81e36c09203ff9221 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "North Bay";
+  schema:postalCode "P1B 1A8";
+  schema:streetAddress "150 Main Street East " .
+
+_:42ac356601db4bd1ad81e36c09203ff9222 a schema:TechArticle;
+  schema:url "http://capitolcentre.org/img/downloads/CapitolCentre-TechnicalSpecification2020.pdf" .
+
+presenter:286 a schema:Organization;
+  schema:name "Chatham Capitol Theatre/Kiwanis Theatre";
+  schema:email "devonh@chatham-kent.ca";
+  schema:telephone "226-312-2023 ext 4201";
+  schema:url <http://chatham-kent.ca>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9223;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9224;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9225 .
+
+_:42ac356601db4bd1ad81e36c09203ff9223 a schema:ContactPoint;
+  schema:name "Devon Hansen";
+  schema:email "devonh@chatham-kent.ca";
+  schema:telephone "226-312-2023 ext 4201" .
+
+_:42ac356601db4bd1ad81e36c09203ff9224 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Chatham";
+  schema:postalCode "N7M 1E7";
+  schema:streetAddress "238 King Street W " .
+
+_:42ac356601db4bd1ad81e36c09203ff9225 a schema:TechArticle .
+
+presenter:287 a schema:Organization;
+  schema:name "Fergus Grand Theatre";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9226;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9227;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9228 .
+
+_:42ac356601db4bd1ad81e36c09203ff9226 a schema:ContactPoint;
+  schema:name "Eric Goudie";
+  schema:email "egoudie@centrewellington.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9227 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9228 a schema:TechArticle .
+
+presenter:288 a schema:Organization;
+  schema:name "FirstOntario Performing Arts Centre";
+  schema:email "boxoffice@firstontariopac.ca";
+  schema:telephone "Box Office - 905-688-0722";
+  schema:url <https://firstontariopac.ca/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9229;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9230;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9231 .
+
+_:42ac356601db4bd1ad81e36c09203ff9229 a schema:ContactPoint;
+  schema:name "Sara Palmieri";
+  schema:email "spalmieri@firstontariopac.ca";
+  schema:telephone "905-688-5601x3606" .
+
+_:42ac356601db4bd1ad81e36c09203ff9230 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "St. Catharines";
+  schema:postalCode "L2R 3M2";
+  schema:streetAddress "250 St. Paul Street " .
+
+_:42ac356601db4bd1ad81e36c09203ff9231 a schema:TechArticle;
+  schema:url "https://firstontariopac.ca/online/Article/RentThePAC" .
+
+presenter:289 a schema:Organization;
+  schema:name "Huntsville Festival of the Arts";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9232;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9233;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9234 .
+
+_:42ac356601db4bd1ad81e36c09203ff9232 a schema:ContactPoint;
+  schema:name "Dan Watson";
+  schema:email "dan@huntsvillefestival.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9233 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+_:42ac356601db4bd1ad81e36c09203ff9234 a schema:TechArticle .
+
+presenter:292 a schema:Organization;
+  schema:name "Living Arts Centre (City of Mississauga)";
+  schema:telephone "905-615-3200 x 4912";
+  schema:url <http://livingartscentre.ca>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9235;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9236;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9237 .
+
+_:42ac356601db4bd1ad81e36c09203ff9235 a schema:ContactPoint;
+  schema:name "Amy Butoiske";
+  schema:email "Amy.butoiske@mississauga.ca";
+  schema:telephone "905-615-3200 x 4912" .
+
+_:42ac356601db4bd1ad81e36c09203ff9236 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Mississauga";
+  schema:postalCode "L5B 0A1";
+  schema:streetAddress "4141 Living Arts Drive " .
+
+_:42ac356601db4bd1ad81e36c09203ff9237 a schema:TechArticle;
+  schema:url "https://www.mississauga.ca/wp-content/uploads/sites/10/2024/09/23092651/2024_LAC_Venue_PackageSept-FINAL.pdf" .
+
+presenter:304 a schema:Organization;
+  schema:name "Bella Rose Art Centre";
+  schema:email "info@bellaroseartscentre.com";
+  schema:telephone "(902) 457-3352";
+  schema:faxNumber " (902) 443-7362";
+  schema:url <https://www.bellaroseartscentre.com/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9238;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9239;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9240 .
+
+_:42ac356601db4bd1ad81e36c09203ff9238 a schema:ContactPoint;
+  schema:name "Amie Moore";
+  schema:email "amoore@bellaroseartscentre.com" .
+
+_:42ac356601db4bd1ad81e36c09203ff9239 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS";
+  schema:addressLocality "Halifax";
+  schema:postalCode "B3S 1R1";
+  schema:streetAddress "283 Thomas Raddall Drive " .
+
+_:42ac356601db4bd1ad81e36c09203ff9240 a schema:TechArticle;
+  schema:url "https://www.bellaroseartscentre.com/rental-info" .
+
+presenter:305 a schema:Organization;
+  schema:name "Bonshaw Hall Cooperative ";
+  schema:telephone "(902) 675-4315";
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9241;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9242;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9243 .
+
+_:42ac356601db4bd1ad81e36c09203ff9241 a schema:ContactPoint;
+  schema:name "Harry Baglole";
+  schema:email "harry.vinland@gmail.com" .
+
+_:42ac356601db4bd1ad81e36c09203ff9242 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "PE";
+  schema:addressLocality "Bonshaw";
+  schema:postalCode "C0A 1C0";
+  schema:streetAddress "9 Green Road " .
+
+_:42ac356601db4bd1ad81e36c09203ff9243 a schema:TechArticle .
+
+presenter:306 a schema:Organization;
+  schema:name "Cape Breton Regional Municipality";
+  schema:telephone "902 563-5510";
+  schema:url <https://cbrm.ns.ca/events.html>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9244;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9245;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9246 .
+
+_:42ac356601db4bd1ad81e36c09203ff9244 a schema:ContactPoint;
+  schema:name "Joe Costello";
+  schema:email "jwcostello@cbrm.ns.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9245 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS";
+  schema:addressLocality "Sydney";
+  schema:postalCode "B1P 7B9";
+  schema:streetAddress " CBRM City Hall 320 Esplanade Suite 204" .
+
+_:42ac356601db4bd1ad81e36c09203ff9246 a schema:TechArticle .
+
+presenter:307 a schema:Organization;
+  schema:name "Capitol Theatre";
+  schema:email "info@capitol.nb.ca";
+  schema:telephone "506-856-4377";
+  schema:url <https://capitol.nb.ca/en/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9247;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9248;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9249 .
+
+_:42ac356601db4bd1ad81e36c09203ff9247 a schema:ContactPoint;
+  schema:name "Yolaine Robichaud";
+  schema:email "yolaine@capitol.nb.ca";
+  schema:telephone "506-383-6261" .
+
+_:42ac356601db4bd1ad81e36c09203ff9248 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NB";
+  schema:addressLocality "Moncton";
+  schema:postalCode "E1C 1G1";
+  schema:streetAddress "811 Main Street " .
+
+_:42ac356601db4bd1ad81e36c09203ff9249 a schema:TechArticle;
+  schema:url "https://capitol.nb.ca/en/rentals" .
+
+presenter:308 a schema:Organization;
+  schema:name "Carleton Victoria Arts Council";
+  schema:email "carletonvictoriaarts@gmail.com";
+  schema:telephone "(506) 278-5154";
+  schema:url <http://cvarts.ca/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9250;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9251;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9252 .
+
+_:42ac356601db4bd1ad81e36c09203ff9250 a schema:ContactPoint;
+  schema:name "Pearl Black";
+  schema:email "Pearlcblack2018@gmail.com" .
+
+_:42ac356601db4bd1ad81e36c09203ff9251 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NB";
+  schema:addressLocality "Waterville";
+  schema:postalCode "E7P 1C4";
+  schema:streetAddress "934 Route 590 Carleton County" .
+
+_:42ac356601db4bd1ad81e36c09203ff9252 a schema:TechArticle .
+
+presenter:309 a schema:Organization;
+  schema:name "CB Nuit";
+  schema:email "cbnuit@gmail.com";
+  schema:url <https://www.cbnuit.com/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9253;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9254;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9255 .
+
+_:42ac356601db4bd1ad81e36c09203ff9253 a schema:ContactPoint;
+  schema:name "Louise Gauthier";
+  schema:email "cbnuit@gmail.com" .
+
+_:42ac356601db4bd1ad81e36c09203ff9254 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NL";
+  schema:addressLocality "Corner Brook";
+  schema:postalCode "";
+  schema:streetAddress "West St. " .
+
+_:42ac356601db4bd1ad81e36c09203ff9255 a schema:TechArticle .
+
+presenter:310 a schema:Organization;
+  schema:name "Cecilia Concerts Society ";
+  schema:email "music@ceciliaconcerts.ca";
+  schema:telephone "902 423 0143";
+  schema:url <https://www.ceciliaconcerts.ca/contact/>;
+  schema:contactPoint _:42ac356601db4bd1ad81e36c09203ff9256;
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9257;
+  schema:subjectOf _:42ac356601db4bd1ad81e36c09203ff9258 .
+
+_:42ac356601db4bd1ad81e36c09203ff9256 a schema:ContactPoint;
+  schema:name "Gregory Morris";
+  schema:email "music@ceciliaconcerts.ca" .
+
+_:42ac356601db4bd1ad81e36c09203ff9257 a schema:PostalAddress;
+  schema:addressCountry "CA";
+  schema:addressRegion "NS";
+  schema:addressLocality "K'jipuktuk Mi’kma’ki Halifax";
+  schema:postalCode "B3L 1K7";
+  schema:streetAddress "Maritime Conservatory of Performing Arts Building  " .
+
+_:42ac356601db4bd1ad81e36c09203ff9258 a schema:TechArticle .

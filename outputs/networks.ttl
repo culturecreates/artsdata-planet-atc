@@ -1,0 +1,116 @@
+@base <http://example.com/base/> .
+@prefix network: <http://arts-tc.ca/netwok/> .
+@prefix schema: <http://schema.org/> .
+
+network:9 a schema:Organization;
+  schema:name "Ontario Presents";
+  schema:alternateName "OP";
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9101 .
+
+_:42ac356601db4bd1ad81e36c09203ff9101 a schema:PostalAddress;
+  schema:name "Ceilidh Wood";
+  schema:email "ceilidh@ontariopresents.ca";
+  schema:addressCountry "CA";
+  schema:addressRegion "";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+network:11 a schema:Organization;
+  schema:name "National Sandbox";
+  schema:alternateName "NSB";
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9102 .
+
+_:42ac356601db4bd1ad81e36c09203ff9102 a schema:PostalAddress;
+  schema:name "Judy Harquail";
+  schema:email "jlharquail@gmail.com";
+  schema:addressCountry "CA";
+  schema:addressRegion "";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+network:10 a schema:Organization;
+  schema:name "Atlantic Presenters";
+  schema:alternateName "APA";
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9103 .
+
+_:42ac356601db4bd1ad81e36c09203ff9103 a schema:PostalAddress;
+  schema:name "Crystal Laffoley";
+  schema:email "crystal@atlanticpresenters.ca";
+  schema:addressCountry "CA";
+  schema:addressRegion "";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+network:122 a schema:Organization;
+  schema:name "Test RPN";
+  schema:alternateName "TRPN";
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9104 .
+
+_:42ac356601db4bd1ad81e36c09203ff9104 a schema:PostalAddress;
+  schema:name "Ceilidh Wood";
+  schema:email "ceilidh@ontariopresents.ca";
+  schema:telephone "4167036709";
+  schema:addressCountry "CA";
+  schema:addressRegion "ON";
+  schema:addressLocality "Toronto";
+  schema:postalCode "M5T 2C2";
+  schema:streetAddress "305-192 Spadina Ave " .
+
+network:692 a schema:Organization;
+  schema:name "Arts Touring Alliance of Alberta";
+  schema:alternateName "ATAA";
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9105 .
+
+_:42ac356601db4bd1ad81e36c09203ff9105 a schema:PostalAddress;
+  schema:name "Kennedy Jenson";
+  schema:email "kennedy@artstouring.com";
+  schema:telephone "780-644-4840";
+  schema:addressCountry "CA";
+  schema:addressRegion "AB";
+  schema:addressLocality "Edmonton";
+  schema:postalCode "T5M 3K6";
+  schema:streetAddress "11759 - Groat Road " .
+
+network:3901 a schema:Organization;
+  schema:name "BC Live";
+  schema:alternateName "BCTC";
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9106 .
+
+_:42ac356601db4bd1ad81e36c09203ff9106 a schema:PostalAddress;
+  schema:name "Petrice Brett";
+  schema:addressCountry "CA";
+  schema:addressRegion "";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
+
+network:14662 a schema:Organization;
+  schema:name "Marché International de Cirque Contemporain";
+  schema:alternateName "MICC";
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9107 .
+
+_:42ac356601db4bd1ad81e36c09203ff9107 a schema:PostalAddress;
+  schema:name "Aaron Marquis";
+  schema:email "aaron.marquise@tohu.ca";
+  schema:addressCountry "CA";
+  schema:addressRegion "QC";
+  schema:addressLocality "Montreal";
+  schema:postalCode "H1Z 4P3";
+  schema:streetAddress "2345, rue Jarry Est " .
+
+network:15882 a schema:Organization;
+  schema:name "CAPACOA";
+  schema:alternateName "CAPACOA";
+  schema:address _:42ac356601db4bd1ad81e36c09203ff9108 .
+
+_:42ac356601db4bd1ad81e36c09203ff9108 a schema:PostalAddress;
+  schema:name "Frédéric Julien";
+  schema:email "frederic.julien@capacoa.ca";
+  schema:addressCountry "CA";
+  schema:addressRegion "";
+  schema:addressLocality "";
+  schema:postalCode "";
+  schema:streetAddress " " .
