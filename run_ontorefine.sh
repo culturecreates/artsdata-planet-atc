@@ -3,7 +3,7 @@
 # Update the Config file
 config_file="ontorefine-config.json"
 
-data="presenters"
+data="performance-spaces"
 
 echo ${data}
 
@@ -19,7 +19,7 @@ echo "Server started!"
 
 # Send a command to the running container
 echo "Running OntoRefine CLI using config.json..."
-sudo docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/ontorefine/sample_data/${data}.json \
+sudo docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/ontorefine/sample_data/sample_${data}.json \
   -u http://localhost:7333  \
   --no-clean \
   --configurations ../data/ontorefine/configs/ontorefine-config-${data}.json  \

@@ -182,6 +182,29 @@
                       }
                     }
                   ]
+                },
+                {
+                  "property": {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "name"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "schema"
+                    }
+                  },
+                  "values": [
+                    {
+                      "valueSource": {
+                        "source": "column",
+                        "columnName": "_ - attributes - presenters - name"
+                      },
+                      "valueType": {
+                        "type": "literal"
+                      }
+                    }
+                  ]
                 }
               ]
             }
