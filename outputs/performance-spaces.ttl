@@ -4,28 +4,32 @@
 @prefix schema: <http://schema.org/> .
 
 presenter:25 a schema:Organization;
-  schema:location performance-space:37, performance-space:92 .
+  schema:location performance-space:37, performance-space:92;
+  schema:name "Royal Test Theatre" .
 
 performance-space:37 a schema:Place;
   schema:name "Main Theatre";
   schema:maximumAttendeeCapacity "750" .
 
 presenter:50 a schema:Organization;
-  schema:location performance-space:52 .
+  schema:location performance-space:52;
+  schema:name "The Oscar Peterson Centre " .
 
 performance-space:52 a schema:Place;
   schema:name "Main Theatre";
   schema:maximumAttendeeCapacity "350" .
 
 presenter:73 a schema:Organization;
-  schema:location performance-space:74 .
+  schema:location performance-space:74;
+  schema:name "The Hummingbird Centre" .
 
 performance-space:74 a schema:Place;
   schema:name "Main theatre";
   schema:maximumAttendeeCapacity "2000" .
 
 presenter:90 a schema:Organization;
-  schema:location performance-space:91 .
+  schema:location performance-space:91;
+  schema:name "Lake Test Folk Festival" .
 
 performance-space:91 a schema:Place;
   schema:name "Main Stage";
@@ -36,28 +40,32 @@ performance-space:92 a schema:Place;
   schema:maximumAttendeeCapacity "108" .
 
 presenter:142 a schema:Organization;
-  schema:location performance-space:143, performance-space:559 .
+  schema:location performance-space:143, performance-space:559;
+  schema:name "Sanderson Centre for the Performing Arts" .
 
 performance-space:143 a schema:Place;
   schema:name "Sanderson Centre";
   schema:maximumAttendeeCapacity "1125" .
 
 presenter:150 a schema:Organization;
-  schema:location performance-space:151 .
+  schema:location performance-space:151;
+  schema:name "Lower Case Theatre" .
 
 performance-space:151 a schema:Place;
   schema:name "Italic Hall";
   schema:maximumAttendeeCapacity "700" .
 
 presenter:164 a schema:Organization;
-  schema:location performance-space:170 .
+  schema:location performance-space:170;
+  schema:name "Winnipeg International Children's Festival" .
 
 performance-space:170 a schema:Place;
   schema:name "MB Theatre For Young People";
   schema:maximumAttendeeCapacity "-310" .
 
 presenter:162 a schema:Organization;
-  schema:location performance-space:173, performance-space:174 .
+  schema:location performance-space:173, performance-space:174;
+  schema:name "Jeanne and Peter Lougheed Performing Arts Centre" .
 
 performance-space:173 a schema:Place;
   schema:name "Cargill Theatre";
@@ -68,7 +76,8 @@ performance-space:174 a schema:Place;
   schema:maximumAttendeeCapacity "124" .
 
 presenter:163 a schema:Organization;
-  schema:location performance-space:221, performance-space:222, performance-space:223 .
+  schema:location performance-space:221, performance-space:222, performance-space:223;
+  schema:name "TOHU / Montréal Complètement Cirque Festival" .
 
 performance-space:221 a schema:Place;
   schema:name "Salle TOHU";
@@ -83,7 +92,8 @@ performance-space:223 a schema:Place;
   schema:maximumAttendeeCapacity "250" .
 
 presenter:161 a schema:Organization;
-  schema:location performance-space:230, performance-space:231, performance-space:566 .
+  schema:location performance-space:230, performance-space:231, performance-space:566;
+  schema:name "Oakville Centre for the Performing Arts" .
 
 performance-space:230 a schema:Place;
   schema:name "Oakville Centre for the Performing Arts";
@@ -94,21 +104,24 @@ performance-space:231 a schema:Place;
   schema:maximumAttendeeCapacity "110" .
 
 presenter:278 a schema:Organization;
-  schema:location performance-space:290, performance-space:558 .
+  schema:location performance-space:290, performance-space:558;
+  schema:name "River Run Centre - City of Guelph" .
 
 performance-space:290 a schema:Place;
   schema:name "Main Stage";
   schema:maximumAttendeeCapacity "786" .
 
 presenter:287 a schema:Organization;
-  schema:location performance-space:293 .
+  schema:location performance-space:293;
+  schema:name "Fergus Grand Theatre" .
 
 performance-space:293 a schema:Place;
   schema:name "Fergus Grand Theatre";
   schema:maximumAttendeeCapacity "254" .
 
 presenter:289 a schema:Organization;
-  schema:location performance-space:294, performance-space:295 .
+  schema:location performance-space:294, performance-space:295;
+  schema:name "Huntsville Festival of the Arts" .
 
 performance-space:294 a schema:Place;
   schema:name "Algonquin Theatre";
@@ -119,14 +132,16 @@ performance-space:295 a schema:Place;
   schema:maximumAttendeeCapacity "895" .
 
 presenter:279 a schema:Organization;
-  schema:location performance-space:296 .
+  schema:location performance-space:296;
+  schema:name "Flato Markham Theatre" .
 
 performance-space:296 a schema:Place;
   schema:name "Flato Markham Theatre ";
   schema:maximumAttendeeCapacity "531" .
 
 presenter:284 a schema:Organization;
-  schema:location performance-space:297, performance-space:298 .
+  schema:location performance-space:297, performance-space:298;
+  schema:name "Richmond Hill Centre for the Performing Arts" .
 
 performance-space:297 a schema:Place;
   schema:name "RHCPA MAINSTAGE";
@@ -137,7 +152,8 @@ performance-space:298 a schema:Place;
   schema:maximumAttendeeCapacity "150" .
 
 presenter:286 a schema:Organization;
-  schema:location performance-space:299, performance-space:300 .
+  schema:location performance-space:299, performance-space:300;
+  schema:name "Chatham Capitol Theatre/Kiwanis Theatre" .
 
 performance-space:299 a schema:Place;
   schema:name "Chatham Capitol Theatre";
@@ -148,7 +164,8 @@ performance-space:300 a schema:Place;
   schema:maximumAttendeeCapacity "675" .
 
 presenter:283 a schema:Organization;
-  schema:location performance-space:301, performance-space:302, performance-space:303 .
+  schema:location performance-space:301, performance-space:302, performance-space:303;
+  schema:name "Brampton On Stage Presents" .
 
 performance-space:301 a schema:Place;
   schema:name "The Rose Theatre Main Hall";
@@ -163,21 +180,24 @@ performance-space:303 a schema:Place;
   schema:maximumAttendeeCapacity "400" .
 
 presenter:427 a schema:Organization;
-  schema:location performance-space:429 .
+  schema:location performance-space:429;
+  schema:name "Under the Spire Music Festival" .
 
 performance-space:429 a schema:Place;
   schema:name "Historic St. Mary's";
   schema:maximumAttendeeCapacity "350" .
 
 presenter:398 a schema:Organization;
-  schema:location performance-space:474 .
+  schema:location performance-space:474;
+  schema:name "First Light Centre for Performance and Creativity" .
 
 performance-space:474 a schema:Place;
   schema:name "First Light Centre for Performance and Creativity";
   schema:maximumAttendeeCapacity "400" .
 
 presenter:160 a schema:Organization;
-  schema:location performance-space:555, performance-space:560 .
+  schema:location performance-space:555, performance-space:560;
+  schema:name "City of Kingston - Kingston Grand Theatre" .
 
 performance-space:555 a schema:Place;
   schema:name "Kingston Grand Theatre - Regina Rosen Auditorium";
@@ -200,14 +220,16 @@ performance-space:566 a schema:Place;
   schema:maximumAttendeeCapacity "465" .
 
 presenter:285 a schema:Organization;
-  schema:location performance-space:580 .
+  schema:location performance-space:580;
+  schema:name "Capitol Centre" .
 
 performance-space:580 a schema:Place;
   schema:name "Betty Speers Theatre - Capitol Centre";
   schema:maximumAttendeeCapacity "932" .
 
 presenter:274 a schema:Organization;
-  schema:location performance-space:625, performance-space:626 .
+  schema:location performance-space:625, performance-space:626;
+  schema:name "Meridian Theatres at Centrepointe, Ottawa" .
 
 performance-space:625 a schema:Place;
   schema:name "Mainstage Theatre";
@@ -218,7 +240,8 @@ performance-space:626 a schema:Place;
   schema:maximumAttendeeCapacity "199" .
 
 presenter:281 a schema:Organization;
-  schema:location performance-space:638, performance-space:639 .
+  schema:location performance-space:638, performance-space:639;
+  schema:name "FirstOntario Arts Centre Milton" .
 
 performance-space:638 a schema:Place;
   schema:name "Mattamy Theatre";
@@ -229,21 +252,24 @@ performance-space:639 a schema:Place;
   schema:maximumAttendeeCapacity "200" .
 
 presenter:404 a schema:Organization;
-  schema:location performance-space:655 .
+  schema:location performance-space:655;
+  schema:name "Lawrence O'Brien Arts Centre" .
 
 performance-space:655 a schema:Place;
   schema:name "Lawrence O'Brien Arts Centre - Main Hall";
   schema:maximumAttendeeCapacity "404" .
 
 presenter:357 a schema:Organization;
-  schema:location performance-space:675 .
+  schema:location performance-space:675;
+  schema:name "Midland Cultural Centre" .
 
 performance-space:675 a schema:Place;
   schema:name "Midland Cultural Centre";
   schema:maximumAttendeeCapacity "270" .
 
 presenter:288 a schema:Organization;
-  schema:location performance-space:677, performance-space:678, performance-space:679 .
+  schema:location performance-space:677, performance-space:678, performance-space:679;
+  schema:name "FirstOntario Performing Arts Centre" .
 
 performance-space:677 a schema:Place;
   schema:name "Partridge Hall";
@@ -258,21 +284,24 @@ performance-space:679 a schema:Place;
   schema:maximumAttendeeCapacity "304" .
 
 presenter:680 a schema:Organization;
-  schema:location performance-space:681 .
+  schema:location performance-space:681;
+  schema:name "THEOP" .
 
 performance-space:681 a schema:Place;
   schema:name "Bernard Childs Auditorium";
   schema:maximumAttendeeCapacity "400" .
 
 presenter:699 a schema:Organization;
-  schema:location performance-space:700 .
+  schema:location performance-space:700;
+  schema:name "Pretend Arts Space" .
 
 performance-space:700 a schema:Place;
   schema:name "Pretend Black Box";
   schema:maximumAttendeeCapacity "100" .
 
 presenter:307 a schema:Organization;
-  schema:location performance-space:704, performance-space:705 .
+  schema:location performance-space:704, performance-space:705;
+  schema:name "Capitol Theatre" .
 
 performance-space:704 a schema:Place;
   schema:name "Capitol Theatre";
@@ -283,7 +312,8 @@ performance-space:705 a schema:Place;
   schema:maximumAttendeeCapacity "120" .
 
 presenter:282 a schema:Organization;
-  schema:location performance-space:707, performance-space:708 .
+  schema:location performance-space:707, performance-space:708;
+  schema:name "Shenkman Arts Centre - City of Ottawa" .
 
 performance-space:707 a schema:Place;
   schema:name "Harold Shenkman Hall";
@@ -294,28 +324,32 @@ performance-space:708 a schema:Place;
   schema:maximumAttendeeCapacity "150" .
 
 presenter:351 a schema:Organization;
-  schema:location performance-space:714 .
+  schema:location performance-space:714;
+  schema:name "Stephen Leacock Theatre - Town of Georgina" .
 
 performance-space:714 a schema:Place;
   schema:name "Stephen Leacock Theatre of Performing Arts";
   schema:maximumAttendeeCapacity "295" .
 
 presenter:275 a schema:Organization;
-  schema:location performance-space:728 .
+  schema:location performance-space:728;
+  schema:name "Chrysler Theatre " .
 
 performance-space:728 a schema:Place;
   schema:name "Chrysler Theatre";
   schema:maximumAttendeeCapacity "1107" .
 
 presenter:713 a schema:Organization;
-  schema:location performance-space:734 .
+  schema:location performance-space:734;
+  schema:name "Mohawk College" .
 
 performance-space:734 a schema:Place;
   schema:name "McIntyre Performing Arts Centre";
   schema:maximumAttendeeCapacity "1029" .
 
 presenter:270 a schema:Organization;
-  schema:location performance-space:756, performance-space:757 .
+  schema:location performance-space:756, performance-space:757;
+  schema:name "Mermaid Imperial Performing Arts Centre" .
 
 performance-space:756 a schema:Place;
   schema:name "Mermaid Imperial Performing Arts Centre";
@@ -326,7 +360,8 @@ performance-space:757 a schema:Place;
   schema:maximumAttendeeCapacity "30" .
 
 presenter:760 a schema:Organization;
-  schema:location performance-space:768, performance-space:769, performance-space:770 .
+  schema:location performance-space:768, performance-space:769, performance-space:770;
+  schema:name "Festival Place" .
 
 performance-space:768 a schema:Place;
   schema:name "Festival Place ";
@@ -341,14 +376,16 @@ performance-space:770 a schema:Place;
   schema:maximumAttendeeCapacity "220" .
 
 presenter:763 a schema:Organization;
-  schema:location performance-space:771 .
+  schema:location performance-space:771;
+  schema:name "Keyano College - Keyano Theatre & Arts Centre" .
 
 performance-space:771 a schema:Place;
   schema:name "Keyano Theatre";
   schema:maximumAttendeeCapacity "514" .
 
 presenter:761 a schema:Organization;
-  schema:location performance-space:782, performance-space:783 .
+  schema:location performance-space:782, performance-space:783;
+  schema:name "EA Rawlinson Centre for the Arts" .
 
 performance-space:782 a schema:Place;
   schema:name "Olive & John G Diefenbaker Theatre";
@@ -359,21 +396,24 @@ performance-space:783 a schema:Place;
   schema:maximumAttendeeCapacity "120" .
 
 presenter:785 a schema:Organization;
-  schema:location performance-space:804 .
+  schema:location performance-space:804;
+  schema:name "Bert Church Live Theatre" .
 
 performance-space:804 a schema:Place;
   schema:name "The Bert Church Live Theatre";
   schema:maximumAttendeeCapacity "377" .
 
 presenter:722 a schema:Organization;
-  schema:location performance-space:805, performance-space:807 .
+  schema:location performance-space:805, performance-space:807;
+  schema:name "Camrose Performing Arts Centre Management Council (Jeanne and Peter Lougheed Performing Arts Centre) " .
 
 performance-space:805 a schema:Place;
   schema:name "Cargill Theatre";
   schema:maximumAttendeeCapacity "584" .
 
 presenter:745 a schema:Organization;
-  schema:location performance-space:806, performance-space:809 .
+  schema:location performance-space:806, performance-space:809;
+  schema:name "City of Fort Saskatchewan - Shell Theatre" .
 
 performance-space:806 a schema:Place;
   schema:name "Dow Centennial Centre Shell Theatre";
@@ -388,70 +428,80 @@ performance-space:809 a schema:Place;
   schema:maximumAttendeeCapacity "7500" .
 
 presenter:786 a schema:Organization;
-  schema:location performance-space:811 .
+  schema:location performance-space:811;
+  schema:name "Olds Kiwanis Performing Arts Society" .
 
 performance-space:811 a schema:Place;
   schema:name "Olds Kiwanis Performing Arts Society";
   schema:maximumAttendeeCapacity "390" .
 
 presenter:711 a schema:Organization;
-  schema:location performance-space:813 .
+  schema:location performance-space:813;
+  schema:name "Organization of Saskatchewan Arts Councils" .
 
 performance-space:813 a schema:Place;
   schema:name "Swift Current Event Centre";
   schema:maximumAttendeeCapacity "525" .
 
 presenter:784 a schema:Organization;
-  schema:location performance-space:821 .
+  schema:location performance-space:821;
+  schema:name "Kinosoo Performing Arts" .
 
 performance-space:821 a schema:Place;
   schema:name "Kinosoo Performing Arts Association Cold Lake";
   schema:maximumAttendeeCapacity "200" .
 
 presenter:831 a schema:Organization;
-  schema:location performance-space:832 .
+  schema:location performance-space:832;
+  schema:name "Stage North Association" .
 
 performance-space:832 a schema:Place;
   schema:name "Legacy Centre";
   schema:maximumAttendeeCapacity "350" .
 
 presenter:816 a schema:Organization;
-  schema:location performance-space:833 .
+  schema:location performance-space:833;
+  schema:name "Coronation Royal Performing Arts" .
 
 performance-space:833 a schema:Place;
   schema:name "Coronation Community Centre";
   schema:maximumAttendeeCapacity "250" .
 
 presenter:810 a schema:Organization;
-  schema:location performance-space:840 .
+  schema:location performance-space:840;
+  schema:name "Lacombe Performing Arts Centre" .
 
 performance-space:840 a schema:Place;
   schema:name "LPAC - Shunda Theatre";
   schema:maximumAttendeeCapacity "150" .
 
 presenter:406 a schema:Organization;
-  schema:location performance-space:843 .
+  schema:location performance-space:843;
+  schema:name "Marigold Cultural Centre" .
 
 performance-space:843 a schema:Place;
   schema:name "Marigold Cultural Centre";
   schema:maximumAttendeeCapacity "208" .
 
 presenter:788 a schema:Organization;
-  schema:location performance-space:855 .
+  schema:location performance-space:855;
+  schema:name "Eleanor Pickup Arts Centre" .
 
 performance-space:855 a schema:Place;
   schema:name "Eleanor Pickup Arts Centre";
   schema:maximumAttendeeCapacity "222" .
 
 presenter:817 a schema:Organization;
-  schema:location performance-space:944 .
+  schema:location performance-space:944;
+  schema:name "Chautauqua Edson Arts Council" .
 
 performance-space:944 a schema:Place;
   schema:name "Red Brick Arts Centre";
   schema:maximumAttendeeCapacity "141" .
 
 presenter:956 a schema:Organization;
-  schema:location performance-space:957, performance-space:959 .
+  schema:location performance-space:957, performance-space:959;
+  schema:name "Light House Arts Centre" .
 
 performance-space:957 a schema:Place;
   schema:name "Lighthouse Art Centre- Performance Hall";
@@ -462,35 +512,40 @@ performance-space:959 a schema:Place;
   schema:maximumAttendeeCapacity "250" .
 
 presenter:277 a schema:Organization;
-  schema:location performance-space:961 .
+  schema:location performance-space:961;
+  schema:name "Wolf Performance Hall - London Public Library" .
 
 performance-space:961 a schema:Place;
   schema:name "Wolf Performance Hall";
   schema:maximumAttendeeCapacity "369" .
 
 presenter:416 a schema:Organization;
-  schema:location performance-space:968 .
+  schema:location performance-space:968;
+  schema:name "Saint John Theatre Company Inc" .
 
 performance-space:968 a schema:Place;
   schema:name "BMO Studio Theatre";
   schema:maximumAttendeeCapacity "100" .
 
 presenter:976 a schema:Organization;
-  schema:location performance-space:981 .
+  schema:location performance-space:981;
+  schema:name "Full Circle Festival" .
 
 performance-space:981 a schema:Place;
   schema:name "Full Circle Festival";
   schema:maximumAttendeeCapacity "300" .
 
 presenter:264 a schema:Organization;
-  schema:location performance-space:1032 .
+  schema:location performance-space:1032;
+  schema:name "Fredericton Playhouse" .
 
 performance-space:1032 a schema:Place;
   schema:name "Fredericton Playhouse";
   schema:maximumAttendeeCapacity "709" .
 
 presenter:265 a schema:Organization;
-  schema:location performance-space:1045, performance-space:1046, performance-space:3374 .
+  schema:location performance-space:1045, performance-space:1046;
+  schema:name "Acadia Performing Arts Series" .
 
 performance-space:1045 a schema:Place;
   schema:name "Festival Theatre";
@@ -501,21 +556,24 @@ performance-space:1046 a schema:Place;
   schema:maximumAttendeeCapacity "1200" .
 
 presenter:982 a schema:Organization;
-  schema:location performance-space:1051 .
+  schema:location performance-space:1051;
+  schema:name "Town of Riverview" .
 
 performance-space:1051 a schema:Place;
   schema:name "Caseley Park Bandstand";
   schema:maximumAttendeeCapacity "500" .
 
 presenter:267 a schema:Organization;
-  schema:location performance-space:1057 .
+  schema:location performance-space:1057;
+  schema:name "Harbourfront Theatre" .
 
 performance-space:1057 a schema:Place;
   schema:name "Harbourfront Theatre";
   schema:maximumAttendeeCapacity "520" .
 
 presenter:960 a schema:Organization;
-  schema:location performance-space:1065, performance-space:1071 .
+  schema:location performance-space:1065, performance-space:1071;
+  schema:name "Confederation Centre of the Arts" .
 
 performance-space:1065 a schema:Place;
   schema:name "Sobey Family Theatre";
@@ -526,35 +584,40 @@ performance-space:1071 a schema:Place;
   schema:maximumAttendeeCapacity "206" .
 
 presenter:205 a schema:Organization;
-  schema:location performance-space:1080 .
+  schema:location performance-space:1080;
+  schema:name "Imperial Theatre" .
 
 performance-space:1080 a schema:Place;
   schema:name "Imperial Theatre - Main Stage";
   schema:maximumAttendeeCapacity "842" .
 
 presenter:758 a schema:Organization;
-  schema:location performance-space:1152 .
+  schema:location performance-space:1152;
+  schema:name "Vic Juba Community Theatre" .
 
 performance-space:1152 a schema:Place;
   schema:name "Vic Juba Community Theatre Main Audience Chamber";
   schema:maximumAttendeeCapacity "548" .
 
 presenter:854 a schema:Organization;
-  schema:location performance-space:1201 .
+  schema:location performance-space:1201;
+  schema:name "Westlock Cultural Arts Theatre Society" .
 
 performance-space:1201 a schema:Place;
   schema:name "Westlock Cultural Arts Theatre Society";
   schema:maximumAttendeeCapacity "244" .
 
 presenter:963 a schema:Organization;
-  schema:location performance-space:1209 .
+  schema:location performance-space:1209;
+  schema:name "Festival Antigonish Summer Theatre" .
 
 performance-space:1209 a schema:Place;
   schema:name "Bauer Theatre";
   schema:maximumAttendeeCapacity "200" .
 
 presenter:759 a schema:Organization;
-  schema:location performance-space:1214, performance-space:1215, performance-space:1216 .
+  schema:location performance-space:1214, performance-space:1215, performance-space:1216;
+  schema:name "City of Medicine Hat (Esplanade Arts & Heritage Centre)" .
 
 performance-space:1214 a schema:Place;
   schema:name "Esplanade - Main Theatre";
@@ -569,91 +632,104 @@ performance-space:1216 a schema:Place;
   schema:maximumAttendeeCapacity "150" .
 
 presenter:712 a schema:Organization;
-  schema:location performance-space:1221 .
+  schema:location performance-space:1221;
+  schema:name "City of Leduc - Maclab Centre for the Performing Arts" .
 
 performance-space:1221 a schema:Place;
   schema:name "Maclab Centre for the Performing Arts";
   schema:maximumAttendeeCapacity "450" .
 
 presenter:955 a schema:Organization;
-  schema:location performance-space:1230 .
+  schema:location performance-space:1230;
+  schema:name "Chester Playhouse" .
 
 performance-space:1230 a schema:Place;
   schema:name "Chester Playhouse";
   schema:maximumAttendeeCapacity "176" .
 
 presenter:822 a schema:Organization;
-  schema:location performance-space:1234 .
+  schema:location performance-space:1234;
+  schema:name "Lloydminster Concert Series Association" .
 
 performance-space:1234 a schema:Place;
   schema:name "Vic Juba Community Theatre";
   schema:maximumAttendeeCapacity "550" .
 
 presenter:823 a schema:Organization;
-  schema:location performance-space:1239 .
+  schema:location performance-space:1239;
+  schema:name "Heartwood Folk Club" .
 
 performance-space:1239 a schema:Place;
   schema:name "Nancy Appleby Theatre, Athabasca, AB";
   schema:maximumAttendeeCapacity "280" .
 
 presenter:987 a schema:Organization;
-  schema:location performance-space:1287 .
+  schema:location performance-space:1287;
+  schema:name "Harmony Bazaar Festival of Women and Song Society" .
 
 performance-space:1287 a schema:Place;
   schema:name "Seacaps Memorial Park";
   schema:maximumAttendeeCapacity "1500" .
 
 presenter:766 a schema:Organization;
-  schema:location performance-space:1288 .
+  schema:location performance-space:1288;
+  schema:name "Whitecourt and Woodlands Performing Arts Society" .
 
 performance-space:1288 a schema:Place;
   schema:name "Allan & Jean Millar Centre";
   schema:maximumAttendeeCapacity "904" .
 
 presenter:787 a schema:Organization;
-  schema:location performance-space:1297 .
+  schema:location performance-space:1297;
+  schema:name "Gallery House Concerts Society" .
 
 performance-space:1297 a schema:Place;
   schema:name "Gallery House Concerts Society";
   schema:maximumAttendeeCapacity "50" .
 
 presenter:762 a schema:Organization;
-  schema:location performance-space:1314, performance-space:1527, performance-space:1528 .
+  schema:location performance-space:1314, performance-space:1527, performance-space:1528;
+  schema:name "The Arden Theatre" .
 
 performance-space:1314 a schema:Place;
   schema:name "The Arden Theatre";
   schema:maximumAttendeeCapacity "507" .
 
 presenter:1325 a schema:Organization;
-  schema:location performance-space:1326 .
+  schema:location performance-space:1326;
+  schema:name "Key City Theatre" .
 
 performance-space:1326 a schema:Place;
   schema:name "Key City Theatre";
   schema:maximumAttendeeCapacity "602" .
 
 presenter:1269 a schema:Organization;
-  schema:location performance-space:1329 .
+  schema:location performance-space:1329;
+  schema:name "Rocky Mountain Folk Club" .
 
 performance-space:1329 a schema:Place;
   schema:name "Rosedale Community Hall";
   schema:maximumAttendeeCapacity "100" .
 
 presenter:1342 a schema:Organization;
-  schema:location performance-space:1343 .
+  schema:location performance-space:1343;
+  schema:name "DaysArts" .
 
 performance-space:1343 a schema:Place;
   schema:name "Daysland Palace theatre";
   schema:maximumAttendeeCapacity "232" .
 
 presenter:1323 a schema:Organization;
-  schema:location performance-space:1350 .
+  schema:location performance-space:1350;
+  schema:name "Newell Concert Association" .
 
 performance-space:1350 a schema:Place;
   schema:name "Griffin Park Theatre";
   schema:maximumAttendeeCapacity "400" .
 
 presenter:1324 a schema:Organization;
-  schema:location performance-space:1352, performance-space:1353 .
+  schema:location performance-space:1352, performance-space:1353;
+  schema:name "Stettler Variety Showcase" .
 
 performance-space:1352 a schema:Place;
   schema:name "Stettler Community Center";
@@ -664,63 +740,72 @@ performance-space:1353 a schema:Place;
   schema:maximumAttendeeCapacity "257" .
 
 presenter:1354 a schema:Organization;
-  schema:location performance-space:1355, performance-space:1537, performance-space:1538 .
+  schema:location performance-space:1355, performance-space:1537, performance-space:1538;
+  schema:name "Dekker Centre for the Performing Arts" .
 
 performance-space:1355 a schema:Place;
   schema:name "Gordon Tootoosis Memorial Theatre";
   schema:maximumAttendeeCapacity "384" .
 
 presenter:1351 a schema:Organization;
-  schema:location performance-space:1369 .
+  schema:location performance-space:1369;
+  schema:name "Town of Okotoks-Old Church Theatre" .
 
 performance-space:1369 a schema:Place;
   schema:name "Rotary Performing Arts Centre (RPAC)";
   schema:maximumAttendeeCapacity "150" .
 
 presenter:1366 a schema:Organization;
-  schema:location performance-space:1370 .
+  schema:location performance-space:1370;
+  schema:name "Kirkland Lake Arts Council" .
 
 performance-space:1370 a schema:Place;
   schema:name "Northern College Charlewood Auditorium ";
   schema:maximumAttendeeCapacity "504" .
 
 presenter:860 a schema:Organization;
-  schema:location performance-space:1375 .
+  schema:location performance-space:1375;
+  schema:name "Empress Theatre" .
 
 performance-space:1375 a schema:Place;
   schema:name "Empress Theatre";
   schema:maximumAttendeeCapacity "327" .
 
 presenter:1373 a schema:Organization;
-  schema:location performance-space:1376 .
+  schema:location performance-space:1376;
+  schema:name "Provost Performing Arts Guild" .
 
 performance-space:1376 a schema:Place;
   schema:name "Provost Recreation & Cultural Centre ";
   schema:maximumAttendeeCapacity "350" .
 
 presenter:409 a schema:Organization;
-  schema:location performance-space:1377 .
+  schema:location performance-space:1377;
+  schema:name "Osprey Arts Centre" .
 
 performance-space:1377 a schema:Place;
   schema:name "Osprey Arts Centre";
   schema:maximumAttendeeCapacity "153" .
 
 presenter:271 a schema:Organization;
-  schema:location performance-space:1396 .
+  schema:location performance-space:1396;
+  schema:name "Antigonish Performing Arts Series" .
 
 performance-space:1396 a schema:Place;
   schema:name "Immaculata Auditorium";
   schema:maximumAttendeeCapacity "250" .
 
 presenter:1397 a schema:Organization;
-  schema:location performance-space:1399 .
+  schema:location performance-space:1399;
+  schema:name "New Moon Folk Club" .
 
 performance-space:1399 a schema:Place;
   schema:name "St. Basil's Cultural Centre";
   schema:maximumAttendeeCapacity "400" .
 
 presenter:846 a schema:Organization;
-  schema:location performance-space:1428, performance-space:1429 .
+  schema:location performance-space:1428, performance-space:1429;
+  schema:name "Simple Arts Space" .
 
 performance-space:1428 a schema:Place;
   schema:name "Simple Arts Space main Hall";
@@ -731,14 +816,16 @@ performance-space:1429 a schema:Place;
   schema:maximumAttendeeCapacity "75" .
 
 presenter:426 a schema:Organization;
-  schema:location performance-space:1438 .
+  schema:location performance-space:1438;
+  schema:name "Th'YARC Playhouse and Art Centre" .
 
 performance-space:1438 a schema:Place;
   schema:name "Yarmouth Arts Regional Council";
   schema:maximumAttendeeCapacity "320" .
 
 presenter:1359 a schema:Organization;
-  schema:location performance-space:1441, performance-space:1442 .
+  schema:location performance-space:1441, performance-space:1442;
+  schema:name "Orillia Opera House" .
 
 performance-space:1441 a schema:Place;
   schema:name "Lightfoot Theatre";
@@ -749,21 +836,24 @@ performance-space:1442 a schema:Place;
   schema:maximumAttendeeCapacity "104" .
 
 presenter:1447 a schema:Organization;
-  schema:location performance-space:1448 .
+  schema:location performance-space:1448;
+  schema:name "Manluk Theatre" .
 
 performance-space:1448 a schema:Place;
   schema:name "Manluk Theatre for the Performing Arts";
   schema:maximumAttendeeCapacity "150" .
 
 presenter:1367 a schema:Organization;
-  schema:location performance-space:1450 .
+  schema:location performance-space:1450;
+  schema:name "City of Ajax" .
 
 performance-space:1450 a schema:Place;
   schema:name "St. Francis Centre for Community, Culture, and Arts";
   schema:maximumAttendeeCapacity "150" .
 
 presenter:394 a schema:Organization;
-  schema:location performance-space:1522 .
+  schema:location performance-space:1522;
+  schema:name "deCoste Centre" .
 
 performance-space:1522 a schema:Place;
   schema:name "deCoste Performing Arts Centre";
@@ -778,14 +868,16 @@ performance-space:1528 a schema:Place;
   schema:maximumAttendeeCapacity "119" .
 
 presenter:839 a schema:Organization;
-  schema:location performance-space:1533 .
+  schema:location performance-space:1533;
+  schema:name "Pictou Lobster Carnival" .
 
 performance-space:1533 a schema:Place;
   schema:name "Pictou Lobster Carnival Main Stage";
   schema:maximumAttendeeCapacity "1500" .
 
 presenter:1449 a schema:Organization;
-  schema:location performance-space:1534 .
+  schema:location performance-space:1534;
+  schema:name "FLATO Academy Theatre" .
 
 performance-space:1534 a schema:Place;
   schema:name "FLATO Academy Theatre";
@@ -800,49 +892,56 @@ performance-space:1538 a schema:Place;
   schema:maximumAttendeeCapacity "200" .
 
 presenter:812 a schema:Organization;
-  schema:location performance-space:1541 .
+  schema:location performance-space:1541;
+  schema:name "Wainwright Encore Entertainment Society" .
 
 performance-space:1541 a schema:Place;
   schema:name "Wainwright Encore Entertainment Society, Wainwright Communiplex Theatre, 700 2nd Avenue Wainwright, Alberta";
   schema:maximumAttendeeCapacity "253" .
 
 presenter:1446 a schema:Organization;
-  schema:location performance-space:1564 .
+  schema:location performance-space:1564;
+  schema:name "Darke Hall Society Inc." .
 
 performance-space:1564 a schema:Place;
   schema:name "Darke Hall";
   schema:maximumAttendeeCapacity "470" .
 
 presenter:977 a schema:Organization;
-  schema:location performance-space:1565 .
+  schema:location performance-space:1565;
+  schema:name "Grace Arts Centre" .
 
 performance-space:1565 a schema:Place;
   schema:name "The Grace Arts Centre";
   schema:maximumAttendeeCapacity "170" .
 
 presenter:1440 a schema:Organization;
-  schema:location performance-space:1590 .
+  schema:location performance-space:1590;
+  schema:name "Charles W. Stockey Centre for the Performing Arts" .
 
 performance-space:1590 a schema:Place;
   schema:name "The Charles W. Stockey Centre for The Performing Arts";
   schema:maximumAttendeeCapacity "400" .
 
 presenter:1570 a schema:Organization;
-  schema:location performance-space:1591, performance-space:1876 .
+  schema:location performance-space:1591, performance-space:1876;
+  schema:name "Eastern Manitoba Concert Association" .
 
 performance-space:1591 a schema:Place;
   schema:name "Pinawa Community Centre";
   schema:maximumAttendeeCapacity "404" .
 
 presenter:1585 a schema:Organization;
-  schema:location performance-space:1595 .
+  schema:location performance-space:1595;
+  schema:name "Arts Mosaic" .
 
 performance-space:1595 a schema:Place;
   schema:name "Virden Auditorium Theatre";
   schema:maximumAttendeeCapacity "500" .
 
 presenter:1276 a schema:Organization;
-  schema:location performance-space:1621, performance-space:1626, performance-space:1629 .
+  schema:location performance-space:1621, performance-space:1626, performance-space:1629;
+  schema:name "Josephburg Presents " .
 
 performance-space:1621 a schema:Place;
   schema:name "Moyer Recreation Centre at Josephburg, AB";
@@ -856,22 +955,24 @@ performance-space:1629 a schema:Place;
   schema:maximumAttendeeCapacity "300" .
 
 presenter:765 a schema:Organization;
-  schema:location performance-space:1826 .
+  schema:location performance-space:1826;
+  schema:name "Vernon and District Performing Arts Centre" .
 
 performance-space:1826 a schema:Place;
   schema:name "Vernon and District Performing Arts Centre";
   schema:maximumAttendeeCapacity "750" .
 
 presenter:767 a schema:Organization;
-  schema:location performance-space:1833 .
+  schema:location performance-space:1833;
+  schema:name "City of Spruce Grove - Horizon Stage" .
 
 performance-space:1833 a schema:Place;
   schema:name "Horizon Stage";
   schema:maximumAttendeeCapacity "300" .
 
 presenter:1571 a schema:Organization;
-  schema:location performance-space:1854, performance-space:1855, performance-space:1856,
-    performance-space:2957 .
+  schema:location performance-space:1854, performance-space:1855, performance-space:1856;
+  schema:name "Killarney Turtle Mountain Arts Council" .
 
 performance-space:1854 a schema:Place;
   schema:name "Killarney Foundation Community Hall, Shamrock Centre, Killarney, MB";
@@ -886,7 +987,8 @@ performance-space:1856 a schema:Place;
   schema:maximumAttendeeCapacity "300" .
 
 presenter:401 a schema:Organization;
-  schema:location performance-space:1869 .
+  schema:location performance-space:1869;
+  schema:name "Kings Playhouse Georgetown" .
 
 performance-space:1869 a schema:Place;
   schema:name "Kings Playhouse";
@@ -897,20 +999,23 @@ performance-space:1876 a schema:Place;
   schema:maximumAttendeeCapacity "500" .
 
 presenter:1921 a schema:Organization;
-  schema:location performance-space:1927 .
+  schema:location performance-space:1927;
+  schema:name "Ron Goswell" .
 
 performance-space:1927 a schema:Place;
   schema:name "Sudbury Performance Group Boreal";
   schema:maximumAttendeeCapacity "360" .
 
 presenter:402 a schema:Organization;
-  schema:location performance-space:2187, performance-space:2698 .
+  schema:location performance-space:2187, performance-space:2698;
+  schema:name "King's Theatre" .
 
 performance-space:2187 a schema:Place;
   schema:name "Mainstage" .
 
 presenter:1576 a schema:Organization;
-  schema:location performance-space:2193, performance-space:2194, performance-space:2195 .
+  schema:location performance-space:2193, performance-space:2194, performance-space:2195;
+  schema:name "Aurora Borealis Arts Council" .
 
 performance-space:2193 a schema:Place;
   schema:name "Laurie Marsh Community hall ";
@@ -925,20 +1030,23 @@ performance-space:2195 a schema:Place;
   schema:maximumAttendeeCapacity "149" .
 
 presenter:397 a schema:Organization;
-  schema:location performance-space:2220 .
+  schema:location performance-space:2220;
+  schema:name "Evergreen Theatre" .
 
 performance-space:2220 a schema:Place;
   schema:name "Mainstage" .
 
 presenter:411 a schema:Organization;
-  schema:location performance-space:2256, performance-space:2298 .
+  schema:location performance-space:2256, performance-space:2298;
+  schema:name "Prismatic Arts Festival" .
 
 performance-space:2256 a schema:Place;
   schema:name "Dunn Theatre" .
 
 presenter:306 a schema:Organization;
   schema:location performance-space:2257, performance-space:2258, performance-space:2259,
-    performance-space:2260, performance-space:2261, performance-space:3530 .
+    performance-space:2260, performance-space:2261;
+  schema:name "Cape Breton Regional Municipality" .
 
 performance-space:2257 a schema:Place;
   schema:name "Makin' Waves";
@@ -961,7 +1069,8 @@ performance-space:2261 a schema:Place;
   schema:maximumAttendeeCapacity "150" .
 
 presenter:2269 a schema:Organization;
-  schema:location performance-space:2270 .
+  schema:location performance-space:2270;
+  schema:name "Souris Showhall Foundation" .
 
 performance-space:2270 a schema:Place;
   schema:name "Souris Show Hall";
@@ -972,88 +1081,101 @@ performance-space:2298 a schema:Place;
   schema:maximumAttendeeCapacity "180" .
 
 presenter:272 a schema:Organization;
-  schema:location performance-space:2424 .
+  schema:location performance-space:2424;
+  schema:name "Astor Theatre" .
 
 performance-space:2424 a schema:Place;
   schema:name "Astor Theatre";
   schema:maximumAttendeeCapacity "345" .
 
 presenter:2238 a schema:Organization;
-  schema:location performance-space:2482 .
+  schema:location performance-space:2482;
+  schema:name "Evergreen " .
 
 performance-space:2482 a schema:Place;
   schema:name "Evergreen Theatre";
   schema:maximumAttendeeCapacity "115" .
 
 presenter:2486 a schema:Organization;
-  schema:location performance-space:2487 .
+  schema:location performance-space:2487;
+  schema:name "Geraldton Children's Entertainment Series" .
 
 performance-space:2487 a schema:Place;
   schema:name "Geraldton Highschool";
   schema:maximumAttendeeCapacity "200" .
 
 presenter:2488 a schema:Organization;
-  schema:location performance-space:2489, performance-space:3471 .
+  schema:location performance-space:2489;
+  schema:name "Kids Kaleidoscope Entertainment Series for the Performing Arts" .
 
 performance-space:2489 a schema:Place;
   schema:name "Queen Elizabeth District High School" .
 
 presenter:2490 a schema:Organization;
-  schema:location performance-space:2491 .
+  schema:location performance-space:2491;
+  schema:name "Dryden Youth Entertainment Series" .
 
 performance-space:2491 a schema:Place;
   schema:name "Dryden Regional Cultural and Training Centre";
   schema:maximumAttendeeCapacity "498" .
 
 presenter:2494 a schema:Organization;
-  schema:location performance-space:2495 .
+  schema:location performance-space:2495;
+  schema:name "Kids and Company Family Entertainment Series (Fort Frances)" .
 
 performance-space:2495 a schema:Place;
   schema:name "Townshend Theatre-440 McIrvine Road Fort Frances" .
 
 presenter:2497 a schema:Organization;
-  schema:location performance-space:2498, performance-space:3455 .
+  schema:location performance-space:2498;
+  schema:name "Atikokan Children's Entertainment Series" .
 
 performance-space:2498 a schema:Place;
   schema:name "St. Patricks School";
   schema:maximumAttendeeCapacity "400" .
 
 presenter:2499 a schema:Organization;
-  schema:location performance-space:2500 .
+  schema:location performance-space:2500;
+  schema:name "Over the Rainbow Children's Series (Sault Ste Marie)" .
 
 performance-space:2500 a schema:Place;
   schema:name "Community Theatre Centre";
   schema:maximumAttendeeCapacity "975" .
 
 presenter:2501 a schema:Organization;
-  schema:location performance-space:2502 .
+  schema:location performance-space:2502;
+  schema:name "Razzamataz Kids' Shows! (Haliburton)" .
 
 performance-space:2502 a schema:Place;
   schema:name "Northern Lights Performing Arts Pavilion";
   schema:maximumAttendeeCapacity "226" .
 
 presenter:2503 a schema:Organization;
-  schema:location performance-space:2504 .
+  schema:location performance-space:2504;
+  schema:name "Kirkland Lake Family Entertainment Series" .
 
 performance-space:2504 a schema:Place;
   schema:name "Northern College Auditorium" .
 
 presenter:2505 a schema:Organization;
-  schema:location performance-space:2506 .
+  schema:location performance-space:2506;
+  schema:name "Pied Piper Kidshow (Temiskaming Shores) " .
 
 performance-space:2506 a schema:Place;
   schema:name "English Catholic Central School";
   schema:maximumAttendeeCapacity "300" .
 
 presenter:1627 a schema:Organization;
-  schema:location performance-space:2574 .
+  schema:location performance-space:2574;
+  schema:name "Bragg Creek Performing Arts Society" .
 
 performance-space:2574 a schema:Place;
   schema:name "Bragg Creek Community Centre";
   schema:maximumAttendeeCapacity "200" .
 
 presenter:1574 a schema:Organization;
-  schema:location performance-space:2639, performance-space:2640, performance-space:2641 .
+  schema:location performance-space:2639, performance-space:2640, performance-space:2641;
+  schema:name "Minnedosa Performing Arts Committee" .
 
 performance-space:2639 a schema:Place;
   schema:name "Minnedosa Community Conference Centre";
@@ -1068,7 +1190,8 @@ performance-space:2641 a schema:Place;
   schema:maximumAttendeeCapacity "250" .
 
 presenter:1608 a schema:Organization;
-  schema:location performance-space:2644, performance-space:2645 .
+  schema:location performance-space:2644, performance-space:2645;
+  schema:name "City of Winkler" .
 
 performance-space:2644 a schema:Place;
   schema:name "PW Enns Centennial Concert Hall";
@@ -1079,14 +1202,16 @@ performance-space:2645 a schema:Place;
   schema:maximumAttendeeCapacity "4000" .
 
 presenter:396 a schema:Organization;
-  schema:location performance-space:2648 .
+  schema:location performance-space:2648;
+  schema:name "Eastern Front Theatre" .
 
 performance-space:2648 a schema:Place;
   schema:name "Alderney Landing Theatre";
   schema:maximumAttendeeCapacity "280" .
 
 presenter:2255 a schema:Organization;
-  schema:location performance-space:2692 .
+  schema:location performance-space:2692;
+  schema:name "International Peace Garden" .
 
 performance-space:2692 a schema:Place;
   schema:name "Burdick Center";
@@ -1097,35 +1222,40 @@ performance-space:2698 a schema:Place;
   schema:maximumAttendeeCapacity "220" .
 
 presenter:2736 a schema:Organization;
-  schema:location performance-space:2738 .
+  schema:location performance-space:2738;
+  schema:name "Vermillion Allied Arts Council " .
 
 performance-space:2738 a schema:Place;
   schema:name "Alumni Hall Theatre, Lakeland College, Vermilion campus";
   schema:maximumAttendeeCapacity "400" .
 
 presenter:2673 a schema:Organization;
-  schema:location performance-space:2748 .
+  schema:location performance-space:2748;
+  schema:name "Lloydminster Allied Arts Council" .
 
 performance-space:2748 a schema:Place;
   schema:name "Vic Juba Community Theatre";
   schema:maximumAttendeeCapacity "550" .
 
 presenter:2676 a schema:Organization;
-  schema:location performance-space:2749 .
+  schema:location performance-space:2749;
+  schema:name "Weyburn Concert Series" .
 
 performance-space:2749 a schema:Place;
   schema:name "Cugnet Centre";
   schema:maximumAttendeeCapacity "900" .
 
 presenter:2674 a schema:Organization;
-  schema:location performance-space:2750 .
+  schema:location performance-space:2750;
+  schema:name "Yorkton Arts Council" .
 
 performance-space:2750 a schema:Place;
   schema:name "Anne Portnuff Theatre";
   schema:maximumAttendeeCapacity "734" .
 
 presenter:2677 a schema:Organization;
-  schema:location performance-space:2770 .
+  schema:location performance-space:2770;
+  schema:name "Swift Current Arts Council" .
 
 performance-space:2770 a schema:Place;
   schema:name "Living Sky Casino Event Centre";
@@ -1138,18 +1268,26 @@ performance-space:2811 a schema:Place;
   schema:name "Letkemann Theatre-RDPC";
   schema:maximumAttendeeCapacity "400" .
 
+presenter:2746 schema:name "ddick@thompson.ca" .
+
+presenter:1571 a schema:Organization;
+  schema:location performance-space:2957, performance-space:4043;
+  schema:name "Killarney Turtle Mountain Arts Council" .
+
 performance-space:2957 a schema:Place;
   schema:name "Heritage Home for the Arts";
   schema:maximumAttendeeCapacity "300" .
 
 presenter:1701 a schema:Organization;
-  schema:location performance-space:3037 .
+  schema:location performance-space:3037;
+  schema:name "Leah Test" .
 
 performance-space:3037 a schema:Place;
   schema:name "Leah's house" .
 
 presenter:3071 a schema:Organization;
-  schema:location performance-space:3072, performance-space:3074 .
+  schema:location performance-space:3072, performance-space:3074;
+  schema:name "Golden Prairie Arts Council" .
 
 performance-space:3072 a schema:Place;
   schema:name "Carman Collegiate Community Theatre";
@@ -1160,14 +1298,16 @@ performance-space:3074 a schema:Place;
   schema:maximumAttendeeCapacity "225" .
 
 presenter:1586 a schema:Organization;
-  schema:location performance-space:3080 .
+  schema:location performance-space:3080;
+  schema:name "Kaleidoscope Concerts" .
 
 performance-space:3080 a schema:Place;
   schema:name "ArtsForward";
   schema:maximumAttendeeCapacity "60" .
 
 presenter:1578 a schema:Organization;
-  schema:location performance-space:3081, performance-space:3082, performance-space:3083 .
+  schema:location performance-space:3081, performance-space:3082, performance-space:3083;
+  schema:name "The Pas Arts Council" .
 
 performance-space:3081 a schema:Place;
   schema:name "Legion Hall The Pas " .
@@ -1179,7 +1319,8 @@ performance-space:3083 a schema:Place;
   schema:name "Metis Hall " .
 
 presenter:2671 a schema:Organization;
-  schema:location performance-space:3095, performance-space:3096 .
+  schema:location performance-space:3095, performance-space:3096;
+  schema:name "E.A. Rawlinson Centre" .
 
 performance-space:3095 a schema:Place;
   schema:name "Olive & John G Diefenbaker Theatre";
@@ -1190,21 +1331,24 @@ performance-space:3096 a schema:Place;
   schema:maximumAttendeeCapacity "120" .
 
 presenter:424 a schema:Organization;
-  schema:location performance-space:3102 .
+  schema:location performance-space:3102;
+  schema:name "The Stage at St. Andrews" .
 
 performance-space:3102 a schema:Place;
   schema:name "The Stage at St Andrew's";
   schema:maximumAttendeeCapacity "500" .
 
 presenter:1572 a schema:Organization;
-  schema:location performance-space:3179 .
+  schema:location performance-space:3179;
+  schema:name "Prairie Fusion Arts and Entertainment" .
 
 performance-space:3179 a schema:Place;
   schema:name "Prairie Fusion Arts & Entertainment";
   schema:maximumAttendeeCapacity "444" .
 
 presenter:1587 a schema:Organization;
-  schema:location performance-space:3222, performance-space:3223, performance-space:3224 .
+  schema:location performance-space:3222, performance-space:3223, performance-space:3224;
+  schema:name "Souris District Arts Council" .
 
 performance-space:3222 a schema:Place;
   schema:name "Souris Glenwood Community Hall";
@@ -1219,7 +1363,8 @@ performance-space:3224 a schema:Place;
   schema:maximumAttendeeCapacity "250" .
 
 presenter:3260 a schema:Organization;
-  schema:location performance-space:3265, performance-space:3320 .
+  schema:location performance-space:3265, performance-space:3320;
+  schema:name "City of Barrie" .
 
 performance-space:3265 a schema:Place;
   schema:name "Georgian Theatre";
@@ -1230,135 +1375,161 @@ performance-space:3320 a schema:Place;
   schema:maximumAttendeeCapacity "210" .
 
 presenter:799 a schema:Organization;
-  schema:location performance-space:3364 .
+  schema:location performance-space:3364;
+  schema:name "Meadowvale Theatre" .
 
 performance-space:3364 a schema:Place;
   schema:name "Meadowvale Theatre" .
+
+presenter:265 a schema:Organization;
+  schema:location performance-space:3374;
+  schema:name "Acadia Performing Arts Series" .
 
 performance-space:3374 a schema:Place;
   schema:name "Acadia's KCIC Botanical Gardens";
   schema:maximumAttendeeCapacity "450" .
 
 presenter:3395 a schema:Organization;
-  schema:location performance-space:3396 .
+  schema:location performance-space:3396;
+  schema:name "Darke Hall Society Inc." .
 
 performance-space:3396 a schema:Place;
   schema:name "Darke Hall";
   schema:maximumAttendeeCapacity "610" .
+
+presenter:2497 a schema:Organization;
+  schema:location performance-space:3455;
+  schema:name "Atikokan Children's Entertainment Series" .
 
 performance-space:3455 a schema:Place;
   schema:name "St. Patricks Separate School";
   schema:maximumAttendeeCapacity "385" .
 
 presenter:2493 a schema:Organization;
-  schema:location performance-space:3456 .
+  schema:location performance-space:3456;
+  schema:name "Sunday Smiles Family Entertainment Series (Kenora)" .
 
 performance-space:3456 a schema:Place;
   schema:name "St. John Paul II School";
   schema:maximumAttendeeCapacity "250" .
 
 presenter:2492 a schema:Organization;
-  schema:location performance-space:3470 .
+  schema:location performance-space:3470;
+  schema:name "Red Lake Family Entertainment Series" .
 
 performance-space:3470 a schema:Place;
   schema:name "Red Lake Madsen Public School";
   schema:maximumAttendeeCapacity "200" .
 
+presenter:2488 a schema:Organization;
+  schema:location performance-space:3471;
+  schema:name "Kids Kaleidoscope Entertainment Series for the Performing Arts" .
+
 performance-space:3471 a schema:Place;
   schema:name "Sioux North High School " .
+
+presenter:306 a schema:Organization;
+  schema:location performance-space:3530, performance-space:3788, performance-space:4130;
+  schema:name "Cape Breton Regional Municipality" .
 
 performance-space:3530 a schema:Place;
   schema:name "ConnectArts" .
 
 presenter:3531 a schema:Organization;
-  schema:location performance-space:3618 .
+  schema:location performance-space:3618;
+  schema:name "Meaford Hall" .
 
 performance-space:3618 a schema:Place;
   schema:name "Meaford Hall Arts & Cultural Centre";
   schema:maximumAttendeeCapacity "330" .
 
 presenter:3670 a schema:Organization;
-  schema:location performance-space:3671 .
+  schema:location performance-space:3671;
+  schema:name "Imperial Theatre (ON)" .
 
 performance-space:3671 a schema:Place;
   schema:name "Imperial Theatre ";
   schema:maximumAttendeeCapacity "613" .
 
 presenter:979 a schema:Organization;
-  schema:location performance-space:3753 .
+  schema:location performance-space:3753;
+  schema:name "Lunenburg Folk Harbour Festival" .
 
 performance-space:3753 a schema:Place;
   schema:name "Lunenburg Opera House";
   schema:maximumAttendeeCapacity "300" .
 
 presenter:1615 a schema:Organization;
-  schema:location performance-space:3765 .
+  schema:location performance-space:3765;
+  schema:name "Burrows Trail Arts Council" .
 
 performance-space:3765 a schema:Place;
   schema:name "Burrows Trail Arts Council" .
 
 presenter:1580 a schema:Organization;
-  schema:location performance-space:3768 .
+  schema:location performance-space:3768;
+  schema:name "Prairie Vision Arts Council" .
 
 performance-space:3768 a schema:Place;
   schema:name "Prairie Vision arts Council" .
 
 presenter:2747 a schema:Organization;
-  schema:location performance-space:3770 .
+  schema:location performance-space:3770;
+  schema:name "Sunrise Performing Art Centre of Excellence (The SPACE Inc)" .
 
 performance-space:3770 a schema:Place;
   schema:name "The SPACE" .
-
-presenter:306 a schema:Organization;
-  schema:location performance-space:3788, performance-space:4130 .
 
 performance-space:3788 a schema:Place;
   schema:name "TBD" .
 
 presenter:276 a schema:Organization;
-  schema:location performance-space:3800 .
+  schema:location performance-space:3800;
+  schema:name "Cobalt Classic Theatre" .
 
 performance-space:3800 a schema:Place;
   schema:name "Classic Theatre Cobalt";
   schema:maximumAttendeeCapacity "250" .
 
 presenter:3895 a schema:Organization;
-  schema:location performance-space:3900 .
+  schema:location performance-space:3900;
+  schema:name "Registry Theatre" .
 
 performance-space:3900 a schema:Place;
   schema:name "The Registry Theatre";
   schema:maximumAttendeeCapacity "150" .
 
 presenter:3894 a schema:Organization;
-  schema:location performance-space:3910 .
+  schema:location performance-space:3910;
+  schema:name "Old Town Hall Waterford" .
 
 performance-space:3910 a schema:Place;
   schema:name "Waterford Old Town Hall";
   schema:maximumAttendeeCapacity "200" .
 
 presenter:808 a schema:Organization;
-  schema:location performance-space:3930 .
+  schema:location performance-space:3930;
+  schema:name "Calgary Folk Club" .
 
 performance-space:3930 a schema:Place;
   schema:name "Dalhousie Community Centre";
   schema:maximumAttendeeCapacity "295" .
 
 presenter:3939 a schema:Organization;
-  schema:location performance-space:3940 .
+  schema:location performance-space:3940;
+  schema:name "Carrrefour Communautaire Beausoleil Inc." .
 
 performance-space:3940 a schema:Place;
   schema:name "Gilles LaPlante Theatre";
   schema:maximumAttendeeCapacity "350" .
 
 presenter:413 a schema:Organization;
-  schema:location performance-space:3943 .
+  schema:location performance-space:3943;
+  schema:name "Resource Centre for the Arts" .
 
 performance-space:3943 a schema:Place;
   schema:name "LSPU Hall";
   schema:maximumAttendeeCapacity "192" .
-
-presenter:1571 a schema:Organization;
-  schema:location performance-space:4043 .
 
 performance-space:4043 a schema:Place;
   schema:name "Royal Canadian Legion Branch 25 Community Hall";
@@ -1366,7 +1537,8 @@ performance-space:4043 a schema:Place;
 
 presenter:4072 a schema:Organization;
   schema:location performance-space:4076, performance-space:4077, performance-space:4078,
-    performance-space:4079 .
+    performance-space:4079;
+  schema:name "Massey Theatre / Anvil Centre Theatre" .
 
 performance-space:4076 a schema:Place;
   schema:name "Massey Theatre Mainstage";
@@ -1385,54 +1557,62 @@ performance-space:4079 a schema:Place;
   schema:maximumAttendeeCapacity "250" .
 
 presenter:4059 a schema:Organization;
-  schema:location performance-space:4104 .
+  schema:location performance-space:4104;
+  schema:name "City of Delta" .
 
 performance-space:4104 a schema:Place;
   schema:name "North Delta Centre for the Arts ";
   schema:maximumAttendeeCapacity "144" .
 
 presenter:4106 a schema:Organization;
-  schema:location performance-space:4107 .
+  schema:location performance-space:4107;
+  schema:name "ArtSpring" .
 
 performance-space:4107 a schema:Place;
   schema:name "ARTSPRING";
   schema:maximumAttendeeCapacity "259" .
 
 presenter:4085 a schema:Organization;
-  schema:location performance-space:4116 .
+  schema:location performance-space:4116;
+  schema:name "The Port Theatre" .
 
 performance-space:4116 a schema:Place;
   schema:name "The Port Theatre";
   schema:maximumAttendeeCapacity "804" .
 
 presenter:4062 a schema:Organization;
-  schema:location performance-space:4117 .
+  schema:location performance-space:4117;
+  schema:name "Creston Concert Society" .
 
 performance-space:4117 a schema:Place;
   schema:name "Kootenay River Secondary School auditorium";
   schema:maximumAttendeeCapacity "320" .
 
 presenter:1229 a schema:Organization;
-  schema:location performance-space:4118 .
+  schema:location performance-space:4118;
+  schema:name "L’association Le Moulin de la Baie" .
 
 performance-space:4118 a schema:Place;
   schema:name "main stage" .
 
 presenter:4119 a schema:Organization;
-  schema:location performance-space:4120, performance-space:17057 .
+  schema:location performance-space:4120, performance-space:17057;
+  schema:name "L'association Le Moulin de la Baie" .
 
 performance-space:4120 a schema:Place;
   schema:name "Le Moulin de la Baie" .
 
 presenter:394 a schema:Organization;
-  schema:location performance-space:4123 .
+  schema:location performance-space:4123;
+  schema:name "deCoste Centre" .
 
 performance-space:4123 a schema:Place;
   schema:name "temporary location - 100 seat capacity";
   schema:maximumAttendeeCapacity "100" .
 
 presenter:4098 a schema:Organization;
-  schema:location performance-space:4126, performance-space:8780 .
+  schema:location performance-space:4126, performance-space:8780;
+  schema:name "The Farquhar at UVic" .
 
 performance-space:4126 a schema:Place;
   schema:name "Farquhar at UVic";
@@ -1443,49 +1623,56 @@ performance-space:4130 a schema:Place;
   schema:maximumAttendeeCapacity "100" .
 
 presenter:395 a schema:Organization;
-  schema:location performance-space:4131 .
+  schema:location performance-space:4131;
+  schema:name "Deep Roots Music Festival" .
 
 performance-space:4131 a schema:Place;
   schema:name "Festival Theatre";
   schema:maximumAttendeeCapacity "500" .
 
 presenter:4056 a schema:Organization;
-  schema:location performance-space:4145 .
+  schema:location performance-space:4145;
+  schema:name "Centennial Theatre" .
 
 performance-space:4145 a schema:Place;
   schema:name "Centennial Theatre";
   schema:maximumAttendeeCapacity "650" .
 
 presenter:4201 a schema:Organization;
-  schema:location performance-space:4202 .
+  schema:location performance-space:4202;
+  schema:name "Sid Williams Theatre Society" .
 
 performance-space:4202 a schema:Place;
   schema:name "Sid Williams Theatre";
   schema:maximumAttendeeCapacity "500" .
 
 presenter:4060 a schema:Organization;
-  schema:location performance-space:4207 .
+  schema:location performance-space:4207;
+  schema:name "Cowichan Performing Arts Centre" .
 
 performance-space:4207 a schema:Place;
   schema:name "Cowichan Performing Arts Centre";
   schema:maximumAttendeeCapacity "731" .
 
 presenter:4140 a schema:Organization;
-  schema:location performance-space:4210 .
+  schema:location performance-space:4210;
+  schema:name "Alberni Classical Concerts Society" .
 
 performance-space:4210 a schema:Place;
   schema:name "Arrowsmith Baptist Church";
   schema:maximumAttendeeCapacity "350" .
 
 presenter:983 a schema:Organization;
-  schema:location performance-space:4215 .
+  schema:location performance-space:4215;
+  schema:name "Strathspey Place" .
 
 performance-space:4215 a schema:Place;
   schema:name "Mainstage";
   schema:maximumAttendeeCapacity "486" .
 
 presenter:4099 a schema:Organization;
-  schema:location performance-space:4220, performance-space:4221 .
+  schema:location performance-space:4220, performance-space:4221;
+  schema:name "Trail and District Arts Council" .
 
 performance-space:4220 a schema:Place;
   schema:name "Bailey Theatre";
@@ -1496,28 +1683,32 @@ performance-space:4221 a schema:Place;
   schema:maximumAttendeeCapacity "100" .
 
 presenter:4061 a schema:Organization;
-  schema:location performance-space:4225 .
+  schema:location performance-space:4225;
+  schema:name "Creekside Theatre" .
 
 performance-space:4225 a schema:Place;
   schema:name "Creekside Theatre ";
   schema:maximumAttendeeCapacity "250" .
 
 presenter:4094 a schema:Organization;
-  schema:location performance-space:4228 .
+  schema:location performance-space:4228;
+  schema:name "Surrey Civic Theatres - SPARK Stages" .
 
 performance-space:4228 a schema:Place;
   schema:name "Main Stage";
   schema:maximumAttendeeCapacity "402" .
 
 presenter:4143 a schema:Organization;
-  schema:location performance-space:4233 .
+  schema:location performance-space:4233;
+  schema:name "West Coast Winter Music Society" .
 
 performance-space:4233 a schema:Place;
   schema:name "Clayoquot Sound Community Theatre";
   schema:maximumAttendeeCapacity "72" .
 
 presenter:4102 a schema:Organization;
-  schema:location performance-space:4234, performance-space:4235 .
+  schema:location performance-space:4234, performance-space:4235;
+  schema:name "Vernon & District Performing Arts Centre" .
 
 performance-space:4234 a schema:Place;
   schema:name "Vernon and District Performing Arts Centre";
@@ -1528,21 +1719,24 @@ performance-space:4235 a schema:Place;
   schema:maximumAttendeeCapacity "85" .
 
 presenter:4074 a schema:Organization;
-  schema:location performance-space:4244 .
+  schema:location performance-space:4244;
+  schema:name "North Peace Cultural Centre" .
 
 performance-space:4244 a schema:Place;
   schema:name "North Peace Cultural Centre";
   schema:maximumAttendeeCapacity "401" .
 
 presenter:4063 a schema:Organization;
-  schema:location performance-space:4341 .
+  schema:location performance-space:4341;
+  schema:name "Evergreen Cultural Centre" .
 
 performance-space:4341 a schema:Place;
   schema:name "Evergreen Cultural Centre";
   schema:maximumAttendeeCapacity "257" .
 
 presenter:4093 a schema:Organization;
-  schema:location performance-space:4473, performance-space:4474, performance-space:4475 .
+  schema:location performance-space:4473, performance-space:4474, performance-space:4475;
+  schema:name "Surrey Civic Theatres" .
 
 performance-space:4473 a schema:Place;
   schema:name "Surrey Arts Centre - Main Stage";
@@ -1557,49 +1751,56 @@ performance-space:4475 a schema:Place;
   schema:maximumAttendeeCapacity "204" .
 
 presenter:4055 a schema:Organization;
-  schema:location performance-space:4481, performance-space:9233 .
+  schema:location performance-space:4481, performance-space:9233;
+  schema:name "Capitol Theatre Restoration Society" .
 
 performance-space:4481 a schema:Place;
   schema:name "Capitol Theatre Nelson";
   schema:maximumAttendeeCapacity "406" .
 
 presenter:4101 a schema:Organization;
-  schema:location performance-space:4517 .
+  schema:location performance-space:4517;
+  schema:name "Venables Theatre / Oliver Community Theatre Society" .
 
 performance-space:4517 a schema:Place;
   schema:name "Venables Theatre";
   schema:maximumAttendeeCapacity "373" .
 
 presenter:4069 a schema:Organization;
-  schema:location performance-space:4518 .
+  schema:location performance-space:4518;
+  schema:name "Kicking Horse Culture" .
 
 performance-space:4518 a schema:Place;
   schema:name "Golden Civic Centre";
   schema:maximumAttendeeCapacity "300" .
 
 presenter:4095 a schema:Organization;
-  schema:location performance-space:4554 .
+  schema:location performance-space:4554;
+  schema:name "Terrace Concert Society" .
 
 performance-space:4554 a schema:Place;
   schema:name "REM Lee Theatre";
   schema:maximumAttendeeCapacity "680" .
 
 presenter:4075 a schema:Organization;
-  schema:location performance-space:4566 .
+  schema:location performance-space:4566;
+  schema:name "Oceanside Classical Concerts" .
 
 performance-space:4566 a schema:Place;
   schema:name "Knox United Church, Parksville";
   schema:maximumAttendeeCapacity "300" .
 
 presenter:4073 a schema:Organization;
-  schema:location performance-space:4568 .
+  schema:location performance-space:4568;
+  schema:name "Max Cameron Theatre" .
 
 performance-space:4568 a schema:Place;
   schema:name "Max Cameron Theatre SD#47";
   schema:maximumAttendeeCapacity "200" .
 
 presenter:4086 a schema:Organization;
-  schema:location performance-space:4570, performance-space:4571 .
+  schema:location performance-space:4570, performance-space:4571;
+  schema:name "Prince George Community & District Arts Council" .
 
 performance-space:4570 a schema:Place;
   schema:name "Knox Performance Centre";
@@ -1610,42 +1811,48 @@ performance-space:4571 a schema:Place;
   schema:maximumAttendeeCapacity "300" .
 
 presenter:4084 a schema:Organization;
-  schema:location performance-space:4586 .
+  schema:location performance-space:4586;
+  schema:name "Knox Performance Centre" .
 
 performance-space:4586 a schema:Place;
   schema:name "Knox Performance Centre";
   schema:maximumAttendeeCapacity "300" .
 
 presenter:1321 a schema:Organization;
-  schema:location performance-space:4892 .
+  schema:location performance-space:4892;
+  schema:name "artsPlace Canmore" .
 
 performance-space:4892 a schema:Place;
   schema:name "artsPlace";
   schema:maximumAttendeeCapacity "119" .
 
 presenter:4092 a schema:Organization;
-  schema:location performance-space:4893 .
+  schema:location performance-space:4893;
+  schema:name "Shadbolt Centre for the Arts" .
 
 performance-space:4893 a schema:Place;
   schema:name "Studio Theatre";
   schema:maximumAttendeeCapacity "145" .
 
 presenter:4070 a schema:Organization;
-  schema:location performance-space:4895 .
+  schema:location performance-space:4895;
+  schema:name "Kitimat Concert Association" .
 
 performance-space:4895 a schema:Place;
   schema:name "Mount Elizabeth Theatre";
   schema:maximumAttendeeCapacity "530" .
 
 presenter:4071 a schema:Organization;
-  schema:location performance-space:4896 .
+  schema:location performance-space:4896;
+  schema:name "Lester Centre of the Arts" .
 
 performance-space:4896 a schema:Place;
   schema:name "Lester Centre of the Arts";
   schema:maximumAttendeeCapacity "702" .
 
 presenter:4054 a schema:Organization;
-  schema:location performance-space:4897, performance-space:4898, performance-space:6083 .
+  schema:location performance-space:4897, performance-space:4898, performance-space:6083;
+  schema:name "Bulkley Valley Concert Association" .
 
 performance-space:4897 a schema:Place;
   schema:name "Della Herman Theatre";
@@ -1656,7 +1863,8 @@ performance-space:4898 a schema:Place;
   schema:maximumAttendeeCapacity "80" .
 
 presenter:4089 a schema:Organization;
-  schema:location performance-space:4904, performance-space:4905 .
+  schema:location performance-space:4904, performance-space:4905;
+  schema:name "Quesnel Live Arts" .
 
 performance-space:4904 a schema:Place;
   schema:name "Chuck Mobley Theatre - Multi purpose room";
@@ -1667,21 +1875,24 @@ performance-space:4905 a schema:Place;
   schema:maximumAttendeeCapacity "250" .
 
 presenter:4919 a schema:Organization;
-  schema:location performance-space:5950 .
+  schema:location performance-space:5950;
+  schema:name "BC Touring Council" .
 
 performance-space:5950 a schema:Place;
   schema:name "Great Big Hall";
   schema:maximumAttendeeCapacity "250" .
 
 presenter:5969 a schema:Organization;
-  schema:location performance-space:5971 .
+  schema:location performance-space:5971;
+  schema:name "Pender Harbour Music Society" .
 
 performance-space:5971 a schema:Place;
   schema:name "Pender Harbour Music Society";
   schema:maximumAttendeeCapacity "80" .
 
 presenter:4057 a schema:Organization;
-  schema:location performance-space:6010, performance-space:6011 .
+  schema:location performance-space:6010, performance-space:6011;
+  schema:name "Chan Centre for the Performing Arts" .
 
 performance-space:6010 a schema:Place;
   schema:name "Chan Centre for the Performing Arts - Chan Shun Concert Hall";
@@ -1696,35 +1907,40 @@ performance-space:6083 a schema:Place;
   schema:maximumAttendeeCapacity "300" .
 
 presenter:4090 a schema:Organization;
-  schema:location performance-space:6285 .
+  schema:location performance-space:6285;
+  schema:name "Rotary Centre for the Arts" .
 
 performance-space:6285 a schema:Place;
   schema:name "Rotary Centre for the Arts - Mary Irwin Theatre";
   schema:maximumAttendeeCapacity "326" .
 
 presenter:4088 a schema:Organization;
-  schema:location performance-space:6357 .
+  schema:location performance-space:6357;
+  schema:name "Quadra Concerts " .
 
 performance-space:6357 a schema:Place;
   schema:name "Quadra Community Centre";
   schema:maximumAttendeeCapacity "250" .
 
 presenter:985 a schema:Organization;
-  schema:location performance-space:6370 .
+  schema:location performance-space:6370;
+  schema:name "Glasgow Square Theatre" .
 
 performance-space:6370 a schema:Place;
   schema:name "Glasgow Square Theatre ";
   schema:maximumAttendeeCapacity "200" .
 
 presenter:280 a schema:Organization;
-  schema:location performance-space:6648, performance-space:6923 .
+  schema:location performance-space:6648, performance-space:6923;
+  schema:name "Grand Theatre - City of Kingston" .
 
 performance-space:6648 a schema:Place;
   schema:name "Rosen Auditorium - Kingston Grand Theatre";
   schema:maximumAttendeeCapacity "775" .
 
 presenter:404 a schema:Organization;
-  schema:location performance-space:6864 .
+  schema:location performance-space:6864;
+  schema:name "Lawrence O'Brien Arts Centre" .
 
 performance-space:6864 a schema:Place;
   schema:name "Lawrence O'Brien Arts Centre - Up Close and Personal";
@@ -1735,63 +1951,72 @@ performance-space:6923 a schema:Place;
   schema:maximumAttendeeCapacity "65" .
 
 presenter:5948 a schema:Organization;
-  schema:location performance-space:6984 .
+  schema:location performance-space:6984;
+  schema:name "Western Manitoba Centennial Auditorium" .
 
 performance-space:6984 a schema:Place;
   schema:name "WMCA ";
   schema:maximumAttendeeCapacity "804" .
 
 presenter:7016 a schema:Organization;
-  schema:location performance-space:7030 .
+  schema:location performance-space:7030;
+  schema:name "Barrhead Arts Council" .
 
 performance-space:7030 a schema:Place;
   schema:name "Barrhead Composite Drama Theatre";
   schema:maximumAttendeeCapacity "195" .
 
 presenter:2974 a schema:Organization;
-  schema:location performance-space:7292 .
+  schema:location performance-space:7292;
+  schema:name "Bassano Arts Council" .
 
 performance-space:7292 a schema:Place;
   schema:name "Bassano Community Hall";
   schema:maximumAttendeeCapacity "300" .
 
 presenter:4219 a schema:Organization;
-  schema:location performance-space:7295 .
+  schema:location performance-space:7295;
+  schema:name "Prince George Folkfest Society" .
 
 performance-space:7295 a schema:Place;
   schema:name "Knox Performance Centre";
   schema:maximumAttendeeCapacity "250" .
 
 presenter:2106 a schema:Organization;
-  schema:location performance-space:7428 .
+  schema:location performance-space:7428;
+  schema:name "Bow Valley Music Club" .
 
 performance-space:7428 a schema:Place;
   schema:name "Strathcona Community Centre";
   schema:maximumAttendeeCapacity "250" .
 
 presenter:3685 a schema:Organization;
-  schema:location performance-space:7598 .
+  schema:location performance-space:7598;
+  schema:name "Fish Creek Concerts" .
 
 performance-space:7598 a schema:Place;
   schema:name "Southwood United Church";
   schema:maximumAttendeeCapacity "300" .
 
 presenter:766 a schema:Organization;
-  schema:location performance-space:7611 .
+  schema:location performance-space:7611;
+  schema:name "Whitecourt and Woodlands Performing Arts Society" .
 
 performance-space:7611 a schema:Place;
   schema:name "St. Joseph Parish Hall";
   schema:maximumAttendeeCapacity "320" .
 
 presenter:2675 a schema:Organization;
-  schema:location performance-space:7616 .
+  schema:location performance-space:7616;
+  schema:name "Moose Jaw Cultural Centre" .
 
 performance-space:7616 a schema:Place;
   schema:name "Moose Jaw Cultural Centre (Mae Wilson Theatre)";
   schema:maximumAttendeeCapacity "422" .
 
 presenter:4050 a schema:Organization;
-  schema:location performance-space:7707, performance-space:7708 .
+  schema:location performance-space:7707, performance-space:7708;
+  schema:name "ACT Arts Centre" .
 
 performance-space:7707 a schema:Place;
   schema:name "ACT Arts Centre - Mainstage Theatre";
@@ -1802,20 +2027,23 @@ performance-space:7708 a schema:Place;
   schema:maximumAttendeeCapacity "120" .
 
 presenter:308 a schema:Organization;
-  schema:location performance-space:7781 .
+  schema:location performance-space:7781;
+  schema:name "Carleton Victoria Arts Council" .
 
 performance-space:7781 a schema:Place;
   schema:name "Weldon Matthews Theatre" .
 
 presenter:7872 a schema:Organization;
-  schema:location performance-space:7877 .
+  schema:location performance-space:7877;
+  schema:name "Forestburg Concert Series " .
 
 performance-space:7877 a schema:Place;
   schema:name "The Forestburg Community Centre";
   schema:maximumAttendeeCapacity "400" .
 
 presenter:784 a schema:Organization;
-  schema:location performance-space:7916 .
+  schema:location performance-space:7916;
+  schema:name "Kinosoo Performing Arts" .
 
 performance-space:7916 a schema:Place;
   schema:name "Kinosoo Performing Arts Association Cold Lake";
@@ -1824,14 +2052,16 @@ performance-space:7916 a schema:Place;
 presenter:7921 a schema:Organization;
   schema:location performance-space:7922, performance-space:9163, performance-space:9164,
     performance-space:9165, performance-space:9166, performance-space:9167, performance-space:9813,
-    performance-space:9819 .
+    performance-space:9819;
+  schema:name "Iroquois Falls Arts Council" .
 
 performance-space:7922 a schema:Place;
   schema:name "Marie and Dr. Michael Boyle Community Auditorium";
   schema:maximumAttendeeCapacity "385" .
 
 presenter:7923 a schema:Organization;
-  schema:location performance-space:7927, performance-space:7928 .
+  schema:location performance-space:7927, performance-space:7928;
+  schema:name "Kingsville Music Society" .
 
 performance-space:7927 a schema:Place;
   schema:name "Grovedale Arts and Culture Center";
@@ -1842,7 +2072,8 @@ performance-space:7928 a schema:Place;
   schema:maximumAttendeeCapacity "1500" .
 
 presenter:4068 a schema:Organization;
-  schema:location performance-space:8164, performance-space:8165 .
+  schema:location performance-space:8164, performance-space:8165;
+  schema:name "Kay Meek Arts Centre" .
 
 performance-space:8164 a schema:Place;
   schema:name "Grosvenor Theatre";
@@ -1853,21 +2084,24 @@ performance-space:8165 a schema:Place;
   schema:maximumAttendeeCapacity "145" .
 
 presenter:2884 a schema:Organization;
-  schema:location performance-space:8237 .
+  schema:location performance-space:8237;
+  schema:name "Robin Zettel - Victoria Jubilee Hall" .
 
 performance-space:8237 a schema:Place;
   schema:name "Victoria Jubilee Hall";
   schema:maximumAttendeeCapacity "300" .
 
 presenter:7472 a schema:Organization;
-  schema:location performance-space:8287 .
+  schema:location performance-space:8287;
+  schema:name "Northern Lights Folk Club" .
 
 performance-space:8287 a schema:Place;
   schema:name "Northern Lights Folk Club";
   schema:maximumAttendeeCapacity "185" .
 
 presenter:1627 a schema:Organization;
-  schema:location performance-space:8458 .
+  schema:location performance-space:8458;
+  schema:name "Bragg Creek Performing Arts Society" .
 
 performance-space:8458 a schema:Place;
   schema:name "Snowbirds Seniors Chalet";
@@ -1878,7 +2112,8 @@ performance-space:8780 a schema:Place;
   schema:maximumAttendeeCapacity "172" .
 
 presenter:4053 a schema:Organization;
-  schema:location performance-space:9116 .
+  schema:location performance-space:9116;
+  schema:name "BlueShore Financial Centre for the Performing Arts" .
 
 performance-space:9116 a schema:Place;
   schema:name "Fiona Black";
@@ -1904,69 +2139,79 @@ performance-space:9233 a schema:Place;
   schema:maximumAttendeeCapacity "406" .
 
 presenter:7915 a schema:Organization;
-  schema:location performance-space:9251 .
+  schema:location performance-space:9251;
+  schema:name "Rossland Council for Arts and Culture" .
 
 performance-space:9251 a schema:Place;
   schema:name "Miners Hall";
   schema:maximumAttendeeCapacity "198" .
 
 presenter:9305 a schema:Organization;
-  schema:location performance-space:9311 .
+  schema:location performance-space:9311;
+  schema:name "Vernon Towne Theatre" .
 
 performance-space:9311 a schema:Place;
   schema:name "Vernon Towne Theatre";
   schema:maximumAttendeeCapacity "343" .
 
 presenter:2486 a schema:Organization;
-  schema:location performance-space:9385 .
+  schema:location performance-space:9385;
+  schema:name "Geraldton Children's Entertainment Series" .
 
 performance-space:9385 a schema:Place;
   schema:name "Our Lady of Fatima School, Longlac";
   schema:maximumAttendeeCapacity "200" .
 
 presenter:9542 a schema:Organization;
-  schema:location performance-space:9543 .
+  schema:location performance-space:9543;
+  schema:name "Dalhousie Arts Centre" .
 
 performance-space:9543 a schema:Place;
   schema:name "Rebecca Cohn Theatre";
   schema:maximumAttendeeCapacity "1023" .
 
 presenter:2503 a schema:Organization;
-  schema:location performance-space:9690 .
+  schema:location performance-space:9690;
+  schema:name "Kirkland Lake Family Entertainment Series" .
 
 performance-space:9690 a schema:Place;
   schema:name "Kirkland Lake District Composite School" .
 
 presenter:9683 a schema:Organization;
-  schema:location performance-space:9697 .
+  schema:location performance-space:9697;
+  schema:name "Mary Winspear Centre" .
 
 performance-space:9697 a schema:Place;
   schema:name "Charlie White Theatre";
   schema:maximumAttendeeCapacity "315" .
 
 presenter:9698 a schema:Organization;
-  schema:location performance-space:9699 .
+  schema:location performance-space:9699;
+  schema:name "Concerts Denman" .
 
 performance-space:9699 a schema:Place;
   schema:name "Denman Community Hall";
   schema:maximumAttendeeCapacity "150" .
 
 presenter:4052 a schema:Organization;
-  schema:location performance-space:9729 .
+  schema:location performance-space:9729;
+  schema:name "Arts Whistler" .
 
 performance-space:9729 a schema:Place;
   schema:name "Maury Young Arts Centre";
   schema:maximumAttendeeCapacity "230" .
 
 presenter:7659 a schema:Organization;
-  schema:location performance-space:9731 .
+  schema:location performance-space:9731;
+  schema:name "Clarke Theatre" .
 
 performance-space:9731 a schema:Place;
   schema:name "Clarke Theatre";
   schema:maximumAttendeeCapacity "702" .
 
 presenter:9759 a schema:Organization;
-  schema:location performance-space:9760 .
+  schema:location performance-space:9760;
+  schema:name "Musquodoboit Valley Bicentennial" .
 
 performance-space:9760 a schema:Place;
   schema:name "Main stage" .
@@ -1978,48 +2223,55 @@ performance-space:9819 a schema:Place;
   schema:name "Complex Hall " .
 
 presenter:9922 a schema:Organization;
-  schema:location performance-space:9923 .
+  schema:location performance-space:9923;
+  schema:name "Clayoquot Sound Theatre" .
 
 performance-space:9923 a schema:Place;
   schema:name "Clayoquot Sound Theatre ";
   schema:maximumAttendeeCapacity "140" .
 
 presenter:9921 a schema:Organization;
-  schema:location performance-space:10241 .
+  schema:location performance-space:10241;
+  schema:name "Ryan Donn What's On" .
 
 performance-space:10241 a schema:Place;
   schema:name "Venables theatre ";
   schema:maximumAttendeeCapacity "370" .
 
 presenter:266 a schema:Organization;
-  schema:location performance-space:10334 .
+  schema:location performance-space:10334;
+  schema:name "Carlton-Victoria Arts Council " .
 
 performance-space:10334 a schema:Place;
   schema:name "Weldon Matthews Theatre";
   schema:maximumAttendeeCapacity "390" .
 
 presenter:417 a schema:Organization;
-  schema:location performance-space:10365 .
+  schema:location performance-space:10365;
+  schema:name "Savoy Theatre" .
 
 performance-space:10365 a schema:Place;
   schema:name "Mainstage" .
 
 presenter:4051 a schema:Organization;
-  schema:location performance-space:10755 .
+  schema:location performance-space:10755;
+  schema:name "Arts Revelstoke" .
 
 performance-space:10755 a schema:Place;
   schema:name "Revelstoke Performing Arts Centre";
   schema:maximumAttendeeCapacity "275" .
 
 presenter:10974 a schema:Organization;
-  schema:location performance-space:10979 .
+  schema:location performance-space:10979;
+  schema:name "Gabriola Theatre Centre" .
 
 performance-space:10979 a schema:Place;
   schema:name "Gabriola Theatre Centre";
   schema:maximumAttendeeCapacity "80" .
 
 presenter:4058 a schema:Organization;
-  schema:location performance-space:10998, performance-space:10999 .
+  schema:location performance-space:10998, performance-space:10999;
+  schema:name "Chilliwack Cultural Centre Society" .
 
 performance-space:10998 a schema:Place;
   schema:name "HUB International Theatre";
@@ -2030,14 +2282,16 @@ performance-space:10999 a schema:Place;
   schema:maximumAttendeeCapacity "158" .
 
 presenter:11004 a schema:Organization;
-  schema:location performance-space:11103 .
+  schema:location performance-space:11103;
+  schema:name "Hahaha Kidzfest" .
 
 performance-space:11103 a schema:Place;
   schema:name "Gyro Park";
   schema:maximumAttendeeCapacity "1500" .
 
 presenter:12875 a schema:Organization;
-  schema:location performance-space:12876, performance-space:12878 .
+  schema:location performance-space:12876, performance-space:12878;
+  schema:name "Example Venue" .
 
 performance-space:12876 a schema:Place;
   schema:name "The big space";
@@ -2048,7 +2302,8 @@ performance-space:12878 a schema:Place;
   schema:maximumAttendeeCapacity "150" .
 
 presenter:14295 a schema:Organization;
-  schema:location performance-space:14558, performance-space:14559 .
+  schema:location performance-space:14558, performance-space:14559;
+  schema:name "National Music Centre" .
 
 performance-space:14558 a schema:Place;
   schema:name "National Music Centre Performance Hall";
@@ -2059,28 +2314,32 @@ performance-space:14559 a schema:Place;
   schema:maximumAttendeeCapacity "120" .
 
 presenter:14555 a schema:Organization;
-  schema:location performance-space:14699 .
+  schema:location performance-space:14699;
+  schema:name "Ancaster Memorial " .
 
 performance-space:14699 a schema:Place;
   schema:name "Peller Hall";
   schema:maximumAttendeeCapacity "466" .
 
 presenter:4487 a schema:Organization;
-  schema:location performance-space:14770 .
+  schema:location performance-space:14770;
+  schema:name "CENTRE IN THE SQUARE" .
 
 performance-space:14770 a schema:Place;
   schema:name "Centre In The Square";
   schema:maximumAttendeeCapacity "1951" .
 
 presenter:15911 a schema:Organization;
-  schema:location performance-space:16069 .
+  schema:location performance-space:16069;
+  schema:name "Strathcona Performing Arts Centre" .
 
 performance-space:16069 a schema:Place;
   schema:name "Strathcona Performing Arts Centre";
   schema:maximumAttendeeCapacity "340" .
 
 presenter:15624 a schema:Organization;
-  schema:location performance-space:16295, performance-space:16296 .
+  schema:location performance-space:16295, performance-space:16296;
+  schema:name "The Community Arts Council of Prince George & District" .
 
 performance-space:16295 a schema:Place;
   schema:name "Prince George Playhouse";
@@ -2091,21 +2350,24 @@ performance-space:16296 a schema:Place;
   schema:maximumAttendeeCapacity "300" .
 
 presenter:4064 a schema:Organization;
-  schema:location performance-space:16387 .
+  schema:location performance-space:16387;
+  schema:name "Fanny Bay Community Association" .
 
 performance-space:16387 a schema:Place;
   schema:name "Fanny Bay Community Hall";
   schema:maximumAttendeeCapacity "135" .
 
 presenter:292 a schema:Organization;
-  schema:location performance-space:16388, performance-space:16465 .
+  schema:location performance-space:16388, performance-space:16465;
+  schema:name "Living Arts Centre (City of Mississauga)" .
 
 performance-space:16388 a schema:Place;
   schema:name "Main Auditorium";
   schema:maximumAttendeeCapacity "1300" .
 
 presenter:14271 a schema:Organization;
-  schema:location performance-space:16412 .
+  schema:location performance-space:16412;
+  schema:name "North Okanagan Community Concert Association" .
 
 performance-space:16412 a schema:Place;
   schema:name "VERNON AND DISTRICT PERFORMING ARTS CENTRE";
@@ -2116,49 +2378,56 @@ performance-space:16465 a schema:Place;
   schema:maximumAttendeeCapacity "300" .
 
 presenter:9112 a schema:Organization;
-  schema:location performance-space:16550 .
+  schema:location performance-space:16550;
+  schema:name "TOHU" .
 
 performance-space:16550 a schema:Place;
   schema:name "TOHU";
   schema:maximumAttendeeCapacity "850" .
 
 presenter:16559 a schema:Organization;
-  schema:location performance-space:16560 .
+  schema:location performance-space:16560;
+  schema:name "APA Test Presenter" .
 
 performance-space:16560 a schema:Place;
   schema:name "APA HQ";
   schema:maximumAttendeeCapacity "100" .
 
 presenter:16586 a schema:Organization;
-  schema:location performance-space:16593 .
+  schema:location performance-space:16593;
+  schema:name "Borderline Culture Foundation" .
 
 performance-space:16593 a schema:Place;
   schema:name "Demmitt Community Centre";
   schema:maximumAttendeeCapacity "299" .
 
 presenter:16713 a schema:Organization;
-  schema:location performance-space:16714 .
+  schema:location performance-space:16714;
+  schema:name "The Vernon Towne Theatre" .
 
 performance-space:16714 a schema:Place;
   schema:name "Vernon Towne Theatre";
   schema:maximumAttendeeCapacity "343" .
 
 presenter:16345 a schema:Organization;
-  schema:location performance-space:16725 .
+  schema:location performance-space:16725;
+  schema:name "Whistler Chamber Music Society" .
 
 performance-space:16725 a schema:Place;
   schema:name "Maury Young Arts Centre";
   schema:maximumAttendeeCapacity "200" .
 
 presenter:785 a schema:Organization;
-  schema:location performance-space:16897 .
+  schema:location performance-space:16897;
+  schema:name "Bert Church Live Theatre" .
 
 performance-space:16897 a schema:Place;
   schema:name "Inspire";
   schema:maximumAttendeeCapacity "100" .
 
 presenter:4142 a schema:Organization;
-  schema:location performance-space:16899, performance-space:16900 .
+  schema:location performance-space:16899, performance-space:16900;
+  schema:name "Highway 19 Concerts" .
 
 performance-space:16899 a schema:Place;
   schema:name "Rivercity Stage";
@@ -2172,21 +2441,24 @@ performance-space:17057 a schema:Place;
   schema:name "Venue" .
 
 presenter:17083 a schema:Organization;
-  schema:location performance-space:17118 .
+  schema:location performance-space:17118;
+  schema:name "Centre culturel Desjardins" .
 
 performance-space:17118 a schema:Place;
   schema:name "Centre culturel Desjardins de Joliette";
   schema:maximumAttendeeCapacity "775" .
 
 presenter:680 a schema:Organization;
-  schema:location performance-space:17514 .
+  schema:location performance-space:17514;
+  schema:name "THEOP" .
 
 performance-space:17514 a schema:Place;
   schema:name "Real Hope Christian Assembly";
   schema:maximumAttendeeCapacity "150" .
 
 presenter:17525 a schema:Organization;
-  schema:location performance-space:17590 .
+  schema:location performance-space:17590;
+  schema:name "Thunder Bay Kids Concerts" .
 
 performance-space:17590 a schema:Place;
   schema:name "Thunder Bay Boys and Girls Club";
