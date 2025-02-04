@@ -23,7 +23,7 @@ jobs:
         run: |
           mkdir -p outputs
 
-          sources=("artist" "network" "presenter")
+          sources=("artist" "network" "presenter" "performance-space")
           for source in "${sources[@]}"; do
             offset=0
             data=""
@@ -85,7 +85,7 @@ jobs:
     needs: commit-and-push
     strategy:
       matrix:
-        artifact: ["artists", "networks", "presenters"]
+        artifact: ["artists", "networks", "presenters", "performance-spaces"]
     steps:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v2

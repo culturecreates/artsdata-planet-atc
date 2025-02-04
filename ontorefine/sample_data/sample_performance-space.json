@@ -1,0 +1,27 @@
+{
+    "data": [
+        {
+            "type": "performance-space",
+            "id": "0809d856-2e1f-48fd-b2c7-b1fcebdcc7c1",
+            "attributes": {
+                "nid": 37,
+                "name": "Main Theatre",
+                "created": "2022-03-01T11:03:37+00:00",
+                "changed": "2022-06-01T02:09:42+00:00",
+                "identifiers": {
+                    "artsdata": null,
+                    "wikidata": null,
+                    "atc": 37
+                },
+                "presenters": {
+                    "type": "presenter",
+                    "nid": 25,
+                    "name": "Royal Test Theatre"
+                },
+                "seats_capacity": 750,
+                "status": "active",
+                "tech_equipment_available": null
+            }
+        }
+    ]
+}
