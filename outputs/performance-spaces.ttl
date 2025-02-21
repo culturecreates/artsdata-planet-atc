@@ -2463,3 +2463,18 @@ presenter:17525 a schema:Organization;
 performance-space:17590 a schema:Place;
   schema:name "Thunder Bay Boys and Girls Club";
   schema:maximumAttendeeCapacity "250" .
+
+presenter:17971 a schema:Organization;
+  schema:location performance-space:17972;
+  schema:name "Société de musique de chambre de Gatineau" .
+
+performance-space:17972 a schema:Place;
+  schema:name "Conservatoire de musique de Gatineau";
+  schema:sameAs <K5-2> .
+
+presenter:160 a schema:Organization;
+  schema:location performance-space:17985;
+  schema:name "City of Kingston - Kingston Grand Theatre" .
+
+performance-space:17985 a schema:Place;
+  schema:name "Conservatoire de musique de Gatineau" .
