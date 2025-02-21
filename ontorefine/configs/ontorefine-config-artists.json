@@ -26,7 +26,9 @@
             "baseIRI": "http://example.com/base/",
             "namespaces": {
               "artist": "https://arts-tc.ca/artist/",
-              "schema": "http://schema.org/"
+              "schema": "http://schema.org/",
+              "adr": "http://kg.artsdata.ca/resource/",
+              "wd": "http://www.wikidata.org/entity/"
             },
             "subjectMappings": [
               {
@@ -117,7 +119,8 @@
                           "columnName": "_ - attributes - identifiers - artsdata"
                         },
                         "transformation": {
-                          "language": "raw"
+                          "language": "prefix",
+                          "expression": "adr"
                         },
                         "valueType": {
                           "type": "iri",
@@ -131,7 +134,8 @@
                           "columnName": "_ - attributes - identifiers - wikidata"
                         },
                         "transformation": {
-                          "language": "raw"
+                          "language": "prefix",
+                          "expression": "wd"
                         },
                         "valueType": {
                           "type": "iri",

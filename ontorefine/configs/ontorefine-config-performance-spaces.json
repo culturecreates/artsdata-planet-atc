@@ -1,216 +1,220 @@
 {
-    "importOptions": [
-      {
-        "recordPath": [
-          "_",
-          "data",
-          "_"
-        ],
-        "limit": -1,
-        "trimStrings": false,
-        "guessCellValueTypes": false,
-        "storeEmptyStrings": true,
-        "includeFileSources": false,
-        "includeArchiveFileName": false,
-        "disableAutoPreview": false,
-        "projectName": "performance space json",
-        "projectTags": [],
-        "fileSource": "performance-space.json",
-        "archiveFileName": null
-      }
-    ],
-    "operations": [
-      {
-        "op": "mapping-editor/save-rdf-mapping",
-        "mapping": {
-          "baseIRI": "http://example.com/base/",
-          "namespaces": {
-            "presenter": "https://arts-tc.ca/presenter/",
-            "performance-space": "https://arts-tc.ca/performance-space/",
-            "schema": "http://schema.org/"
-          },
-          "subjectMappings": [
-            {
-              "subject": {
+  "importOptions": [
+    {
+      "recordPath": [
+        "_",
+        "data",
+        "_"
+      ],
+      "limit": -1,
+      "trimStrings": false,
+      "guessCellValueTypes": false,
+      "storeEmptyStrings": true,
+      "includeFileSources": false,
+      "includeArchiveFileName": false,
+      "disableAutoPreview": false,
+      "projectName": "cli-transform-sample_performance-spaces.json-2025-02-21",
+      "projectTags": [],
+      "fileSource": "sample_performance-spaces.json",
+      "archiveFileName": null
+    }
+  ],
+  "operations": [
+    {
+      "op": "mapping-editor/save-rdf-mapping",
+      "mapping": {
+        "baseIRI": "http://example.com/base/",
+        "namespaces": {
+          "presenter": "https://arts-tc.ca/presenter/",
+          "performance-space": "https://arts-tc.ca/performance-space/",
+          "schema": "http://schema.org/",
+          "adr": "http://kg.artsdata.ca/resource/",
+          "wd": "http://www.wikidata.org/entity/"
+        },
+        "subjectMappings": [
+          {
+            "subject": {
+              "valueSource": {
+                "source": "column",
+                "columnName": "_ - attributes - presenters - nid"
+              },
+              "transformation": {
+                "language": "prefix",
+                "expression": "presenter"
+              }
+            },
+            "typeMappings": [
+              {
                 "valueSource": {
-                  "source": "column",
-                  "columnName": "_ - attributes - presenters - nid"
+                  "source": "constant",
+                  "constant": "Organization"
                 },
                 "transformation": {
                   "language": "prefix",
-                  "expression": "presenter"
+                  "expression": "schema"
                 }
-              },
-              "typeMappings": [
-                {
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
                   "valueSource": {
                     "source": "constant",
-                    "constant": "Organization"
+                    "constant": "location"
                   },
                   "transformation": {
                     "language": "prefix",
                     "expression": "schema"
                   }
-                }
-              ],
-              "propertyMappings": [
-                {
-                  "property": {
+                },
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "location"
+                      "source": "column",
+                      "columnName": "_ - attributes - nid"
                     },
                     "transformation": {
                       "language": "prefix",
-                      "expression": "schema"
-                    }
-                  },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - attributes - nid"
-                      },
-                      "transformation": {
-                        "language": "prefix",
-                        "expression": "performance-space"
-                      },
-                      "valueType": {
-                        "type": "iri",
-                        "typeMappings": [
-                          {
+                      "expression": "performance-space"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "Place"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "schema"
+                          }
+                        }
+                      ],
+                      "propertyMappings": [
+                        {
+                          "property": {
                             "valueSource": {
                               "source": "constant",
-                              "constant": "Place"
+                              "constant": "name"
                             },
                             "transformation": {
                               "language": "prefix",
                               "expression": "schema"
                             }
-                          }
-                        ],
-                        "propertyMappings": [
-                          {
-                            "property": {
-                              "valueSource": {
-                                "source": "constant",
-                                "constant": "name"
-                              },
-                              "transformation": {
-                                "language": "prefix",
-                                "expression": "schema"
-                              }
-                            },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "column",
-                                  "columnName": "_ - attributes - name"
-                                },
-                                "valueType": {
-                                  "type": "literal"
-                                }
-                              }
-                            ]
                           },
-                          {
-                            "property": {
+                          "values": [
+                            {
                               "valueSource": {
-                                "source": "constant",
-                                "constant": "sameAs"
+                                "source": "column",
+                                "columnName": "_ - attributes - name"
                               },
-                              "transformation": {
-                                "language": "prefix",
-                                "expression": "schema"
+                              "valueType": {
+                                "type": "literal"
                               }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "sameAs"
                             },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "column",
-                                  "columnName": "_ - attributes - identifiers - wikidata"
-                                },
-                                "transformation": {
-                                  "language": "raw"
-                                },
-                                "valueType": {
-                                  "type": "iri",
-                                  "typeMappings": [],
-                                  "propertyMappings": []
-                                }
-                              },
-                              {
-                                "valueSource": {
-                                  "source": "column",
-                                  "columnName": "_ - attributes - identifiers - artsdata"
-                                },
-                                "transformation": {
-                                  "language": "raw"
-                                },
-                                "valueType": {
-                                  "type": "iri",
-                                  "typeMappings": [],
-                                  "propertyMappings": []
-                                }
-                              }
-                            ]
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
                           },
-                          {
-                            "property": {
+                          "values": [
+                            {
                               "valueSource": {
-                                "source": "constant",
-                                "constant": "maximumAttendeeCapacity"
+                                "source": "column",
+                                "columnName": "_ - attributes - identifiers - wikidata"
                               },
                               "transformation": {
                                 "language": "prefix",
-                                "expression": "schema"
+                                "expression": "wd"
+                              },
+                              "valueType": {
+                                "type": "iri",
+                                "typeMappings": [],
+                                "propertyMappings": []
                               }
                             },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "column",
-                                  "columnName": "_ - attributes - seats_capacity"
-                                },
-                                "valueType": {
-                                  "type": "literal"
-                                }
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - attributes - identifiers - artsdata"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "adr"
+                              },
+                              "valueType": {
+                                "type": "iri",
+                                "typeMappings": [],
+                                "propertyMappings": []
                               }
-                            ]
-                          }
-                        ]
-                      }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "maximumAttendeeCapacity"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - attributes - seats_capacity"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     }
-                  ]
-                },
-                {
-                  "property": {
-                    "valueSource": {
-                      "source": "constant",
-                      "constant": "name"
-                    },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
-                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "name"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - attributes - presenters - name"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - presenters - name"
+                    },
+                    "valueType": {
+                      "type": "literal"
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "description": "Save RDF Mapping"
-      }
-    ]
-  }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "description": "Save RDF Mapping"
+    }
+  ]
+}

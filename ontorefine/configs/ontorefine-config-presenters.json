@@ -1,507 +1,567 @@
 {
-    "importOptions": [
-      {
-        "recordPath": [
-          "_",
-          "data",
-          "_"
-        ],
-        "limit": -1,
-        "trimStrings": false,
-        "guessCellValueTypes": false,
-        "storeEmptyStrings": true,
-        "includeFileSources": false,
-        "includeArchiveFileName": false,
-        "disableAutoPreview": false,
-        "projectName": "presenters json",
-        "projectTags": [],
-        "fileSource": "presenters.json",
-        "archiveFileName": null
-      }
-    ],
-    "operations": [
-      {
-        "op": "mapping-editor/save-rdf-mapping",
-        "mapping": {
-          "baseIRI": "http://example.com/base/",
-          "namespaces": {
-            "presenter": "https://arts-tc.ca/presenter/",
-            "schema": "http://schema.org/"
-          },
-          "subjectMappings": [
-            {
-              "subject": {
+  "importOptions": [
+    {
+      "recordPath": [
+        "_",
+        "data",
+        "_"
+      ],
+      "limit": -1,
+      "trimStrings": false,
+      "guessCellValueTypes": false,
+      "storeEmptyStrings": true,
+      "includeFileSources": false,
+      "includeArchiveFileName": false,
+      "disableAutoPreview": false,
+      "projectName": "cli-transform-sample_presenters.json-2025-02-21",
+      "projectTags": [],
+      "fileSource": "sample_presenters.json",
+      "archiveFileName": null
+    }
+  ],
+  "operations": [
+    {
+      "op": "mapping-editor/save-rdf-mapping",
+      "mapping": {
+        "baseIRI": "http://example.com/base/",
+        "namespaces": {
+          "presenter": "https://arts-tc.ca/presenter/",
+          "schema": "http://schema.org/",
+          "adr": "http://kg.artsdata.ca/resource/",
+          "wd": "http://www.wikidata.org/entity/"
+        },
+        "subjectMappings": [
+          {
+            "subject": {
+              "valueSource": {
+                "source": "column",
+                "columnName": "_ - attributes - nid"
+              },
+              "transformation": {
+                "language": "prefix",
+                "expression": "presenter"
+              }
+            },
+            "typeMappings": [
+              {
                 "valueSource": {
-                  "source": "column",
-                  "columnName": "_ - attributes - nid"
+                  "source": "constant",
+                  "constant": "Organization"
                 },
                 "transformation": {
                   "language": "prefix",
-                  "expression": "presenter"
+                  "expression": "schema"
                 }
-              },
-              "typeMappings": [
-                {
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
                   "valueSource": {
                     "source": "constant",
-                    "constant": "Organization"
+                    "constant": "name"
                   },
                   "transformation": {
                     "language": "prefix",
                     "expression": "schema"
                   }
-                }
-              ],
-              "propertyMappings": [
-                {
-                  "property": {
-                    "valueSource": {
-                      "source": "constant",
-                      "constant": "name"
-                    },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
-                    }
-                  },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - attributes - name"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "email"
+                      "source": "column",
+                      "columnName": "_ - attributes - name"
                     },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                    "valueType": {
+                      "type": "literal"
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "email"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - attributes - email"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "telephone"
+                      "source": "column",
+                      "columnName": "_ - attributes - email"
                     },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                    "valueType": {
+                      "type": "literal"
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "telephone"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - attributes - phone"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "faxNumber"
+                      "source": "column",
+                      "columnName": "_ - attributes - phone"
                     },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                    "valueType": {
+                      "type": "literal"
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "faxNumber"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - attributes - fax"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "url"
+                      "source": "column",
+                      "columnName": "_ - attributes - fax"
                     },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                    "valueType": {
+                      "type": "literal"
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "url"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - attributes - website"
-                      },
-                      "transformation": {
-                        "language": "raw"
-                      },
-                      "valueType": {
-                        "type": "iri",
-                        "typeMappings": [],
-                        "propertyMappings": []
-                      }
-                    }
-                  ]
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "contactPoint"
+                      "source": "column",
+                      "columnName": "_ - attributes - website"
                     },
                     "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                      "language": "raw"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "contactPoint"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - attributes - nid"
-                      },
-                      "valueType": {
-                        "type": "unique_bnode",
-                        "typeMappings": [
-                          {
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - nid"
+                    },
+                    "valueType": {
+                      "type": "unique_bnode",
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "ContactPoint"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "schema"
+                          }
+                        }
+                      ],
+                      "propertyMappings": [
+                        {
+                          "property": {
                             "valueSource": {
                               "source": "constant",
-                              "constant": "ContactPoint"
+                              "constant": "name"
                             },
                             "transformation": {
                               "language": "prefix",
                               "expression": "schema"
                             }
-                          }
-                        ],
-                        "propertyMappings": [
-                          {
-                            "property": {
-                              "valueSource": {
-                                "source": "constant",
-                                "constant": "name"
-                              },
-                              "transformation": {
-                                "language": "prefix",
-                                "expression": "schema"
-                              }
-                            },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "row_index"
-                                },
-                                "transformation": {
-                                  "language": "grel",
-                                  "expression": "cells[\"_ - attributes - contact - first_name\"].value + \" \" + cells[\"_ - attributes - contact - last_name\"].value"
-                                },
-                                "valueType": {
-                                  "type": "literal"
-                                }
-                              }
-                            ]
                           },
-                          {
-                            "property": {
+                          "values": [
+                            {
                               "valueSource": {
-                                "source": "constant",
-                                "constant": "email"
+                                "source": "row_index"
                               },
                               "transformation": {
-                                "language": "prefix",
-                                "expression": "schema"
-                              }
-                            },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "column",
-                                  "columnName": "_ - attributes - contact - email"
-                                },
-                                "valueType": {
-                                  "type": "literal"
-                                }
-                              }
-                            ]
-                          },
-                          {
-                            "property": {
-                              "valueSource": {
-                                "source": "constant",
-                                "constant": "telephone"
+                                "language": "grel",
+                                "expression": "cells[\"_ - attributes - contact - first_name\"].value + \" \" + cells[\"_ - attributes - contact - last_name\"].value"
                               },
-                              "transformation": {
-                                "language": "prefix",
-                                "expression": "schema"
+                              "valueType": {
+                                "type": "literal"
                               }
-                            },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "column",
-                                  "columnName": "_ - attributes - contact - phone"
-                                },
-                                "valueType": {
-                                  "type": "literal"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                },
-                {
-                  "property": {
-                    "valueSource": {
-                      "source": "constant",
-                      "constant": "address"
-                    },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
-                    }
-                  },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - attributes - nid"
-                      },
-                      "valueType": {
-                        "type": "unique_bnode",
-                        "typeMappings": [
-                          {
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
                             "valueSource": {
                               "source": "constant",
-                              "constant": "PostalAddress"
+                              "constant": "email"
                             },
                             "transformation": {
                               "language": "prefix",
                               "expression": "schema"
                             }
-                          }
-                        ],
-                        "propertyMappings": [
-                          {
-                            "property": {
-                              "valueSource": {
-                                "source": "constant",
-                                "constant": "addressCountry"
-                              },
-                              "transformation": {
-                                "language": "prefix",
-                                "expression": "schema"
-                              }
-                            },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "column",
-                                  "columnName": "_ - attributes - address - country_code"
-                                },
-                                "valueType": {
-                                  "type": "literal"
-                                }
-                              }
-                            ]
                           },
-                          {
-                            "property": {
+                          "values": [
+                            {
                               "valueSource": {
-                                "source": "constant",
-                                "constant": "addressRegion"
+                                "source": "column",
+                                "columnName": "_ - attributes - contact - email"
                               },
-                              "transformation": {
-                                "language": "prefix",
-                                "expression": "schema"
+                              "valueType": {
+                                "type": "literal"
                               }
-                            },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "column",
-                                  "columnName": "_ - attributes - address - administrative_area"
-                                },
-                                "valueType": {
-                                  "type": "literal"
-                                }
-                              }
-                            ]
-                          },
-                          {
-                            "property": {
-                              "valueSource": {
-                                "source": "constant",
-                                "constant": "addressLocality"
-                              },
-                              "transformation": {
-                                "language": "prefix",
-                                "expression": "schema"
-                              }
-                            },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "column",
-                                  "columnName": "_ - attributes - address - locality"
-                                },
-                                "valueType": {
-                                  "type": "literal"
-                                }
-                              }
-                            ]
-                          },
-                          {
-                            "property": {
-                              "valueSource": {
-                                "source": "constant",
-                                "constant": "postalCode"
-                              },
-                              "transformation": {
-                                "language": "prefix",
-                                "expression": "schema"
-                              }
-                            },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "column",
-                                  "columnName": "_ - attributes - address - postal_code"
-                                },
-                                "valueType": {
-                                  "type": "literal"
-                                }
-                              }
-                            ]
-                          },
-                          {
-                            "property": {
-                              "valueSource": {
-                                "source": "constant",
-                                "constant": "streetAddress"
-                              },
-                              "transformation": {
-                                "language": "prefix",
-                                "expression": "schema"
-                              }
-                            },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "row_index"
-                                },
-                                "transformation": {
-                                  "language": "grel",
-                                  "expression": "cells[\"_ - attributes - address - address_line1\"].value + \" \" + cells[\"_ - attributes - address - address_line2\"].value"
-                                },
-                                "valueType": {
-                                  "type": "literal"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                },
-                {
-                  "property": {
-                    "valueSource": {
-                      "source": "constant",
-                      "constant": "subjectOf"
-                    },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
-                    }
-                  },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - attributes - nid"
-                      },
-                      "valueType": {
-                        "type": "unique_bnode",
-                        "typeMappings": [
-                          {
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
                             "valueSource": {
                               "source": "constant",
-                              "constant": "TechArticle"
+                              "constant": "telephone"
                             },
                             "transformation": {
                               "language": "prefix",
                               "expression": "schema"
                             }
-                          }
-                        ],
-                        "propertyMappings": [
-                          {
-                            "property": {
+                          },
+                          "values": [
+                            {
                               "valueSource": {
-                                "source": "constant",
-                                "constant": "url"
+                                "source": "column",
+                                "columnName": "_ - attributes - contact - phone"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "address"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - nid"
+                    },
+                    "valueType": {
+                      "type": "unique_bnode",
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "PostalAddress"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "schema"
+                          }
+                        }
+                      ],
+                      "propertyMappings": [
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "addressCountry"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - attributes - address - country_code"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "addressRegion"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - attributes - address - administrative_area"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "addressLocality"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - attributes - address - locality"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "postalCode"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - attributes - address - postal_code"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "streetAddress"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "row_index"
                               },
                               "transformation": {
-                                "language": "prefix",
-                                "expression": "schema"
+                                "language": "grel",
+                                "expression": "cells[\"_ - attributes - address - address_line1\"].value + \" \" + cells[\"_ - attributes - address - address_line2\"].value"
+                              },
+                              "valueType": {
+                                "type": "literal"
                               }
-                            },
-                            "values": [
-                              {
-                                "valueSource": {
-                                  "source": "column",
-                                  "columnName": "_ - attributes - tech_info"
-                                },
-                                "valueType": {
-                                  "type": "literal"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      }
+                            }
+                          ]
+                        }
+                      ]
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "description": "Save RDF Mapping"
-      }
-    ]
-  }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "subjectOf"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - nid"
+                    },
+                    "valueType": {
+                      "type": "unique_bnode",
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "TechArticle"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "schema"
+                          }
+                        }
+                      ],
+                      "propertyMappings": [
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "url"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - attributes - tech_info"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "sameAs"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - identifiers - artsdata"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "adr"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "sameAs"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - identifiers - wikidata"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "wd"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "description": "Save RDF Mapping"
+    }
+  ]
+}
