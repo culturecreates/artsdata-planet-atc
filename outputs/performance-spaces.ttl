@@ -2,6 +2,8 @@
 @prefix presenter: <https://arts-tc.ca/presenter/> .
 @prefix performance-space: <https://arts-tc.ca/performance-space/> .
 @prefix schema: <http://schema.org/> .
+@prefix adr: <http://kg.artsdata.ca/resource/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 
 presenter:25 a schema:Organization;
   schema:location performance-space:37, performance-space:92;
@@ -2470,7 +2472,7 @@ presenter:17971 a schema:Organization;
 
 performance-space:17972 a schema:Place;
   schema:name "Conservatoire de musique de Gatineau";
-  schema:sameAs <K5-2> .
+  schema:sameAs adr:K5-2 .
 
 presenter:160 a schema:Organization;
   schema:location performance-space:17985;
