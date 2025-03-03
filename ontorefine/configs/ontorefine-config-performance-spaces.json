@@ -25,8 +25,8 @@
       "mapping": {
         "baseIRI": "http://example.com/base/",
         "namespaces": {
-          "presenter": "https://arts-tc.ca/presenter/",
-          "performance-space": "https://arts-tc.ca/performance-space/",
+          "presenter": "http://arts-tc.ca/presenter/",
+          "performance-space": "http://arts-tc.ca/performance-space/",
           "schema": "http://schema.org/",
           "adr": "http://kg.artsdata.ca/resource/",
           "wd": "http://www.wikidata.org/entity/"

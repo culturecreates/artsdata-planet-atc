@@ -25,7 +25,7 @@
         "mapping": {
           "baseIRI": "http://example.com/base/",
           "namespaces": {
-            "representative": "https://arts-tc.ca/representative/",
+            "representative": "http://arts-tc.ca/representative/",
             "schema": "http://schema.org/",
             "network": "http://arts-tc.ca/network/",
             "wd": "http://www.wikidata.org/entity/",
