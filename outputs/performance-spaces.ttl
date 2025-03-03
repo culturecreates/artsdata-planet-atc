@@ -463,7 +463,7 @@ performance-space:832 a schema:Place;
 
 presenter:816 a schema:Organization;
   schema:location performance-space:833;
-  schema:name "Coronation Royal Performing Arts" .
+  schema:name "Coronation Community Centre Society (o/a Coronation Performing Arts)" .
 
 performance-space:833 a schema:Place;
   schema:name "Coronation Community Centre";
@@ -735,7 +735,7 @@ presenter:1324 a schema:Organization;
 
 performance-space:1352 a schema:Place;
   schema:name "Stettler Community Center";
-  schema:maximumAttendeeCapacity "500" .
+  schema:maximumAttendeeCapacity "350" .
 
 performance-space:1353 a schema:Place;
   schema:name "Performing Arts Center";
@@ -2466,17 +2466,50 @@ performance-space:17590 a schema:Place;
   schema:name "Thunder Bay Boys and Girls Club";
   schema:maximumAttendeeCapacity "250" .
 
-presenter:17971 a schema:Organization;
-  schema:location performance-space:17972;
-  schema:name "Société de musique de chambre de Gatineau" .
+presenter:17890 a schema:Organization;
+  schema:location performance-space:17891;
+  schema:name "TEST J Churchill Performing Arts Centre" .
 
-performance-space:17972 a schema:Place;
-  schema:name "Conservatoire de musique de Gatineau";
-  schema:sameAs adr:K5-2 .
+performance-space:17891 a schema:Place;
+  schema:name "JCPAC Studio Black Box Theatre";
+  schema:maximumAttendeeCapacity "400" .
 
-presenter:160 a schema:Organization;
-  schema:location performance-space:17985;
-  schema:name "City of Kingston - Kingston Grand Theatre" .
+presenter:16910 a schema:Organization;
+  schema:location performance-space:18093, performance-space:18094, performance-space:18095;
+  schema:name "The Cultch" .
 
-performance-space:17985 a schema:Place;
-  schema:name "Conservatoire de musique de Gatineau" .
+performance-space:18093 a schema:Place;
+  schema:name "Historic Theatre";
+  schema:maximumAttendeeCapacity "196" .
+
+performance-space:18094 a schema:Place;
+  schema:name "Culture Lab";
+  schema:maximumAttendeeCapacity "74" .
+
+performance-space:18095 a schema:Place;
+  schema:name "York Theatre";
+  schema:maximumAttendeeCapacity "349" .
+
+presenter:18128 a schema:Organization;
+  schema:location performance-space:18129;
+  schema:name "CN Centre & Entertainment" .
+
+performance-space:18129 a schema:Place;
+  schema:name "CN Centre";
+  schema:maximumAttendeeCapacity "6000" .
+
+presenter:18218 a schema:Organization;
+  schema:location performance-space:18219;
+  schema:name "Stephenville Theatre Festival" .
+
+performance-space:18219 a schema:Place;
+  schema:name "Stephenville Arts & Culture Centre";
+  schema:maximumAttendeeCapacity "435" .
+
+presenter:971 a schema:Organization;
+  schema:location performance-space:18244;
+  schema:name "Scott MacAulay Performing Arts Centre" .
+
+performance-space:18244 a schema:Place;
+  schema:name "Scott MacAulay Performing Arts Centre";
+  schema:maximumAttendeeCapacity "294" .
