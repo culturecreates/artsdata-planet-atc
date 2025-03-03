@@ -1,6 +1,6 @@
 @base <http://example.com/base/> .
-@prefix presenter: <https://arts-tc.ca/presenter/> .
-@prefix performance-space: <https://arts-tc.ca/performance-space/> .
+@prefix presenter: <http://arts-tc.ca/presenter/> .
+@prefix performance-space: <http://arts-tc.ca/performance-space/> .
 @prefix schema: <http://schema.org/> .
 @prefix adr: <http://kg.artsdata.ca/resource/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
