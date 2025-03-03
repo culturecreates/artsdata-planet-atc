@@ -1,0 +1,50 @@
+{
+    "data": [
+        {
+            "type": "representative",
+            "id": "b6bc2be5-eb63-45eb-8816-42f7c8851a63",
+            "attributes": {
+                "nid": 2975,
+                "name": "Menzies Music Productions",
+                "created": "2023-01-03T18:27:57+00:00",
+                "changed": "2023-01-07T15:42:42+00:00",
+                "langcode": "en",
+                "agency": {
+                    "address": {
+                        "langcode": "en",
+                        "country_code": "CA",
+                        "administrative_area": "BC",
+                        "locality": "Golden",
+                        "postal_code": "V0A 1H0",
+                        "address_line1": "613-A 12th St. S, PO Box 1301",
+                        "address_line2": "",
+                        "address_line3": null
+                    },
+                    "website": "https://www.menziesmusic.com/",
+                    "phone": null,
+                    "email": null,
+                    "description": "Todd Menzies is a Golden based multi-faceted music manager and promoter. Menzies is a paramount member of the Canadian music industry and has been a significant impact on his various clients. He is a self-made and taught professional with a strong history of being a musician himself. The man lives and breathes music, it is apparent that he has an affinity for the craft in everything he does. He started his own management company titled Menzies Music Productions in 2011. His roster is stacked with a generous group of diverse artists. His clients include the talented Winnipeg punk duo Mobina Galore, profound Americana singer-songwriter Ryland Moranz and vibrant party band Bend Sinister. He goes on the road with many of his clients which is a testament to his commitment to the endurance of their craft. He is also highly involved in the independent and locally beloved concert promotion company Timbre Concerts. Timbre organizes the most exciting, innovative and culturally significant concerts in Vancouver and has sustained integrity since 1981.\r\n\r\nPeople like Todd are absolutely essential in the ongoing battle to support the Canadian music industry including all of its independent artists and venues. In addition to these accolades, Menzies also started the highly successful Golden Sound Festival in 2013. The non-profit festival always has a diverse lineup and is held in the beautiful mountain town of Golden, B.C. \r\n\r\nMenzies is a true blue advocate for real musicians making real money. His own relationship with music has only strengthened his understanding for both the bliss and struggle that derive from being an artist. We need more people like Todd in the music industry, now more than ever."
+                },
+                "contact": {
+                    "first_name": "Todd",
+                    "last_name": "Menzies",
+                    "phone": "2504398022",
+                    "email": "todd@menziesmusic.com"
+                },
+                "identifiers": {
+                    "artsdata": null,
+                    "isni": null,
+                    "wikidata": null,
+                    "atc": 2975
+                },
+                "networks": [
+                    {
+                        "type": "network",
+                        "nid": 692,
+                        "name": "Arts Touring Alliance of Alberta"
+                    }
+                ]
+            }
+        }
+    ]
+}

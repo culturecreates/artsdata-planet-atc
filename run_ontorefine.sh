@@ -1,11 +1,7 @@
 #!/bin/bash
 
-# Update the Config file
-config_file="ontorefine-config.json"
 
-data="performance-spaces"
-
-echo ${data}
+data="representatives"
 
 # Start the services in the background
 sudo docker compose up -d
