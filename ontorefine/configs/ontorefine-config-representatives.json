@@ -27,7 +27,7 @@
           "namespaces": {
             "representative": "https://arts-tc.ca/representative/",
             "schema": "http://schema.org/",
-            "network": "https://arts-tc.ca/network/",
+            "network": "http://arts-tc.ca/network/",
             "wd": "http://www.wikidata.org/entity/",
             "adr": "http://kg.artsdata.ca/resource/"
           },
