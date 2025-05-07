@@ -29,7 +29,8 @@
             "schema": "http://schema.org/",
             "network": "http://arts-tc.ca/network/",
             "wd": "http://www.wikidata.org/entity/",
-            "adr": "http://kg.artsdata.ca/resource/"
+            "adr": "http://kg.artsdata.ca/resource/",
+            "isni": "https://isni.org/isni/"
           },
           "subjectMappings": [
             {
@@ -419,7 +420,8 @@
                         "columnName": "_ - attributes - identifiers - isni"
                       },
                       "transformation": {
-                        "language": "raw"
+                        "language": "prefix",
+                        "expression": "isni"
                       },
                       "valueType": {
                         "type": "iri",

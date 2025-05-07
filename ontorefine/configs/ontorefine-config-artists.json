@@ -28,7 +28,8 @@
               "artist": "http://arts-tc.ca/artist/",
               "schema": "http://schema.org/",
               "adr": "http://kg.artsdata.ca/resource/",
-              "wd": "http://www.wikidata.org/entity/"
+              "wd": "http://www.wikidata.org/entity/",
+              "isni": "https://isni.org/isni/"
             },
             "subjectMappings": [
               {
@@ -149,7 +150,8 @@
                           "columnName": "_ - attributes - identifiers - isni"
                         },
                         "transformation": {
-                          "language": "raw"
+                          "language": "prefix",
+                          "expression": "isni"
                         },
                         "valueType": {
                           "type": "iri",
@@ -313,5 +315,5 @@
           },
           "description": "Save RDF Mapping"
         }
-      ]
+    ]
   }
