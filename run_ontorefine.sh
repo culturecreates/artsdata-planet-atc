@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-data="representatives"
+data="artists"
 
 # Start the services in the background
 sudo docker compose up -d
