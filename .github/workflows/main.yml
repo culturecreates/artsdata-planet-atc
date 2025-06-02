@@ -2,6 +2,8 @@ name: Fetch and Push ATC entities
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 4 2 * *'
 
 jobs:
   process-using-ontorefine:
