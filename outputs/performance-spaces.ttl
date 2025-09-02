@@ -942,19 +942,11 @@ performance-space:1595 a schema:Place;
   schema:maximumAttendeeCapacity "500" .
 
 presenter:1276 a schema:Organization;
-  schema:location performance-space:1621, performance-space:1626, performance-space:1629;
+  schema:location performance-space:1626;
   schema:name "Josephburg Presents " .
-
-performance-space:1621 a schema:Place;
-  schema:name "Moyer Recreation Centre at Josephburg, AB";
-  schema:maximumAttendeeCapacity "300" .
 
 performance-space:1626 a schema:Place;
   schema:name "Moyer Recreation Centre at Josephburg, AB" .
-
-performance-space:1629 a schema:Place;
-  schema:name "Moyer Recreation Centre at Josephburg, AB";
-  schema:maximumAttendeeCapacity "300" .
 
 presenter:765 a schema:Organization;
   schema:location performance-space:1826;
@@ -973,7 +965,7 @@ performance-space:1833 a schema:Place;
   schema:maximumAttendeeCapacity "300" .
 
 presenter:1571 a schema:Organization;
-  schema:location performance-space:1854, performance-space:1855, performance-space:1856;
+  schema:location performance-space:1854, performance-space:1855, performance-space:2957;
   schema:name "Killarney Turtle Mountain Arts Council" .
 
 performance-space:1854 a schema:Place;
@@ -983,10 +975,6 @@ performance-space:1854 a schema:Place;
 performance-space:1855 a schema:Place;
   schema:name "The Oak and Owl Cafe, 508 Broadway, Killarney, MB";
   schema:maximumAttendeeCapacity "40" .
-
-performance-space:1856 a schema:Place;
-  schema:name "Royal Canadian Legion Branch 25 Community Hall";
-  schema:maximumAttendeeCapacity "300" .
 
 presenter:401 a schema:Organization;
   schema:location performance-space:1869;
@@ -1264,17 +1252,12 @@ performance-space:2770 a schema:Place;
   schema:maximumAttendeeCapacity "553" .
 
 presenter:2746 a schema:Organization;
-  schema:location performance-space:2811 .
+  schema:location performance-space:2811;
+  schema:name "ddick@thompson.ca" .
 
 performance-space:2811 a schema:Place;
   schema:name "Letkemann Theatre-RDPC";
   schema:maximumAttendeeCapacity "400" .
-
-presenter:2746 schema:name "ddick@thompson.ca" .
-
-presenter:1571 a schema:Organization;
-  schema:location performance-space:2957, performance-space:4043;
-  schema:name "Killarney Turtle Mountain Arts Council" .
 
 performance-space:2957 a schema:Place;
   schema:name "Heritage Home for the Arts";
@@ -1288,12 +1271,15 @@ performance-space:3037 a schema:Place;
   schema:name "Leah's house" .
 
 presenter:3071 a schema:Organization;
-  schema:location performance-space:3072, performance-space:3074;
-  schema:name "Golden Prairie Arts Council" .
+  schema:location performance-space:3072 .
 
 performance-space:3072 a schema:Place;
   schema:name "Carman Collegiate Community Theatre";
   schema:maximumAttendeeCapacity "304" .
+
+presenter:3071 a schema:Organization;
+  schema:name "Golden Prairie Arts Council";
+  schema:location performance-space:3074 .
 
 performance-space:3074 a schema:Place;
   schema:name "Carman Active Living Centre";
@@ -1532,6 +1518,10 @@ presenter:413 a schema:Organization;
 performance-space:3943 a schema:Place;
   schema:name "LSPU Hall";
   schema:maximumAttendeeCapacity "192" .
+
+presenter:1571 a schema:Organization;
+  schema:location performance-space:4043;
+  schema:name "Killarney Turtle Mountain Arts Council" .
 
 performance-space:4043 a schema:Place;
   schema:name "Royal Canadian Legion Branch 25 Community Hall";
