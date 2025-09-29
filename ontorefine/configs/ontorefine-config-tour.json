@@ -1,0 +1,391 @@
+{
+  "importOptions": [
+    {
+      "recordPath": [
+        "_",
+        "data",
+        "_"
+      ],
+      "limit": -1,
+      "trimStrings": false,
+      "guessCellValueTypes": false,
+      "storeEmptyStrings": true,
+      "includeFileSources": false,
+      "includeArchiveFileName": false,
+      "disableAutoPreview": false,
+      "projectName": "test json",
+      "projectTags": [],
+      "fileSource": "test.json",
+      "archiveFileName": null
+    }
+  ],
+  "operations": [
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "_ - attributes - show - genre - _ - tid",
+      "expression": "jython:import json\nimport urllib2\n\n# Load mapping JSON once\nurl = \"https://raw.githubusercontent.com/culturecreates/artsdata-planet-atc/refs/heads/main/genre_mapping.json\"\nmapping_list = json.load(urllib2.urlopen(url))\n\n# Convert list to dict for fast lookup by tid\nmapping = {str(item['tid']): item['wikidata_uri'] for item in mapping_list}\n\n# Lookup current cell value\ntid = str(value).strip() if value else None\nif tid in mapping:\n    return mapping[tid]\nelse:\n    return None",
+      "onError": "set-to-blank",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column _ - attributes - show - genre - _ - tid using expression jython:import json\nimport urllib2\n\n# Load mapping JSON once\nurl = \"https://gist.githubusercontent.com/dev-aravind/c2a026ef4a5fc8e55fa39de65288da01/raw/de55b684f59ae99f4302d1f3e6202f5cd39f19e7/genre_mapping.json\"\nmapping_list = json.load(urllib2.urlopen(url))\n\n# Convert list to dict for fast lookup by tid\nmapping = {str(item['tid']): item['wikidata_uri'] for item in mapping_list}\n\n# Lookup current cell value\ntid = str(value).strip() if value else None\nif tid in mapping:\n    return mapping[tid]\nelse:\n    return None"
+    },
+    {
+      "op": "mapping-editor/save-rdf-mapping",
+      "mapping": {
+        "baseIRI": "http://example.com/base/",
+        "namespaces": {
+          "schema": "http://schema.org/",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "performance-space": "http://arts-tc.ca/performance-space/",
+          "network": "http://arts-tc.ca/network/",
+          "presenter": "http://arts-tc.ca/presenter/",
+          "artist": "http://arts-tc.ca/artist/",
+          "show": "http://arts-tc.ca/show/",
+          "tour": "https://arts-tc.ca/tour/",
+          "adr": "http://kg.artsdata.ca/resource/"
+        },
+        "subjectMappings": [
+          {
+            "subject": {
+              "valueSource": {
+                "source": "column",
+                "columnName": "_ - attributes - nid"
+              },
+              "transformation": {
+                "language": "prefix",
+                "expression": "tour"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "Event"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "adr"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "name"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - show - title"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "startDate"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - event_date"
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "dateTime"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "description"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - show - description"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "location"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - performance_space - nid"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "performance-space"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "organizer"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - presenter - nid"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "presenter"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "performer"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - show - artists - _ - nid"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "artist"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "contributor"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - network - nid"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "network"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "sameAs"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - identifiers - artsdata"
+                    },
+                    "transformation": {
+                      "language": "raw"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - identifiers - wikidata"
+                    },
+                    "transformation": {
+                      "language": "raw"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - identifiers - isni"
+                    },
+                    "transformation": {
+                      "language": "raw"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "workPerformed"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - show - nid"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "show"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "additionalType"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - show - genre - _ - tid"
+                    },
+                    "transformation": {
+                      "language": "raw"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "description": "Save RDF Mapping"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "type": "tour_booking",
+      "id": "f70108a2-a4a5-47c0-bc6c-470e6e7e7550",
+      "attributes": {
+        "nid": 650,
+        "title": "It's Okay To Be Different - Stories by Todd Parr (Season 23/24) > City of Kingston - Kingston Grand Theatre",
+        "created": "2022-10-05T15:33:15+00:00",
+        "changed": "2022-10-05T15:34:14+00:00",
+        "langcode": "en",
+        "event_date": "2023-11-27T10:30:00+00:00",
+        "identifiers": {
+          "artsdata": null,
+          "isni": null,
+          "wikidata": null,
+          "atc": 650
+        },
+        "show": {
+          "type": "tour",
+          "nid": 197,
+          "title": "It's Okay To Be Different - Stories by Todd Parr (Season 23/24)",
+          "description": "<p>Three contemporary stories by New York Times bestselling author and illustrator Todd Parr will be adapted and staged by Mermaid Theatre for the 2022-2023 season.</p>\r\n\r\n<p>With his signature blend of playfulness and sensitivity, Todd Parr explores important and timely subjects.<em><strong> It’s Okay to Be Different</strong></em> cleverly delivers the important messages of acceptance, understanding, and self-confidence. Equally whimsical and heartfelt, <em><strong>The Earth Book</strong></em>, is a sweet homage to our beautiful planet inspiring readers of all ages to do their part to keep the Earth happy and healthy. <em><strong>This is My Hair</strong></em> is a funny exploration of how silly hair can be and that no matter how your hair looks, always feel good about yourself.</p>\r\n\r\n<p>Mermaid’s new show will be directed and adapted by Jim Morrow, veteran director of numerous internationally acclaimed Mermaid productions.  It will feature a diverse cast, an innovative approach to puppetry manipulation and construction, combined with playful original music for which the company has earned worldwide praise.</p>\r\n\r\n<p>Presenter Tool Kit (promo & study materials): https://www.dropbox.com/sh/igd9s4szdodmzby/AADZoBb07VLyz6_jFx4NdY2ga?dl=0 </p>\r\n\r\n<p style=\"line-height:1.38; margin-top:16px; margin-bottom:16px\"><a href=\"http://vimeo.com/showcase/mtns-its-okay-to-be-different\" style=\"text-decoration:none\">Full archival video of It’s Okay to Be Different - Stories by Todd Parr</a> Password = Yes it is</p>\r\n",
+          "genre": [
+            {
+              "type": "genre",
+              "tid": 32,
+              "name": "Young Audience/Family",
+              "parent": null
+            }
+          ],
+          "category": [],
+          "artists": [
+            {
+              "type": "artist",
+              "nid": 195,
+              "title": "Mermaid Theatre of Nova Scotia"
+            }
+          ]
+        },
+        "presenter": {
+          "type": "member",
+          "nid": 160,
+          "title": "City of Kingston - Kingston Grand Theatre"
+        },
+        "performance_space": {
+          "type": "performance_space",
+          "nid": 555,
+          "title": "Kingston Grand Theatre - Regina Rosen Auditorium"
+        },
+        "network": {
+          "type": "organization",
+          "nid": 9,
+          "title": "Ontario Presents"
+        }
+      }
+    }
+  ]
+}

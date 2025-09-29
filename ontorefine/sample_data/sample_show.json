@@ -1,0 +1,66 @@
+{
+    "data": [
+                {
+            "type": "show",
+            "id": "9665eacd-cf20-49fc-bee7-892dc3e79327",
+            "attributes": {
+                "nid": 320,
+                "title": "Inn Echo",
+                "created": "2022-09-12T13:58:36+00:00",
+                "changed": "2025-08-29T20:32:34+00:00",
+                "langcode": "en",
+                "artists": [
+                    {
+                        "type": "artist",
+                        "nid": 319,
+                        "name": "Inn Echo"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "category",
+                        "tid": 1,
+                        "name": "2SLGBTQIA+"
+                    },
+                    {
+                        "type": "category",
+                        "tid": 3,
+                        "name": "Artists of colour"
+                    }
+                ],
+                "description": "<p>Inn Echo weave hundreds of years of traditional tunes with contemporary originals and arrangements that both soar and make you catch your breath simultaneously. With technical precision, their mastery of instruments is the talk in the national and international folk music scene. From Music PEI awards to tours of Austria and Ireland, Inn Echo is bar none the traditional band to watch as they emerge as Prince Edwards Islands greatest Celtic fusion exports in years to come.\u00a0<\/p>",
+                "genres": [
+                    {
+                        "type": "genre",
+                        "tid": 18,
+                        "name": "Music"
+                    },
+                    {
+                        "type": "genre",
+                        "tid": 21,
+                        "name": "Folk\/Roots\/Traditional"
+                    }
+                ],
+                "identifiers": {
+                    "artsdata": null,
+                    "wikidata": null,
+                    "atc": 320
+                },
+                "marketing_materials": "https:\/\/drive.google.com\/drive\/folders\/1hoZPnoKH3Uy7uu_wI_6XJGff0BA5Urel?usp=drive_link",
+                "networks": [
+                    {
+                        "type": "network",
+                        "nid": 10,
+                        "name": "Atlantic Presenters"
+                    },
+                    {
+                        "type": "network",
+                        "nid": 692,
+                        "name": "Arts Touring Alliance of Alberta"
+                    }
+                ],
+                "website": "https:\/\/innechomusic.com"
+            }
+        }
+    ]
+}
