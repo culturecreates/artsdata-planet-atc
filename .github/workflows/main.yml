@@ -31,7 +31,7 @@ jobs:
             data=""
             while true; do
               echo "Fetching ${source}s with offset $offset"
-              response=$(curl -s "https://test-block-booking.pantheonsite.io/api/$source?page%5Boffset%5D=$offset" --header "Authorization: Basic ${{secrets.API_KEY}}")
+              response=$(curl -s "https://test-block-booking.pantheonsite.io/api/$source?page%5Boffset%5D=$offset" --header "Authorization: basic ${{secrets.API_KEY}}")
               # Checking if data is empty
               if [ "$(echo $response | jq '.data | length')" -eq 0 ]; then 
                 echo "No more data for $source"
