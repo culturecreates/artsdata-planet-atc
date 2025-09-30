@@ -124,7 +124,7 @@
                       "columnName": "_ - attributes - artists - _ - nid"
                     },
                     "valueType": {
-                      "type": "value_bnode",
+                      "type": "unique_bnode",
                       "typeMappings": [
                         {
                           "valueSource": {
@@ -282,6 +282,18 @@
                     },
                     "valueType": {
                       "type": "unique_bnode",
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "DigitalDocument"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "schema"
+                          }
+                        }
+                      ],
                       "propertyMappings": [
                         {
                           "property": {

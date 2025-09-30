@@ -25,7 +25,7 @@ jobs:
         run: |
           mkdir -p outputs
 
-          sources=("artist" "network" "presenter" "performance-space" "representative")
+          sources=("artist" "network" "presenter" "performance-space" "representative" "show" "tour-booking")
           for source in "${sources[@]}"; do
             offset=0
             data=""
