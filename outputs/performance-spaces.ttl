@@ -445,14 +445,6 @@ performance-space:813 a schema:Place;
   schema:name "Swift Current Event Centre";
   schema:maximumAttendeeCapacity "525" .
 
-presenter:784 a schema:Organization;
-  schema:location performance-space:821;
-  schema:name "Kinosoo Performing Arts" .
-
-performance-space:821 a schema:Place;
-  schema:name "Kinosoo Performing Arts Association Cold Lake";
-  schema:maximumAttendeeCapacity "200" .
-
 presenter:831 a schema:Organization;
   schema:location performance-space:832;
   schema:name "Stage North Association" .
@@ -942,11 +934,19 @@ performance-space:1595 a schema:Place;
   schema:maximumAttendeeCapacity "500" .
 
 presenter:1276 a schema:Organization;
-  schema:location performance-space:1626;
+  schema:location performance-space:1621, performance-space:1626, performance-space:1629;
   schema:name "Josephburg Presents " .
+
+performance-space:1621 a schema:Place;
+  schema:name "Moyer Recreation Centre at Josephburg, AB";
+  schema:maximumAttendeeCapacity "300" .
 
 performance-space:1626 a schema:Place;
   schema:name "Moyer Recreation Centre at Josephburg, AB" .
+
+performance-space:1629 a schema:Place;
+  schema:name "Moyer Recreation Centre at Josephburg, AB";
+  schema:maximumAttendeeCapacity "300" .
 
 presenter:765 a schema:Organization;
   schema:location performance-space:1826;
@@ -965,7 +965,8 @@ performance-space:1833 a schema:Place;
   schema:maximumAttendeeCapacity "300" .
 
 presenter:1571 a schema:Organization;
-  schema:location performance-space:1854, performance-space:1855, performance-space:2957;
+  schema:location performance-space:1854, performance-space:1855, performance-space:1856,
+    performance-space:2957;
   schema:name "Killarney Turtle Mountain Arts Council" .
 
 performance-space:1854 a schema:Place;
@@ -975,6 +976,10 @@ performance-space:1854 a schema:Place;
 performance-space:1855 a schema:Place;
   schema:name "The Oak and Owl Cafe, 508 Broadway, Killarney, MB";
   schema:maximumAttendeeCapacity "40" .
+
+performance-space:1856 a schema:Place;
+  schema:name "Royal Canadian Legion Branch 25 Community Hall";
+  schema:maximumAttendeeCapacity "300" .
 
 presenter:401 a schema:Organization;
   schema:location performance-space:1869;
@@ -1080,7 +1085,7 @@ performance-space:2424 a schema:Place;
 
 presenter:2238 a schema:Organization;
   schema:location performance-space:2482;
-  schema:name "Evergreen " .
+  schema:name "Evergreen Theatre" .
 
 performance-space:2482 a schema:Place;
   schema:name "Evergreen Theatre";
@@ -1271,15 +1276,12 @@ performance-space:3037 a schema:Place;
   schema:name "Leah's house" .
 
 presenter:3071 a schema:Organization;
-  schema:location performance-space:3072 .
+  schema:location performance-space:3072, performance-space:3074;
+  schema:name "Golden Prairie Arts Council" .
 
 performance-space:3072 a schema:Place;
   schema:name "Carman Collegiate Community Theatre";
   schema:maximumAttendeeCapacity "304" .
-
-presenter:3071 a schema:Organization;
-  schema:name "Golden Prairie Arts Council";
-  schema:location performance-space:3074 .
 
 performance-space:3074 a schema:Place;
   schema:name "Carman Active Living Centre";
@@ -1441,7 +1443,7 @@ performance-space:3671 a schema:Place;
 
 presenter:979 a schema:Organization;
   schema:location performance-space:3753;
-  schema:name "Lunenburg Folk Harbour Festival" .
+  schema:name "Lunenburg Folk Harbour Society" .
 
 performance-space:3753 a schema:Place;
   schema:name "Lunenburg Opera House";
@@ -1611,7 +1613,7 @@ performance-space:4126 a schema:Place;
   schema:maximumAttendeeCapacity "1200" .
 
 performance-space:4130 a schema:Place;
-  schema:name "St Patrick’s Church Museum";
+  schema:name "St. Patrick’s Church Museum";
   schema:maximumAttendeeCapacity "100" .
 
 presenter:395 a schema:Organization;
@@ -1743,7 +1745,7 @@ performance-space:4475 a schema:Place;
   schema:maximumAttendeeCapacity "204" .
 
 presenter:4055 a schema:Organization;
-  schema:location performance-space:4481, performance-space:9233;
+  schema:location performance-space:4481;
   schema:name "Capitol Theatre Restoration Society" .
 
 performance-space:4481 a schema:Place;
@@ -2126,10 +2128,6 @@ performance-space:9166 a schema:Place;
 performance-space:9167 a schema:Place;
   schema:name "Joseph H. Kennedy Public School" .
 
-performance-space:9233 a schema:Place;
-  schema:name "Capitol Theatre Nelson";
-  schema:maximumAttendeeCapacity "406" .
-
 presenter:7915 a schema:Organization;
   schema:location performance-space:9251;
   schema:name "Rossland Council for Arts and Culture" .
@@ -2441,7 +2439,7 @@ performance-space:17118 a schema:Place;
   schema:maximumAttendeeCapacity "775" .
 
 presenter:680 a schema:Organization;
-  schema:location performance-space:17514;
+  schema:location performance-space:17514, performance-space:19929;
   schema:name "THEOP" .
 
 performance-space:17514 a schema:Place;
@@ -2498,8 +2496,66 @@ performance-space:18219 a schema:Place;
 
 presenter:971 a schema:Organization;
   schema:location performance-space:18244;
-  schema:name "Scott MacAulay Performing Arts Centre" .
+  schema:name "The College of Piping" .
 
 performance-space:18244 a schema:Place;
   schema:name "Scott MacAulay Performing Arts Centre";
   schema:maximumAttendeeCapacity "294" .
+
+presenter:18152 a schema:Organization;
+  schema:location performance-space:19114;
+  schema:name "Burlington Performing Arts Centre" .
+
+performance-space:19114 a schema:Place;
+  schema:name "Main Theatre" .
+
+performance-space:19929 a schema:Place;
+  schema:name "Deep River Arena Mezzanine";
+  schema:maximumAttendeeCapacity "200" .
+
+presenter:399 a schema:Organization;
+  schema:location performance-space:20140;
+  schema:name "Jack Byrne Regional Sport & Entertainment Centre" .
+
+performance-space:20140 a schema:Place;
+  schema:name "Jack Byrne Regional Sport & Entertainment Centre";
+  schema:maximumAttendeeCapacity "1980" .
+
+presenter:20223 a schema:Organization;
+  schema:location performance-space:20612;
+  schema:name "Bowen Island Arts Council / Hearth on Bowen" .
+
+performance-space:20612 a schema:Place;
+  schema:name "Bowen Theatre";
+  schema:maximumAttendeeCapacity "179" .
+
+presenter:412 a schema:Organization;
+  schema:location performance-space:20756;
+  schema:name "Re-Jigged Festival" .
+
+performance-space:20756 a schema:Place;
+  schema:name "Sanctuary Arts Centre";
+  schema:maximumAttendeeCapacity "200" .
+
+presenter:304 a schema:Organization;
+  schema:location performance-space:20828;
+  schema:name "Bella Rose Art Centre" .
+
+performance-space:20828 a schema:Place;
+  schema:name "Bella Rose Arts Centre";
+  schema:maximumAttendeeCapacity "604" .
+
+presenter:16549 a schema:Organization;
+  schema:location performance-space:21279;
+  schema:name "Le Diamant" .
+
+performance-space:21279 a schema:Place;
+  schema:name "Le Diamant" .
+
+presenter:21286 a schema:Organization;
+  schema:location performance-space:21287 .
+
+performance-space:21287 a schema:Place;
+  schema:name "The Theatre" .
+
+presenter:21286 schema:name "Banff Centre for Arts and Creativity" .
