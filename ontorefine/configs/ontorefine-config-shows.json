@@ -451,7 +451,7 @@
                 "property": {
                   "valueSource": {
                     "source": "constant",
-                    "constant": "preLabel"
+                    "constant": "prefLabel"
                   },
                   "transformation": {
                     "language": "prefix",
