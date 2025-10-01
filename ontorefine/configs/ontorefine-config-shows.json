@@ -56,7 +56,7 @@
           "artist": "http://arts-tc.ca/artist/",
           "category": "http://arts-tc.ca/category/",
           "genre": "http://arts-tc.ca/genre/",
-          "adr": "http://kg.artsdata.ca/resource/"
+          "ado": "http://kg.artsdata.ca/ontology/"
         },
         "subjectMappings": [
           {
@@ -78,7 +78,7 @@
                 },
                 "transformation": {
                   "language": "prefix",
-                  "expression": "adr"
+                  "expression": "ado"
                 }
               }
             ],

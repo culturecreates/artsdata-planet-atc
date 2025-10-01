@@ -46,7 +46,7 @@
           "artist": "http://arts-tc.ca/artist/",
           "show": "http://arts-tc.ca/show/",
           "tour": "https://arts-tc.ca/tour/",
-          "adr": "http://kg.artsdata.ca/resource/"
+          "ado": "http://kg.artsdata.ca/ontology/"
         },
         "subjectMappings": [
           {
@@ -68,7 +68,7 @@
                 },
                 "transformation": {
                   "language": "prefix",
-                  "expression": "adr"
+                  "expression": "ado"
                 }
               }
             ],
