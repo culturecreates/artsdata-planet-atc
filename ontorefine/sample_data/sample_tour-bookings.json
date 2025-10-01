@@ -35,6 +35,10 @@
               "type": "artist",
               "nid": 195,
               "title": "Mermaid Theatre of Nova Scotia"
+            },{
+              "type": "artist",
+              "nid": 1222,
+              "title": "Extra Artist Example"
             }
           ]
         },

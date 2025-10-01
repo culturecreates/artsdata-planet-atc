@@ -7,44 +7,27 @@
         "_"
       ],
       "limit": -1,
-      "trimStrings": false,
+      "trimStrings": true,
       "guessCellValueTypes": false,
-      "storeEmptyStrings": true,
+      "storeEmptyStrings": false,
       "includeFileSources": false,
       "includeArchiveFileName": false,
       "disableAutoPreview": false,
-      "projectName": "test json",
+      "projectName": "cli-transform-sample_shows.json-2025-10-01",
       "projectTags": [],
-      "fileSource": "test.json",
+      "fileSource": "sample_shows.json",
       "archiveFileName": null
     }
   ],
   "operations": [
     {
-      "op": "core/text-transform",
+      "op": "core/fill-down",
       "engineConfig": {
         "facets": [],
         "mode": "record-based"
       },
-      "columnName": "_ - attributes - genres - _ - tid",
-      "expression": "jython:import json\nimport urllib2\n\n# Load mapping JSON once\nurl = \"https://raw.githubusercontent.com/culturecreates/artsdata-planet-atc/refs/heads/main/genre_mapping.json\"\nmapping_list = json.load(urllib2.urlopen(url))\n\n# Convert list to dict for fast lookup by tid\nmapping = {str(item['tid']): item['wikidata_uri'] for item in mapping_list}\n\n# Lookup current cell value\ntid = str(value).strip() if value else None\nif tid in mapping:\n    return mapping[tid]\nelse:\n    return None",
-      "onError": "set-to-blank",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column _ - attributes - genres - _ - tid using expression jython:import json\nimport urllib2\n\n# Load mapping JSON once\nurl = \"https://gist.githubusercontent.com/dev-aravind/c2a026ef4a5fc8e55fa39de65288da01/raw/de55b684f59ae99f4302d1f3e6202f5cd39f19e7/genre_mapping.json\"\nmapping_list = json.load(urllib2.urlopen(url))\n\n# Convert list to dict for fast lookup by tid\nmapping = {str(item['tid']): item['wikidata_uri'] for item in mapping_list}\n\n# Lookup current cell value\ntid = str(value).strip() if value else None\nif tid in mapping:\n    return mapping[tid]\nelse:\n    return None"
-    },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - attributes - categories - _ - tid",
-      "expression": "jython:import json\nimport urllib2\n\n# Load mapping JSON once\nurl = \"https://raw.githubusercontent.com/culturecreates/artsdata-planet-atc/refs/heads/main/category_mapping.json\"\nmapping_list = json.load(urllib2.urlopen(url))\n\n# Convert list to dict for fast lookup by tid\nmapping = {str(item['tid']): item['wikidata_uri'] for item in mapping_list}\n\n# Lookup current cell value\ntid = str(value).strip() if value else None\nif tid in mapping:\n    return mapping[tid]\nelse:\n    return None",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column _ - attributes - categories - _ - tid using expression jython:import json\nimport urllib2\n\n# Load mapping JSON once\nurl = \"https://gist.githubusercontent.com/dev-aravind/fe609f297319b21cfe6448f93ebe7cc5/raw/fc1ca62f836c15b1da5f6fe29babd20d5d825460/categories_mapping.json\"\nmapping_list = json.load(urllib2.urlopen(url))\n\n# Convert list to dict for fast lookup by tid\nmapping = {str(item['tid']): item['wikidata_uri'] for item in mapping_list}\n\n# Lookup current cell value\ntid = str(value).strip() if value else None\nif tid in mapping:\n    return mapping[tid]\nelse:\n    return None"
+      "columnName": "_ - attributes - nid",
+      "description": "Fill down cells in column _ - attributes - nid"
     },
     {
       "op": "mapping-editor/save-rdf-mapping",
@@ -56,7 +39,8 @@
           "artist": "http://arts-tc.ca/artist/",
           "category": "http://arts-tc.ca/category/",
           "genre": "http://arts-tc.ca/genre/",
-          "ado": "http://kg.artsdata.ca/ontology/"
+          "ado": "http://kg.artsdata.ca/ontology/",
+          "skos": "http://www.w3.org/2004/02/skos/core#"
         },
         "subjectMappings": [
           {
@@ -397,7 +381,8 @@
                       "columnName": "_ - attributes - genres - _ - tid"
                     },
                     "transformation": {
-                      "language": "raw"
+                      "language": "prefix",
+                      "expression": "genre"
                     },
                     "valueType": {
                       "type": "iri",
@@ -425,7 +410,176 @@
                       "columnName": "_ - attributes - categories - _ - tid"
                     },
                     "transformation": {
-                      "language": "raw"
+                      "language": "prefix",
+                      "expression": "category"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "subject": {
+              "valueSource": {
+                "source": "column",
+                "columnName": "_ - attributes - genres - _ - tid"
+              },
+              "transformation": {
+                "language": "prefix",
+                "expression": "genre"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "Concept"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "skos"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "preLabel"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "skos"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - genres - _ - name"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "en"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "inScheme"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "skos"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "ATCGenreScheme"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "genre"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "subject": {
+              "valueSource": {
+                "source": "column",
+                "columnName": "_ - attributes - categories - _ - tid"
+              },
+              "transformation": {
+                "language": "prefix",
+                "expression": "category"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "Concept"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "skos"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "prefLabel"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "skos"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attributes - categories - _ - name"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "en"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "inScheme"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "skos"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "ATCCategoryScheme"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "category"
                     },
                     "valueType": {
                       "type": "iri",

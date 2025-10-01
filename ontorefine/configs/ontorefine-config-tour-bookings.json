@@ -7,31 +7,27 @@
         "_"
       ],
       "limit": -1,
-      "trimStrings": false,
+      "trimStrings": true,
       "guessCellValueTypes": false,
-      "storeEmptyStrings": true,
+      "storeEmptyStrings": false,
       "includeFileSources": false,
       "includeArchiveFileName": false,
       "disableAutoPreview": false,
-      "projectName": "test json",
+      "projectName": "cli-transform-sample_tour-bookings.json-2025-10-01",
       "projectTags": [],
-      "fileSource": "test.json",
+      "fileSource": "sample_tour-bookings.json",
       "archiveFileName": null
     }
   ],
   "operations": [
     {
-      "op": "core/text-transform",
+      "op": "core/fill-down",
       "engineConfig": {
         "facets": [],
-        "mode": "row-based"
+        "mode": "record-based"
       },
-      "columnName": "_ - attributes - show - genre - _ - tid",
-      "expression": "jython:import json\nimport urllib2\n\n# Load mapping JSON once\nurl = \"https://raw.githubusercontent.com/culturecreates/artsdata-planet-atc/refs/heads/main/genre_mapping.json\"\nmapping_list = json.load(urllib2.urlopen(url))\n\n# Convert list to dict for fast lookup by tid\nmapping = {str(item['tid']): item['wikidata_uri'] for item in mapping_list}\n\n# Lookup current cell value\ntid = str(value).strip() if value else None\nif tid in mapping:\n    return mapping[tid]\nelse:\n    return None",
-      "onError": "set-to-blank",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column _ - attributes - show - genre - _ - tid using expression jython:import json\nimport urllib2\n\n# Load mapping JSON once\nurl = \"https://gist.githubusercontent.com/dev-aravind/c2a026ef4a5fc8e55fa39de65288da01/raw/de55b684f59ae99f4302d1f3e6202f5cd39f19e7/genre_mapping.json\"\nmapping_list = json.load(urllib2.urlopen(url))\n\n# Convert list to dict for fast lookup by tid\nmapping = {str(item['tid']): item['wikidata_uri'] for item in mapping_list}\n\n# Lookup current cell value\ntid = str(value).strip() if value else None\nif tid in mapping:\n    return mapping[tid]\nelse:\n    return None"
+      "columnName": "_ - attributes - nid",
+      "description": "Fill down cells in column _ - attributes - nid"
     },
     {
       "op": "mapping-editor/save-rdf-mapping",
@@ -344,34 +340,6 @@
                     "transformation": {
                       "language": "prefix",
                       "expression": "show"
-                    },
-                    "valueType": {
-                      "type": "iri",
-                      "typeMappings": [],
-                      "propertyMappings": []
-                    }
-                  }
-                ]
-              },
-              {
-                "property": {
-                  "valueSource": {
-                    "source": "constant",
-                    "constant": "additionalType"
-                  },
-                  "transformation": {
-                    "language": "prefix",
-                    "expression": "schema"
-                  }
-                },
-                "values": [
-                  {
-                    "valueSource": {
-                      "source": "column",
-                      "columnName": "_ - attributes - show - genre - _ - tid"
-                    },
-                    "transformation": {
-                      "language": "raw"
                     },
                     "valueType": {
                       "type": "iri",
