@@ -8,9 +8,9 @@
 network:9 a schema:Organization;
   schema:name "Ontario Presents";
   schema:alternateName "OP";
-  schema:address _:6aa6af5391734f2ca3073b68c588fffb2023 .
+  schema:address _:c6d809d4cb244171abe6f5396406d0152023 .
 
-_:6aa6af5391734f2ca3073b68c588fffb2023 a schema:PostalAddress;
+_:c6d809d4cb244171abe6f5396406d0152023 a schema:PostalAddress;
   schema:name "Ceilidh Wood";
   schema:email "ceilidh@ontariopresents.ca";
   schema:addressCountry "CA";
@@ -22,9 +22,9 @@ _:6aa6af5391734f2ca3073b68c588fffb2023 a schema:PostalAddress;
 network:11 a schema:Organization;
   schema:name "National Sandbox";
   schema:alternateName "NSB";
-  schema:address _:6aa6af5391734f2ca3073b68c588fffb2024 .
+  schema:address _:c6d809d4cb244171abe6f5396406d0152024 .
 
-_:6aa6af5391734f2ca3073b68c588fffb2024 a schema:PostalAddress;
+_:c6d809d4cb244171abe6f5396406d0152024 a schema:PostalAddress;
   schema:name "Judy Harquail";
   schema:email "jlharquail@gmail.com";
   schema:addressCountry "CA";
@@ -36,9 +36,9 @@ _:6aa6af5391734f2ca3073b68c588fffb2024 a schema:PostalAddress;
 network:10 a schema:Organization;
   schema:name "Atlantic Presenters";
   schema:alternateName "APA";
-  schema:address _:6aa6af5391734f2ca3073b68c588fffb2025 .
+  schema:address _:c6d809d4cb244171abe6f5396406d0152025 .
 
-_:6aa6af5391734f2ca3073b68c588fffb2025 a schema:PostalAddress;
+_:c6d809d4cb244171abe6f5396406d0152025 a schema:PostalAddress;
   schema:name "Crystal Laffoley";
   schema:email "crystal@atlanticpresenters.ca";
   schema:addressCountry "CA";
@@ -50,9 +50,9 @@ _:6aa6af5391734f2ca3073b68c588fffb2025 a schema:PostalAddress;
 network:122 a schema:Organization;
   schema:name "Test RPN";
   schema:alternateName "TRPN";
-  schema:address _:6aa6af5391734f2ca3073b68c588fffb2026 .
+  schema:address _:c6d809d4cb244171abe6f5396406d0152026 .
 
-_:6aa6af5391734f2ca3073b68c588fffb2026 a schema:PostalAddress;
+_:c6d809d4cb244171abe6f5396406d0152026 a schema:PostalAddress;
   schema:name "Ceilidh Wood";
   schema:email "ceilidh@ontariopresents.ca";
   schema:telephone "4167036709";
@@ -65,9 +65,9 @@ _:6aa6af5391734f2ca3073b68c588fffb2026 a schema:PostalAddress;
 network:692 a schema:Organization;
   schema:name "Arts Touring Alliance of Alberta";
   schema:alternateName "ATAA";
-  schema:address _:6aa6af5391734f2ca3073b68c588fffb2027 .
+  schema:address _:c6d809d4cb244171abe6f5396406d0152027 .
 
-_:6aa6af5391734f2ca3073b68c588fffb2027 a schema:PostalAddress;
+_:c6d809d4cb244171abe6f5396406d0152027 a schema:PostalAddress;
   schema:name "Kennedy Jenson";
   schema:email "kennedy@artstouring.com";
   schema:telephone "780-644-4840";
@@ -80,9 +80,9 @@ _:6aa6af5391734f2ca3073b68c588fffb2027 a schema:PostalAddress;
 network:3901 a schema:Organization;
   schema:name "BC Live";
   schema:alternateName "BCTC";
-  schema:address _:6aa6af5391734f2ca3073b68c588fffb2028 .
+  schema:address _:c6d809d4cb244171abe6f5396406d0152028 .
 
-_:6aa6af5391734f2ca3073b68c588fffb2028 a schema:PostalAddress;
+_:c6d809d4cb244171abe6f5396406d0152028 a schema:PostalAddress;
   schema:name "Petrice Brett";
   schema:addressCountry "CA";
   schema:addressRegion "";
@@ -93,9 +93,9 @@ _:6aa6af5391734f2ca3073b68c588fffb2028 a schema:PostalAddress;
 network:14662 a schema:Organization;
   schema:name "Marché International de Cirque Contemporain";
   schema:alternateName "MICC";
-  schema:address _:6aa6af5391734f2ca3073b68c588fffb2029 .
+  schema:address _:c6d809d4cb244171abe6f5396406d0152029 .
 
-_:6aa6af5391734f2ca3073b68c588fffb2029 a schema:PostalAddress;
+_:c6d809d4cb244171abe6f5396406d0152029 a schema:PostalAddress;
   schema:name "Aaron Marquise";
   schema:email "aaron.marquise@tohu.ca";
   schema:addressCountry "CA";
@@ -107,9 +107,9 @@ _:6aa6af5391734f2ca3073b68c588fffb2029 a schema:PostalAddress;
 network:15882 a schema:Organization;
   schema:name "CAPACOA";
   schema:alternateName "CAPACOA";
-  schema:address _:6aa6af5391734f2ca3073b68c588fffb2030 .
+  schema:address _:c6d809d4cb244171abe6f5396406d0152030 .
 
-_:6aa6af5391734f2ca3073b68c588fffb2030 a schema:PostalAddress;
+_:c6d809d4cb244171abe6f5396406d0152030 a schema:PostalAddress;
   schema:name "Frédéric Julien";
   schema:email "frederic.julien@capacoa.ca";
   schema:addressCountry "CA";
