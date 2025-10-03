@@ -1,0 +1,111 @@
+@base <http://example.com/base/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix genre: <http://arts-tc.ca/genre/> .
+
+genre:7 a skos:Concept;
+  skos:prefLabel "Adult Audience";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:8 a skos:Concept;
+  skos:prefLabel "Circus";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:9 a skos:Concept;
+  skos:prefLabel "Comedy/Humour";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:10 a skos:Concept;
+  skos:prefLabel "Dance";
+  skos:inScheme genre:ATCGenreScheme;
+  skos:broader genre:11, genre:12, genre:13 .
+
+genre:11 a skos:Concept;
+  skos:prefLabel "Classical";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:12 a skos:Concept;
+  skos:prefLabel "Contemporary";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:13 a skos:Concept;
+  skos:prefLabel "Cultural";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:14 a skos:Concept;
+  skos:prefLabel "Educational";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:15 a skos:Concept;
+  skos:prefLabel "Film";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:16 a skos:Concept;
+  skos:prefLabel "Indigenous";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:17 a skos:Concept;
+  skos:prefLabel "Interdisciplinary/Performance";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:18 a skos:Concept;
+  skos:prefLabel "Music";
+  skos:inScheme genre:ATCGenreScheme;
+  skos:broader genre:19, genre:20, genre:21, genre:22, genre:23, genre:24, genre:25,
+    genre:26 .
+
+genre:19 a skos:Concept;
+  skos:prefLabel "Classical";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:20 a skos:Concept;
+  skos:prefLabel "Country";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:21 a skos:Concept;
+  skos:prefLabel "Folk/Roots/Traditional";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:22 a skos:Concept;
+  skos:prefLabel "Jazz/Blues";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:23 a skos:Concept;
+  skos:prefLabel "Popular";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:24 a skos:Concept;
+  skos:prefLabel "Tribute";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:25 a skos:Concept;
+  skos:prefLabel "World";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:26 a skos:Concept;
+  skos:prefLabel "New Music";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:27 a skos:Concept;
+  skos:prefLabel "Spoken Word";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:28 a skos:Concept;
+  skos:prefLabel "Theatre";
+  skos:inScheme genre:ATCGenreScheme;
+  skos:broader genre:29, genre:30 .
+
+genre:29 a skos:Concept;
+  skos:prefLabel "Musical Theatre";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:30 a skos:Concept;
+  skos:prefLabel "Opera";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:31 a skos:Concept;
+  skos:prefLabel "Variety";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:32 a skos:Concept;
+  skos:prefLabel "Young Audience/Family";
+  skos:inScheme genre:ATCGenreScheme .

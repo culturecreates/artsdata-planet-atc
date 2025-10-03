@@ -1,0 +1,23 @@
+@base <http://example.com/base/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix category: <http://arts-tc.ca/category/> .
+
+category:1 a skos:Concept;
+  skos:prefLabel "2SLGBTQIA+";
+  skos:inScheme category:ATCCategoryScheme .
+
+category:2 a skos:Concept;
+  skos:prefLabel "Indigeneous";
+  skos:inScheme category:ATCCategoryScheme .
+
+category:3 a skos:Concept;
+  skos:prefLabel "Artists of colour";
+  skos:inScheme category:ATCCategoryScheme .
+
+category:4 a skos:Concept;
+  skos:prefLabel "Deaf artists and artists with disabilities";
+  skos:inScheme category:ATCCategoryScheme .
+
+category:5 a skos:Concept;
+  skos:prefLabel "Francophone";
+  skos:inScheme category:ATCCategoryScheme .
