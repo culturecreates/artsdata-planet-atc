@@ -17,7 +17,7 @@ genre:9 a skos:Concept;
 genre:10 a skos:Concept;
   skos:prefLabel "Dance";
   skos:inScheme genre:ATCGenreScheme;
-  skos:broader genre:11, genre:12, genre:13 .
+  skos:narrower genre:11, genre:12, genre:13 .
 
 genre:11 a skos:Concept;
   skos:prefLabel "Classical";
@@ -50,7 +50,7 @@ genre:17 a skos:Concept;
 genre:18 a skos:Concept;
   skos:prefLabel "Music";
   skos:inScheme genre:ATCGenreScheme;
-  skos:broader genre:19, genre:20, genre:21, genre:22, genre:23, genre:24, genre:25,
+  skos:narrower genre:19, genre:20, genre:21, genre:22, genre:23, genre:24, genre:25,
     genre:26 .
 
 genre:19 a skos:Concept;
@@ -92,7 +92,7 @@ genre:27 a skos:Concept;
 genre:28 a skos:Concept;
   skos:prefLabel "Theatre";
   skos:inScheme genre:ATCGenreScheme;
-  skos:broader genre:29, genre:30 .
+  skos:narrower genre:29, genre:30 .
 
 genre:29 a skos:Concept;
   skos:prefLabel "Musical Theatre";
