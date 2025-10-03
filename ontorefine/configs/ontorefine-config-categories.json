@@ -131,7 +131,7 @@
                 "property": {
                   "valueSource": {
                     "source": "constant",
-                    "constant": "broader"
+                    "constant": "narrower"
                   },
                   "transformation": {
                     "language": "prefix",
