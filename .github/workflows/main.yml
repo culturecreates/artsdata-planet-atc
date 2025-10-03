@@ -25,12 +25,23 @@ jobs:
         run: |
           mkdir -p outputs
 
-          sources=("artist" "network" "presenter" "performance-space" "representative" "show" "tour-booking")
-          for source in "${sources[@]}"; do
+          declare -A source_map=(
+            ["artist"]="artists"
+            ["network"]="networks"
+            ["presenter"]="presenters"
+            ["performance-space"]="performance-spaces"
+            ["representative"]="representatives"
+            ["show"]="shows"
+            ["tour-booking"]="tour-bookings"
+            ["genre"]="genres"
+            ["category"]="categories"
+          )
+          for source in "${!source_map[@]}"; do
+            file_name=${source_map[$source]}
             offset=0
             data=""
             while true; do
-              echo "Fetching ${source}s with offset $offset"
+              echo "Fetching ${file_name} with offset $offset"
               response=$(curl -s "https://test-block-booking.pantheonsite.io/api/$source?page%5Boffset%5D=$offset" --header "Authorization: basic ${{secrets.API_KEY}}")
               # Checking if data is empty
               if [ "$(echo $response | jq '.data | length')" -eq 0 ]; then 
@@ -44,13 +55,13 @@ jobs:
 
             echo "{\"data\":$data}" > ${source}.json
 
-            curl "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref}}/ontorefine/configs/ontorefine-config-${source}s.json" >> config-${source}.json
+            curl "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref}}/ontorefine/configs/ontorefine-config-${file_name}.json" >> config-${source}.json
 
             /opt/ontorefine/dist/bin/ontorefine-cli \
             transform ${source}.json \
             -u http://localhost:7333 \
             --configurations config-${source}.json \
-            -f json >> outputs/${source}s.ttl
+            -f json >> outputs/${file_name}.ttl
           done
 
       - name: Upload artifacts
@@ -87,7 +98,7 @@ jobs:
     needs: commit-and-push
     strategy:
       matrix:
-        artifact: ["artists", "networks", "presenters", "performance-spaces", "representatives", "shows", "tour-bookings"]
+        artifact: ["artists", "networks", "presenters", "performance-spaces", "representatives", "shows", "tour-bookings", "genres", "categories"]
     steps:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v2

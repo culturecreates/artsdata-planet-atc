@@ -1,0 +1,65 @@
+{
+    "data": [
+        {
+            "type": "genre",
+            "id": "a7f23098-b6b6-4142-a973-859b278ed6f3",
+            "attributes": {
+                "name": "Dance",
+                "changed": "2022-01-17T14:05:11+00:00",
+                "langcode": "en",
+                "tid": 10,
+                "parent": null,
+                "children": [
+                    {
+                        "tid": 11,
+                        "name": "Classical"
+                    },
+                    {
+                        "tid": 12,
+                        "name": "Contemporary"
+                    },
+                    {
+                        "tid": 13,
+                        "name": "Cultural"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "genre",
+            "id": "3325c8ff-a4cc-4f95-a9fc-81c8cb7a88ba",
+            "attributes": {
+                "name": "Classical",
+                "changed": "2022-01-17T14:05:11+00:00",
+                "langcode": "en",
+                "tid": 11,
+                "parent": 10,
+                "children": []
+            }
+        },
+        {
+            "type": "genre",
+            "id": "38c95096-0124-4f4f-83aa-d3cd9e5a3de5",
+            "attributes": {
+                "name": "Contemporary",
+                "changed": "2022-01-17T14:05:11+00:00",
+                "langcode": "en",
+                "tid": 12,
+                "parent": 10,
+                "children": []
+            }
+        },
+        {
+            "type": "genre",
+            "id": "e4b18e1b-42a5-4574-b507-90f1abe00109",
+            "attributes": {
+                "name": "Cultural",
+                "changed": "2022-01-17T14:05:11+00:00",
+                "langcode": "en",
+                "tid": 13,
+                "parent": 10,
+                "children": []
+            }
+        }
+    ]
+}

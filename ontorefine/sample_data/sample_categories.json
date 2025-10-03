@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "type": "category",
+            "id": "3c0e726b-0390-4ae4-9567-9f4c4170d340",
+            "attributes": {
+                "name": "2SLGBTQIA+",
+                "changed": "2022-08-24T21:42:40+00:00",
+                "langcode": "en",
+                "tid": 1,
+                "parent": null,
+                "children": []
+            }
+        }
+    ]
+}
