@@ -386,8 +386,72 @@
                     },
                     "valueType": {
                       "type": "iri",
-                      "typeMappings": [],
-                      "propertyMappings": []
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "Concept"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "skos"
+                          }
+                        }
+                      ],
+                      "propertyMappings": [
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "prefLabel"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "skos"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - attributes - genres - _ - name"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "inScheme"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "skos"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "ATCGenreScheme"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "genre"
+                              },
+                              "valueType": {
+                                "type": "iri",
+                                "typeMappings": [],
+                                "propertyMappings": []
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     }
                   }
                 ]
@@ -415,8 +479,72 @@
                     },
                     "valueType": {
                       "type": "iri",
-                      "typeMappings": [],
-                      "propertyMappings": []
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "Concept"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "skos"
+                          }
+                        }
+                      ],
+                      "propertyMappings": [
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "prefLabel"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "skos"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - attributes - categories - _ - name"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "inScheme"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "skos"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "ATCCategoryScheme"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "category"
+                              },
+                              "valueType": {
+                                "type": "iri",
+                                "typeMappings": [],
+                                "propertyMappings": []
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     }
                   }
                 ]

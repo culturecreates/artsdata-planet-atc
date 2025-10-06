@@ -33,8 +33,6 @@ jobs:
             ["representative"]="representatives"
             ["show"]="shows"
             ["tour-booking"]="tour-bookings"
-            ["genre"]="genres"
-            ["category"]="categories"
           )
           for source in "${!source_map[@]}"; do
             file_name=${source_map[$source]}
@@ -98,7 +96,7 @@ jobs:
     needs: commit-and-push
     strategy:
       matrix:
-        artifact: ["artists", "networks", "presenters", "performance-spaces", "representatives", "shows", "tour-bookings", "genres", "categories"]
+        artifact: ["artists", "networks", "presenters", "performance-spaces", "representatives", "shows", "tour-bookings"]
     steps:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v2
