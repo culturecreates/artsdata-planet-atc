@@ -64,6 +64,11 @@ jobs:
             -f json >> outputs/${file_name}.ttl
           done
 
+      - name: Concatenate genres and categories into shows
+        run: |
+          cat outputs/genres.ttl outputs/categories.ttl >> outputs/shows.ttl
+          
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -98,7 +103,7 @@ jobs:
     needs: commit-and-push
     strategy:
       matrix:
-        artifact: ["artists", "networks", "presenters", "performance-spaces", "representatives", "shows", "tour-bookings", "genres", "categories"]
+        artifact: ["artists", "networks", "presenters", "performance-spaces", "representatives", "shows", "tour-bookings"]
     steps:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v2
