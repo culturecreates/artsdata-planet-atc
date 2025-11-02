@@ -746,8 +746,9 @@ presenter:1351 a schema:Organization;
   schema:name "Town of Okotoks-Old Church Theatre" .
 
 performance-space:1369 a schema:Place;
-  schema:name "Rotary Performing Arts Centre (RPAC)";
-  schema:maximumAttendeeCapacity "150" .
+  schema:name "Old Church Theatre";
+  schema:sameAs wd:Q129428158, adr:K2-5210;
+  schema:maximumAttendeeCapacity "140" .
 
 presenter:1366 a schema:Organization;
   schema:location performance-space:1370;
@@ -1268,6 +1269,10 @@ performance-space:2957 a schema:Place;
   schema:name "Heritage Home for the Arts";
   schema:maximumAttendeeCapacity "300" .
 
+presenter:1571 a schema:Organization;
+  schema:name "Killarney Turtle Mountain Arts Council";
+  schema:location performance-space:4043 .
+
 presenter:1701 a schema:Organization;
   schema:location performance-space:3037;
   schema:name "Leah Test" .
@@ -1520,10 +1525,6 @@ presenter:413 a schema:Organization;
 performance-space:3943 a schema:Place;
   schema:name "LSPU Hall";
   schema:maximumAttendeeCapacity "192" .
-
-presenter:1571 a schema:Organization;
-  schema:location performance-space:4043;
-  schema:name "Killarney Turtle Mountain Arts Council" .
 
 performance-space:4043 a schema:Place;
   schema:name "Royal Canadian Legion Branch 25 Community Hall";
@@ -2559,3 +2560,28 @@ performance-space:21287 a schema:Place;
   schema:name "The Theatre" .
 
 presenter:21286 schema:name "Banff Centre for Arts and Creativity" .
+
+presenter:16910 a schema:Organization;
+  schema:location performance-space:22180;
+  schema:name "The Cultch" .
+
+performance-space:22180 a schema:Place;
+  schema:name "Vancouver Playhouse ";
+  schema:maximumAttendeeCapacity "657" .
+
+presenter:22321 a schema:Organization;
+  schema:location performance-space:22322;
+  schema:name "Presentation House Theatre" .
+
+performance-space:22322 a schema:Place;
+  schema:name "Presentation House Theatre";
+  schema:sameAs wd:Q134296633, adr:K25-869;
+  schema:maximumAttendeeCapacity "150" .
+
+presenter:265 a schema:Organization;
+  schema:location performance-space:22418;
+  schema:name "Acadia Performing Arts Series" .
+
+performance-space:22418 a schema:Place;
+  schema:name "Al Whittle Theatre";
+  schema:maximumAttendeeCapacity "160" .
