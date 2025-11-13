@@ -30,6 +30,41 @@
       "description": "Fill down cells in column _ - attributes - nid"
     },
     {
+      "op": "core/recon",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - attributes - genres - _ - name",
+      "config": {
+        "mode": "standard-service",
+        "service": "https://api.artsdata.ca/recon",
+        "identifierSpace": "http://kg.artsdata.ca/resource/",
+        "schemaSpace": "http://schema.org/",
+        "type": {
+          "id": "http://kg.artsdata.ca/ontology/Genre",
+          "name": "http://kg.artsdata.ca/ontology/Genre"
+        },
+        "autoMatch": true,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "description": "Reconcile cells in column _ - attributes - genres - _ - name to type http://kg.artsdata.ca/ontology/Genre"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "baseColumnName": "_ - attributes - genres - _ - name",
+      "expression": "cell.recon.match.id",
+      "onError": "set-to-blank",
+      "newColumnName": "_ - artsdata - genre",
+      "columnInsertIndex": 16,
+      "description": "Create column _ - artsdata - genre at index 16 based on column _ - attributes - genres - _ - name using expression cell.recon.match.id"
+    },
+    {
       "op": "mapping-editor/save-rdf-mapping",
       "mapping": {
         "baseIRI": "http://example.com/base/",
@@ -40,7 +75,8 @@
           "category": "http://arts-tc.ca/category/",
           "genre": "http://arts-tc.ca/genre/",
           "ado": "http://kg.artsdata.ca/ontology/",
-          "skos": "http://www.w3.org/2004/02/skos/core#"
+          "skos": "http://www.w3.org/2004/02/skos/core#",
+          "adr": "http://kg.artsdata.ca/resource/"
         },
         "subjectMappings": [
           {
@@ -496,6 +532,35 @@
                     "transformation": {
                       "language": "prefix",
                       "expression": "genre"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "closeMatch"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "skos"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - artsdata - genre"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "adr"
                     },
                     "valueType": {
                       "type": "iri",
