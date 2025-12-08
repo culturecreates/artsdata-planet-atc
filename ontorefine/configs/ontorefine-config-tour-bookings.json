@@ -30,6 +30,47 @@
       "description": "Fill down cells in column _ - attributes - nid"
     },
     {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "baseColumnName": "_ - attributes - event_date",
+      "expression": "grel:if(\n    and(\n        diff(cells[\"_ - attributes - event_date\"].value.toDate(), now(), 'days') > cells[\"_ - attributes - season - disclosure\"].value.toNumber(),\n        cells[\"_ - attributes - status\"].value != \"in-progress\"\n    ),\n    true,\n    false\n)",
+      "onError": "set-to-blank",
+      "newColumnName": "_ - should_import",
+      "columnInsertIndex": 9,
+      "description": "Create column _ - should_import at index 9 based on column _ - attributes - event_date using expression grel:if(\n    and(\n        diff(cells[\"_ - attributes - event_date\"].value.toDate(), now(), 'days') > cells[\"_ - attributes - season - disclosure\"].value.toNumber(),\n        cells[\"_ - attributes - status\"].value != \"in-progress\"\n    ),\n    true,\n    false\n)"
+    },
+    {
+      "op": "core/row-removal",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "_ - should_import",
+            "expression": "value",
+            "columnName": "_ - should_import",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "record-based"
+      },
+      "description": "Remove rows"
+    },
+    {
       "op": "mapping-editor/save-rdf-mapping",
       "mapping": {
         "baseIRI": "http://example.com/base/",
@@ -340,6 +381,34 @@
                     "transformation": {
                       "language": "prefix",
                       "expression": "show"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "eventStatus"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "\"http://schema.org/\" + if(cells[\"_ - attributes - status\"].value == \"confirmed\", \"eventScheduled\",\n  if(cells[\"_ - attributes - status\"].value == \"closed\", \"eventCancelled\",\n    if(cells[\"_ - attributes - status\"].value == \"postponed\", \"postponed\", null)\n  )\n)"
                     },
                     "valueType": {
                       "type": "iri",
