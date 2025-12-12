@@ -257,4 +257,163 @@ class FetchAtcEntitiesTest < Minitest::Test
     assert_equal 'genres', SOURCE_MAP['genre']
     assert_equal 'categories', SOURCE_MAP['category']
   end
+
+
+  # Event Status Tests
+  
+  def test_add_event_status_confirmed
+    data = [@tour_booking_confirmed]
+    result = add_event_status(data)
+    
+    assert_equal 1, result.length
+    assert_equal 'http://schema.org/EventScheduled', result.first['attributes']['event_status_uri']
+  end
+
+  def test_add_event_status_closed
+    data = [@tour_booking_closed]
+    result = add_event_status(data)
+    
+    assert_equal 1, result.length
+    assert_equal 'http://schema.org/EventCancelled', result.first['attributes']['event_status_uri']
+  end
+
+  def test_add_event_status_postponed
+    data = [@tour_booking_postponed]
+    result = add_event_status(data)
+    
+    assert_equal 1, result.length
+    assert_equal 'http://schema.org/EventPostponed', result.first['attributes']['event_status_uri']
+  end
+
+  def test_add_event_status_unknown_status
+    data = [@tour_booking_unknown_status]
+    result = add_event_status(data)
+    
+    assert_equal 1, result.length
+    assert_nil result.first['attributes']['event_status_uri']
+  end
+
+  def test_add_event_status_in_progress
+    data = [@tour_booking_in_progress]
+    result = add_event_status(data)
+    
+    assert_equal 1, result.length
+    # in_progress is not in STATUS_MAPPING, so should not have event_status_uri
+    assert_nil result.first['attributes']['event_status_uri']
+  end
+
+  def test_add_event_status_multiple_bookings
+    data = [
+      @tour_booking_confirmed,
+      @tour_booking_closed,
+      @tour_booking_postponed,
+      @tour_booking_unknown_status
+    ]
+    result = add_event_status(data)
+    
+    assert_equal 4, result.length
+    assert_equal 'http://schema.org/EventScheduled', result[0]['attributes']['event_status_uri']
+    assert_equal 'http://schema.org/EventCancelled', result[1]['attributes']['event_status_uri']
+    assert_equal 'http://schema.org/EventPostponed', result[2]['attributes']['event_status_uri']
+    assert_nil result[3]['attributes']['event_status_uri']
+  end
+
+  def test_add_event_status_preserves_original_data
+    original_booking = {
+      'attributes' => {
+        'nid' => 100,
+        'status' => 'confirmed',
+        'event_date' => '2026-02-15T19:00:00',
+        'show' => { 'title' => 'Test Show' }
+      }
+    }
+    data = [original_booking]
+    result = add_event_status(data)
+    
+    assert_equal 100, result.first['attributes']['nid']
+    assert_equal 'confirmed', result.first['attributes']['status']
+    assert_equal '2026-02-15T19:00:00', result.first['attributes']['event_date']
+    assert_equal 'Test Show', result.first['attributes']['show']['title']
+    assert_equal 'http://schema.org/EventScheduled', result.first['attributes']['event_status_uri']
+  end
+
+  # STATUS_MAPPING Tests
+  
+  def test_status_mapping_contains_all_required_statuses
+    assert STATUS_MAPPING.key?('confirmed')
+    assert STATUS_MAPPING.key?('closed')
+    assert STATUS_MAPPING.key?('postponed')
+  end
+
+  def test_status_mapping_has_correct_uris
+    assert_equal 'http://schema.org/EventScheduled', STATUS_MAPPING['confirmed']
+    assert_equal 'http://schema.org/EventCancelled', STATUS_MAPPING['closed']
+    assert_equal 'http://schema.org/EventPostponed', STATUS_MAPPING['postponed']
+  end
+
+  def test_status_mapping_does_not_include_in_progress
+    refute STATUS_MAPPING.key?('in_progress')
+  end
+
+  # Source Map Tests
+  
+  def test_source_map_contains_all_required_entities
+    expected_sources = [
+      'artist', 'network', 'presenter', 'performance-space',
+      'representative', 'show', 'tour-booking', 'genre', 'category'
+    ]
+    
+    expected_sources.each do |source|
+      assert SOURCE_MAP.key?(source), "SOURCE_MAP missing key: #{source}"
+    end
+  end
+
+  def test_source_map_has_correct_filenames
+    assert_equal 'artists', SOURCE_MAP['artist']
+    assert_equal 'networks', SOURCE_MAP['network']
+    assert_equal 'presenters', SOURCE_MAP['presenter']
+    assert_equal 'performance-spaces', SOURCE_MAP['performance-space']
+    assert_equal 'representatives', SOURCE_MAP['representative']
+    assert_equal 'shows', SOURCE_MAP['show']
+    assert_equal 'tour-bookings', SOURCE_MAP['tour-booking']
+    assert_equal 'genres', SOURCE_MAP['genre']
+    assert_equal 'categories', SOURCE_MAP['category']
+  end
+
+  # Integration Tests
+  
+  def test_filter_and_add_status_workflow
+    data = [
+      @tour_booking_confirmed,
+      @tour_booking_in_progress,
+      @tour_booking_closed,
+      @tour_booking_past_deadline
+    ]
+    
+    Date.stub :today, @today do
+      # First filter
+      filtered = filter_tour_bookings(data)
+      assert_equal 2, filtered.length
+      
+      # Then add status
+      result = add_event_status(filtered)
+      assert_equal 2, result.length
+      
+      # Check both have event_status_uri
+      assert_equal 'http://schema.org/EventScheduled', result[0]['attributes']['event_status_uri']
+      assert_equal 'http://schema.org/EventCancelled', result[1]['attributes']['event_status_uri']
+    end
+  end
+
+  def test_empty_data_handling
+    data = []
+    
+    Date.stub :today, @today do
+      filtered = filter_tour_bookings(data)
+      assert_equal 0, filtered.length
+      
+      result = add_event_status(filtered)
+      assert_equal 0, result.length
+    end
+  end
 end

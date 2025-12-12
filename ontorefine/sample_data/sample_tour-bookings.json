@@ -1,349 +1,389 @@
 {
   "data": [
-           {
-            "type": "tour_booking",
-            "id": "69f0017e-3c6a-4958-8764-f1c067f6f818",
-            "attributes": {
-                "nid": "600-364",
-                "title": "Burton Cummings (Season 23/24) > Capitol Centre",
-                "status": "closed",
-                "created": "2022-09-22T19:34:57+00:00",
-                "changed": "2023-02-08T16:47:02+00:00",
-                "langcode": "en",
-                "event_date": "2023-10-15T00:00:00+00:00",
-                "identifiers": {
-                    "artsdata": null,
-                    "isni": null,
-                    "wikidata": null,
-                    "atc": 600
-                },
-                "season": {
-                    "type": "season",
-                    "nid": 39,
-                    "title": "Season 23/24",
-                    "start": "2023-09-01",
-                    "disclosure": "90"
-                },
-                "show": {
-                    "type": "show",
-                    "nid": 563,
-                    "title": "Burton Cummings",
-                    "description": "",
-                    "genre": [
-                        {
-                            "type": "genre",
-                            "tid": 18,
-                            "name": "Music",
-                            "parent": null
-                        },
-                        {
-                            "type": "genre",
-                            "tid": 23,
-                            "name": "Popular",
-                            "parent": 18
-                        }
-                    ],
-                    "category": [],
-                    "artists": [
-                        {
-                            "type": "artist",
-                            "nid": 224,
-                            "title": "Burton Cummings"
-                        }
-                    ]
-                },
-                "presenter": {
-                    "type": "member",
-                    "nid": 285,
-                    "title": "Capitol Centre"
-                },
-                "performance_space": {
-                    "type": "performance_space",
-                    "nid": 580,
-                    "title": "Betty Speers Theatre - Capitol Centre"
-                },
-                "network": {
-                    "type": "organization",
-                    "nid": 9,
-                    "title": "Ontario Presents"
-                }
-            }
+    {
+      "type": "tour_booking",
+      "id": "d4dc33b6-824f-437c-a53b-1fdafa92dbf0",
+      "attributes": {
+        "nid": "22065-6974",
+        "title": "Emerald Isle (Season 26/27) > Huntsville Festival of the Arts",
+        "status": "confirmed",
+        "created": "2025-09-19T15:26:40+00:00",
+        "changed": "2025-09-19T15:27:09+00:00",
+        "langcode": "en",
+        "event_date": "2027-03-10T00:30:00+00:00",
+        "identifiers": {
+          "artsdata": null,
+          "isni": null,
+          "wikidata": null,
+          "atc": 22065
         },
-        {
-            "type": "tour_booking",
-            "id": "76f657f3-6695-406e-a1b1-88cf45892998",
-            "attributes": {
-                "nid": "601-366",
-                "title": "Burton Cummings (Season 23/24) > Flato Markham Theatre",
-                "status": "closed",
-                "created": "2022-09-22T19:36:39+00:00",
-                "changed": "2022-11-01T21:46:39+00:00",
-                "langcode": "en",
-                "event_date": "2023-10-21T00:00:00+00:00",
-                "identifiers": {
-                    "artsdata": null,
-                    "isni": null,
-                    "wikidata": null,
-                    "atc": 601
-                },
-                "season": {
-                    "type": "season",
-                    "nid": 39,
-                    "title": "Season 23/24",
-                    "start": "2023-09-01",
-                    "disclosure": "90"
-                },
-                "show": {
-                    "type": "show",
-                    "nid": 563,
-                    "title": "Burton Cummings",
-                    "description": "",
-                    "genre": [
-                        {
-                            "type": "genre",
-                            "tid": 18,
-                            "name": "Music",
-                            "parent": null
-                        },
-                        {
-                            "type": "genre",
-                            "tid": 23,
-                            "name": "Popular",
-                            "parent": 18
-                        }
-                    ],
-                    "category": [],
-                    "artists": [
-                        {
-                            "type": "artist",
-                            "nid": 224,
-                            "title": "Burton Cummings"
-                        }
-                    ]
-                },
-                "presenter": {
-                    "type": "member",
-                    "nid": 279,
-                    "title": "Flato Markham Theatre"
-                },
-                "performance_space": {
-                    "type": "performance_space",
-                    "nid": 296,
-                    "title": "Flato Markham Theatre "
-                },
-                "network": {
-                    "type": "organization",
-                    "nid": 9,
-                    "title": "Ontario Presents"
-                }
-            }
+        "season": {
+          "type": "season",
+          "nid": 19188,
+          "title": "Season 26/27",
+          "start": "2026-08-01",
+          "disclosure": "90"
         },
-        {
-            "type": "tour_booking",
-            "id": "23329abf-b745-4c39-a934-b1f332726ace",
-            "attributes": {
-                "nid": "603-368",
-                "title": "Burton Cummings (Season 23/24) > Richmond Hill Centre for the Performing Arts",
-                "status": "closed",
-                "created": "2022-09-22T19:39:26+00:00",
-                "changed": "2023-05-18T18:01:49+00:00",
-                "langcode": "en",
-                "event_date": "2023-10-29T00:00:00+00:00",
-                "identifiers": {
-                    "artsdata": null,
-                    "isni": null,
-                    "wikidata": null,
-                    "atc": 603
-                },
-                "season": {
-                    "type": "season",
-                    "nid": 39,
-                    "title": "Season 23/24",
-                    "start": "2023-09-01",
-                    "disclosure": "90"
-                },
-                "show": {
-                    "type": "show",
-                    "nid": 563,
-                    "title": "Burton Cummings",
-                    "description": "sample description",
-                    "genre": [
-                        {
-                            "type": "genre",
-                            "tid": 18,
-                            "name": "Music",
-                            "parent": null
-                        },
-                        {
-                            "type": "genre",
-                            "tid": 23,
-                            "name": "Popular",
-                            "parent": 18
-                        }
-                    ],
-                    "category": [],
-                    "artists": [
-                        {
-                            "type": "artist",
-                            "nid": 224,
-                            "title": "Burton Cummings"
-                        }
-                    ]
-                },
-                "presenter": {
-                    "type": "member",
-                    "nid": 284,
-                    "title": "Richmond Hill Centre for the Performing Arts"
-                },
-                "performance_space": {
-                    "type": "performance_space",
-                    "nid": 297,
-                    "title": "RHCPA MAINSTAGE"
-                },
-                "network": {
-                    "type": "organization",
-                    "nid": 9,
-                    "title": "Ontario Presents"
-                }
+        "show": {
+          "type": "show",
+          "nid": 21440,
+          "title": "Emerald Isle",
+          "description": "<p>Ever since Riverdance burst onto our screens, Irish dance and music have captivated the world for over two decades. Irish culture continues to amaze audiences globally, performing on all seven continents year after year.</p><p> </p><p>L.E.G. is no stranger to entertainment, and continues to impress audiences near and far, with our musicians, dancers and acts. </p><p> </p><p>After working globally with leading promoters, event specialists and cruise companies, L.E.G. has become synonymous with the highest standards of entertainment. Our outstanding shows and the professionalism of all Legacy Entertainment artists have contributed to repeat business year in, year out, with high profile companies, enabling us to become a global leader in Irish entertainment. </p><p> </p><p>We can make your event come alive anywhere and in any space!</p><p>Our expert team can create a spectacular performance, big or small. From a sell-out theatre in the USA to a wedding in Ireland, the stage comes to life with our singers, dancers and musicians. Having performed in sold out stadiums and arenas around the world, to Buckingham Palace for HRH King Charles and entertaining the royal family of Abu Dhabi, our artists are ready to give you a night to remember!</p><p> </p><p>All our acts are live on the night, and can be tailored to suit your requirements and budget.</p><p> </p><p>﻿With offices in the Ireland, UK, Dubai and USA, Legacy Entertainment Group can provide the best in Celtic Entertainment at a moment's notice, so drop us a line to find out what we can do for you #irishdancereborn</p>",
+          "genre": [
+            {
+              "type": "genre",
+              "tid": 7,
+              "name": "Adult Audience",
+              "parent": null
             }
+          ],
+          "category": [],
+          "artists": []
         },
-        {
-            "type": "tour_booking",
-            "id": "23329abf-b745-4c39-a934-b1f332726ace",
-            "attributes": {
-                "nid": "603-2488",
-                "title": "Burton Cummings (Season 23/24) > Richmond Hill Centre for the Performing Arts",
-                "status": "closed",
-                "created": "2022-09-22T19:39:26+00:00",
-                "changed": "2023-05-18T18:01:49+00:00",
-                "langcode": "en",
-                "event_date": "2023-11-09T01:00:00+00:00",
-                "identifiers": {
-                    "artsdata": null,
-                    "isni": null,
-                    "wikidata": null,
-                    "atc": 603
-                },
-                "season": {
-                    "type": "season",
-                    "nid": 39,
-                    "title": "Season 23/24",
-                    "start": "2023-09-01",
-                    "disclosure": "90"
-                },
-                "show": {
-                    "type": "show",
-                    "nid": 563,
-                    "title": "Burton Cummings",
-                    "description": "",
-                    "genre": [
-                        {
-                            "type": "genre",
-                            "tid": 18,
-                            "name": "Music",
-                            "parent": null
-                        },
-                        {
-                            "type": "genre",
-                            "tid": 23,
-                            "name": "Popular",
-                            "parent": 18
-                        }
-                    ],
-                    "category": [],
-                    "artists": [
-                        {
-                            "type": "artist",
-                            "nid": 224,
-                            "title": "Burton Cummings"
-                        }
-                    ]
-                },
-                "presenter": {
-                    "type": "member",
-                    "nid": 284,
-                    "title": "Richmond Hill Centre for the Performing Arts"
-                },
-                "performance_space": {
-                    "type": "performance_space",
-                    "nid": 297,
-                    "title": "RHCPA MAINSTAGE"
-                },
-                "network": {
-                    "type": "organization",
-                    "nid": 9,
-                    "title": "Ontario Presents"
-                }
-            }
+        "presenter": {
+          "type": "member",
+          "nid": 289,
+          "title": "Huntsville Festival of the Arts"
         },
-        {
-            "type": "tour_booking",
-            "id": "ed3e27bf-e5d0-4033-ad96-71749684295c",
-            "attributes": {
-                "nid": "620-370",
-                "title": "Burton Cummings (Season 23/24) > City of Kingston - Kingston Grand Theatre",
-                "status": "closed",
-                "created": "2022-09-22T22:27:13+00:00",
-                "changed": "2023-03-17T17:26:35+00:00",
-                "langcode": "en",
-                "event_date": "2023-10-21T23:30:00+00:00",
-                "identifiers": {
-                    "artsdata": null,
-                    "isni": null,
-                    "wikidata": null,
-                    "atc": 620
-                },
-                "season": {
-                    "type": "season",
-                    "nid": 39,
-                    "title": "Season 23/24",
-                    "start": "2023-09-01",
-                    "disclosure": "90"
-                },
-                "show": {
-                    "type": "show",
-                    "nid": 563,
-                    "title": "Burton Cummings",
-                    "description": "",
-                    "genre": [
-                        {
-                            "type": "genre",
-                            "tid": 18,
-                            "name": "Music",
-                            "parent": null
-                        },
-                        {
-                            "type": "genre",
-                            "tid": 23,
-                            "name": "Popular",
-                            "parent": 18
-                        }
-                    ],
-                    "category": [],
-                    "artists": [
-                        {
-                            "type": "artist",
-                            "nid": 224,
-                            "title": "Burton Cummings"
-                        }
-                    ]
-                },
-                "presenter": {
-                    "type": "member",
-                    "nid": 160,
-                    "title": "City of Kingston - Kingston Grand Theatre"
-                },
-                "performance_space": {
-                    "type": "performance_space",
-                    "nid": 555,
-                    "title": "Kingston Grand Theatre - Regina Rosen Auditorium"
-                },
-                "network": {
-                    "type": "organization",
-                    "nid": 9,
-                    "title": "Ontario Presents"
-                }
+        "performance_space": {
+          "type": "performance_space",
+          "nid": 294,
+          "title": "Algonquin Theatre"
+        },
+        "network": {
+          "type": "organization",
+          "nid": 9,
+          "title": "Ontario Presents"
+        },
+        "event_status_uri": "http://schema.org/EventScheduled"
+      }
+    },
+    {
+      "type": "tour_booking",
+      "id": "05144902-e6ee-4b35-966a-c46ce53a72c5",
+      "attributes": {
+        "nid": "22066-6975",
+        "title": "Emerald Isle (Season 26/27) > FirstOntario Performing Arts Centre",
+        "status": "confirmed",
+        "created": "2025-09-19T15:27:15+00:00",
+        "changed": "2025-10-12T16:01:38+00:00",
+        "langcode": "en",
+        "event_date": "2027-03-14T23:30:00+00:00",
+        "identifiers": {
+          "artsdata": null,
+          "isni": null,
+          "wikidata": null,
+          "atc": 22066
+        },
+        "season": {
+          "type": "season",
+          "nid": 19188,
+          "title": "Season 26/27",
+          "start": "2026-08-01",
+          "disclosure": "90"
+        },
+        "show": {
+          "type": "show",
+          "nid": 21440,
+          "title": "Emerald Isle",
+          "description": "<p>Ever since Riverdance burst onto our screens, Irish dance and music have captivated the world for over two decades. Irish culture continues to amaze audiences globally, performing on all seven continents year after year.</p><p> </p><p>L.E.G. is no stranger to entertainment, and continues to impress audiences near and far, with our musicians, dancers and acts. </p><p> </p><p>After working globally with leading promoters, event specialists and cruise companies, L.E.G. has become synonymous with the highest standards of entertainment. Our outstanding shows and the professionalism of all Legacy Entertainment artists have contributed to repeat business year in, year out, with high profile companies, enabling us to become a global leader in Irish entertainment. </p><p> </p><p>We can make your event come alive anywhere and in any space!</p><p>Our expert team can create a spectacular performance, big or small. From a sell-out theatre in the USA to a wedding in Ireland, the stage comes to life with our singers, dancers and musicians. Having performed in sold out stadiums and arenas around the world, to Buckingham Palace for HRH King Charles and entertaining the royal family of Abu Dhabi, our artists are ready to give you a night to remember!</p><p> </p><p>All our acts are live on the night, and can be tailored to suit your requirements and budget.</p><p> </p><p>﻿With offices in the Ireland, UK, Dubai and USA, Legacy Entertainment Group can provide the best in Celtic Entertainment at a moment's notice, so drop us a line to find out what we can do for you #irishdancereborn</p>",
+          "genre": [
+            {
+              "type": "genre",
+              "tid": 7,
+              "name": "Adult Audience",
+              "parent": null
             }
-        }
+          ],
+          "category": [],
+          "artists": []
+        },
+        "presenter": {
+          "type": "member",
+          "nid": 288,
+          "title": "FirstOntario Performing Arts Centre"
+        },
+        "performance_space": {
+          "type": "performance_space",
+          "nid": 677,
+          "title": "Partridge Hall"
+        },
+        "network": {
+          "type": "organization",
+          "nid": 9,
+          "title": "Ontario Presents"
+        },
+        "event_status_uri": "http://schema.org/EventScheduled"
+      }
+    },
+    {
+      "type": "tour_booking",
+      "id": "4c0095b9-e766-4a8e-a369-908bc950d964",
+      "attributes": {
+        "nid": "22067-6976",
+        "title": "Kathleen Edwards (Season 26/27) > Huntsville Festival of the Arts",
+        "status": "closed",
+        "created": "2025-09-19T15:28:00+00:00",
+        "changed": "2025-09-19T15:28:19+00:00",
+        "langcode": "en",
+        "event_date": "2026-10-10T23:30:00+00:00",
+        "identifiers": {
+          "artsdata": null,
+          "isni": null,
+          "wikidata": null,
+          "atc": 22067
+        },
+        "season": {
+          "type": "season",
+          "nid": 19188,
+          "title": "Season 26/27",
+          "start": "2026-08-01",
+          "disclosure": "90"
+        },
+        "show": {
+          "type": "show",
+          "nid": 3115,
+          "title": "Kathleen Edwards",
+          "description": "<p>Kathleen returns with a new 10-song album that is full of Edwards' trademark lyrical sharpness and unflinching observations and was produced by Jason Isbell and Gena Johnson. Celebrated as one of the forebears of modern alt-country and Americana music, Edwards is beloved by fans and fellow musicians, and praised by The New York Times for her, \"droll, observant and unsparing tone that is all her own. In her best lines, Edwards has the conversational vernacular and emotional eloquence of a great short-story writer.\"</p>",
+          "genre": [
+            {
+              "type": "genre",
+              "tid": 18,
+              "name": "Music",
+              "parent": null
+            },
+            {
+              "type": "genre",
+              "tid": 21,
+              "name": "Folk/Roots/Traditional",
+              "parent": 18
+            }
+          ],
+          "category": [],
+          "artists": []
+        },
+        "presenter": {
+          "type": "member",
+          "nid": 289,
+          "title": "Huntsville Festival of the Arts"
+        },
+        "performance_space": {
+          "type": "performance_space",
+          "nid": 294,
+          "title": "Algonquin Theatre"
+        },
+        "network": {
+          "type": "organization",
+          "nid": 9,
+          "title": "Ontario Presents"
+        },
+        "event_status_uri": "http://schema.org/EventCancelled"
+      }
+    },
+    {
+      "type": "tour_booking",
+      "id": "be929c85-cd0b-4202-a367-b5819f38e90c",
+      "attributes": {
+        "nid": "22068-6977",
+        "title": "Kathleen Edwards (Season 26/27) > FirstOntario Performing Arts Centre",
+        "status": "closed",
+        "created": "2025-09-19T15:28:25+00:00",
+        "changed": "2025-09-19T15:28:50+00:00",
+        "langcode": "en",
+        "event_date": "2026-10-06T23:30:00+00:00",
+        "identifiers": {
+          "artsdata": null,
+          "isni": null,
+          "wikidata": null,
+          "atc": 22068
+        },
+        "season": {
+          "type": "season",
+          "nid": 19188,
+          "title": "Season 26/27",
+          "start": "2026-08-01",
+          "disclosure": "90"
+        },
+        "show": {
+          "type": "show",
+          "nid": 3115,
+          "title": "Kathleen Edwards",
+          "description": "<p>Kathleen returns with a new 10-song album that is full of Edwards' trademark lyrical sharpness and unflinching observations and was produced by Jason Isbell and Gena Johnson. Celebrated as one of the forebears of modern alt-country and Americana music, Edwards is beloved by fans and fellow musicians, and praised by The New York Times for her, \"droll, observant and unsparing tone that is all her own. In her best lines, Edwards has the conversational vernacular and emotional eloquence of a great short-story writer.\"</p>",
+          "genre": [
+            {
+              "type": "genre",
+              "tid": 18,
+              "name": "Music",
+              "parent": null
+            },
+            {
+              "type": "genre",
+              "tid": 21,
+              "name": "Folk/Roots/Traditional",
+              "parent": 18
+            }
+          ],
+          "category": [],
+          "artists": []
+        },
+        "presenter": {
+          "type": "member",
+          "nid": 288,
+          "title": "FirstOntario Performing Arts Centre"
+        },
+        "performance_space": {
+          "type": "performance_space",
+          "nid": 677,
+          "title": "Partridge Hall"
+        },
+        "network": {
+          "type": "organization",
+          "nid": 9,
+          "title": "Ontario Presents"
+        },
+        "event_status_uri": "http://schema.org/EventCancelled"
+      }
+    },
+    {
+      "type": "tour_booking",
+      "id": "413e7785-fb18-47ec-9e24-45105def1877",
+      "attributes": {
+        "nid": "22231-7018",
+        "title": "Emerald Isle (Season 26/27) > Flato Markham Theatre",
+        "status": "confirmed",
+        "created": "2025-09-30T12:51:25+00:00",
+        "changed": "2025-10-12T16:00:22+00:00",
+        "langcode": "en",
+        "event_date": "2027-03-08T01:00:00+00:00",
+        "identifiers": {
+          "artsdata": null,
+          "isni": null,
+          "wikidata": null,
+          "atc": 22231
+        },
+        "season": {
+          "type": "season",
+          "nid": 19188,
+          "title": "Season 26/27",
+          "start": "2026-08-01",
+          "disclosure": "90"
+        },
+        "show": {
+          "type": "show",
+          "nid": 21440,
+          "title": "Emerald Isle",
+          "description": "<p>Ever since Riverdance burst onto our screens, Irish dance and music have captivated the world for over two decades. Irish culture continues to amaze audiences globally, performing on all seven continents year after year.</p><p> </p><p>L.E.G. is no stranger to entertainment, and continues to impress audiences near and far, with our musicians, dancers and acts. </p><p> </p><p>After working globally with leading promoters, event specialists and cruise companies, L.E.G. has become synonymous with the highest standards of entertainment. Our outstanding shows and the professionalism of all Legacy Entertainment artists have contributed to repeat business year in, year out, with high profile companies, enabling us to become a global leader in Irish entertainment. </p><p> </p><p>We can make your event come alive anywhere and in any space!</p><p>Our expert team can create a spectacular performance, big or small. From a sell-out theatre in the USA to a wedding in Ireland, the stage comes to life with our singers, dancers and musicians. Having performed in sold out stadiums and arenas around the world, to Buckingham Palace for HRH King Charles and entertaining the royal family of Abu Dhabi, our artists are ready to give you a night to remember!</p><p> </p><p>All our acts are live on the night, and can be tailored to suit your requirements and budget.</p><p> </p><p>﻿With offices in the Ireland, UK, Dubai and USA, Legacy Entertainment Group can provide the best in Celtic Entertainment at a moment's notice, so drop us a line to find out what we can do for you #irishdancereborn</p>",
+          "genre": [
+            {
+              "type": "genre",
+              "tid": 7,
+              "name": "Adult Audience",
+              "parent": null
+            }
+          ],
+          "category": [],
+          "artists": []
+        },
+        "presenter": {
+          "type": "member",
+          "nid": 279,
+          "title": "Flato Markham Theatre"
+        },
+        "performance_space": {
+          "type": "performance_space",
+          "nid": 296,
+          "title": "Flato Markham Theatre "
+        },
+        "network": {
+          "type": "organization",
+          "nid": 9,
+          "title": "Ontario Presents"
+        },
+        "event_status_uri": "http://schema.org/EventScheduled"
+      }
+    },
+    {
+      "type": "tour_booking",
+      "id": "471f14aa-18c6-4e45-804f-61fd70e24851",
+      "attributes": {
+        "nid": "22316-7062",
+        "title": "The Hello Crows (Season 25/26) > Festival Antigonish Summer Theatre",
+        "status": "confirmed",
+        "created": "2025-10-08T13:18:13+00:00",
+        "changed": "2025-10-08T14:12:08+00:00",
+        "langcode": "en",
+        "event_date": "2026-03-27T23:30:00+00:00",
+        "identifiers": {
+          "artsdata": null,
+          "isni": null,
+          "wikidata": null,
+          "atc": 22316
+        },
+        "season": {
+          "type": "season",
+          "nid": 11243,
+          "title": "Season 25/26",
+          "start": "2025-09-01",
+          "disclosure": "90"
+        },
+        "show": {
+          "type": "show",
+          "nid": 14669,
+          "title": "The Hello Crows",
+          "description": "<p>Steeped in ceremony. Traditions are honoured and the moment is celebrated.<br>The show begins with a spoken word piece, which aptly describes what a crow sees while in flight; one eye on the past while the other is fixed on what may lie ahead.<br>The Hello Crows line up side by side. No one takes centre stage and none are delegated to the background. While they each take lead vocal duties, they perform as one, which also firmly establishes how this group is constructed—four artists of equal footing, combining their voices to amplify their strength as a unit. When they layer one another, and their harmonies come alive with the impact of these four incredibly talented vocalists, it becomes the stuff that chills are made of.<br>Projected on the background is a beautiful piece of Indigenous art by Indigenous artist Natalie Sappier. A stylized representation of The Hello Crows.<br>Musically, they perform with traditional percussion instruments alongside guitar (acoustic and electric) and bass.</p>",
+          "genre": [
+            {
+              "type": "genre",
+              "tid": 18,
+              "name": "Music",
+              "parent": null
+            },
+            {
+              "type": "genre",
+              "tid": 21,
+              "name": "Folk/Roots/Traditional",
+              "parent": 18
+            }
+          ],
+          "category": [
+            {
+              "type": "category",
+              "tid": 1,
+              "name": "2SLGBTQIA+",
+              "parent": null
+            },
+            {
+              "type": "category",
+              "tid": 2,
+              "name": "Indigeneous",
+              "parent": null
+            }
+          ],
+          "artists": [
+            {
+              "type": "artist",
+              "nid": 14668,
+              "title": "The Hello Crows"
+            }
+          ]
+        },
+        "presenter": {
+          "type": "member",
+          "nid": 963,
+          "title": "Festival Antigonish Summer Theatre"
+        },
+        "performance_space": {
+          "type": "performance_space",
+          "nid": 1209,
+          "title": "Bauer Theatre"
+        },
+        "network": {
+          "type": "organization",
+          "nid": 10,
+          "title": "Atlantic Presenters"
+        },
+        "event_status_uri": "http://schema.org/EventScheduled"
+      }
+    }
   ]
 }

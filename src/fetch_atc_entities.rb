@@ -13,10 +13,9 @@ OUTPUT_DIR = 'json'
 atc_event_token_arg = ARGV.find { |arg| arg.start_with?('--token=') }
 ATC_EVENT_TOKEN = atc_event_token_arg ? atc_event_token_arg.split('=', 2)[1] : nil
 unless ATC_EVENT_TOKEN
-  puts "no atc event token available,  exiting"
+  puts "no atc event token available, exiting"
   exit(1)
 end
-
 
 # Source to filename mapping
 SOURCE_MAP = {
@@ -29,6 +28,14 @@ SOURCE_MAP = {
   'tour-booking' => 'tour-bookings',
   'genre' => 'genres',
   'category' => 'categories'
+}
+
+# Status mapping for event schema
+# Maps ATC status values to schema.org event status URIs
+STATUS_MAPPING = {
+  'confirmed' => 'http://schema.org/EventScheduled',
+  'closed' => 'http://schema.org/EventCancelled',
+  'postponed' => 'http://schema.org/EventPostponed'
 }
 
 def fetch_data(source, api_key)
@@ -83,11 +90,14 @@ def filter_tour_bookings(data)
   puts "Tour-bookings before filter: #{count_before}"
   puts "Today's date: #{today}"
   
+  status_counts = Hash.new(0)
+  
   filtered_data = data.select do |booking|
     attributes = booking['attributes'] || {}
-    puts "ATTRIBUTE : #{attributes}"
+    
     # Get status
     status = attributes['status']
+    status_counts[status] += 1
     
     # Skip if status is "in_progress"
     if status == 'in_progress'
@@ -97,19 +107,16 @@ def filter_tour_bookings(data)
     
     # Get event_date and disclosure
     event_date_str = attributes['event_date']
-    # disclosure_days = attributes['season']&.[]('disclosure').to_i
     season = attributes["season"]
-    season.first["disclosure"] if season.first.is_a?(Hash)
-    disclosure_days =
-      case season
-      when Hash
-        season["disclosure"].to_i
-      when Array
-        season.first.is_a?(Hash) ? season.first["disclosure"].to_i : 90
-      else
-        90
-      end
-
+    
+    disclosure_days = case season
+                      when Hash
+                        season["disclosure"].to_i
+                      when Array
+                        season.first.is_a?(Hash) ? season.first["disclosure"].to_i : 90
+                      else
+                        90
+                      end
     
     # If no event_date or no disclosure, include by default
     if event_date_str.nil? || event_date_str.empty?
@@ -131,7 +138,7 @@ def filter_tour_bookings(data)
       
       # Include if disclosure_deadline > today
       include = disclosure_deadline > today
-      puts "INCLUDE VALUES : #{include}"
+      
       if ENV['DEBUG']
         puts "  Booking #{attributes['nid']}: event=#{event_date}, disclosure=#{disclosure_days}d, deadline=#{disclosure_deadline}, today=#{today}, include=#{include}"
       end
@@ -144,22 +151,57 @@ def filter_tour_bookings(data)
   end
   
   count_after = filtered_data.length
-  puts "Tour-bookings after filter: #{count_after}"
+  puts "\nStatus breakdown before filtering:"
+  status_counts.each { |status, count| puts "  #{status}: #{count}" }
+  puts "\nTour-bookings after filter: #{count_after}"
   puts "Filtered out: #{count_before - count_after} tour-bookings"
   
   filtered_data
 end
 
+def add_event_status(data)
+  puts "\nAdding event status URIs..."
+  status_added = 0
+  status_skipped = 0
+  
+  data.each do |booking|
+    attributes = booking['attributes'] || {}
+    status = attributes['status']
+    
+    if STATUS_MAPPING.key?(status)
+      # Add the schema.org event status URI
+      attributes['event_status_uri'] = STATUS_MAPPING[status]
+      status_added += 1
+      
+      if ENV['DEBUG']
+        puts "  Added event status for booking #{attributes['nid']}: #{status} -> #{STATUS_MAPPING[status]}"
+      end
+    else
+      # Status not mapped (e.g., "in_progress" or unknown status)
+      status_skipped += 1
+      
+      if ENV['DEBUG']
+        puts "  Skipped event status for booking #{attributes['nid']}: unmapped status '#{status}'"
+      end
+    end
+  end
+  
+  puts "Event status URIs added: #{status_added}"
+  puts "Event status URIs skipped: #{status_skipped}" if status_skipped > 0
+  
+  data
+end
+
 def save_json(source, data, file_name)
   json_data = { 'data' => data }
   File.write("#{OUTPUT_DIR}/#{source}.json", JSON.pretty_generate(json_data))
-  puts "Saved #{data.length} records to #{source}.json"
+  puts "Saved #{data.length} records to #{OUTPUT_DIR}/#{source}.json"
 end
 
 def main
   unless ATC_EVENT_TOKEN
-    puts "Error: API_KEY environment variable not set"
-    puts "Usage: export API_KEY='your_base64_encoded_key' && ruby #{__FILE__}"
+    puts "Error: ATC_EVENT_TOKEN not provided"
+    puts "Usage: ruby #{__FILE__} --token=your_base64_encoded_key"
     exit 1
   end
   
@@ -181,13 +223,16 @@ def main
       next
     end
     
-    # Apply filter for tour-bookings
+    # Apply filter and add event status for tour-bookings
     if source == 'tour-booking'
       puts "\nApplying filter to tour-bookings..."
       data = filter_tour_bookings(data)
       
       if data.empty?
         puts "Warning: All tour-bookings were filtered out!"
+      else
+        # Add event status URIs to the filtered data
+        data = add_event_status(data)
       end
     end
     
