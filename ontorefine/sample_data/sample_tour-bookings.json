@@ -1,109 +1,349 @@
 {
   "data": [
-    {
-      "type": "tour_booking",
-      "id": "0cd700d2-aa94-42ba-8edd-77747ffc381d",
-      "attributes": {
-        "nid": "210-107",
-        "title": "Stephen Fearing (Season 21/22) > Jeanne and Peter Lougheed Performing Arts Centre",
-        "status": "in_progress",
-        "created": "2022-08-10T14:43:01+00:00",
-        "changed": "2022-08-10T14:47:08+00:00",
-        "langcode": "en",
-        "event_date": "2022-02-12T00:00:00+00:00",
-        "identifiers": {
-          "artsdata": null,
-          "isni": null,
-          "wikidata": null,
-          "atc": 210
-        },
-        "season": [],
-        "show": {
-          "type": "show",
-          "nid": 182,
-          "title": "Stephen Fearing",
-          "description": "<p>A multi-JUNO award winner, he has released 13 solo albums, including Every Soul’s a Sailor (2017), for which he won Worldwide Album of the Year from Blues & Roots Radio and Contemporary Singer of the Year at the Canadian Folk Music Awards.</p>\r\n\r\n<p>With a mesmerizing blend of roots, folk, and Americana music he has cultivated national and international audiences, building them ‘old school’ through countless performances at intimate venues, concert halls, and festivals. Stephen Fearing is one of Canada’s great musical storytellers — not to mention one of its most acclaimed guitarists — since the 1980s and his 13th solo album, <strong>The Unconquerable Past</strong>, adds another unique chapter to that impressive body of work. It’s also a striking and often surprising example of his restless creative spirit.</p>\r\n",
-          "genre": [
-            {
-              "type": "genre",
-              "tid": 18,
-              "name": "Music",
-              "parent": null
-            },
-            {
-              "type": "genre",
-              "tid": 21,
-              "name": "Folk/Roots/Traditional",
-              "parent": 18
+           {
+            "type": "tour_booking",
+            "id": "69f0017e-3c6a-4958-8764-f1c067f6f818",
+            "attributes": {
+                "nid": "600-364",
+                "title": "Burton Cummings (Season 23/24) > Capitol Centre",
+                "status": "closed",
+                "created": "2022-09-22T19:34:57+00:00",
+                "changed": "2023-02-08T16:47:02+00:00",
+                "langcode": "en",
+                "event_date": "2023-10-15T00:00:00+00:00",
+                "identifiers": {
+                    "artsdata": null,
+                    "isni": null,
+                    "wikidata": null,
+                    "atc": 600
+                },
+                "season": {
+                    "type": "season",
+                    "nid": 39,
+                    "title": "Season 23/24",
+                    "start": "2023-09-01",
+                    "disclosure": "90"
+                },
+                "show": {
+                    "type": "show",
+                    "nid": 563,
+                    "title": "Burton Cummings",
+                    "description": "",
+                    "genre": [
+                        {
+                            "type": "genre",
+                            "tid": 18,
+                            "name": "Music",
+                            "parent": null
+                        },
+                        {
+                            "type": "genre",
+                            "tid": 23,
+                            "name": "Popular",
+                            "parent": 18
+                        }
+                    ],
+                    "category": [],
+                    "artists": [
+                        {
+                            "type": "artist",
+                            "nid": 224,
+                            "title": "Burton Cummings"
+                        }
+                    ]
+                },
+                "presenter": {
+                    "type": "member",
+                    "nid": 285,
+                    "title": "Capitol Centre"
+                },
+                "performance_space": {
+                    "type": "performance_space",
+                    "nid": 580,
+                    "title": "Betty Speers Theatre - Capitol Centre"
+                },
+                "network": {
+                    "type": "organization",
+                    "nid": 9,
+                    "title": "Ontario Presents"
+                }
             }
-          ],
-          "category": [],
-          "artists": [
-            {
-              "type": "artist",
-              "nid": 181,
-              "title": "Stephen Fearing"
+        },
+        {
+            "type": "tour_booking",
+            "id": "76f657f3-6695-406e-a1b1-88cf45892998",
+            "attributes": {
+                "nid": "601-366",
+                "title": "Burton Cummings (Season 23/24) > Flato Markham Theatre",
+                "status": "closed",
+                "created": "2022-09-22T19:36:39+00:00",
+                "changed": "2022-11-01T21:46:39+00:00",
+                "langcode": "en",
+                "event_date": "2023-10-21T00:00:00+00:00",
+                "identifiers": {
+                    "artsdata": null,
+                    "isni": null,
+                    "wikidata": null,
+                    "atc": 601
+                },
+                "season": {
+                    "type": "season",
+                    "nid": 39,
+                    "title": "Season 23/24",
+                    "start": "2023-09-01",
+                    "disclosure": "90"
+                },
+                "show": {
+                    "type": "show",
+                    "nid": 563,
+                    "title": "Burton Cummings",
+                    "description": "",
+                    "genre": [
+                        {
+                            "type": "genre",
+                            "tid": 18,
+                            "name": "Music",
+                            "parent": null
+                        },
+                        {
+                            "type": "genre",
+                            "tid": 23,
+                            "name": "Popular",
+                            "parent": 18
+                        }
+                    ],
+                    "category": [],
+                    "artists": [
+                        {
+                            "type": "artist",
+                            "nid": 224,
+                            "title": "Burton Cummings"
+                        }
+                    ]
+                },
+                "presenter": {
+                    "type": "member",
+                    "nid": 279,
+                    "title": "Flato Markham Theatre"
+                },
+                "performance_space": {
+                    "type": "performance_space",
+                    "nid": 296,
+                    "title": "Flato Markham Theatre "
+                },
+                "network": {
+                    "type": "organization",
+                    "nid": 9,
+                    "title": "Ontario Presents"
+                }
             }
-          ]
         },
-        "presenter": {
-          "type": "member",
-          "nid": 162,
-          "title": "Jeanne and Peter Lougheed Performing Arts Centre"
-        },
-        "performance_space": {
-          "type": "performance_space",
-          "nid": 173,
-          "title": "Cargill Theatre"
-        },
-        "network": []
-      }
-    },
-    {
-      "type": "tour_booking",
-      "id": "2eecae56-bdcb-4244-98c1-a7ec29af13ce",
-      "attributes": {
-        "nid": "212-109",
-        "title": "Piaf! The Show (Season 21/22) > Lower Case Theatre",
-        "status": "in_progress",
-        "created": "2022-08-10T14:45:26+00:00",
-        "changed": "2022-08-10T14:46:09+00:00",
-        "langcode": "en",
-        "event_date": "2022-01-16T00:30:00+00:00",
-        "identifiers": {
-          "artsdata": null,
-          "isni": null,
-          "wikidata": null,
-          "atc": 212
-        },
-        "season": [],
-        "show": {
-          "type": "show",
-          "nid": 188,
-          "title": "Piaf! The Show",
-          "description": "",
-          "genre": [],
-          "category": [],
-          "artists": [
-            {
-              "type": "artist",
-              "nid": 187,
-              "title": "Gil Marsalla"
+        {
+            "type": "tour_booking",
+            "id": "23329abf-b745-4c39-a934-b1f332726ace",
+            "attributes": {
+                "nid": "603-368",
+                "title": "Burton Cummings (Season 23/24) > Richmond Hill Centre for the Performing Arts",
+                "status": "closed",
+                "created": "2022-09-22T19:39:26+00:00",
+                "changed": "2023-05-18T18:01:49+00:00",
+                "langcode": "en",
+                "event_date": "2023-10-29T00:00:00+00:00",
+                "identifiers": {
+                    "artsdata": null,
+                    "isni": null,
+                    "wikidata": null,
+                    "atc": 603
+                },
+                "season": {
+                    "type": "season",
+                    "nid": 39,
+                    "title": "Season 23/24",
+                    "start": "2023-09-01",
+                    "disclosure": "90"
+                },
+                "show": {
+                    "type": "show",
+                    "nid": 563,
+                    "title": "Burton Cummings",
+                    "description": "sample description",
+                    "genre": [
+                        {
+                            "type": "genre",
+                            "tid": 18,
+                            "name": "Music",
+                            "parent": null
+                        },
+                        {
+                            "type": "genre",
+                            "tid": 23,
+                            "name": "Popular",
+                            "parent": 18
+                        }
+                    ],
+                    "category": [],
+                    "artists": [
+                        {
+                            "type": "artist",
+                            "nid": 224,
+                            "title": "Burton Cummings"
+                        }
+                    ]
+                },
+                "presenter": {
+                    "type": "member",
+                    "nid": 284,
+                    "title": "Richmond Hill Centre for the Performing Arts"
+                },
+                "performance_space": {
+                    "type": "performance_space",
+                    "nid": 297,
+                    "title": "RHCPA MAINSTAGE"
+                },
+                "network": {
+                    "type": "organization",
+                    "nid": 9,
+                    "title": "Ontario Presents"
+                }
             }
-          ]
         },
-        "presenter": {
-          "type": "member",
-          "nid": 150,
-          "title": "Lower Case Theatre"
+        {
+            "type": "tour_booking",
+            "id": "23329abf-b745-4c39-a934-b1f332726ace",
+            "attributes": {
+                "nid": "603-2488",
+                "title": "Burton Cummings (Season 23/24) > Richmond Hill Centre for the Performing Arts",
+                "status": "closed",
+                "created": "2022-09-22T19:39:26+00:00",
+                "changed": "2023-05-18T18:01:49+00:00",
+                "langcode": "en",
+                "event_date": "2023-11-09T01:00:00+00:00",
+                "identifiers": {
+                    "artsdata": null,
+                    "isni": null,
+                    "wikidata": null,
+                    "atc": 603
+                },
+                "season": {
+                    "type": "season",
+                    "nid": 39,
+                    "title": "Season 23/24",
+                    "start": "2023-09-01",
+                    "disclosure": "90"
+                },
+                "show": {
+                    "type": "show",
+                    "nid": 563,
+                    "title": "Burton Cummings",
+                    "description": "",
+                    "genre": [
+                        {
+                            "type": "genre",
+                            "tid": 18,
+                            "name": "Music",
+                            "parent": null
+                        },
+                        {
+                            "type": "genre",
+                            "tid": 23,
+                            "name": "Popular",
+                            "parent": 18
+                        }
+                    ],
+                    "category": [],
+                    "artists": [
+                        {
+                            "type": "artist",
+                            "nid": 224,
+                            "title": "Burton Cummings"
+                        }
+                    ]
+                },
+                "presenter": {
+                    "type": "member",
+                    "nid": 284,
+                    "title": "Richmond Hill Centre for the Performing Arts"
+                },
+                "performance_space": {
+                    "type": "performance_space",
+                    "nid": 297,
+                    "title": "RHCPA MAINSTAGE"
+                },
+                "network": {
+                    "type": "organization",
+                    "nid": 9,
+                    "title": "Ontario Presents"
+                }
+            }
         },
-        "performance_space": {
-          "type": "performance_space",
-          "nid": 151,
-          "title": "Italic Hall"
-        },
-        "network": []
-      }
-    }
+        {
+            "type": "tour_booking",
+            "id": "ed3e27bf-e5d0-4033-ad96-71749684295c",
+            "attributes": {
+                "nid": "620-370",
+                "title": "Burton Cummings (Season 23/24) > City of Kingston - Kingston Grand Theatre",
+                "status": "closed",
+                "created": "2022-09-22T22:27:13+00:00",
+                "changed": "2023-03-17T17:26:35+00:00",
+                "langcode": "en",
+                "event_date": "2023-10-21T23:30:00+00:00",
+                "identifiers": {
+                    "artsdata": null,
+                    "isni": null,
+                    "wikidata": null,
+                    "atc": 620
+                },
+                "season": {
+                    "type": "season",
+                    "nid": 39,
+                    "title": "Season 23/24",
+                    "start": "2023-09-01",
+                    "disclosure": "90"
+                },
+                "show": {
+                    "type": "show",
+                    "nid": 563,
+                    "title": "Burton Cummings",
+                    "description": "",
+                    "genre": [
+                        {
+                            "type": "genre",
+                            "tid": 18,
+                            "name": "Music",
+                            "parent": null
+                        },
+                        {
+                            "type": "genre",
+                            "tid": 23,
+                            "name": "Popular",
+                            "parent": 18
+                        }
+                    ],
+                    "category": [],
+                    "artists": [
+                        {
+                            "type": "artist",
+                            "nid": 224,
+                            "title": "Burton Cummings"
+                        }
+                    ]
+                },
+                "presenter": {
+                    "type": "member",
+                    "nid": 160,
+                    "title": "City of Kingston - Kingston Grand Theatre"
+                },
+                "performance_space": {
+                    "type": "performance_space",
+                    "nid": 555,
+                    "title": "Kingston Grand Theatre - Regina Rosen Auditorium"
+                },
+                "network": {
+                    "type": "organization",
+                    "nid": 9,
+                    "title": "Ontario Presents"
+                }
+            }
+        }
   ]
 }

@@ -6,6 +6,28 @@ on:
     - cron: '0 4 2 * *'
 
 jobs:
+
+  fetch-atc-entities:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: fetch atc entities
+        run: |
+          bundle exec ruby scripts/fetch_atc_entities.rb --token=${{ secrets.API_KEY }}
+
+      - name: upload artifact
+        uses: actions/upload-artifact@v5
+        with:
+          name: json_data
+          path: json/
+
   process-using-ontorefine:
     runs-on: ubuntu-latest
     container:
@@ -14,17 +36,22 @@ jobs:
       ports:
         - 7333:7333
     steps:
+      - name: download artifact
+        uses: actions/download-artifact@v5
+        with:
+          name: json_data
+          path: json/
+
       - name: Install requirements
         run: apk update && apk add curl && apk add util-linux && apk add jq
 
       - name: Run ontorefine server
         run: /opt/ontorefine/dist/bin/ontorefine &
 
-      - name: Fetch entities
-        shell: bash
+      - name: Transform entities with OntoRefine
         run: |
           mkdir -p outputs
-
+          
           declare -A source_map=(
             ["artist"]="artists"
             ["network"]="networks"
@@ -36,32 +63,26 @@ jobs:
             ["genre"]="genres"
             ["category"]="categories"
           )
+          
           for source in "${!source_map[@]}"; do
             file_name=${source_map[$source]}
-            offset=0
-            data=""
-            while true; do
-              echo "Fetching ${file_name} with offset $offset"
-              response=$(curl -s "https://arts-tc.ca/api/$source?page%5Boffset%5D=$offset" --header "Authorization: basic ${{secrets.API_KEY}}")
-              # Checking if data is empty
-              if [ "$(echo $response | jq '.data | length')" -eq 0 ]; then 
-                echo "No more data for $source"
-                break
-              fi
-              # Flattening the data
-              data=$(jq -s '[.[][]]' <<<"$data $(echo $response | jq '.data')")
-              offset=$((offset + 50))
-            done
-
-            echo "{\"data\":$data}" > ${source}.json
-
+            
+            if [ ! -f "json/${source}.json" ]; then
+              echo "Warning: ${source}.json not found, skipping..."
+              continue
+            fi
+            
+            echo "Transforming ${file_name} with OntoRefine..."
+            
             curl "https://raw.githubusercontent.com/${{github.repository}}/${{github.ref}}/ontorefine/configs/ontorefine-config-${file_name}.json" >> config-${source}.json
 
             /opt/ontorefine/dist/bin/ontorefine-cli \
-            transform ${source}.json \
+            transform json/${source}.json \
             -u http://localhost:7333 \
             --configurations config-${source}.json \
             -f json >> outputs/${file_name}.ttl
+            
+            echo "✓ Completed transformation for ${file_name}"
           done
 
       - name: Concatenate genres and categories into shows

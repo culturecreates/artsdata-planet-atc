@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-data="artists"
+data="tour-bookings"
 
 # Start the services in the background
 sudo docker compose up -d

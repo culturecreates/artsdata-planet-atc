@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (2.16.0)
+    minitest (5.27.0)
+    rake (13.3.1)
+    stringio (3.1.9)
+
+PLATFORMS
+  x86_64-linux-gnu
+
+DEPENDENCIES
+  json (~> 2.16.0)
+  minitest
+  rake
+  stringio (~> 3.1.8)
+
+BUNDLED WITH
+   2.4.20
