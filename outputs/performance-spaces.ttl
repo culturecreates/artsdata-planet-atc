@@ -379,7 +379,7 @@ performance-space:770 a schema:Place;
 
 presenter:763 a schema:Organization;
   schema:location performance-space:771;
-  schema:name "Keyano College - Keyano Theatre" .
+  schema:name "Keyano College - Keyano Theatre & Arts Centre" .
 
 performance-space:771 a schema:Place;
   schema:name "Keyano Theatre";
@@ -772,7 +772,7 @@ presenter:1373 a schema:Organization;
 
 performance-space:1376 a schema:Place;
   schema:name "Provost Recreation & Cultural Centre ";
-  schema:maximumAttendeeCapacity "250" .
+  schema:maximumAttendeeCapacity "350" .
 
 presenter:409 a schema:Organization;
   schema:location performance-space:1377;
@@ -1002,6 +1002,13 @@ performance-space:1927 a schema:Place;
   schema:name "Sudbury Performance Group Boreal";
   schema:maximumAttendeeCapacity "360" .
 
+presenter:402 a schema:Organization;
+  schema:location performance-space:2187, performance-space:2698;
+  schema:name "King's Theatre" .
+
+performance-space:2187 a schema:Place;
+  schema:name "Mainstage" .
+
 presenter:1576 a schema:Organization;
   schema:location performance-space:2193, performance-space:2194, performance-space:2195;
   schema:name "Aurora Borealis Arts Council" .
@@ -1206,10 +1213,6 @@ performance-space:2692 a schema:Place;
   schema:name "Burdick Center";
   schema:maximumAttendeeCapacity "500" .
 
-presenter:402 a schema:Organization;
-  schema:location performance-space:2698;
-  schema:name "King's Theatre" .
-
 performance-space:2698 a schema:Place;
   schema:name "King's Theatre";
   schema:maximumAttendeeCapacity "220" .
@@ -1266,13 +1269,16 @@ performance-space:2957 a schema:Place;
   schema:name "Heritage Home for the Arts";
   schema:maximumAttendeeCapacity "300" .
 
+presenter:1571 a schema:Organization;
+  schema:name "Killarney Turtle Mountain Arts Council";
+  schema:location performance-space:4043 .
+
 presenter:1701 a schema:Organization;
-  schema:location performance-space:3037 .
+  schema:location performance-space:3037;
+  schema:name "Leah Test" .
 
 performance-space:3037 a schema:Place;
   schema:name "Leah's house" .
-
-presenter:1701 schema:name "Leah Test" .
 
 presenter:3071 a schema:Organization;
   schema:location performance-space:3072, performance-space:3074;
@@ -1519,10 +1525,6 @@ presenter:413 a schema:Organization;
 performance-space:3943 a schema:Place;
   schema:name "LSPU Hall";
   schema:maximumAttendeeCapacity "192" .
-
-presenter:1571 a schema:Organization;
-  schema:location performance-space:4043;
-  schema:name "Killarney Turtle Mountain Arts Council" .
 
 performance-space:4043 a schema:Place;
   schema:name "Royal Canadian Legion Branch 25 Community Hall";
@@ -1860,7 +1862,7 @@ presenter:4089 a schema:Organization;
   schema:name "Quesnel Live Arts" .
 
 performance-space:4904 a schema:Place;
-  schema:name "Chuck Mobley Theatre - Multi purpose room";
+  schema:name "Chuck Mobley Theatre -  Multi purpose room";
   schema:maximumAttendeeCapacity "300" .
 
 performance-space:4905 a schema:Place;
@@ -2039,7 +2041,7 @@ presenter:784 a schema:Organization;
   schema:name "Kinosoo Performing Arts" .
 
 performance-space:7916 a schema:Place;
-  schema:name "Kinosoo Performing Arts Association Cold Lake";
+  schema:name "Kinosoo Performing Arts Association  Cold Lake";
   schema:maximumAttendeeCapacity "200" .
 
 presenter:7921 a schema:Organization;
@@ -2427,8 +2429,7 @@ performance-space:16900 a schema:Place;
   schema:maximumAttendeeCapacity "110" .
 
 performance-space:17057 a schema:Place;
-  schema:name "Le Richelieu";
-  schema:sameAs adr:K11-134 .
+  schema:name "Venue" .
 
 presenter:17083 a schema:Organization;
   schema:location performance-space:17118;
@@ -2584,102 +2585,3 @@ presenter:265 a schema:Organization;
 performance-space:22418 a schema:Place;
   schema:name "Al Whittle Theatre";
   schema:maximumAttendeeCapacity "160" .
-
-presenter:282 a schema:Organization;
-  schema:location performance-space:23466;
-  schema:name "Shenkman Arts Centre - City of Ottawa" .
-
-performance-space:23466 a schema:Place;
-  schema:name "Meridian Theatres @ Centrepointe - MainStage Theatre";
-  schema:sameAs wd:Q126398326, adr:K11-188;
-  schema:maximumAttendeeCapacity "954" .
-
-presenter:16770 a schema:Organization;
-  schema:location performance-space:23486;
-  schema:name "Pender Island Concert Society" .
-
-performance-space:23486 a schema:Place;
-  schema:name "Pender Islands Community Hall";
-  schema:sameAs wd:Q130398983, adr:K2-5521;
-  schema:maximumAttendeeCapacity "120" .
-
-presenter:766 a schema:Organization;
-  schema:location performance-space:23560, performance-space:23879;
-  schema:name "Whitecourt and Woodlands Performing Arts Society" .
-
-performance-space:23560 a schema:Place;
-  schema:name "Culture & Events Centre - Seating Configuration 2";
-  schema:maximumAttendeeCapacity "322" .
-
-presenter:18265 a schema:Organization;
-  schema:location performance-space:23575;
-  schema:name "Centennial Theatre (NVRC)" .
-
-performance-space:23575 a schema:Place;
-  schema:name "Centennial Theatre";
-  schema:sameAs wd:Q130278472, adr:K25-479;
-  schema:maximumAttendeeCapacity "650" .
-
-presenter:19960 a schema:Organization;
-  schema:location performance-space:23717;
-  schema:name "Tidemark Theatre" .
-
-performance-space:23717 a schema:Place;
-  schema:name "Tidemark Theatre";
-  schema:maximumAttendeeCapacity "467" .
-
-performance-space:23879 a schema:Place;
-  schema:name "Culture & Events Centre - Seating Configuration 3";
-  schema:maximumAttendeeCapacity "380" .
-
-presenter:4093 a schema:Organization;
-  schema:location performance-space:23969;
-  schema:name "Surrey Civic Theatres" .
-
-performance-space:23969 a schema:Place;
-  schema:name "Clayton Community Centre";
-  schema:maximumAttendeeCapacity "125" .
-
-presenter:18152 a schema:Organization;
-  schema:location performance-space:24008;
-  schema:name "Burlington Performing Arts Centre" .
-
-performance-space:24008 a schema:Place;
-  schema:name "Community Studio Theatre " .
-
-presenter:410 a schema:Organization;
-  schema:location performance-space:24482;
-  schema:name "Paddlefest" .
-
-performance-space:24482 a schema:Place;
-  schema:name "Dunn Theatre" .
-
-presenter:415 a schema:Organization;
-  schema:location performance-space:24483;
-  schema:name "Riverview Arts Centre Inc." .
-
-performance-space:24483 a schema:Place;
-  schema:name "Royal Theatre";
-  schema:sameAs wd:Q111747963, adr:K2-4972;
-  schema:maximumAttendeeCapacity "600" .
-
-presenter:407 a schema:Organization;
-  schema:location performance-space:24484, performance-space:24485;
-  schema:name "Neptune Theatre" .
-
-performance-space:24484 a schema:Place;
-  schema:name "Fountain Hall";
-  schema:maximumAttendeeCapacity "458" .
-
-performance-space:24485 a schema:Place;
-  schema:name "Scotiabank Stage";
-  schema:maximumAttendeeCapacity "192" .
-
-presenter:411 a schema:Organization;
-  schema:location performance-space:24486;
-  schema:name "Prismatic Arts Festival" .
-
-performance-space:24486 a schema:Place;
-  schema:name "Neptune Theatre";
-  schema:sameAs adr:K11-241;
-  schema:maximumAttendeeCapacity "458" .
