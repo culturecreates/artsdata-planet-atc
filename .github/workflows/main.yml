@@ -3,7 +3,7 @@ name: Fetch and Push ATC entities
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 2 * *'
+    - cron: '0 4 * * 1'
 
 jobs:
 
