@@ -7,15 +7,9 @@ require 'base64'
 
 # Configuration
 # The API_BASE_URL can be overridden with environment variable
-API_BASE_URL = 'https://test-block-booking.pantheonsite.io/api'
+API_BASE_URL = 'https://arts-tc.ca/'
 OUTPUT_DIR = 'json'
 
-atc_event_token_arg = ARGV.find { |arg| arg.start_with?('--token=') }
-ATC_EVENT_TOKEN = atc_event_token_arg ? atc_event_token_arg.split('=', 2)[1] : nil
-unless ATC_EVENT_TOKEN
-  puts "no atc event token available, exiting"
-  exit(1)
-end
 
 # Source to filename mapping
 SOURCE_MAP = {
@@ -192,15 +186,19 @@ def add_event_status(data)
   data
 end
 
-def save_json(source, data, file_name)
+def save_json(source, data)
   json_data = { 'data' => data }
   File.write("#{OUTPUT_DIR}/#{source}.json", JSON.pretty_generate(json_data))
   puts "Saved #{data.length} records to #{OUTPUT_DIR}/#{source}.json"
 end
 
 def main
-  unless ATC_EVENT_TOKEN
-    puts "Error: ATC_EVENT_TOKEN not provided"
+  # Parse command line arguments for token
+  atc_event_token_arg = ARGV.find { |arg| arg.start_with?('--token=') }
+  atc_event_token = atc_event_token_arg ? atc_event_token_arg.split('=', 2)[1] : nil
+  
+  unless atc_event_token
+    puts "Error: No ATC event token provided"
     puts "Usage: ruby #{__FILE__} --token=your_base64_encoded_key"
     exit 1
   end
@@ -216,7 +214,7 @@ def main
     puts "=========================================="
     
     # Fetch data from API
-    data = fetch_data(source, ATC_EVENT_TOKEN)
+    data = fetch_data(source, atc_event_token)
     
     if data.empty?
       puts "Warning: No data fetched for #{source}"
@@ -237,7 +235,7 @@ def main
     end
     
     # Save JSON file
-    save_json(source, data, file_name)
+    save_json(source, data)
     
     puts "✓ Completed #{file_name}"
   end
@@ -247,5 +245,7 @@ def main
   puts "=========================================="
 end
 
-# Run the script
-main if __FILE__ == $PROGRAM_NAME
+# Run the script only if executed directly (not when required for testing)
+if __FILE__ == $PROGRAM_NAME
+  main
+end

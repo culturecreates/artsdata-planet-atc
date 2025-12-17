@@ -7,6 +7,7 @@ require_relative '../src/fetch_atc_entities'
 class FetchAtcEntitiesTest < Minitest::Test
 
   def setup
+    @OUTPUT_DIR = 'json'
     @today = Date.parse('2025-12-11')
     
     # Mock data for testing
@@ -56,6 +57,32 @@ class FetchAtcEntitiesTest < Minitest::Test
       }
     }
   
+    @tour_booking_closed = {
+      'attributes' => {
+        'nid' => 6,
+        'status' => 'closed',
+        'event_date' => '2026-02-15T19:00:00',
+        'season' => [{ 'disclosure' => 30 }]
+      }
+    }
+
+    @tour_booking_postponed = {
+        'attributes' => {
+        'nid' => 6,
+        'status' => 'postponed',
+        'event_date' => '2026-02-15T19:00:00',
+        'season' => [{ 'disclosure' => 30 }]
+      }
+    }
+
+    @tour_booking_unknown_status = {
+      'attributes' => {
+        'nid' => 6,
+        'status' => 'invalid',
+        'event_date' => '2026-02-15T19:00:00',
+        'season' => [{ 'disclosure' => 30 }]
+      }
+    }
   end
 
   def test_filter_includes_future_event_with_valid_disclosure
@@ -218,21 +245,17 @@ class FetchAtcEntitiesTest < Minitest::Test
   end
 
   def test_save_json_creates_valid_file
-    skip "File I/O test - run separately"
-    
     source = 'test-source'
     data = [@tour_booking_confirmed]
-    file_name = 'test-file'
+    path = "#{@OUTPUT_DIR}/#{source}.json"
+    save_json(source, data)
+    assert File.exist?(path)
     
-    save_json(source, data, file_name)
-    
-    assert File.exist?("#{source}.json")
-    
-    content = JSON.parse(File.read("#{source}.json"))
+    content = JSON.parse(File.read(path))
     assert_equal data, content['data']
     
     # Cleanup
-    File.delete("#{source}.json") if File.exist?("#{source}.json")
+    File.delete(path) if File.exist?(path)
   end
 
   def test_source_map_contains_all_required_entities
