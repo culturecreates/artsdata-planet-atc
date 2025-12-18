@@ -8,6 +8,7 @@ class FetchAtcEntitiesTest < Minitest::Test
 
   def setup
     @OUTPUT_DIR = 'json'
+    Dir.mkdir(OUTPUT_DIR) unless Dir.exist?(OUTPUT_DIR)
     @today = Date.parse('2025-12-11')
     
     # Mock data for testing
@@ -438,5 +439,9 @@ class FetchAtcEntitiesTest < Minitest::Test
       result = add_event_status(filtered)
       assert_equal 0, result.length
     end
+  end
+  
+  def teardown
+    Dir.delete(@OUTPUT_DIR) if Dir.exist?(@OUTPUT_DIR)
   end
 end
