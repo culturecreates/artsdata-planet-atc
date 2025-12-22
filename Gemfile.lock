@@ -1,10 +1,23 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.8.8)
+      public_suffix (>= 2.0.2, < 8.0)
+    bigdecimal (4.0.1)
+    crack (1.0.1)
+      bigdecimal
+      rexml
+    hashdiff (1.2.1)
     json (2.16.0)
     minitest (5.27.0)
+    public_suffix (7.0.0)
     rake (13.3.1)
+    rexml (3.4.4)
     stringio (3.1.9)
+    webmock (3.26.1)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
 
 PLATFORMS
   arm64-darwin-25
@@ -15,6 +28,7 @@ DEPENDENCIES
   minitest
   rake
   stringio (~> 3.1.8)
+  webmock
 
 BUNDLED WITH
    2.4.20

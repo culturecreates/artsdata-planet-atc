@@ -1,0 +1,18 @@
+[
+    {
+        "type": "artist",
+        "id": "1",
+        "attributes": {
+            "nid": 101,
+            "name": "Test Artist 1"
+        }
+    },
+    {
+        "type": "artist",
+        "id": "2",
+        "attributes": {
+            "nid": 102,
+            "name": "Test Artist 2"
+        }
+    }
+]

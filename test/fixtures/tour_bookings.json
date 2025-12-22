@@ -1,0 +1,66 @@
+{
+  "confirmed": {
+    "attributes": {
+      "nid": 1,
+      "status": "confirmed",
+      "event_date": "2026-02-15T19:00:00",
+      "season": { "disclosure": 30 }
+    }
+  },
+  "in_progress": {
+    "attributes": {
+      "nid": 2,
+      "status": "in_progress",
+      "event_date": "2026-02-15T19:00:00",
+      "season": { "disclosure": 30 }
+    }
+  },
+  "past_deadline": {
+    "attributes": {
+      "nid": 3,
+      "status": "confirmed",
+      "event_date": "2025-12-20T19:00:00",
+      "season": { "disclosure": 30 }
+    }
+  },
+  "no_disclosure": {
+    "attributes": {
+      "nid": 4,
+      "status": "confirmed",
+      "event_date": "2026-01-20T19:00:00",
+      "season": { "disclosure": 0 }
+    }
+  },
+  "season_array": {
+    "attributes": {
+      "nid": 6,
+      "status": "confirmed",
+      "event_date": "2026-02-15T19:00:00",
+      "season": [{ "disclosure": 30 }]
+    }
+  },
+  "closed": {
+    "attributes": {
+      "nid": 6,
+      "status": "closed",
+      "event_date": "2026-02-15T19:00:00",
+      "season": [{ "disclosure": 30 }]
+    }
+  },
+  "postponed": {
+    "attributes": {
+      "nid": 6,
+      "status": "postponed",
+      "event_date": "2026-02-15T19:00:00",
+      "season": [{ "disclosure": 30 }]
+    }
+  },
+  "unknown_status": {
+    "attributes": {
+      "nid": 6,
+      "status": "invalid",
+      "event_date": "2026-02-15T19:00:00",
+      "season": [{ "disclosure": 30 }]
+    }
+  }
+}
