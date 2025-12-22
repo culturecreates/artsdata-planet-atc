@@ -5,6 +5,8 @@ require 'uri'
 require 'date'
 require 'base64'
 require 'logger'
+require_relative '../src/fetch_atc_entities'
+require_relative '../src/add_attributes'
 
 # Logger setup
 LOGGER = Logger.new($stdout)
@@ -46,13 +48,7 @@ SOURCE_MAP = {
   'category' => 'categories'
 }
 
-# Status mapping for event schema
-# Maps ATC status values to schema.org event status URIs
-STATUS_MAPPING = {
-  'confirmed' => 'http://schema.org/EventScheduled',
-  'closed' => 'http://schema.org/EventCancelled',
-  'postponed' => 'http://schema.org/EventPostponed'
-}
+
 
 def fetch_data(source, api_key)
   all_data = []
@@ -175,39 +171,6 @@ def filter_tour_bookings(data)
   filtered_data
 end
 
-def add_event_status(data)
-  LOGGER.info "Adding event status URIs..."
-  status_added = 0
-  status_skipped = 0
-  
-  data.each do |booking|
-    attributes = booking['attributes'] || {}
-    status = attributes['status']
-    
-    if STATUS_MAPPING.key?(status)
-      # Add the schema.org event status URI
-      attributes['event_status_uri'] = STATUS_MAPPING[status]
-      status_added += 1
-      
-      if ENV['DEBUG']
-        LOGGER.info "  Added event status for booking #{attributes['nid']}: #{status} -> #{STATUS_MAPPING[status]}"
-      end
-    else
-      # Status not mapped (e.g., "in_progress" or unknown status)
-      status_skipped += 1
-      
-      if ENV['DEBUG']
-        LOGGER.info "  Skipped event status for booking #{attributes['nid']}: unmapped status '#{status}'"
-      end
-    end
-  end
-  
-  LOGGER.info "Event status URIs added: #{status_added}"
-  LOGGER.info "Event status URIs skipped: #{status_skipped}" if status_skipped > 0
-  
-  data
-end
-
 def save_json(source, data)
   json_data = { 'data' => data }
   File.write("#{OUTPUT_DIR}/#{source}.json", JSON.pretty_generate(json_data))
@@ -252,7 +215,7 @@ def main
         LOGGER.info "Warning: All tour-bookings were filtered out!"
       else
         # Add event status URIs to the filtered data
-        data = add_event_status(data)
+        data = add_event_status(data, LOGGER)
       end
     end
     
