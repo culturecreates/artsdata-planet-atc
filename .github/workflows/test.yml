@@ -1,0 +1,38 @@
+name: Run Tests
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: |
+          gem install minitest
+          gem install webmock
+
+      - name: Run filter and status tests
+        run: |
+          rake
+
+      - name: Test summary
+        if: always()
+        run: |
+          echo "✅ All tests completed"
+          echo "Check logs above for test results"
