@@ -26,7 +26,7 @@ class AddEventStatusTest < Minitest::Test
   
   def test_add_event_status_confirmed
     data = [@tour_booking_confirmed]
-    result = add_event_status(data)
+    result = add_event_status(data, nil)
     
     assert_equal 1, result.length
     assert_equal 'http://schema.org/EventScheduled', result.first['attributes']['event_status_uri']
@@ -34,7 +34,7 @@ class AddEventStatusTest < Minitest::Test
 
   def test_add_event_status_closed
     data = [@tour_booking_closed]
-    result = add_event_status(data)
+    result = add_event_status(data, nil)
     
     assert_equal 1, result.length
     assert_equal 'http://schema.org/EventCancelled', result.first['attributes']['event_status_uri']
@@ -42,7 +42,7 @@ class AddEventStatusTest < Minitest::Test
 
   def test_add_event_status_postponed
     data = [@tour_booking_postponed]
-    result = add_event_status(data)
+    result = add_event_status(data, nil)
     
     assert_equal 1, result.length
     assert_equal 'http://schema.org/EventPostponed', result.first['attributes']['event_status_uri']
@@ -50,7 +50,7 @@ class AddEventStatusTest < Minitest::Test
 
   def test_add_event_status_unknown_status
     data = [@tour_booking_unknown_status]
-    result = add_event_status(data)
+    result = add_event_status(data, nil)
     
     assert_equal 1, result.length
     assert_nil result.first['attributes']['event_status_uri']
@@ -58,7 +58,7 @@ class AddEventStatusTest < Minitest::Test
 
   def test_add_event_status_in_progress
     data = [@tour_booking_in_progress]
-    result = add_event_status(data)
+    result = add_event_status(data, nil)
     
     assert_equal 1, result.length
     # in_progress is not in STATUS_MAPPING, so should not have event_status_uri
@@ -72,7 +72,7 @@ class AddEventStatusTest < Minitest::Test
       @tour_booking_postponed,
       @tour_booking_unknown_status
     ]
-    result = add_event_status(data)
+    result = add_event_status(data, nil)
     
     assert_equal 4, result.length
     assert_equal 'http://schema.org/EventScheduled', result[0]['attributes']['event_status_uri']
@@ -91,7 +91,7 @@ class AddEventStatusTest < Minitest::Test
       }
     }
     data = [original_booking]
-    result = add_event_status(data)
+    result = add_event_status(data, nil)
     
     assert_equal 100, result.first['attributes']['nid']
     assert_equal 'confirmed', result.first['attributes']['status']
