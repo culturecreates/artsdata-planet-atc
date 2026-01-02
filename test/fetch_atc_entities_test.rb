@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require 'minitest/autorun'
+require 'minitest/mock'
 require 'json'
 require 'webmock/minitest'
 require_relative '../src/fetch_atc_entities'
