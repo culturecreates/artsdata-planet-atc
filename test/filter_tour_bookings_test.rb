@@ -30,7 +30,7 @@ class FilterTourBookingsTest < Minitest::Test
     # Today: 2025-12-11, Deadline (2026-01-16) > Today (2025-12-11) = true
     data = [@tour_booking_confirmed]
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 1, filtered.length
       assert_equal 1, filtered.first['attributes']['nid']
@@ -40,7 +40,7 @@ class FilterTourBookingsTest < Minitest::Test
   def test_filter_excludes_in_progress_status
     data = [@tour_booking_in_progress]
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 0, filtered.length
     end
@@ -51,7 +51,7 @@ class FilterTourBookingsTest < Minitest::Test
     # Today: 2025-12-11, Deadline (2025-11-20) < Today (2025-12-11) = false
     data = [@tour_booking_past_deadline]
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 0, filtered.length
     end
@@ -60,7 +60,7 @@ class FilterTourBookingsTest < Minitest::Test
   def test_filter_includes_booking_with_no_disclosure
     data = [@tour_booking_no_disclosure]
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 1, filtered.length
       assert_equal 4, filtered.first['attributes']['nid']
@@ -70,7 +70,7 @@ class FilterTourBookingsTest < Minitest::Test
   def test_filter_handles_season_as_array
     data = [@tour_booking_season_array]
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 1, filtered.length
       assert_equal 6, filtered.first['attributes']['nid']
@@ -85,7 +85,7 @@ class FilterTourBookingsTest < Minitest::Test
       @tour_booking_no_disclosure
     ]
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 2, filtered.length
       
@@ -111,7 +111,7 @@ class FilterTourBookingsTest < Minitest::Test
     }
     data = [booking]
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 0, filtered.length
     end
@@ -131,7 +131,7 @@ class FilterTourBookingsTest < Minitest::Test
     }
     data = [booking]
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 0, filtered.length
     end
@@ -151,7 +151,7 @@ class FilterTourBookingsTest < Minitest::Test
     }
     data = [booking]
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 1, filtered.length
     end
@@ -168,7 +168,7 @@ class FilterTourBookingsTest < Minitest::Test
     }
     data = [booking]
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       # Should include by default when date parsing fails
       assert_equal 1, filtered.length
@@ -178,7 +178,7 @@ class FilterTourBookingsTest < Minitest::Test
   def test_filter_handles_empty_data
     data = []
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 0, filtered.length
     end

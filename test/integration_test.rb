@@ -28,7 +28,7 @@ class IntegrationTest < Minitest::Test
       @tour_booking_past_deadline
     ]
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       # First filter
       filtered = filter_tour_bookings(data)
       assert_equal 2, filtered.length
@@ -46,7 +46,7 @@ class IntegrationTest < Minitest::Test
   def test_empty_data_handling
     data = []
     
-    Date.stub(:today, @today) do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 0, filtered.length
       
