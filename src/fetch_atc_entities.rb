@@ -5,8 +5,7 @@ require 'uri'
 require 'date'
 require 'base64'
 require 'logger'
-require_relative '../src/fetch_atc_entities'
-require_relative '../src/add_attributes'
+require_relative 'add_attributes'
 
 # Logger setup
 LOGGER = Logger.new($stdout)
@@ -55,31 +54,28 @@ def fetch_data(source, api_key)
   offset = 0
   
   loop do
-    url = URI("#{API_BASE_URL}/#{source}?page%5Boffset%5D=#{offset}")
+    url = URI("#{API_BASE_URL}#{source}?page%5Boffset%5D=#{offset}")
     LOGGER.info "Fetching #{source} with offset #{offset}"
-    LOGGER.info "URL: #{url}" if ENV['DEBUG']
+    LOGGER.debug "URL: #{url}"
     
     http = Net::HTTP.new(url.host, url.port)
     http.use_ssl = true
     
     request = Net::HTTP::Get.new(url)
-    # Use Basic authentication with the API key
     request['Authorization'] = "basic #{api_key}"
     
     response = http.request(request)
     
     unless response.is_a?(Net::HTTPSuccess)
-      LOGGER.info "Error fetching #{source}: #{response.code} #{response.message}"
-      if ENV['DEBUG']
-        LOGGER.info "Response body: #{response.body}"
-      end
+      LOGGER.error "Error fetching #{source}: #{response.code} #{response.message}"
+      LOGGER.debug "Response body: #{response.body}"
       break
     end
     
     begin
       data = JSON.parse(response.body)
     rescue JSON::ParserError => e
-      LOGGER.info "Error parsing JSON for #{source}: #{e.message}"
+      LOGGER.error "Error parsing JSON for #{source}: #{e.message}"
       break
     end
     
@@ -183,12 +179,13 @@ def main
   atc_event_token = atc_event_token_arg ? atc_event_token_arg.split('=', 2)[1] : nil
   
   unless atc_event_token
-    LOGGER.info "Error: No ATC event token provided"
-    LOGGER.info "Usage: ruby #{__FILE__} --token=your_base64_encoded_key"
+    LOGGER.fatal "Error: No ATC event token provided"
+    LOGGER.fatal "Usage: ruby #{__FILE__} --token=your_base64_encoded_key"
     exit 1
   end
   
   LOGGER.info "Using API: #{API_BASE_URL}"
+  LOGGER.debug "Output directory: #{OUTPUT_DIR}"
   
   # Create output directory
   Dir.mkdir(OUTPUT_DIR) unless Dir.exist?(OUTPUT_DIR)
@@ -202,9 +199,11 @@ def main
     data = fetch_data(source, atc_event_token)
     
     if data.empty?
-      LOGGER.info "Warning: No data fetched for #{source}"
+      LOGGER.warn "Warning: No data fetched for #{source}"
       next
     end
+    
+    LOGGER.debug "Fetched #{data.length} records for #{source}"
     
     # Apply filter and add event status for tour-bookings
     if source == 'tour-booking'
@@ -212,9 +211,9 @@ def main
       data = filter_tour_bookings(data)
       
       if data.empty?
-        LOGGER.info "Warning: All tour-bookings were filtered out!"
+        LOGGER.warn "Warning: All tour-bookings were filtered out!"
       else
-        # Add event status URIs to the filtered data
+        LOGGER.info "Adding event status URIs..."
         data = add_event_status(data, LOGGER)
       end
     end
