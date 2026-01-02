@@ -7,7 +7,7 @@ require_relative './test_helper'
 
 
 class IntegrationTest < Minitest::Test
-  include FixtureHelper
+  include TestHelper
 
   def setup
     @today = Date.parse('2025-12-11')
@@ -28,13 +28,13 @@ class IntegrationTest < Minitest::Test
       @tour_booking_past_deadline
     ]
     
-    Date.stub :today, @today do
+    with_date(@today) do
       # First filter
       filtered = filter_tour_bookings(data)
       assert_equal 2, filtered.length
       
       # Then add status
-      result = add_event_status(filtered)
+      result = add_event_status(filtered, nil)
       assert_equal 2, result.length
       
       # Check both have event_status_uri
@@ -46,11 +46,11 @@ class IntegrationTest < Minitest::Test
   def test_empty_data_handling
     data = []
     
-    Date.stub :today, @today do
+    with_date(@today) do
       filtered = filter_tour_bookings(data)
       assert_equal 0, filtered.length
       
-      result = add_event_status(filtered)
+      result = add_event_status(filtered, nil)
       assert_equal 0, result.length
     end
   end

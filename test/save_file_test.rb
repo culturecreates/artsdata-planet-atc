@@ -6,7 +6,7 @@ require_relative '../src/fetch_atc_entities'
 require_relative './test_helper'
 
 class SaveJsonTest < Minitest::Test
-  include FixtureHelper
+  include TestHelper
 
   def setup
     @OUTPUT_DIR = 'json'
