@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 require 'minitest/autorun'
-require 'minitest/mock'
 require 'json'
 require 'date'
 require_relative '../src/fetch_atc_entities'

@@ -1,6 +1,5 @@
  #!/usr/bin/env ruby
 require 'minitest/autorun'
-require 'minitest/mock'
 require 'json'
 require 'date'
 require_relative '../src/fetch_atc_entities'
@@ -29,7 +28,7 @@ class IntegrationTest < Minitest::Test
       @tour_booking_past_deadline
     ]
     
-    Date.stub :today, @today do
+    Date.stub(:today, @today) do
       # First filter
       filtered = filter_tour_bookings(data)
       assert_equal 2, filtered.length
@@ -47,7 +46,7 @@ class IntegrationTest < Minitest::Test
   def test_empty_data_handling
     data = []
     
-    Date.stub :today, @today do
+    Date.stub(:today, @today) do
       filtered = filter_tour_bookings(data)
       assert_equal 0, filtered.length
       
