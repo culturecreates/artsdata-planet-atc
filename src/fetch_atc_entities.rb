@@ -109,7 +109,7 @@ def filter_tour_bookings(data)
     
     # Skip if status is "in_progress"
     if status == 'in_progress'
-      LOGGER.info "  Filtering out booking (status: in_progress): #{attributes['nid']}" if ENV['DEBUG']
+      LOGGER.debug "  Filtering out booking (status: in_progress): #{attributes['nid']}"
       next false
     end
     
@@ -128,12 +128,12 @@ def filter_tour_bookings(data)
     
     # If no event_date or no disclosure, include by default
     if event_date_str.nil? || event_date_str.empty?
-      LOGGER.info "  Including booking (no event_date): #{attributes['nid']}" if ENV['DEBUG']
+      LOGGER.debug "  Including booking (no event_date): #{attributes['nid']}"
       next true
     end
     
     if disclosure_days == 0
-      LOGGER.info "  Including booking (no disclosure): #{attributes['nid']}" if ENV['DEBUG']
+      LOGGER.debug "  Including booking (no disclosure): #{attributes['nid']}"
       next true
     end
     
@@ -147,9 +147,7 @@ def filter_tour_bookings(data)
       # Include if disclosure_deadline > today
       include = disclosure_deadline > today
       
-      if ENV['DEBUG']
-        LOGGER.info "  Booking #{attributes['nid']}: event=#{event_date}, disclosure=#{disclosure_days}d, deadline=#{disclosure_deadline}, today=#{today}, include=#{include}"
-      end
+      LOGGER.debug "  Booking #{attributes['nid']}: event=#{event_date}, disclosure=#{disclosure_days}d, deadline=#{disclosure_deadline}, today=#{today}, include=#{include}"
       
       include
     rescue ArgumentError => e
