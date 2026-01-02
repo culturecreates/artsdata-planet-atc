@@ -7,7 +7,7 @@ require_relative './test_helper'
 
 
 class IntegrationTest < Minitest::Test
-  include FixtureHelper
+  include TestHelper
 
   def setup
     @today = Date.parse('2025-12-11')

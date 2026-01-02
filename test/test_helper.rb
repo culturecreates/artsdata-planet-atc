@@ -1,7 +1,7 @@
 require 'json'
 require 'yaml'
 
-module FixtureHelper
+module TestHelper
   def with_date(date)
     original_today = Date.method(:today)
     
