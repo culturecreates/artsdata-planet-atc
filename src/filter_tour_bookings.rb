@@ -25,9 +25,9 @@ module Artsdata
         end
 
         season = attributes['season']
-        season_start = season['start']
+        season_start = season['start'] if season 
        
-        if season_start.empty?
+        if season_start.nil? || season_start.empty?
           logger&.debug "  Including booking (no season): #{attributes['nid']}"
           next true
         end

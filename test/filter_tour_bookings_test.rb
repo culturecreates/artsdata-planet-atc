@@ -97,4 +97,17 @@ class FilterTourBookingsTest < Minitest::Test
       assert_equal 0, filtered.length
     end
   end
+
+  def test_filter_handles_missing_season
+    booking = [{
+      'attributes' => {
+        'nid' => 11,
+        'status' => 'confirmed'
+      }
+    }]
+    with_date(@today) do
+      filtered = Artsdata::TourBookings.filter_tour_bookings(booking)
+      assert_equal 1, filtered.length
+    end
+  end
 end
