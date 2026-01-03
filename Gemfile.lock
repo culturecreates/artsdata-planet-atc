@@ -10,7 +10,7 @@ GEM
     hashdiff (1.2.1)
     json (2.16.0)
     minitest (5.27.0)
-    public_suffix (7.0.0)
+    public_suffix (6.0.2)
     rake (13.3.1)
     rexml (3.4.4)
     stringio (3.1.9)

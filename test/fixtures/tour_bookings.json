@@ -1,66 +1,80 @@
-{
-  "confirmed": {
-    "attributes": {
-      "nid": 1,
-      "status": "confirmed",
-      "event_date": "2026-02-15T19:00:00",
-      "season": { "disclosure": 30 }
+[
+    {
+        "type": "tour_booking",
+        "id": 1,
+        "attributes": {
+            "nid": 1,
+            "title": "booking to include - today is after disclosure date",
+            "status": "confirmed",
+            "season": {
+                "disclosure": "90",
+                "start": "2026-02-01"
+            }
+        }
+    },
+    {
+        "type": "tour_booking",
+        "id": 2,
+        "attributes": {
+            "nid": 2,
+            "title": "booking to exclude - status in progress",
+            "status": "in_progress",
+            "season": {
+                "disclosure": "90",
+                "start": "2026-02-01"
+            }
+        }
+    },
+    {
+        "type": "tour_booking",
+        "id": 3,
+        "attributes": {
+            "nid": 3,
+            "title": "booking to include - today is after season start",
+            "status": "confirmed",
+            "season": {
+                "disclosure": "90",
+                "start": "2025-11-01"
+            }
+        }
+    },
+    {
+        "type": "tour_booking",
+        "id": 4,
+        "attributes": {
+            "nid": 4,
+            "title": "booking to exclude - today is prior to disclosure date",
+            "status": "confirmed",
+            "season": {
+                "disclosure": "90",
+                "start": "2027-02-01"
+            }
+        }
+    },
+    {
+        "type": "tour_booking",
+        "id": 5,
+        "attributes": {
+            "nid": 5,
+            "title": "booking to include - closed status and today is after disclosure date",
+            "status": "closed",
+            "season": {
+                "disclosure": "90",
+                "start": "2026-02-01"
+            }
+        }
+    },
+    {
+        "type": "tour_booking",
+        "id": 6,
+        "attributes": {
+            "nid": 6,
+            "title": "booking to include - postponed status and today is after disclosure date",
+            "status": "postponed",
+            "season": {
+                "disclosure": "90",
+                "start": "2026-02-01"
+            }
+        }
     }
-  },
-  "in_progress": {
-    "attributes": {
-      "nid": 2,
-      "status": "in_progress",
-      "event_date": "2026-02-15T19:00:00",
-      "season": { "disclosure": 30 }
-    }
-  },
-  "past_deadline": {
-    "attributes": {
-      "nid": 3,
-      "status": "confirmed",
-      "event_date": "2025-12-20T19:00:00",
-      "season": { "disclosure": 30 }
-    }
-  },
-  "no_disclosure": {
-    "attributes": {
-      "nid": 4,
-      "status": "confirmed",
-      "event_date": "2026-01-20T19:00:00",
-      "season": { "disclosure": 0 }
-    }
-  },
-  "season_array": {
-    "attributes": {
-      "nid": 6,
-      "status": "confirmed",
-      "event_date": "2026-02-15T19:00:00",
-      "season": [{ "disclosure": 30 }]
-    }
-  },
-  "closed": {
-    "attributes": {
-      "nid": 6,
-      "status": "closed",
-      "event_date": "2026-02-15T19:00:00",
-      "season": [{ "disclosure": 30 }]
-    }
-  },
-  "postponed": {
-    "attributes": {
-      "nid": 6,
-      "status": "postponed",
-      "event_date": "2026-02-15T19:00:00",
-      "season": [{ "disclosure": 30 }]
-    }
-  },
-  "unknown_status": {
-    "attributes": {
-      "nid": 6,
-      "status": "invalid",
-      "event_date": "2026-02-15T19:00:00",
-      "season": [{ "disclosure": 30 }]
-    }
-  }
-}
+]

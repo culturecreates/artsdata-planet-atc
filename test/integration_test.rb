@@ -11,35 +11,22 @@ class IntegrationTest < Minitest::Test
 
   def setup
     @today = Date.parse('2025-12-11')
-    fixtures = load_fixture('tour_bookings.json')
-
-    @tour_booking_confirmed      = fixtures['confirmed']
-    @tour_booking_in_progress    = fixtures['in_progress']
-    @tour_booking_past_deadline  = fixtures['past_deadline']
-    @tour_booking_closed         = fixtures['closed']
-    
+    @fixtures = load_fixture('tour_bookings.json')
   end
 
- def test_filter_and_add_status_workflow
-    data = [
-      @tour_booking_confirmed,
-      @tour_booking_in_progress,
-      @tour_booking_closed,
-      @tour_booking_past_deadline
-    ]
-    
+  def test_filter_and_add_status_workflow
     with_date(@today) do
       # First filter
-      filtered = filter_tour_bookings(data)
-      assert_equal 2, filtered.length
+      filtered =  Artsdata::TourBookings.filter_tour_bookings(@fixtures)
+      assert_equal 4, filtered.length
       
       # Then add status
-      result = add_event_status(filtered, nil)
-      assert_equal 2, result.length
+      result = Artsdata::Attributes.add_event_status(filtered, nil)
+      assert_equal 4, result.length
       
       # Check both have event_status_uri
-      assert_equal 'http://schema.org/EventScheduled', result[0]['attributes']['event_status_uri']
-      assert_equal 'http://schema.org/EventCancelled', result[1]['attributes']['event_status_uri']
+      assert_equal 'http://schema.org/EventScheduled', result.select { |b| b['id'] == 1 }.first['attributes']['event_status_uri']
+      assert_equal 'http://schema.org/EventCancelled', result.select { |b| b['id'] == 5 }.first['attributes']['event_status_uri']
     end
   end
 
@@ -47,13 +34,14 @@ class IntegrationTest < Minitest::Test
     data = []
     
     with_date(@today) do
-      filtered = filter_tour_bookings(data)
+      filtered =  Artsdata::TourBookings.filter_tour_bookings(data)
       assert_equal 0, filtered.length
       
-      result = add_event_status(filtered, nil)
+      result = Artsdata::Attributes.add_event_status(filtered, nil)
       assert_equal 0, result.length
     end
   end
 
+ 
 end
   
