@@ -6,6 +6,7 @@ require 'date'
 require 'base64'
 require 'logger'
 require_relative 'add_attributes'
+require_relative 'filter_tour_bookings'
 
 # Logger setup
 LOGGER = Logger.new($stdout)
@@ -92,78 +93,6 @@ def fetch_data(source, api_key)
   all_data
 end
 
-def filter_tour_bookings(data)
-  today = Date.today
-  count_before = data.length
-  LOGGER.info "Tour-bookings before filter: #{count_before}"
-  LOGGER.info "Today's date: #{today}"
-  
-  status_counts = Hash.new(0)
-  
-  filtered_data = data.select do |booking|
-    attributes = booking['attributes'] || {}
-    
-    # Get status
-    status = attributes['status']
-    status_counts[status] += 1
-    
-    # Skip if status is "in_progress"
-    if status == 'in_progress'
-      LOGGER.debug "  Filtering out booking (status: in_progress): #{attributes['nid']}"
-      next false
-    end
-    
-    # Get event_date and disclosure
-    event_date_str = attributes['event_date']
-    season = attributes["season"]
-    
-    disclosure_days = case season
-                      when Hash
-                        season["disclosure"].to_i
-                      when Array
-                        season.first.is_a?(Hash) ? season.first["disclosure"].to_i : 90
-                      else
-                        90
-                      end
-    
-    # If no event_date or no disclosure, include by default
-    if event_date_str.nil? || event_date_str.empty?
-      LOGGER.debug "  Including booking (no event_date): #{attributes['nid']}"
-      next true
-    end
-    
-    if disclosure_days == 0
-      LOGGER.debug "  Including booking (no disclosure): #{attributes['nid']}"
-      next true
-    end
-    
-    begin
-      # Parse event date (assuming ISO format: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS)
-      event_date = Date.parse(event_date_str.split('T')[0])
-      
-      # Calculate disclosure deadline: event_date - disclosure_days
-      disclosure_deadline = event_date - disclosure_days
-      
-      # Include if disclosure_deadline > today
-      include = disclosure_deadline > today
-      
-      LOGGER.debug "  Booking #{attributes['nid']}: event=#{event_date}, disclosure=#{disclosure_days}d, deadline=#{disclosure_deadline}, today=#{today}, include=#{include}"
-      
-      include
-    rescue ArgumentError => e
-      LOGGER.info "Warning: Could not parse date '#{event_date_str}': #{e.message}"
-      true # Include by default if date parsing fails
-    end
-  end
-  
-  count_after = filtered_data.length
-  LOGGER.info "Status breakdown before filtering:"
-  status_counts.each { |status, count| LOGGER.info "  #{status}: #{count}" }
-  LOGGER.info "Tour-bookings after filter: #{count_after}"
-  LOGGER.info "Filtered out: #{count_before - count_after} tour-bookings"
-  
-  filtered_data
-end
 
 def save_json(source, data)
   json_data = { 'data' => data }
@@ -206,13 +135,13 @@ def main
     # Apply filter and add event status for tour-bookings
     if source == 'tour-booking'
       LOGGER.info "Applying filter to tour-bookings..."
-      data = filter_tour_bookings(data)
+      data = Artsdata::TourBookings.filter_tour_bookings(data, LOGGER)
       
       if data.empty?
         LOGGER.warn "Warning: All tour-bookings were filtered out!"
       else
         LOGGER.info "Adding event status URIs..."
-        data = add_event_status(data, LOGGER)
+        data = Artsdata::Attributes.add_event_status(data, LOGGER)
       end
     end
     
