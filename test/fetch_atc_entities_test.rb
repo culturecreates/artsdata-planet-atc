@@ -10,7 +10,7 @@ class FetchDataTest < Minitest::Test
 
   def setup
     # Mock API responses
-    @api_base_url = 'https://arts-tc.ca/'
+    @api_base_url = 'https://arts-tc.ca/api/'
     @api_key = 'test_api_key_base64'
     
     @artist_fixtures = load_fixture('artist_data.json')

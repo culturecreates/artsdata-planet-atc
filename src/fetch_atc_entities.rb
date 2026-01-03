@@ -31,7 +31,7 @@ end
 
 # Configuration
 # The API_BASE_URL can be overridden with environment variable
-API_BASE_URL = 'https://arts-tc.ca/'
+API_BASE_URL = 'https://arts-tc.ca/api/'
 OUTPUT_DIR = 'json'
 
 
