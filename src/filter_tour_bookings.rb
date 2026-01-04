@@ -13,22 +13,29 @@ module Artsdata
       logger&.info "Today's date: #{today}"
 
       status_counts = Hash.new(0)
-
+  
       filtered_data = data.select do |booking|
+     
         attributes = booking['attributes'] || {}
         status = attributes['status']
         status_counts[status] += 1
 
         if status == 'in_progress'
-          logger&.debug "  Booking #{attributes['nid']}: filtered out (status: in_progress)"
+          logger&.info "  Booking #{attributes['nid']}: filtered out (status: in_progress)"
           next false
         end
 
         season = attributes['season']
-        season_start = season['start'] if season 
+
+        if season.nil? || !season.is_a?(Hash)
+          logger&.info "  Including booking (no season): #{attributes['nid']} #{season.inspect}"
+          next true
+        end
+
+        season_start = season['start']
        
         if season_start.nil? || season_start.empty?
-          logger&.debug "  Including booking (no season): #{attributes['nid']}"
+          logger&.info "  Including booking (no season start): #{attributes['nid']}"
           next true
         end
 
@@ -40,7 +47,7 @@ module Artsdata
           logger&.debug "  Booking #{attributes['nid']}: season_start=#{season_start_date}, disclosure=#{disclosure_days}d, deadline=#{disclosure_date}, today=#{today}, include=#{include}"
           include
         rescue ArgumentError => e
-          logger&.info "Warning: Could not calculate disclosure date: #{e.message}"
+          logger&.warn "Warning: Could not calculate disclosure date: #{e.message}"
           true
         end
       end
