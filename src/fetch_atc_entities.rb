@@ -2,38 +2,13 @@
 require 'json'
 require 'net/http'
 require 'uri'
-require 'date'
-require 'base64'
-require 'logger'
+require_relative 'logger_setup'
 require_relative 'add_attributes'
 require_relative 'filter_tour_bookings'
 
-# Logger setup
-LOGGER = Logger.new($stdout)
-if ENV['LOG_LEVEL']
-  case ENV['LOG_LEVEL'].downcase
-  when 'debug'
-    LOGGER.level = Logger::DEBUG
-  when 'info'
-    LOGGER.level = Logger::INFO
-  when 'warn'
-    LOGGER.level = Logger::WARN
-  when 'error'
-    LOGGER.level = Logger::ERROR
-  when 'fatal'
-    LOGGER.level = Logger::FATAL
-  else
-    LOGGER.level = Logger::INFO
-  end
-else
-  LOGGER.level = Logger::INFO
-end
-
 # Configuration
-# The API_BASE_URL can be overridden with environment variable
-API_BASE_URL = 'https://arts-tc.ca/api/'
+API_BASE_URL = ENV['API_BASE_URL'] || 'https://arts-tc.ca/api/'
 OUTPUT_DIR = 'json'
-
 
 # Source to filename mapping
 SOURCE_MAP = {
@@ -47,8 +22,6 @@ SOURCE_MAP = {
   'genre' => 'genres',
   'category' => 'categories'
 }
-
-
 
 def fetch_data(source, api_key)
   all_data = []
@@ -93,7 +66,6 @@ def fetch_data(source, api_key)
   all_data
 end
 
-
 def save_json(source, data)
   json_data = { 'data' => data }
   File.write("#{OUTPUT_DIR}/#{source}.json", JSON.pretty_generate(json_data))
@@ -130,7 +102,7 @@ def main
       next
     end
     
-    LOGGER.debug "Fetched #{data.length} records for #{source}"
+    LOGGER.info "Fetched #{data.length} records for #{source}"
     
     # Apply filter and add event status for tour-bookings
     if source == 'tour-booking'
