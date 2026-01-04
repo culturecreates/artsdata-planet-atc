@@ -13,3 +13,28 @@ Using the ATC APIs and the mapping developed in this doc https://docs.google.com
 
 reference: https://docs.google.com/spreadsheets/d/1BsO2tA_DCy9q4OBsaJmWr4wAi7aWiPucofBQ3GTIgMY/edit?usp=sharing
 
+
+Manual Publish
+==============
+To manually publish ATC data to the Artsdata Databus, navigate to the actions tab and run workflow "[Fetch and Push ATC entities](https://github.com/culturecreates/artsdata-planet-atc/actions/workflows/main.yml)"
+
+
+
+Local Development
+================
+
+To call the ATC API locally and downoad the JSON data:
+1. git clone repo
+2. install ruby 
+3. `bundle install`
+4. `rake`
+5. `ruby src/fetch_atc_antities.rb`
+
+Note: You will need the ATC authorization token
+
+To convert JSON to RDF:
+1. Run Docker
+2. `./run_ontorefine.sh`
+
+To publish data to the databus:
+1. Run the workflow 
