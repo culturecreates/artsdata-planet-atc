@@ -131,10 +131,4 @@ class FetchDataTest < Minitest::Test
     # Cleanup
     File.delete(path) if File.exist?(path)
   end
-
-  def teardown
-    Dir.delete(@OUTPUT_DIR) if Dir.exist?(@OUTPUT_DIR)
-  end
-
-
 end
