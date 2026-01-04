@@ -7,7 +7,7 @@ category:1 a skos:Concept;
   skos:inScheme category:ATCCategoryScheme .
 
 category:2 a skos:Concept;
-  skos:prefLabel "Indigeneous";
+  skos:prefLabel "Indigenous";
   skos:inScheme category:ATCCategoryScheme .
 
 category:3 a skos:Concept;
