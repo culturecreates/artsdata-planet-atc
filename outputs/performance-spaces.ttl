@@ -1691,12 +1691,12 @@ performance-space:4228 a schema:Place;
   schema:name "Main Stage";
   schema:maximumAttendeeCapacity "402" .
 
-presenter:4143 a schema:Organization;
-  schema:location performance-space:4233;
-  schema:name "West Coast Winter Music Society" .
+presenter:4050 a schema:Organization;
+  schema:location performance-space:4233, performance-space:7707, performance-space:7708;
+  schema:name "ACT Arts Centre" .
 
 performance-space:4233 a schema:Place;
-  schema:name "Clayoquot Sound Community Theatre";
+  schema:name "Clayoquot Sound Theatre";
   schema:maximumAttendeeCapacity "72" .
 
 presenter:4102 a schema:Organization;
@@ -1748,7 +1748,7 @@ presenter:4055 a schema:Organization;
   schema:name "Capitol Theatre Restoration Society" .
 
 performance-space:4481 a schema:Place;
-  schema:name "Capitol Theatre Nelson";
+  schema:name "Capitol Theatre";
   schema:maximumAttendeeCapacity "406" .
 
 presenter:4101 a schema:Organization;
@@ -2006,10 +2006,6 @@ presenter:2675 a schema:Organization;
 performance-space:7616 a schema:Place;
   schema:name "Moose Jaw Cultural Centre (Mae Wilson Theatre)";
   schema:maximumAttendeeCapacity "422" .
-
-presenter:4050 a schema:Organization;
-  schema:location performance-space:7707, performance-space:7708;
-  schema:name "ACT Arts Centre" .
 
 performance-space:7707 a schema:Place;
   schema:name "ACT Arts Centre - Mainstage Theatre";
@@ -2463,7 +2459,8 @@ performance-space:17891 a schema:Place;
   schema:maximumAttendeeCapacity "400" .
 
 presenter:16910 a schema:Organization;
-  schema:location performance-space:18093, performance-space:18094, performance-space:18095;
+  schema:location performance-space:18093, performance-space:18094, performance-space:18095,
+    performance-space:22180;
   schema:name "The Cultch" .
 
 performance-space:18093 a schema:Place;
@@ -2553,20 +2550,17 @@ performance-space:21279 a schema:Place;
   schema:name "Le Diamant" .
 
 presenter:21286 a schema:Organization;
-  schema:location performance-space:21287 .
+  schema:location performance-space:21287;
+  schema:name "Banff Centre for Arts and Creativity" .
 
 performance-space:21287 a schema:Place;
   schema:name "The Theatre" .
 
-presenter:21286 schema:name "Banff Centre for Arts and Creativity" .
-
-presenter:16910 a schema:Organization;
-  schema:location performance-space:22180;
-  schema:name "The Cultch" .
-
 performance-space:22180 a schema:Place;
   schema:name "Vancouver Playhouse ";
   schema:maximumAttendeeCapacity "657" .
+
+presenter:16910 schema:name "The Cultch" .
 
 presenter:22321 a schema:Organization;
   schema:location performance-space:22322;
@@ -2683,3 +2677,21 @@ performance-space:24486 a schema:Place;
   schema:name "Neptune Theatre";
   schema:sameAs adr:K11-241;
   schema:maximumAttendeeCapacity "458" .
+
+presenter:11148 a schema:Organization;
+  schema:location performance-space:24960, performance-space:24962, performance-space:24963;
+  schema:name "Inner Fish Performance" .
+
+performance-space:24960 a schema:Place;
+  schema:name "Mary Irwin Theatre";
+  schema:sameAs wd:Q6779835, adr:K2-5615;
+  schema:maximumAttendeeCapacity "326" .
+
+performance-space:24962 a schema:Place;
+  schema:name "Kelowna Community Theatre";
+  schema:sameAs wd:Q14874642, adr:K2-5164;
+  schema:maximumAttendeeCapacity "853" .
+
+performance-space:24963 a schema:Place;
+  schema:name "Black Box Theatre";
+  schema:maximumAttendeeCapacity "80" .
