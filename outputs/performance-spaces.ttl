@@ -166,7 +166,7 @@ performance-space:300 a schema:Place;
   schema:maximumAttendeeCapacity "675" .
 
 presenter:283 a schema:Organization;
-  schema:location performance-space:301, performance-space:302, performance-space:303;
+  schema:location performance-space:301, performance-space:302;
   schema:name "Brampton On Stage Presents" .
 
 performance-space:301 a schema:Place;
@@ -176,10 +176,6 @@ performance-space:301 a schema:Place;
 performance-space:302 a schema:Place;
   schema:name "The Rose Theatre Studio";
   schema:maximumAttendeeCapacity "100" .
-
-performance-space:303 a schema:Place;
-  schema:name "Lester B Pearson Theatre";
-  schema:maximumAttendeeCapacity "400" .
 
 presenter:427 a schema:Organization;
   schema:location performance-space:429;
@@ -1266,19 +1262,18 @@ performance-space:3037 a schema:Place;
   schema:name "Leah's house" .
 
 presenter:3071 a schema:Organization;
-  schema:location performance-space:3072 .
+  schema:location performance-space:3072, performance-space:3074;
+  schema:name "Golden Prairie Arts Council" .
 
 performance-space:3072 a schema:Place;
   schema:name "Carman Collegiate Community Theatre";
   schema:maximumAttendeeCapacity "304" .
 
-presenter:3071 a schema:Organization;
-  schema:name "Golden Prairie Arts Council";
-  schema:location performance-space:3074 .
-
 performance-space:3074 a schema:Place;
   schema:name "Carman Active Living Centre";
   schema:maximumAttendeeCapacity "225" .
+
+presenter:3071 schema:name "Golden Prairie Arts Council" .
 
 presenter:1586 a schema:Organization;
   schema:location performance-space:3080;
@@ -2461,7 +2456,8 @@ performance-space:17891 a schema:Place;
   schema:maximumAttendeeCapacity "400" .
 
 presenter:16910 a schema:Organization;
-  schema:location performance-space:18093, performance-space:18094, performance-space:18095;
+  schema:location performance-space:18093, performance-space:18094, performance-space:18095,
+    performance-space:22180;
   schema:name "The Cultch" .
 
 performance-space:18093 a schema:Place;
@@ -2557,13 +2553,11 @@ presenter:21286 a schema:Organization;
 performance-space:21287 a schema:Place;
   schema:name "The Theatre" .
 
-presenter:16910 a schema:Organization;
-  schema:location performance-space:22180;
-  schema:name "The Cultch" .
-
 performance-space:22180 a schema:Place;
   schema:name "Vancouver Playhouse ";
   schema:maximumAttendeeCapacity "657" .
+
+presenter:16910 schema:name "The Cultch" .
 
 presenter:22321 a schema:Organization;
   schema:location performance-space:22322;
@@ -2706,3 +2700,20 @@ presenter:2505 a schema:Organization;
 performance-space:25093 a schema:Place;
   schema:name "St. Paul's United Church";
   schema:maximumAttendeeCapacity "200" .
+
+presenter:25183 a schema:Organization;
+  schema:location performance-space:25186;
+  schema:name "Vernon Jazz Society" .
+
+performance-space:25186 a schema:Place;
+  schema:name "Vernon Jazz Club";
+  schema:sameAs wd:Q130278470, adr:K25-478;
+  schema:maximumAttendeeCapacity "140" .
+
+presenter:785 a schema:Organization;
+  schema:location performance-space:25247;
+  schema:name "Bert Church Live Theatre" .
+
+performance-space:25247 a schema:Place;
+  schema:name "Inspire";
+  schema:maximumAttendeeCapacity "97" .

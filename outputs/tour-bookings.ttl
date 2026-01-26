@@ -33637,3 +33637,14 @@ tour:22316-7062 a ado:Event;
   schema:performer artist:14668;
   schema:contributor network:10;
   schema:workPerformed show:14669 .
+
+tour:25267-8413 a ado:Event;
+  schema:name "The Skeleton Dance";
+  schema:startDate "2026-05-30T22:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p>THE SKELETON DANCE is a creative movement show for all ages about death. It is a highly physical, energetic, and light-hearted play with elements of clown and puppetry. It is created and performed by Emma James (they/she) and Ella MacDonald (she/her). It runs approximately 40 minutes, invites structured audience participation, and is always followed by a post-show meet-and-greet.<br><br>In The Skeleton Dance, two young children process the news that their Great Uncle Trout has suddenly passed away. They consider the implications of this in an entertaining, irreverent way, where the audience is privy to their many whimsical theories about death.<br><br>By drawing viewers in with the spectacle of this unusual piece, we may remind them how different the thought process of young children is to adults, and empower them to support the young people in our communities empathetically, as well as nurture the inner child in themselves.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1438;
+  schema:organizer presenter:426;
+  schema:performer artist:14624;
+  schema:contributor network:10;
+  schema:workPerformed show:14625 .
