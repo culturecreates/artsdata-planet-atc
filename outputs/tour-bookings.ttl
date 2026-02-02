@@ -32143,7 +32143,7 @@ tour:17810-6249 a ado:Event;
   schema:workPerformed show:1654 .
 
 tour:17822-6263 a ado:Event;
-  schema:name "Kune World";
+  schema:name "SINGING TO THE RAIN: From Brazil to Iran";
   schema:startDate "2025-12-11T00:30:00+00:00"^^xsd:dateTime;
   schema:description "<p>\"KUNE is an eleven-piece collective made up of ten immigrant musicians from all over the world and one Metis-Canadian. Our sound captures the experience of living in Toronto, the world's most diverse city. Through music, we remember where we came from and we envision a pluralistic future.\"</p><p>K﻿UNE is:</p><p>Ahmed Moneka, darbuka, vocals</p><p>Aline Morales, vocals, percussion, vocals</p><p>Demetri Petsalakis, guitar & oud</p><p>Alyssa Delbaere-Sawchuk, violin</p><p>Dora Wang, dizi, xiao & alto flute</p><p>Salif “Lasso” Sanou, vocals, djembe, n’goni, peul flute & tama</p><p>Luis Deniz, alto saxophone</p><p>Matias Recharte, drums & percussion</p><p>Paco Luviano, double bass & electric bass</p><p>Padideh Ahrarnejad, tar</p><p>Selcuk Suna, vocals, clarinet & tenor saxophone</p>";
   schema:eventStatus schema:EventScheduled;
@@ -32154,7 +32154,7 @@ tour:17822-6263 a ado:Event;
   schema:workPerformed show:10256 .
 
 tour:17822-6264 a ado:Event;
-  schema:name "Kune World";
+  schema:name "SINGING TO THE RAIN: From Brazil to Iran";
   schema:startDate "2025-12-11T15:00:00+00:00"^^xsd:dateTime;
   schema:description "<p>\"KUNE is an eleven-piece collective made up of ten immigrant musicians from all over the world and one Metis-Canadian. Our sound captures the experience of living in Toronto, the world's most diverse city. Through music, we remember where we came from and we envision a pluralistic future.\"</p><p>K﻿UNE is:</p><p>Ahmed Moneka, darbuka, vocals</p><p>Aline Morales, vocals, percussion, vocals</p><p>Demetri Petsalakis, guitar & oud</p><p>Alyssa Delbaere-Sawchuk, violin</p><p>Dora Wang, dizi, xiao & alto flute</p><p>Salif “Lasso” Sanou, vocals, djembe, n’goni, peul flute & tama</p><p>Luis Deniz, alto saxophone</p><p>Matias Recharte, drums & percussion</p><p>Paco Luviano, double bass & electric bass</p><p>Padideh Ahrarnejad, tar</p><p>Selcuk Suna, vocals, clarinet & tenor saxophone</p>";
   schema:eventStatus schema:EventScheduled;
@@ -32282,7 +32282,7 @@ tour:17923-6323 a ado:Event;
   schema:workPerformed show:17912 .
 
 tour:17924-6324 a ado:Event;
-  schema:name "Kune World";
+  schema:name "SINGING TO THE RAIN: From Brazil to Iran";
   schema:startDate "2025-11-06T01:00:00+00:00"^^xsd:dateTime;
   schema:description "<p>\"KUNE is an eleven-piece collective made up of ten immigrant musicians from all over the world and one Metis-Canadian. Our sound captures the experience of living in Toronto, the world's most diverse city. Through music, we remember where we came from and we envision a pluralistic future.\"</p><p>K﻿UNE is:</p><p>Ahmed Moneka, darbuka, vocals</p><p>Aline Morales, vocals, percussion, vocals</p><p>Demetri Petsalakis, guitar & oud</p><p>Alyssa Delbaere-Sawchuk, violin</p><p>Dora Wang, dizi, xiao & alto flute</p><p>Salif “Lasso” Sanou, vocals, djembe, n’goni, peul flute & tama</p><p>Luis Deniz, alto saxophone</p><p>Matias Recharte, drums & percussion</p><p>Paco Luviano, double bass & electric bass</p><p>Padideh Ahrarnejad, tar</p><p>Selcuk Suna, vocals, clarinet & tenor saxophone</p>";
   schema:eventStatus schema:EventScheduled;
@@ -32293,7 +32293,7 @@ tour:17924-6324 a ado:Event;
   schema:workPerformed show:10256 .
 
 tour:17925-6325 a ado:Event;
-  schema:name "Kune World";
+  schema:name "SINGING TO THE RAIN: From Brazil to Iran";
   schema:startDate "2025-11-26T01:00:00+00:00"^^xsd:dateTime;
   schema:description "<p>\"KUNE is an eleven-piece collective made up of ten immigrant musicians from all over the world and one Metis-Canadian. Our sound captures the experience of living in Toronto, the world's most diverse city. Through music, we remember where we came from and we envision a pluralistic future.\"</p><p>K﻿UNE is:</p><p>Ahmed Moneka, darbuka, vocals</p><p>Aline Morales, vocals, percussion, vocals</p><p>Demetri Petsalakis, guitar & oud</p><p>Alyssa Delbaere-Sawchuk, violin</p><p>Dora Wang, dizi, xiao & alto flute</p><p>Salif “Lasso” Sanou, vocals, djembe, n’goni, peul flute & tama</p><p>Luis Deniz, alto saxophone</p><p>Matias Recharte, drums & percussion</p><p>Paco Luviano, double bass & electric bass</p><p>Padideh Ahrarnejad, tar</p><p>Selcuk Suna, vocals, clarinet & tenor saxophone</p>";
   schema:eventStatus schema:EventScheduled;
@@ -32786,7 +32786,7 @@ tour:18157-6460 a ado:Event;
   schema:workPerformed show:16064 .
 
 tour:18169-6463 a ado:Event;
-  schema:name "Kune World";
+  schema:name "SINGING TO THE RAIN: From Brazil to Iran";
   schema:startDate "2025-12-04T01:00:00+00:00"^^xsd:dateTime;
   schema:description "<p>\"KUNE is an eleven-piece collective made up of ten immigrant musicians from all over the world and one Metis-Canadian. Our sound captures the experience of living in Toronto, the world's most diverse city. Through music, we remember where we came from and we envision a pluralistic future.\"</p><p>K﻿UNE is:</p><p>Ahmed Moneka, darbuka, vocals</p><p>Aline Morales, vocals, percussion, vocals</p><p>Demetri Petsalakis, guitar & oud</p><p>Alyssa Delbaere-Sawchuk, violin</p><p>Dora Wang, dizi, xiao & alto flute</p><p>Salif “Lasso” Sanou, vocals, djembe, n’goni, peul flute & tama</p><p>Luis Deniz, alto saxophone</p><p>Matias Recharte, drums & percussion</p><p>Paco Luviano, double bass & electric bass</p><p>Padideh Ahrarnejad, tar</p><p>Selcuk Suna, vocals, clarinet & tenor saxophone</p>";
   schema:eventStatus schema:EventScheduled;
@@ -33648,3 +33648,53 @@ tour:25267-8413 a ado:Event;
   schema:performer artist:14624;
   schema:contributor network:10;
   schema:workPerformed show:14625 .
+
+tour:25392-8507 a ado:Event;
+  schema:name "Rachel Therrien";
+  schema:startDate "2026-02-02T00:30:00+00:00"^^xsd:dateTime;
+  schema:description """<p>Trumpeter Rachel Therrien stands out as one of the most innovative voices at the intersection of jazz and world music. Her Latin Jazz Project is the result of her postgraduate studies at the Instituto Superior de Arte, in Havana, and is also informed by her many musical experiences in Latin America and the Caribbean. With this exceptional ensemble, she offers a festive repertoire featuring original works and Afro-Latin jazz classics. From salsa to danzón and rumba to chachacha, Rachel and her band of virtuosos invite you to groove to the lively rhythms of Cuba, Mexico, Colombia, and Haiti, among others. Don’t miss this sizzling, hip-swinging show!  </p>
+
+<p dir=\"ltr\">Rachel Therrien is a Schilke Artist</p>""";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:10979;
+  schema:organizer presenter:10974;
+  schema:performer artist:10179;
+  schema:contributor network:3901;
+  schema:workPerformed show:10180 .
+
+tour:25394-8508 a ado:Event;
+  schema:name "AWOL, Rob Gee";
+  schema:startDate "2026-03-07T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<ul><li style=\"list-style-type:none;\" aria-level=\"1\"><strong>Metal never dies...</strong></li><li style=\"list-style-type:none;\" aria-level=\"1\">The story of two men in search of one last adventure.</li><li style=\"list-style-type:none;\" aria-level=\"1\"> </li><li style=\"list-style-type:none;\" aria-level=\"1\">Cyril doesn’t like old people, which is a shame because he is one. When he learns his estranged granddaughter, Lily, has her big break with her thrash metal band, Abscess, he and his friend Neville are determined to show up and support her. Neither of them will ever be the same again.</li></ul><p style=\"list-style-type:none;\"> </p><ul><li style=\"list-style-type:none;\" aria-level=\"1\"><em>“Rob Gee and Jon Paterson are comic gold… they bring genuine warmth to the satire, making it a pleasure to watch from start to finish.”</em> Edmonton Journal, Alberta ★★★★★</li></ul>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:10979;
+  schema:organizer presenter:10974;
+  schema:performer artist:24077;
+  schema:contributor network:3901;
+  schema:workPerformed show:10271 .
+
+tour:25394-8509 a ado:Event;
+  schema:name "AWOL, Rob Gee";
+  schema:startDate "2026-03-08T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<ul><li style=\"list-style-type:none;\" aria-level=\"1\"><strong>Metal never dies...</strong></li><li style=\"list-style-type:none;\" aria-level=\"1\">The story of two men in search of one last adventure.</li><li style=\"list-style-type:none;\" aria-level=\"1\"> </li><li style=\"list-style-type:none;\" aria-level=\"1\">Cyril doesn’t like old people, which is a shame because he is one. When he learns his estranged granddaughter, Lily, has her big break with her thrash metal band, Abscess, he and his friend Neville are determined to show up and support her. Neither of them will ever be the same again.</li></ul><p style=\"list-style-type:none;\"> </p><ul><li style=\"list-style-type:none;\" aria-level=\"1\"><em>“Rob Gee and Jon Paterson are comic gold… they bring genuine warmth to the satire, making it a pleasure to watch from start to finish.”</em> Edmonton Journal, Alberta ★★★★★</li></ul>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:10979;
+  schema:organizer presenter:10974;
+  schema:performer artist:24077;
+  schema:contributor network:3901;
+  schema:workPerformed show:10271 .
+
+tour:25396-8516 a ado:Event;
+  schema:name "LESBIHONEST, Laura Piccinin";
+  schema:startDate "2026-04-19T23:00:00+00:00"^^xsd:dateTime;
+  schema:description """<p><strong>A hilarious autobiography of some gay girl from Toronto</strong></p>
+
+<p>Award-winning Queer comedian Laura Piccinin takes audiences on a hilarious out and proud ride in her autobiographical stand-up show, “LESBIHONEST”. </p>
+
+<p>Thank you for coming out.</p>""";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:10979;
+  schema:organizer presenter:10974;
+  schema:performer artist:10259;
+  schema:contributor network:3901;
+  schema:workPerformed show:10260 .

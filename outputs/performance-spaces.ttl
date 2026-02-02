@@ -2717,3 +2717,29 @@ presenter:785 a schema:Organization;
 performance-space:25247 a schema:Place;
   schema:name "Inspire";
   schema:maximumAttendeeCapacity "97" .
+
+presenter:25131 a schema:Organization;
+  schema:location performance-space:25398, performance-space:25399, performance-space:25400,
+    performance-space:25401, performance-space:25402;
+  schema:name "Association Francophone de Red Lake" .
+
+performance-space:25398 a schema:Place;
+  schema:name "Red Lake-Madsen Public School";
+  schema:sameAs wd:Q135915372, adr:K26-068;
+  schema:maximumAttendeeCapacity "100" .
+
+performance-space:25399 a schema:Place;
+  schema:name "Cochenour Hall";
+  schema:maximumAttendeeCapacity "200" .
+
+performance-space:25400 a schema:Place;
+  schema:name "Red Lake Regional Heritage Centre";
+  schema:maximumAttendeeCapacity "60" .
+
+performance-space:25401 a schema:Place;
+  schema:name "St-Johns School ( Red Lake )";
+  schema:maximumAttendeeCapacity "150" .
+
+performance-space:25402 a schema:Place;
+  schema:name "Red Lake Legion";
+  schema:maximumAttendeeCapacity "350" .
