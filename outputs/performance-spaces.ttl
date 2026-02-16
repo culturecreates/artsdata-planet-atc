@@ -1401,10 +1401,11 @@ performance-space:3470 a schema:Place;
 
 presenter:2488 a schema:Organization;
   schema:location performance-space:3471;
-  schema:name "Kids Kaleidoscope Entertainment Series for the Performing Arts" .
+  schema:name "Kids Kaleidoscope Entertainment Series for the Performing Arts (Sioux Lookout)" .
 
 performance-space:3471 a schema:Place;
-  schema:name "Sioux North High School " .
+  schema:name "Sioux North High School ";
+  schema:maximumAttendeeCapacity "250" .
 
 presenter:306 a schema:Organization;
   schema:location performance-space:3530, performance-space:3788, performance-space:4130;
@@ -1679,14 +1680,6 @@ presenter:4094 a schema:Organization;
 performance-space:4228 a schema:Place;
   schema:name "Main Stage";
   schema:maximumAttendeeCapacity "402" .
-
-presenter:4050 a schema:Organization;
-  schema:location performance-space:4233, performance-space:7707, performance-space:7708;
-  schema:name "ACT Arts Centre" .
-
-performance-space:4233 a schema:Place;
-  schema:name "Clayoquot Sound Theatre";
-  schema:maximumAttendeeCapacity "72" .
 
 presenter:4102 a schema:Organization;
   schema:location performance-space:4234, performance-space:4235;
@@ -2003,6 +1996,10 @@ presenter:2675 a schema:Organization;
 performance-space:7616 a schema:Place;
   schema:name "Moose Jaw Cultural Centre (Mae Wilson Theatre)";
   schema:maximumAttendeeCapacity "422" .
+
+presenter:4050 a schema:Organization;
+  schema:location performance-space:7707, performance-space:7708;
+  schema:name "ACT Arts Centre" .
 
 performance-space:7707 a schema:Place;
   schema:name "ACT Arts Centre - Mainstage Theatre";
@@ -2557,16 +2554,15 @@ performance-space:22180 a schema:Place;
   schema:name "Vancouver Playhouse ";
   schema:maximumAttendeeCapacity "657" .
 
-presenter:16910 schema:name "The Cultch" .
-
 presenter:22321 a schema:Organization;
-  schema:location performance-space:22322;
-  schema:name "Presentation House Theatre" .
+  schema:location performance-space:22322 .
 
 performance-space:22322 a schema:Place;
   schema:name "Presentation House Theatre";
   schema:sameAs wd:Q134296633, adr:K25-869;
   schema:maximumAttendeeCapacity "150" .
+
+presenter:22321 schema:name "Presentation House Theatre" .
 
 presenter:265 a schema:Organization;
   schema:location performance-space:22418;
@@ -2742,4 +2738,28 @@ performance-space:25401 a schema:Place;
 
 performance-space:25402 a schema:Place;
   schema:name "Red Lake Legion";
-  schema:maximumAttendeeCapacity "350" .
+  schema:maximumAttendeeCapacity "285" .
+
+presenter:2488 a schema:Organization;
+  schema:location performance-space:26620, performance-space:26621, performance-space:26623;
+  schema:name "Kids Kaleidoscope Entertainment Series for the Performing Arts (Sioux Lookout)" .
+
+performance-space:26620 a schema:Place;
+  schema:name "Sioux Mountain Public School";
+  schema:maximumAttendeeCapacity "200" .
+
+performance-space:26621 a schema:Place;
+  schema:name "Sacred Heart Catholic School";
+  schema:maximumAttendeeCapacity "200" .
+
+presenter:2501 a schema:Organization;
+  schema:location performance-space:26622;
+  schema:name "Razzamataz Kids' Shows! (Haliburton)" .
+
+performance-space:26622 a schema:Place;
+  schema:name "Archie Stouffer";
+  schema:maximumAttendeeCapacity "500" .
+
+performance-space:26623 a schema:Place;
+  schema:name "Obishkokaang Elementary School";
+  schema:maximumAttendeeCapacity "200" .

@@ -20293,78 +20293,46 @@ tour:10112-4299 a ado:Event;
   schema:workPerformed show:901 .
 
 tour:10127-4303 a ado:Event;
-  schema:name "Jessica McMann";
+  schema:name "Jessica McMann & Connor Chee";
   schema:startDate "2025-05-16T23:00:00+00:00"^^xsd:dateTime;
-  schema:description """Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br style=\"box-sizing: inherit;\" />
-<br style=\"box-sizing: inherit;\" />
-Partaking in an artist-in-residence program at the Banff Centre (2019) resulted in the Indigenous-Classical album <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">Incandescent Tales </em>which was released in June of 2021. This album was recorded in collaboration with pianist Beverly McKiver and violinist Karen Shepherd, and produced by Laura Vinson, all Indigenous women. She is currently working on her second album slated to be released mid-2023.  <br style=\"box-sizing: inherit;\" />
-<br style=\"box-sizing: inherit;\" />
-Her musical, composition, and soundscape work focuses on land-based creation and ideas of connection, disconnection, and home.\"Too Good; That <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">MAY</em> Be\", an immersive soundscape performance was shown at the Urban Shaman Gallery in Winnipeg as part of \"The 60's Scoop; A Place Between\" in 2017. Her compositions include <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">Muskwa's Mountain Home </em>(2021)<em style=\"box-sizing: inherit; font-style: italic; position: relative;\">, Inni (</em>2018)<em style=\"box-sizing: inherit; font-style: italic; position: relative;\">  </em>and soundscapes including <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">beguiling (the)the land </em>(2020).<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-Jessica has played and performed venues and festivals across Canada, as well as toured in Sweden, Netherlands, and Belgium. She has created soundtracks for the ITWE Collective, performed with the Ambrose University Chamber Orchestra and the Foothills Philharmonic Orchestra in Alberta, and was a guest musician for Arcade Fire at the JUNOs.  She has performed regularly with Laura Vinson and the Free Spirit as a dancer and musician.<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-Jessica currently resides in Cochrane, Alberta, where she works for the City of Calgary as Curator of Indigenous Art. She is also co-founder and co-director <a href=\"http://www.wildmintarts.com/\" rel=\"noopener nofollow noreferrer\" target=\"_blank\">Wild Mint Arts</a>, an Indigenous arts company and is a Laureate of the Hnatyshyn Foundation REVEAL Indigenous Art Awards (2017). """;
+  schema:description "Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br><br>AND, Connor Chee is a Diné (Navajo) composer and pianist known for blending Western classical music with the rich cultural heritage of the Navajo people. His compositions often draw inspiration from traditional Navajo stories and beliefs, creating a powerful and evocative sound that speaks to both his heritage and his classical training. Connor is dedicated to music education and cultural preservation, inspiring the next generation of musicians.";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:4568;
   schema:organizer presenter:4073;
-  schema:performer artist:4156;
+  schema:performer artist:26611, artist:4156;
   schema:contributor network:3901;
   schema:workPerformed show:4277 .
 
 tour:10128-4305 a ado:Event;
-  schema:name "Jessica McMann";
+  schema:name "Jessica McMann & Connor Chee";
   schema:startDate "2025-05-18T18:00:00+00:00"^^xsd:dateTime;
-  schema:description """Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br style=\"box-sizing: inherit;\" />
-<br style=\"box-sizing: inherit;\" />
-Partaking in an artist-in-residence program at the Banff Centre (2019) resulted in the Indigenous-Classical album <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">Incandescent Tales </em>which was released in June of 2021. This album was recorded in collaboration with pianist Beverly McKiver and violinist Karen Shepherd, and produced by Laura Vinson, all Indigenous women. She is currently working on her second album slated to be released mid-2023.  <br style=\"box-sizing: inherit;\" />
-<br style=\"box-sizing: inherit;\" />
-Her musical, composition, and soundscape work focuses on land-based creation and ideas of connection, disconnection, and home.\"Too Good; That <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">MAY</em> Be\", an immersive soundscape performance was shown at the Urban Shaman Gallery in Winnipeg as part of \"The 60's Scoop; A Place Between\" in 2017. Her compositions include <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">Muskwa's Mountain Home </em>(2021)<em style=\"box-sizing: inherit; font-style: italic; position: relative;\">, Inni (</em>2018)<em style=\"box-sizing: inherit; font-style: italic; position: relative;\">  </em>and soundscapes including <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">beguiling (the)the land </em>(2020).<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-Jessica has played and performed venues and festivals across Canada, as well as toured in Sweden, Netherlands, and Belgium. She has created soundtracks for the ITWE Collective, performed with the Ambrose University Chamber Orchestra and the Foothills Philharmonic Orchestra in Alberta, and was a guest musician for Arcade Fire at the JUNOs.  She has performed regularly with Laura Vinson and the Free Spirit as a dancer and musician.<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-Jessica currently resides in Cochrane, Alberta, where she works for the City of Calgary as Curator of Indigenous Art. She is also co-founder and co-director <a href=\"http://www.wildmintarts.com/\" rel=\"noopener nofollow noreferrer\" target=\"_blank\">Wild Mint Arts</a>, an Indigenous arts company and is a Laureate of the Hnatyshyn Foundation REVEAL Indigenous Art Awards (2017). """;
+  schema:description "Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br><br>AND, Connor Chee is a Diné (Navajo) composer and pianist known for blending Western classical music with the rich cultural heritage of the Navajo people. His compositions often draw inspiration from traditional Navajo stories and beliefs, creating a powerful and evocative sound that speaks to both his heritage and his classical training. Connor is dedicated to music education and cultural preservation, inspiring the next generation of musicians.";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:9699;
   schema:organizer presenter:9698;
-  schema:performer artist:4156;
+  schema:performer artist:26611, artist:4156;
   schema:contributor network:3901;
   schema:workPerformed show:4277 .
 
 tour:10129-4306 a ado:Event;
-  schema:name "Jessica McMann";
+  schema:name "Jessica McMann & Connor Chee";
   schema:startDate "2025-05-20T23:30:00+00:00"^^xsd:dateTime;
-  schema:description """Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br style=\"box-sizing: inherit;\" />
-<br style=\"box-sizing: inherit;\" />
-Partaking in an artist-in-residence program at the Banff Centre (2019) resulted in the Indigenous-Classical album <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">Incandescent Tales </em>which was released in June of 2021. This album was recorded in collaboration with pianist Beverly McKiver and violinist Karen Shepherd, and produced by Laura Vinson, all Indigenous women. She is currently working on her second album slated to be released mid-2023.  <br style=\"box-sizing: inherit;\" />
-<br style=\"box-sizing: inherit;\" />
-Her musical, composition, and soundscape work focuses on land-based creation and ideas of connection, disconnection, and home.\"Too Good; That <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">MAY</em> Be\", an immersive soundscape performance was shown at the Urban Shaman Gallery in Winnipeg as part of \"The 60's Scoop; A Place Between\" in 2017. Her compositions include <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">Muskwa's Mountain Home </em>(2021)<em style=\"box-sizing: inherit; font-style: italic; position: relative;\">, Inni (</em>2018)<em style=\"box-sizing: inherit; font-style: italic; position: relative;\">  </em>and soundscapes including <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">beguiling (the)the land </em>(2020).<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-Jessica has played and performed venues and festivals across Canada, as well as toured in Sweden, Netherlands, and Belgium. She has created soundtracks for the ITWE Collective, performed with the Ambrose University Chamber Orchestra and the Foothills Philharmonic Orchestra in Alberta, and was a guest musician for Arcade Fire at the JUNOs.  She has performed regularly with Laura Vinson and the Free Spirit as a dancer and musician.<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-Jessica currently resides in Cochrane, Alberta, where she works for the City of Calgary as Curator of Indigenous Art. She is also co-founder and co-director <a href=\"http://www.wildmintarts.com/\" rel=\"noopener nofollow noreferrer\" target=\"_blank\">Wild Mint Arts</a>, an Indigenous arts company and is a Laureate of the Hnatyshyn Foundation REVEAL Indigenous Art Awards (2017). """;
+  schema:description "Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br><br>AND, Connor Chee is a Diné (Navajo) composer and pianist known for blending Western classical music with the rich cultural heritage of the Navajo people. His compositions often draw inspiration from traditional Navajo stories and beliefs, creating a powerful and evocative sound that speaks to both his heritage and his classical training. Connor is dedicated to music education and cultural preservation, inspiring the next generation of musicians.";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:9697;
   schema:organizer presenter:9683;
-  schema:performer artist:4156;
+  schema:performer artist:26611, artist:4156;
   schema:contributor network:3901;
   schema:workPerformed show:4277 .
 
 tour:10130-4308 a ado:Event;
-  schema:name "Jessica McMann";
+  schema:name "Jessica McMann & Connor Chee";
   schema:startDate "2025-05-24T23:30:00+00:00"^^xsd:dateTime;
-  schema:description """Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br style=\"box-sizing: inherit;\" />
-<br style=\"box-sizing: inherit;\" />
-Partaking in an artist-in-residence program at the Banff Centre (2019) resulted in the Indigenous-Classical album <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">Incandescent Tales </em>which was released in June of 2021. This album was recorded in collaboration with pianist Beverly McKiver and violinist Karen Shepherd, and produced by Laura Vinson, all Indigenous women. She is currently working on her second album slated to be released mid-2023.  <br style=\"box-sizing: inherit;\" />
-<br style=\"box-sizing: inherit;\" />
-Her musical, composition, and soundscape work focuses on land-based creation and ideas of connection, disconnection, and home.\"Too Good; That <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">MAY</em> Be\", an immersive soundscape performance was shown at the Urban Shaman Gallery in Winnipeg as part of \"The 60's Scoop; A Place Between\" in 2017. Her compositions include <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">Muskwa's Mountain Home </em>(2021)<em style=\"box-sizing: inherit; font-style: italic; position: relative;\">, Inni (</em>2018)<em style=\"box-sizing: inherit; font-style: italic; position: relative;\">  </em>and soundscapes including <em style=\"box-sizing: inherit; font-style: italic; position: relative;\">beguiling (the)the land </em>(2020).<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-Jessica has played and performed venues and festivals across Canada, as well as toured in Sweden, Netherlands, and Belgium. She has created soundtracks for the ITWE Collective, performed with the Ambrose University Chamber Orchestra and the Foothills Philharmonic Orchestra in Alberta, and was a guest musician for Arcade Fire at the JUNOs.  She has performed regularly with Laura Vinson and the Free Spirit as a dancer and musician.<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-<br style=\"box-sizing: inherit; color: rgb(62, 62, 62); font-family: \"Quattrocento Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" />
-Jessica currently resides in Cochrane, Alberta, where she works for the City of Calgary as Curator of Indigenous Art. She is also co-founder and co-director <a href=\"http://www.wildmintarts.com/\" rel=\"noopener nofollow noreferrer\" target=\"_blank\">Wild Mint Arts</a>, an Indigenous arts company and is a Laureate of the Hnatyshyn Foundation REVEAL Indigenous Art Awards (2017). """;
+  schema:description "Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br><br>AND, Connor Chee is a Diné (Navajo) composer and pianist known for blending Western classical music with the rich cultural heritage of the Navajo people. His compositions often draw inspiration from traditional Navajo stories and beliefs, creating a powerful and evocative sound that speaks to both his heritage and his classical training. Connor is dedicated to music education and cultural preservation, inspiring the next generation of musicians.";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:4570;
   schema:organizer presenter:4086;
-  schema:performer artist:4156;
+  schema:performer artist:26611, artist:4156;
   schema:contributor network:3901;
   schema:workPerformed show:4277 .
 
@@ -21070,11 +21038,12 @@ tour:10790-4445 a ado:Event;
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:143;
   schema:organizer presenter:142;
+  a ado:Event;
   schema:performer artist:1076;
   schema:contributor network:9;
   schema:workPerformed show:1077 .
 
-tour:10804-4457 a ado:Event, ado:Event;
+tour:10804-4457 a ado:Event;
   schema:name "Strumbellas";
   schema:startDate "2024-12-05T01:00:00+00:00"^^xsd:dateTime;
   schema:description "<p>Alt country/farm emo/gothic folk</p>";
@@ -22802,6 +22771,7 @@ tour:14520-4759 a ado:Event;
   schema:location performance-space:4107;
   schema:organizer presenter:4106;
   schema:performer artist:6093;
+  a ado:Event;
   schema:contributor network:3901;
   schema:workPerformed show:6094 .
 
@@ -26048,12 +26018,12 @@ tour:16084-5136 a ado:Event;
 <p>This quartet of Canadian boys delivers a high-energy show that has audiences dancing the night away! After international tours in both Europe and California, The Dreamboats are ready to tear up the stage with their award-winning tunes inspired by the 50s & 60s music that they adore.</p>
 
 <p>Their on-stage antics are complimented by tales from their adventures on the road: from performing at the legendary Cavern Club in Liverpool (where the Beatles cut their teeth) to hearing how Rock n’ Roll came to Canada first-hand from the legendary Ronnie Hawkins to swimming in Elvis Presley’s pool! The Dreamboats are bringing back sounds from this timeless era forward for a new generation to discover</p>""";
+  a ado:Event;
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:299;
   schema:organizer presenter:286;
   schema:performer artist:15888;
   schema:contributor network:9;
-  a ado:Event;
   schema:workPerformed show:15889 .
 
 tour:16085-5137 a ado:Event;
@@ -27832,13 +27802,13 @@ tour:16619-5467 a ado:Event;
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:296;
   schema:organizer presenter:279;
+  a ado:Event;
   schema:performer artist:14430;
   schema:contributor network:9;
   schema:workPerformed show:14431 .
 
 tour:16619-5468 a ado:Event;
   schema:name "Chris McKhool: Earth Seas and Air";
-  a ado:Event;
   schema:startDate "2026-01-28T14:00:00+00:00"^^xsd:dateTime;
   schema:description "<p>Part musical performance, part environmentalism and 100% fun, this show is fully interactive, featuring songs from Chris’ appearances on Mr. Dressup, YTV and CBC! Chris gets kids singing, dancing and talking about taking care of the Earth. For over a decade, Chris has taken his audience beyond the 3 R’s of ecology to a new level of understanding of our global connection to forests, air, water and animals. Chris is a Green Toronto Award of Excellence winner, and<br>created the world’s largest bicycle bell orchestra at Yonge-Dundas Square. Everyone leaves with the feeling that they can really make a difference!</p><p>Video: https://www.youtube.com/watch?v=PMdCAgMs8O4&feature=youtu.be</p>";
   schema:eventStatus schema:EventScheduled;
@@ -29413,6 +29383,7 @@ tour:16973-5710 a ado:Event;
   schema:organizer presenter:4102;
   schema:performer artist:10192;
   schema:contributor network:3901;
+  a ado:Event;
   schema:workPerformed show:10193 .
 
 tour:16974-5711 a ado:Event;
@@ -29423,7 +29394,6 @@ tour:16974-5711 a ado:Event;
 <p>Solidaridad Tango is North America’s original all-woman, diversity-affirming tango ensemble. It was founded in 2021 by Aparna Halpé, to create fair work, professional development, and performance opportunities for women tango musicians. Trained in historical tango performance practice focusing on Golden Age styles, Solidaridad is proud to present new music by women tango composers from around the world. Playing sold out performances in Toronto, Oregon, and New York, and hot off their debut tour in Buenos Aires, playing sold out shows in iconic tango venues such as Café Vinilo and Hasta Trilce, Solidaridad has been described as “bringing tango forward” by Laura Fernandez, host of Jazz FM 91’s Café Latino. Solidaridad’s debut album DISTANCIA (2023) is available on <a data-link-type=\"url\" href=\"https://solidaridad.bandcamp.com/album/distancia\" target=\"_blank\">Bandcamp</a> and all major streaming platforms. </p>
 
 <p>“Packed with passion, oozing with originality, and played with perfection, DISTANCIA is an exciting listen from musicians unafraid of boundaries” (Songlines, UK).</p>""";
-  a ado:Event;
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:4517;
   schema:organizer presenter:4101;
@@ -30622,13 +30592,13 @@ tour:17531-5944 a ado:Event;
   schema:location performance-space:7453;
   schema:organizer presenter:2505;
   schema:performer artist:262;
+  a ado:Event;
   schema:contributor network:9;
   schema:workPerformed show:14121 .
 
 tour:17535-5949 a ado:Event;
   schema:name "Somebody Loves You, Mr. Hatch";
   schema:startDate "2026-02-10T23:30:00+00:00"^^xsd:dateTime;
-  a ado:Event;
   schema:description "<p>Book by Eileen Spinelli<br>Adapted & Directed by Chris McGregor</p><strong>Then he did something he has never done before… he laughed!</strong><p style=\"white-space:pre-wrap;\">Mr. Hatch leads a predictable and dreary life; he keeps to himself. One Valentine’s Day, he unexpectedly receives a heart-shaped package with an anonymous note that whispers, “somebody loves you,” and everything changes. This heartwarming puppet play examines the effect that kindness can have on a lonely existence. Join washerwomen Betsy, Edna, and Molly as they bring Mr. Hatch’s story to life and help him search for his secret admirer!</p><p style=\"white-space:pre-wrap;\"><strong>Recommended Audience: </strong>Pre-K - Grade 5<br><strong>Run Time:</strong> 45 minutes</p><p>Includes 'Pre-Performance Activities' to help prepare your students for a live performance. Use the synopsis and vocabulary sections to review concepts and words the play mentions!</p><p><a href=\"https://www.axistheatre.com/s/2023-01-26-MRHATCH-Study-Guide.pdf\" target=\"_blank\">DOWNLOAD STUDY GUIDE [PDF]</a></p><p>Find a press release, bios, marketing materials, and more in our Presenter Kit dropbox folder.</p><p><a href=\"https://www.dropbox.com/sh/1smyn6b0ypczdss/AAB9-KvL7DP3gbO942oXCfIZa?dl=0\" target=\"_blank\">MR.HATCH PRESENTER KIT</a></p><p><strong>THEATRES</strong><br>Technical Rider: <a href=\"https://www.axistheatre.com/s/Schedule-A_Mr-Hatch_2024-2025.pdf\" target=\"_blank\"><strong>DOWNLOAD [PDF]</strong></a><br>Set Drawings: <a href=\"https://www.dropbox.com/s/3d1bcgm4lazx2z2/Mr%20Hatch%2012%20Front%20Elevation.pdf?dl=0\" target=\"_blank\"><strong>DOWNLOAD [PDF]</strong></a><br>Ground Plan: <a href=\"https://www.dropbox.com/s/ew3mg1fgdahggeq/Mr%20Hatch%2012%20Floor%20Plan.pdf?dl=0\" target=\"_blank\"><strong>DOWNLOAD [PDF]</strong></a><br>Lighting Info: <a href=\"https://www.axistheatre.com/s/Mr-Hatch-lighting-cues-and-looks-Updated-23may2019.pdf\" target=\"_blank\"><strong>DOWNLOAD [PDF]</strong></a></p><p><strong>SCHOOLS</strong><br>Please review the requirements for hosting a show prior to booking. <strong>COMING SOON</strong></p><ul style=\"background-color:rgb(255,255,255);text-align:left;\"><li style=\"color:rgb(36,36,36);font-family:\"Segoe UI\",\"Segoe UI Web (West European)\",-apple-system,BlinkMacSystemFont,Roboto,\"Helvetica Neue\",sans-serif;font-size:15px;\">Full length video or <a href=\"https://vimeo.com/353698259\" target=\"_blank\" title=\"https://vimeo.com/353698259\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/353698259&source=gmail&ust=1730902423447000&usg=AOvVaw3d7LcAj5mvXS4aHXFv7WNZ\">trailer of the show</a></li></ul>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:2498;
@@ -33246,12 +33216,12 @@ tour:19950-6564 a ado:Event;
   schema:startDate "2025-11-01T23:30:00+00:00"^^xsd:dateTime;
   schema:description "<p>Starring Damon Calderwood – Acknowledged as one of the finest Canadian musicals of all time, this one-man tour-de-force—starring Metro favourite Damon Calderwood as Billy Bishop, and accompanied by pianist Chris Robson—recounts the triumphs and horrors of World War One, “the war to end all wars” through raucous stories, haunting memories, and vibrant songs, as Bishop traces his journey from Royal Military College troublemaker to top flying ace.</p>";
   schema:eventStatus schema:EventScheduled;
+  a ado:Event;
   schema:location performance-space:806;
   schema:organizer presenter:745;
   schema:performer artist:9297;
   schema:contributor network:692;
-  schema:workPerformed show:19938;
-  a ado:Event .
+  schema:workPerformed show:19938 .
 
 tour:19969-6569 a ado:Event;
   schema:name "Chris McKhool: Earth Seas and Air";
