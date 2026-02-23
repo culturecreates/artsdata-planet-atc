@@ -2763,3 +2763,10 @@ performance-space:26622 a schema:Place;
 performance-space:26623 a schema:Place;
   schema:name "Obishkokaang Elementary School";
   schema:maximumAttendeeCapacity "200" .
+
+presenter:817 a schema:Organization;
+  schema:location performance-space:27417;
+  schema:name "Chautauqua Edson Arts Council" .
+
+performance-space:27417 a schema:Place;
+  schema:name "Vanier Community Catholic School" .
