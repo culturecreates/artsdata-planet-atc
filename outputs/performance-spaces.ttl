@@ -1091,7 +1091,7 @@ performance-space:2487 a schema:Place;
 
 presenter:2488 a schema:Organization;
   schema:location performance-space:2489;
-  schema:name "Kids Kaleidoscope Entertainment Series for the Performing Arts" .
+  schema:name "Kids Kaleidoscope Entertainment Series for the Performing Arts (Sioux Lookout)" .
 
 performance-space:2489 a schema:Place;
   schema:name "Queen Elizabeth District High School" .
@@ -2572,15 +2572,6 @@ performance-space:22418 a schema:Place;
   schema:name "Al Whittle Theatre";
   schema:maximumAttendeeCapacity "160" .
 
-presenter:282 a schema:Organization;
-  schema:location performance-space:23466;
-  schema:name "Shenkman Arts Centre - City of Ottawa" .
-
-performance-space:23466 a schema:Place;
-  schema:name "Meridian Theatres @ Centrepointe - MainStage Theatre";
-  schema:sameAs wd:Q126398326, adr:K11-188;
-  schema:maximumAttendeeCapacity "954" .
-
 presenter:16770 a schema:Organization;
   schema:location performance-space:23486;
   schema:name "Pender Island Concert Society" .
@@ -2770,3 +2761,15 @@ presenter:817 a schema:Organization;
 
 performance-space:27417 a schema:Place;
   schema:name "Vanier Community Catholic School" .
+
+presenter:2499 a schema:Organization;
+  schema:location performance-space:27447, performance-space:27448;
+  schema:name "Over the Rainbow Children's Series (Sault Ste Marie)" .
+
+performance-space:27447 a schema:Place;
+  schema:name "Korah Theatre";
+  schema:maximumAttendeeCapacity "670" .
+
+performance-space:27448 a schema:Place;
+  schema:name "F. H. Clergue Public School ";
+  schema:maximumAttendeeCapacity "200" .
