@@ -2773,3 +2773,11 @@ performance-space:27447 a schema:Place;
 performance-space:27448 a schema:Place;
   schema:name "F. H. Clergue Public School ";
   schema:maximumAttendeeCapacity "200" .
+
+presenter:27965 a schema:Organization;
+  schema:location performance-space:27972;
+  schema:name "Kimberley Arts Council-Centre 64" .
+
+performance-space:27972 a schema:Place;
+  schema:name "Centre 64 Arts Centre";
+  schema:maximumAttendeeCapacity "126" .
