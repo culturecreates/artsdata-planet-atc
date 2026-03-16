@@ -20237,7 +20237,7 @@ tour:10112-4299 a ado:Event;
   schema:workPerformed show:901 .
 
 tour:10127-4303 a ado:Event;
-  schema:name "Jessica McMann & Connor Chee";
+  schema:name "Prairie Dusk, Jessica McMann & Connor Chee";
   schema:startDate "2025-05-16T23:00:00+00:00"^^xsd:dateTime;
   schema:description "Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br><br>AND, Connor Chee is a Diné (Navajo) composer and pianist known for blending Western classical music with the rich cultural heritage of the Navajo people. His compositions often draw inspiration from traditional Navajo stories and beliefs, creating a powerful and evocative sound that speaks to both his heritage and his classical training. Connor is dedicated to music education and cultural preservation, inspiring the next generation of musicians.";
   schema:eventStatus schema:EventScheduled;
@@ -20248,7 +20248,7 @@ tour:10127-4303 a ado:Event;
   schema:workPerformed show:4277 .
 
 tour:10128-4305 a ado:Event;
-  schema:name "Jessica McMann & Connor Chee";
+  schema:name "Prairie Dusk, Jessica McMann & Connor Chee";
   schema:startDate "2025-05-18T18:00:00+00:00"^^xsd:dateTime;
   schema:description "Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br><br>AND, Connor Chee is a Diné (Navajo) composer and pianist known for blending Western classical music with the rich cultural heritage of the Navajo people. His compositions often draw inspiration from traditional Navajo stories and beliefs, creating a powerful and evocative sound that speaks to both his heritage and his classical training. Connor is dedicated to music education and cultural preservation, inspiring the next generation of musicians.";
   schema:eventStatus schema:EventScheduled;
@@ -20259,7 +20259,7 @@ tour:10128-4305 a ado:Event;
   schema:workPerformed show:4277 .
 
 tour:10129-4306 a ado:Event;
-  schema:name "Jessica McMann & Connor Chee";
+  schema:name "Prairie Dusk, Jessica McMann & Connor Chee";
   schema:startDate "2025-05-20T23:30:00+00:00"^^xsd:dateTime;
   schema:description "Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br><br>AND, Connor Chee is a Diné (Navajo) composer and pianist known for blending Western classical music with the rich cultural heritage of the Navajo people. His compositions often draw inspiration from traditional Navajo stories and beliefs, creating a powerful and evocative sound that speaks to both his heritage and his classical training. Connor is dedicated to music education and cultural preservation, inspiring the next generation of musicians.";
   schema:eventStatus schema:EventScheduled;
@@ -20270,7 +20270,7 @@ tour:10129-4306 a ado:Event;
   schema:workPerformed show:4277 .
 
 tour:10130-4308 a ado:Event;
-  schema:name "Jessica McMann & Connor Chee";
+  schema:name "Prairie Dusk, Jessica McMann & Connor Chee";
   schema:startDate "2025-05-24T23:30:00+00:00"^^xsd:dateTime;
   schema:description "Jessica McMann is an Alberta -based Cree (Cowessess, SK), multi-disciplinary artist. She interweaves land, Indigenous identity, history, and language throughout her dance and music creation/performance practice. A classically trained flutist, she holds a Bachelor of Music degree from the University of Calgary and an MFA in Contemporary Arts from Simon Fraser University.  Her work fuses together traditional language and dance with her own contemporary experiences as an Indigenous woman and Two-Spirit person. <br><br>AND, Connor Chee is a Diné (Navajo) composer and pianist known for blending Western classical music with the rich cultural heritage of the Navajo people. His compositions often draw inspiration from traditional Navajo stories and beliefs, creating a powerful and evocative sound that speaks to both his heritage and his classical training. Connor is dedicated to music education and cultural preservation, inspiring the next generation of musicians.";
   schema:eventStatus schema:EventScheduled;
@@ -27076,9 +27076,7 @@ tour:16486-5394 a ado:Event;
 tour:16493-5400 a ado:Event;
   schema:name "Tina Leon";
   schema:startDate "2026-03-20T23:30:00+00:00"^^xsd:dateTime;
-  schema:description """<p>Tina Leon is a singer and songwriter from Montreal who draws her inspiration from the Motown Generation and the soul music of the last decades. Having already sung and collaborated with Stevie Wonder, DJ Champion and Garou under the artist name of Marie-Christine Depestre, she now appears in a new light, more authentic and full of life than ever. In reference to the nickname given to her by her family and in homage to her maternal grandmother, this choice of a new stage name is a way for her to fully express her personality, to assert her art and thus to find a form of balance.</p>
-
-<p>Describing it as a rainbow of soul, her debut EP “PUSH” is a colorful journey through jazzy, funk, and pop rhythms with rich and enchanting melodies. Her follow-up EP “PULL” will be available on March 24.</p>""";
+  schema:description "<p>Tina Leon is a Montreal-based singer-songwriter who draws inspiration from the Motown generation and the R&B music of recent decades. Her show \"Push & Pull,\" features all her original catalogue as well as exploring soul, RnB, and jazz rhythms with rich and captivating melodies.<br><br>Her performances invite the audience to embark on a vibrant journey, with upbeat rhythms that encourage dancing. Tina pours her heart and soul into every performance, and her musicians give everything on stage as well, creating a deeply emotional and connected experience. She also leaves plenty of space for her musicians, who offer solos and improvisations, adding even more depth and spontaneity to the performance.<br><br>The audience can expect a dynamic and immersive musical journey, delivered with a powerful and emotional voice. The themes of her songs are universal and relatable, making the experience impactful and meaningful for everyone in the crowd.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:9923;
   schema:organizer presenter:9922;
@@ -27089,9 +27087,7 @@ tour:16493-5400 a ado:Event;
 tour:16494-5401 a ado:Event;
   schema:name "Tina Leon";
   schema:startDate "2026-03-22T23:30:00+00:00"^^xsd:dateTime;
-  schema:description """<p>Tina Leon is a singer and songwriter from Montreal who draws her inspiration from the Motown Generation and the soul music of the last decades. Having already sung and collaborated with Stevie Wonder, DJ Champion and Garou under the artist name of Marie-Christine Depestre, she now appears in a new light, more authentic and full of life than ever. In reference to the nickname given to her by her family and in homage to her maternal grandmother, this choice of a new stage name is a way for her to fully express her personality, to assert her art and thus to find a form of balance.</p>
-
-<p>Describing it as a rainbow of soul, her debut EP “PUSH” is a colorful journey through jazzy, funk, and pop rhythms with rich and enchanting melodies. Her follow-up EP “PULL” will be available on March 24.</p>""";
+  schema:description "<p>Tina Leon is a Montreal-based singer-songwriter who draws inspiration from the Motown generation and the R&B music of recent decades. Her show \"Push & Pull,\" features all her original catalogue as well as exploring soul, RnB, and jazz rhythms with rich and captivating melodies.<br><br>Her performances invite the audience to embark on a vibrant journey, with upbeat rhythms that encourage dancing. Tina pours her heart and soul into every performance, and her musicians give everything on stage as well, creating a deeply emotional and connected experience. She also leaves plenty of space for her musicians, who offer solos and improvisations, adding even more depth and spontaneity to the performance.<br><br>The audience can expect a dynamic and immersive musical journey, delivered with a powerful and emotional voice. The themes of her songs are universal and relatable, making the experience impactful and meaningful for everyone in the crowd.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:4202;
   schema:organizer presenter:4201;
@@ -27102,9 +27098,7 @@ tour:16494-5401 a ado:Event;
 tour:16495-5402 a ado:Event;
   schema:name "Tina Leon";
   schema:startDate "2026-03-26T23:30:00+00:00"^^xsd:dateTime;
-  schema:description """<p>Tina Leon is a singer and songwriter from Montreal who draws her inspiration from the Motown Generation and the soul music of the last decades. Having already sung and collaborated with Stevie Wonder, DJ Champion and Garou under the artist name of Marie-Christine Depestre, she now appears in a new light, more authentic and full of life than ever. In reference to the nickname given to her by her family and in homage to her maternal grandmother, this choice of a new stage name is a way for her to fully express her personality, to assert her art and thus to find a form of balance.</p>
-
-<p>Describing it as a rainbow of soul, her debut EP “PUSH” is a colorful journey through jazzy, funk, and pop rhythms with rich and enchanting melodies. Her follow-up EP “PULL” will be available on March 24.</p>""";
+  schema:description "<p>Tina Leon is a Montreal-based singer-songwriter who draws inspiration from the Motown generation and the R&B music of recent decades. Her show \"Push & Pull,\" features all her original catalogue as well as exploring soul, RnB, and jazz rhythms with rich and captivating melodies.<br><br>Her performances invite the audience to embark on a vibrant journey, with upbeat rhythms that encourage dancing. Tina pours her heart and soul into every performance, and her musicians give everything on stage as well, creating a deeply emotional and connected experience. She also leaves plenty of space for her musicians, who offer solos and improvisations, adding even more depth and spontaneity to the performance.<br><br>The audience can expect a dynamic and immersive musical journey, delivered with a powerful and emotional voice. The themes of her songs are universal and relatable, making the experience impactful and meaningful for everyone in the crowd.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:6285;
   schema:organizer presenter:4090;
@@ -27115,9 +27109,7 @@ tour:16495-5402 a ado:Event;
 tour:16496-5403 a ado:Event;
   schema:name "Tina Leon";
   schema:startDate "2026-03-27T23:30:00+00:00"^^xsd:dateTime;
-  schema:description """<p>Tina Leon is a singer and songwriter from Montreal who draws her inspiration from the Motown Generation and the soul music of the last decades. Having already sung and collaborated with Stevie Wonder, DJ Champion and Garou under the artist name of Marie-Christine Depestre, she now appears in a new light, more authentic and full of life than ever. In reference to the nickname given to her by her family and in homage to her maternal grandmother, this choice of a new stage name is a way for her to fully express her personality, to assert her art and thus to find a form of balance.</p>
-
-<p>Describing it as a rainbow of soul, her debut EP “PUSH” is a colorful journey through jazzy, funk, and pop rhythms with rich and enchanting melodies. Her follow-up EP “PULL” will be available on March 24.</p>""";
+  schema:description "<p>Tina Leon is a Montreal-based singer-songwriter who draws inspiration from the Motown generation and the R&B music of recent decades. Her show \"Push & Pull,\" features all her original catalogue as well as exploring soul, RnB, and jazz rhythms with rich and captivating melodies.<br><br>Her performances invite the audience to embark on a vibrant journey, with upbeat rhythms that encourage dancing. Tina pours her heart and soul into every performance, and her musicians give everything on stage as well, creating a deeply emotional and connected experience. She also leaves plenty of space for her musicians, who offer solos and improvisations, adding even more depth and spontaneity to the performance.<br><br>The audience can expect a dynamic and immersive musical journey, delivered with a powerful and emotional voice. The themes of her songs are universal and relatable, making the experience impactful and meaningful for everyone in the crowd.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:7707;
   schema:organizer presenter:4050;
@@ -27440,9 +27432,7 @@ tour:16574-6631 a ado:Event;
 tour:16575-5432 a ado:Event;
   schema:name "Tina Leon";
   schema:startDate "2026-03-25T23:30:00+00:00"^^xsd:dateTime;
-  schema:description """<p>Tina Leon is a singer and songwriter from Montreal who draws her inspiration from the Motown Generation and the soul music of the last decades. Having already sung and collaborated with Stevie Wonder, DJ Champion and Garou under the artist name of Marie-Christine Depestre, she now appears in a new light, more authentic and full of life than ever. In reference to the nickname given to her by her family and in homage to her maternal grandmother, this choice of a new stage name is a way for her to fully express her personality, to assert her art and thus to find a form of balance.</p>
-
-<p>Describing it as a rainbow of soul, her debut EP “PUSH” is a colorful journey through jazzy, funk, and pop rhythms with rich and enchanting melodies. Her follow-up EP “PULL” will be available on March 24.</p>""";
+  schema:description "<p>Tina Leon is a Montreal-based singer-songwriter who draws inspiration from the Motown generation and the R&B music of recent decades. Her show \"Push & Pull,\" features all her original catalogue as well as exploring soul, RnB, and jazz rhythms with rich and captivating melodies.<br><br>Her performances invite the audience to embark on a vibrant journey, with upbeat rhythms that encourage dancing. Tina pours her heart and soul into every performance, and her musicians give everything on stage as well, creating a deeply emotional and connected experience. She also leaves plenty of space for her musicians, who offer solos and improvisations, adding even more depth and spontaneity to the performance.<br><br>The audience can expect a dynamic and immersive musical journey, delivered with a powerful and emotional voice. The themes of her songs are universal and relatable, making the experience impactful and meaningful for everyone in the crowd.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:4341;
   schema:organizer presenter:4063;

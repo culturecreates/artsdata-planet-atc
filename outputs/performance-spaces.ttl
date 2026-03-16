@@ -2428,14 +2428,6 @@ performance-space:17118 a schema:Place;
   schema:name "Centre culturel Desjardins de Joliette";
   schema:maximumAttendeeCapacity "775" .
 
-presenter:680 a schema:Organization;
-  schema:location performance-space:17514, performance-space:19929;
-  schema:name "THEOP" .
-
-performance-space:17514 a schema:Place;
-  schema:name "Real Hope Christian Assembly";
-  schema:maximumAttendeeCapacity "150" .
-
 presenter:17525 a schema:Organization;
   schema:location performance-space:17590;
   schema:name "Thunder Bay Kids Concerts" .
@@ -2499,6 +2491,10 @@ presenter:18152 a schema:Organization;
 
 performance-space:19114 a schema:Place;
   schema:name "Main Theatre" .
+
+presenter:680 a schema:Organization;
+  schema:location performance-space:19929;
+  schema:name "THEOP" .
 
 performance-space:19929 a schema:Place;
   schema:name "Deep River Arena Mezzanine";
@@ -2781,3 +2777,11 @@ presenter:27965 a schema:Organization;
 performance-space:27972 a schema:Place;
   schema:name "Centre 64 Arts Centre";
   schema:maximumAttendeeCapacity "126" .
+
+presenter:680 a schema:Organization;
+  schema:location performance-space:28018;
+  schema:name "THEOP" .
+
+performance-space:28018 a schema:Place;
+  schema:name "St. Mary's School Gymnasium";
+  schema:maximumAttendeeCapacity "200" .
