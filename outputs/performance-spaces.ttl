@@ -2785,3 +2785,17 @@ presenter:680 a schema:Organization;
 performance-space:28018 a schema:Place;
   schema:name "St. Mary's School Gymnasium";
   schema:maximumAttendeeCapacity "200" .
+
+presenter:4091 a schema:Organization;
+  schema:location performance-space:28196, performance-space:28197;
+  schema:name "Royal & McPherson Theatres Society" .
+
+performance-space:28196 a schema:Place;
+  schema:name "Royal Theatre";
+  schema:sameAs wd:Q138578049, adr:K26-972;
+  schema:maximumAttendeeCapacity "1416" .
+
+performance-space:28197 a schema:Place;
+  schema:name "McPherson Playhouse";
+  schema:sameAs wd:Q6802599, adr:K25-488;
+  schema:maximumAttendeeCapacity "772" .
