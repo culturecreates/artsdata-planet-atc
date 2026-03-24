@@ -30,11 +30,13 @@ To call the ATC API locally and downoad the JSON data:
 4. `rake`
 5. `ruby src/fetch_atc_antities.rb`
 
-Note: You will need the ATC authorization token
+Note: You will need the ATC authorization token. 
+
+Check [ATC-Artsdata Mapping Doc](https://docs.google.com/document/d/1eTiR_we7RJhxakn-v8R8k5I9npn24yDMfjYiVFeSo6Q). 
 
 To convert JSON to RDF:
 1. Run Docker
 2. `./run_ontorefine.sh`
 
-To publish data to the databus:
-1. Run the workflow 
+To publish data to the Artsdata databus:
+1. Run the main workflow "Fetch and Push ATC entities".
