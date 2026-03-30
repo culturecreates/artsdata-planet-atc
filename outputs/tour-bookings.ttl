@@ -2814,17 +2814,7 @@ Official website: <a data-saferedirecturl=\"https://www.google.com/url?q=http:/
 tour:2618-1176 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-21T00:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:143;
   schema:organizer presenter:142;
@@ -2835,17 +2825,7 @@ tour:2618-1176 a ado:Event;
 tour:2619-1177 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-22T00:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:301;
   schema:organizer presenter:283;
@@ -2856,17 +2836,7 @@ tour:2619-1177 a ado:Event;
 tour:2620-1178 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-23T00:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:290;
   schema:organizer presenter:278;
@@ -2877,17 +2847,7 @@ tour:2620-1178 a ado:Event;
 tour:2622-1180 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-29T00:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:297;
   schema:organizer presenter:284;
@@ -3005,17 +2965,7 @@ tour:2630-1189 a ado:Event;
 tour:2634-1190 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-16T00:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:580;
   schema:organizer presenter:285;
@@ -3102,17 +3052,7 @@ tour:2638-2187 a ado:Event;
 tour:2646-1197 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-16T23:30:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:555;
   schema:organizer presenter:160;
@@ -3330,17 +3270,7 @@ tour:2776-1262 a ado:Event;
 tour:2789-1267 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-27T00:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:230;
   schema:organizer presenter:161;
@@ -3351,17 +3281,7 @@ tour:2789-1267 a ado:Event;
 tour:2791-1269 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-27T23:30:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:677;
   schema:organizer presenter:288;
@@ -3392,17 +3312,7 @@ tour:2823-1274 a ado:Event;
 tour:2837-1278 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-30T00:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:625;
   schema:organizer presenter:274;
@@ -3884,17 +3794,7 @@ tour:2879-1318 a ado:Event;
 tour:2886-1325 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-31T00:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:295;
   schema:organizer presenter:289;
@@ -9209,17 +9109,7 @@ tour:4622-2511 a ado:Event;
 tour:4625-2519 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-15T00:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:299;
   schema:organizer presenter:286;
@@ -12758,17 +12648,7 @@ tour:8445-3254 a ado:Event;
 tour:8448-3073 a ado:Event;
   schema:name "Big Sugar";
   schema:startDate "2024-03-24T00:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>BIG SUGAR’s much anticipated “Heated 25th Anniversary Tour” begins December 2022. Gordie Johnson returns to the stage with a new lineup to play this classic album live. Big Sugar is proud to announce new bassist, Ben Lowe, the 23-year-old son of Garry Lowe. After the tragic passing of his longtime bassist, Gordie Johnson spent the past 4 years reimagining the band. “Our music has always been about roots and culture and this is a perfect piece of that evolution. You can hear Big Sugar in Ben’s DNA.”</p>
-
-<p> </p>
-
-<p>Platinum selling \"Heated\" features some of the best of Big Sugar’s repertoire and concert staples including 'Better Get Used to It', 'The Scene', 'Girl Watcher', 'Turn the Lights On' and a cover of BTO’s 'Let It Ride'. Playing the album in its entirety will be part of each show on the tour. </p>
-
-<p>Big Sugar boldly goes forth in 2022 with new music from their latest release \"Eternity Now\" and vinyl re-issues of \"Heated\" from Universal Music along with their classic album \"Five Hundred Pounds\" coming soon from Third Man Records. </p>
-
-<p>Since the 90's Big Sugar have been a staple on the airwaves and highways with a unique combination of Jamaican rhythms, blues tonality and heavy rock aggression. Songs like 'Diggin A Hole', 'If I Had My Way', 'Turn The Lights On' and 'Roads Ahead' with their roots/rock/reggae style that includes Gordie Johnson’s signature guitar playing have built a loyal following, earning Big Sugar a Road Gold Award as they continue to sell out concerts across North America. </p>
-
-<p>Website: bigsugar.com Facebook: facebook.com/bigsugarmusic Instagram: instagram.com/big_sugar_music Twitter: twitter.com/big_sugar_music YouTube Channel: youtube.com/user/BigSugarBand</p>""";
+  schema:description "<p>Tour name: Big Sugar ¡EARTHLINGS! Live</p><p>Icons of the Canadian airways and highways since the 90s, BIG SUGAR are back with ¡EARTHLINGS!, their first new record in 7 years!</p><p>GORDIE JOHNSON and BIG SUGAR are thrilled to present a 2-set 'Evening With' performance, showcasing brand new songs in their signature Roots Rock Reggae style along with fan favorites like \"Diggin A Hole\" and \"All Hell For A Basement\".</p>";
   schema:eventStatus schema:EventScheduled;
   schema:organizer presenter:1449;
   schema:performer artist:2323;
@@ -16122,15 +16002,7 @@ tour:9123-3647 a ado:Event;
 tour:9125-3649 a ado:Event;
   schema:name "Holly Cole";
   schema:startDate "2024-12-04T01:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>Welcome to a special new re-release of Holly Cole’s much loved 2001 Christmas recording ““Baby Its Cold Outside”. We determined to add songs from the Holly Cole Trio’s first ever recording from 1989, a recording never released on Vinyl and never before released outside of Canada. Three songs from that recording, the EP, titled Christmas Blues, have been added to the new international Vinyl release and the full 4 songs from the EP have been added to the new CD release. All the songs from both the LP and CD has been re-mastered and the new Vinyl LP is pressed on 180 gram Vinyl. The sound and audio quality from both the LP and the CD is exquisite and both releases have new photo’s and images from the original time periods. The new release has been re-named “Baby Its Cold Outside and I’ve Got the Christmas Blues”.</p>
-
-<p>The material on the new release ranges from the very intimate and serious playing of a piano / vocal trio that had honed their skills playing live together whilst creating a rabid live audience in the Queen West “alternative music” scene of Toronto in the late 80’s / early 90’s to the excitement of a large jazz orchestra, arranged and conducted by pianist Aaron Davis. The material is strong. Few vocalists would attempt to cover the Vince Guaraldi classic \"Christmastime is Here,\" but Cole's version honors the original by not being too showy or Broadway-ish and while many singers might try and bring pop songs into jazzy arrangements, few manage to nail it as well as Cole has done over her career and particularly with her intimately impassioned cover from the original “Christmas Blues” EP of Chrissie Hynde’s “Two Thousand Miles”.</p>
-
-<p>The addition of the intimate Trio tracks from the Christmas Blues EP makes for a very appealing and unique Holiday release. They juxtapose beautifully with the likes of the orchestral versions of “Santa Baby”, \"'Zat You Santa Claus\" , Wildwood Carol” and \"Christmas Is”, all giving Cole plenty of opportunity to show off her range, vocally and emotionally and the musicians, especially David Piltch on Bass and Aaron Davis on piano, their significant abilities and playing prowess. Cole playfully scats her way through \"Sleigh Ride\" (accompanied solely by bassist David Piltch), gets low and sultry for \"What About Me,\" and gives soft, delicate performances on songs like \"I'll Be Home for Christmas\". While researching the original masters we found a previously un-released fun version of “Santa Claus is Coming to Town” which has been added for the first time as a Bonus track to both the Vinyl and CD.</p>
-
-<p>We hope you enjoy!</p>
-
-<p>Cole and band have created a unique release of holiday standards, especially with \"The Christmas Song,\" and with the Barenaked Ladies' Ed Robertson making a cameo as vocalist on the title track. The sound ranges from the intimate candlelight of piano trio accompaniment, to the blazing fire of a large jazz orchestra.</p>""";
+  schema:description "<p>Welcome to a special new re-release of Holly Cole’s much loved 2001 Christmas recording ““Baby Its Cold Outside”. We determined to add songs from the Holly Cole Trio’s first ever recording from 1989, a recording never released on Vinyl and never before released outside of Canada. Three songs from that recording, the EP, titled Christmas Blues, have been added to the new international Vinyl release and the full 4 songs from the EP have been added to the new CD release. All the songs from both the LP and CD has been re-mastered and the new Vinyl LP is pressed on 180 gram Vinyl. The sound and audio quality from both the LP and the CD is exquisite and both releases have new photo’s and images from the original time periods. The new release has been re-named “Baby Its Cold Outside and I’ve Got the Christmas Blues”.</p><p>The material on the new release ranges from the very intimate and serious playing of a piano / vocal trio that had honed their skills playing live together whilst creating a rabid live audience in the Queen West “alternative music” scene of Toronto in the late 80’s / early 90’s to the excitement of a large jazz orchestra, arranged and conducted by pianist Aaron Davis. The material is strong. Few vocalists would attempt to cover the Vince Guaraldi classic \"Christmastime is Here,\" but Cole's version honors the original by not being too showy or Broadway-ish and while many singers might try and bring pop songs into jazzy arrangements, few manage to nail it as well as Cole has done over her career and particularly with her intimately impassioned cover from the original “Christmas Blues” EP of Chrissie Hynde’s “Two Thousand Miles”.</p><p>The addition of the intimate Trio tracks from the Christmas Blues EP makes for a very appealing and unique Holiday release. They juxtapose beautifully with the likes of the orchestral versions of “Santa Baby”, \"'Zat You Santa Claus\" , Wildwood Carol” and \"Christmas Is”, all giving Cole plenty of opportunity to show off her range, vocally and emotionally and the musicians, especially David Piltch on Bass and Aaron Davis on piano, their significant abilities and playing prowess. Cole playfully scats her way through \"Sleigh Ride\" (accompanied solely by bassist David Piltch), gets low and sultry for \"What About Me,\" and gives soft, delicate performances on songs like \"I'll Be Home for Christmas\". While researching the original masters we found a previously un-released fun version of “Santa Claus is Coming to Town” which has been added for the first time as a Bonus track to both the Vinyl and CD.</p><p>We hope you enjoy!</p><p>Cole and band have created a unique release of holiday standards, especially with \"The Christmas Song,\" and with the Barenaked Ladies' Ed Robertson making a cameo as vocalist on the title track. The sound ranges from the intimate candlelight of piano trio accompaniment, to the blazing fire of a large jazz orchestra.</p>";
   schema:eventStatus schema:EventCancelled;
   schema:location performance-space:707;
   schema:organizer presenter:282;
@@ -17366,15 +17238,7 @@ tour:9350-4444 a ado:Event;
 tour:9355-3839 a ado:Event;
   schema:name "Holly Cole";
   schema:startDate "2024-12-14T00:30:00+00:00"^^xsd:dateTime;
-  schema:description """<p>Welcome to a special new re-release of Holly Cole’s much loved 2001 Christmas recording ““Baby Its Cold Outside”. We determined to add songs from the Holly Cole Trio’s first ever recording from 1989, a recording never released on Vinyl and never before released outside of Canada. Three songs from that recording, the EP, titled Christmas Blues, have been added to the new international Vinyl release and the full 4 songs from the EP have been added to the new CD release. All the songs from both the LP and CD has been re-mastered and the new Vinyl LP is pressed on 180 gram Vinyl. The sound and audio quality from both the LP and the CD is exquisite and both releases have new photo’s and images from the original time periods. The new release has been re-named “Baby Its Cold Outside and I’ve Got the Christmas Blues”.</p>
-
-<p>The material on the new release ranges from the very intimate and serious playing of a piano / vocal trio that had honed their skills playing live together whilst creating a rabid live audience in the Queen West “alternative music” scene of Toronto in the late 80’s / early 90’s to the excitement of a large jazz orchestra, arranged and conducted by pianist Aaron Davis. The material is strong. Few vocalists would attempt to cover the Vince Guaraldi classic \"Christmastime is Here,\" but Cole's version honors the original by not being too showy or Broadway-ish and while many singers might try and bring pop songs into jazzy arrangements, few manage to nail it as well as Cole has done over her career and particularly with her intimately impassioned cover from the original “Christmas Blues” EP of Chrissie Hynde’s “Two Thousand Miles”.</p>
-
-<p>The addition of the intimate Trio tracks from the Christmas Blues EP makes for a very appealing and unique Holiday release. They juxtapose beautifully with the likes of the orchestral versions of “Santa Baby”, \"'Zat You Santa Claus\" , Wildwood Carol” and \"Christmas Is”, all giving Cole plenty of opportunity to show off her range, vocally and emotionally and the musicians, especially David Piltch on Bass and Aaron Davis on piano, their significant abilities and playing prowess. Cole playfully scats her way through \"Sleigh Ride\" (accompanied solely by bassist David Piltch), gets low and sultry for \"What About Me,\" and gives soft, delicate performances on songs like \"I'll Be Home for Christmas\". While researching the original masters we found a previously un-released fun version of “Santa Claus is Coming to Town” which has been added for the first time as a Bonus track to both the Vinyl and CD.</p>
-
-<p>We hope you enjoy!</p>
-
-<p>Cole and band have created a unique release of holiday standards, especially with \"The Christmas Song,\" and with the Barenaked Ladies' Ed Robertson making a cameo as vocalist on the title track. The sound ranges from the intimate candlelight of piano trio accompaniment, to the blazing fire of a large jazz orchestra.</p>""";
+  schema:description "<p>Welcome to a special new re-release of Holly Cole’s much loved 2001 Christmas recording ““Baby Its Cold Outside”. We determined to add songs from the Holly Cole Trio’s first ever recording from 1989, a recording never released on Vinyl and never before released outside of Canada. Three songs from that recording, the EP, titled Christmas Blues, have been added to the new international Vinyl release and the full 4 songs from the EP have been added to the new CD release. All the songs from both the LP and CD has been re-mastered and the new Vinyl LP is pressed on 180 gram Vinyl. The sound and audio quality from both the LP and the CD is exquisite and both releases have new photo’s and images from the original time periods. The new release has been re-named “Baby Its Cold Outside and I’ve Got the Christmas Blues”.</p><p>The material on the new release ranges from the very intimate and serious playing of a piano / vocal trio that had honed their skills playing live together whilst creating a rabid live audience in the Queen West “alternative music” scene of Toronto in the late 80’s / early 90’s to the excitement of a large jazz orchestra, arranged and conducted by pianist Aaron Davis. The material is strong. Few vocalists would attempt to cover the Vince Guaraldi classic \"Christmastime is Here,\" but Cole's version honors the original by not being too showy or Broadway-ish and while many singers might try and bring pop songs into jazzy arrangements, few manage to nail it as well as Cole has done over her career and particularly with her intimately impassioned cover from the original “Christmas Blues” EP of Chrissie Hynde’s “Two Thousand Miles”.</p><p>The addition of the intimate Trio tracks from the Christmas Blues EP makes for a very appealing and unique Holiday release. They juxtapose beautifully with the likes of the orchestral versions of “Santa Baby”, \"'Zat You Santa Claus\" , Wildwood Carol” and \"Christmas Is”, all giving Cole plenty of opportunity to show off her range, vocally and emotionally and the musicians, especially David Piltch on Bass and Aaron Davis on piano, their significant abilities and playing prowess. Cole playfully scats her way through \"Sleigh Ride\" (accompanied solely by bassist David Piltch), gets low and sultry for \"What About Me,\" and gives soft, delicate performances on songs like \"I'll Be Home for Christmas\". While researching the original masters we found a previously un-released fun version of “Santa Claus is Coming to Town” which has been added for the first time as a Bonus track to both the Vinyl and CD.</p><p>We hope you enjoy!</p><p>Cole and band have created a unique release of holiday standards, especially with \"The Christmas Song,\" and with the Barenaked Ladies' Ed Robertson making a cameo as vocalist on the title track. The sound ranges from the intimate candlelight of piano trio accompaniment, to the blazing fire of a large jazz orchestra.</p>";
   schema:eventStatus schema:EventCancelled;
   schema:location performance-space:1370;
   schema:organizer presenter:1366;
@@ -18059,15 +17923,7 @@ tour:9478-3910 a ado:Event;
 tour:9480-3911 a ado:Event;
   schema:name "Holly Cole";
   schema:startDate "2024-12-07T01:00:00+00:00"^^xsd:dateTime;
-  schema:description """<p>Welcome to a special new re-release of Holly Cole’s much loved 2001 Christmas recording ““Baby Its Cold Outside”. We determined to add songs from the Holly Cole Trio’s first ever recording from 1989, a recording never released on Vinyl and never before released outside of Canada. Three songs from that recording, the EP, titled Christmas Blues, have been added to the new international Vinyl release and the full 4 songs from the EP have been added to the new CD release. All the songs from both the LP and CD has been re-mastered and the new Vinyl LP is pressed on 180 gram Vinyl. The sound and audio quality from both the LP and the CD is exquisite and both releases have new photo’s and images from the original time periods. The new release has been re-named “Baby Its Cold Outside and I’ve Got the Christmas Blues”.</p>
-
-<p>The material on the new release ranges from the very intimate and serious playing of a piano / vocal trio that had honed their skills playing live together whilst creating a rabid live audience in the Queen West “alternative music” scene of Toronto in the late 80’s / early 90’s to the excitement of a large jazz orchestra, arranged and conducted by pianist Aaron Davis. The material is strong. Few vocalists would attempt to cover the Vince Guaraldi classic \"Christmastime is Here,\" but Cole's version honors the original by not being too showy or Broadway-ish and while many singers might try and bring pop songs into jazzy arrangements, few manage to nail it as well as Cole has done over her career and particularly with her intimately impassioned cover from the original “Christmas Blues” EP of Chrissie Hynde’s “Two Thousand Miles”.</p>
-
-<p>The addition of the intimate Trio tracks from the Christmas Blues EP makes for a very appealing and unique Holiday release. They juxtapose beautifully with the likes of the orchestral versions of “Santa Baby”, \"'Zat You Santa Claus\" , Wildwood Carol” and \"Christmas Is”, all giving Cole plenty of opportunity to show off her range, vocally and emotionally and the musicians, especially David Piltch on Bass and Aaron Davis on piano, their significant abilities and playing prowess. Cole playfully scats her way through \"Sleigh Ride\" (accompanied solely by bassist David Piltch), gets low and sultry for \"What About Me,\" and gives soft, delicate performances on songs like \"I'll Be Home for Christmas\". While researching the original masters we found a previously un-released fun version of “Santa Claus is Coming to Town” which has been added for the first time as a Bonus track to both the Vinyl and CD.</p>
-
-<p>We hope you enjoy!</p>
-
-<p>Cole and band have created a unique release of holiday standards, especially with \"The Christmas Song,\" and with the Barenaked Ladies' Ed Robertson making a cameo as vocalist on the title track. The sound ranges from the intimate candlelight of piano trio accompaniment, to the blazing fire of a large jazz orchestra.</p>""";
+  schema:description "<p>Welcome to a special new re-release of Holly Cole’s much loved 2001 Christmas recording ““Baby Its Cold Outside”. We determined to add songs from the Holly Cole Trio’s first ever recording from 1989, a recording never released on Vinyl and never before released outside of Canada. Three songs from that recording, the EP, titled Christmas Blues, have been added to the new international Vinyl release and the full 4 songs from the EP have been added to the new CD release. All the songs from both the LP and CD has been re-mastered and the new Vinyl LP is pressed on 180 gram Vinyl. The sound and audio quality from both the LP and the CD is exquisite and both releases have new photo’s and images from the original time periods. The new release has been re-named “Baby Its Cold Outside and I’ve Got the Christmas Blues”.</p><p>The material on the new release ranges from the very intimate and serious playing of a piano / vocal trio that had honed their skills playing live together whilst creating a rabid live audience in the Queen West “alternative music” scene of Toronto in the late 80’s / early 90’s to the excitement of a large jazz orchestra, arranged and conducted by pianist Aaron Davis. The material is strong. Few vocalists would attempt to cover the Vince Guaraldi classic \"Christmastime is Here,\" but Cole's version honors the original by not being too showy or Broadway-ish and while many singers might try and bring pop songs into jazzy arrangements, few manage to nail it as well as Cole has done over her career and particularly with her intimately impassioned cover from the original “Christmas Blues” EP of Chrissie Hynde’s “Two Thousand Miles”.</p><p>The addition of the intimate Trio tracks from the Christmas Blues EP makes for a very appealing and unique Holiday release. They juxtapose beautifully with the likes of the orchestral versions of “Santa Baby”, \"'Zat You Santa Claus\" , Wildwood Carol” and \"Christmas Is”, all giving Cole plenty of opportunity to show off her range, vocally and emotionally and the musicians, especially David Piltch on Bass and Aaron Davis on piano, their significant abilities and playing prowess. Cole playfully scats her way through \"Sleigh Ride\" (accompanied solely by bassist David Piltch), gets low and sultry for \"What About Me,\" and gives soft, delicate performances on songs like \"I'll Be Home for Christmas\". While researching the original masters we found a previously un-released fun version of “Santa Claus is Coming to Town” which has been added for the first time as a Bonus track to both the Vinyl and CD.</p><p>We hope you enjoy!</p><p>Cole and band have created a unique release of holiday standards, especially with \"The Christmas Song,\" and with the Barenaked Ladies' Ed Robertson making a cameo as vocalist on the title track. The sound ranges from the intimate candlelight of piano trio accompaniment, to the blazing fire of a large jazz orchestra.</p>";
   schema:eventStatus schema:EventCancelled;
   schema:location performance-space:296;
   schema:organizer presenter:279;
