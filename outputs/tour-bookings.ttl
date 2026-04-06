@@ -27947,6 +27947,288 @@ tour:16729-5546 a ado:Event;
   schema:contributor network:3901;
   schema:workPerformed show:10260 .
 
+tour:16733-5548 a ado:Event;
+  schema:name "Skerryvore";
+  schema:startDate "2026-09-29T23:30:00+00:00"^^xsd:dateTime;
+  schema:description """<p>What are Skerryvore? They’re like no one else. Epic of melody, intimate of feeling and plugged into the roots of Scotland but blasting out to the world. </p>
+
+<p> </p>
+
+<p>Three time winners of Scotland’s ‘Live Act of the Year’ award, Skerryvore have evolved from their humble beginnings to become one of the country’s leading forces in a thriving live music scene. At the forefront of a movement that has reinvented and reignited a traditional Scottish scene for a modern, multicultural audience, the band have brought their high energy performances to audiences across the globe. From their early days in Scottish West Coast halls and bars, to festival crowds in the USA, Canada, Australia and throughout the UK and Europe, Skerryvore’s wide range of influences and talent produce a musically expansive, immersive yet intimate set that excites and captivates audiences.</p>
+
+<p> </p>
+
+<p>With a mix of bagpipes, fiddles, accordions, and whistles, alongside guitar and vocals, underpinned by driving bass, drums and keys, Skerryvore represent the best in contemporary Scottish traditional music. Their now 7 studio albums demonstrate the wide range of influences the individual musicians bring to the mix – a unique fusion of folk, trad, pop and rock.</p>
+
+<p> </p>
+
+<p> Three singles from the latest album ‘<i>Tempus</i>’, released in April 2023, all featured on the BBC Radio 2 new music playlist, and the album went to number 1 in both the Official Scottish Album and UK Folk Albums charts, and entered the top 40 in the Official UK Charts. Skerryvore took their <i>Tempus Tour</i> to audiences across the UK, Europe and USA, with their unique fusion appealing to a wider mix of age groups and tastes.</p>
+
+<p> </p>
+
+<p><i>“Skerryvore have crafted a world beating fusion, which takes pride in their heritage and above all else is a pure joy to listen to.” </i><b>– Folk Radio UK </b></p>
+
+<p> </p>
+
+<p><i>“A spectacular mix of traditional Scottish folk music and the most diverse rock elements.” </i><b>– Süddeutsche Zeitung, GERMANY </b></p>
+
+<p> </p>
+
+<p><i>“The highest rated show we have ever had on our post-concert surveys… people LOVED the show.” </i><b>– Anchorage Concert Association, ALASKA </b></p>
+
+<p> </p>
+
+<p><i>“Such a fresh, real, new sound… I love it” </i><b>– Jeremy Vine, BBC Radio 2 UK </b></p>
+
+<p> </p>
+
+<p><i>“Skerryvore have evolved to become one of Scotland’s greatest musical exports.” </i><b>– Wickham Festival, ENGLAND </b></p>
+
+<p> </p>
+
+<p><i>“See them now before they rocket up into the same musical orbit as the mighty Mumford & Sons.” </i><b>– Falkirk Herald, SCOTLANDxa</b></p>""";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1221;
+  schema:organizer presenter:712;
+  schema:performer artist:16188;
+  schema:contributor network:692;
+  schema:workPerformed show:16189 .
+
+tour:16734-5549 a ado:Event;
+  schema:name "Skerryvore";
+  schema:startDate "2026-09-26T23:30:00+00:00"^^xsd:dateTime;
+  schema:description """<p>What are Skerryvore? They’re like no one else. Epic of melody, intimate of feeling and plugged into the roots of Scotland but blasting out to the world. </p>
+
+<p> </p>
+
+<p>Three time winners of Scotland’s ‘Live Act of the Year’ award, Skerryvore have evolved from their humble beginnings to become one of the country’s leading forces in a thriving live music scene. At the forefront of a movement that has reinvented and reignited a traditional Scottish scene for a modern, multicultural audience, the band have brought their high energy performances to audiences across the globe. From their early days in Scottish West Coast halls and bars, to festival crowds in the USA, Canada, Australia and throughout the UK and Europe, Skerryvore’s wide range of influences and talent produce a musically expansive, immersive yet intimate set that excites and captivates audiences.</p>
+
+<p> </p>
+
+<p>With a mix of bagpipes, fiddles, accordions, and whistles, alongside guitar and vocals, underpinned by driving bass, drums and keys, Skerryvore represent the best in contemporary Scottish traditional music. Their now 7 studio albums demonstrate the wide range of influences the individual musicians bring to the mix – a unique fusion of folk, trad, pop and rock.</p>
+
+<p> </p>
+
+<p> Three singles from the latest album ‘<i>Tempus</i>’, released in April 2023, all featured on the BBC Radio 2 new music playlist, and the album went to number 1 in both the Official Scottish Album and UK Folk Albums charts, and entered the top 40 in the Official UK Charts. Skerryvore took their <i>Tempus Tour</i> to audiences across the UK, Europe and USA, with their unique fusion appealing to a wider mix of age groups and tastes.</p>
+
+<p> </p>
+
+<p><i>“Skerryvore have crafted a world beating fusion, which takes pride in their heritage and above all else is a pure joy to listen to.” </i><b>– Folk Radio UK </b></p>
+
+<p> </p>
+
+<p><i>“A spectacular mix of traditional Scottish folk music and the most diverse rock elements.” </i><b>– Süddeutsche Zeitung, GERMANY </b></p>
+
+<p> </p>
+
+<p><i>“The highest rated show we have ever had on our post-concert surveys… people LOVED the show.” </i><b>– Anchorage Concert Association, ALASKA </b></p>
+
+<p> </p>
+
+<p><i>“Such a fresh, real, new sound… I love it” </i><b>– Jeremy Vine, BBC Radio 2 UK </b></p>
+
+<p> </p>
+
+<p><i>“Skerryvore have evolved to become one of Scotland’s greatest musical exports.” </i><b>– Wickham Festival, ENGLAND </b></p>
+
+<p> </p>
+
+<p><i>“See them now before they rocket up into the same musical orbit as the mighty Mumford & Sons.” </i><b>– Falkirk Herald, SCOTLANDxa</b></p>""";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:805;
+  schema:organizer presenter:722;
+  schema:performer artist:16188;
+  schema:contributor network:692;
+  schema:workPerformed show:16189 .
+
+tour:16735-5550 a ado:Event;
+  schema:name "Skerryvore";
+  schema:startDate "2026-09-25T23:30:00+00:00"^^xsd:dateTime;
+  schema:description """<p>What are Skerryvore? They’re like no one else. Epic of melody, intimate of feeling and plugged into the roots of Scotland but blasting out to the world. </p>
+
+<p> </p>
+
+<p>Three time winners of Scotland’s ‘Live Act of the Year’ award, Skerryvore have evolved from their humble beginnings to become one of the country’s leading forces in a thriving live music scene. At the forefront of a movement that has reinvented and reignited a traditional Scottish scene for a modern, multicultural audience, the band have brought their high energy performances to audiences across the globe. From their early days in Scottish West Coast halls and bars, to festival crowds in the USA, Canada, Australia and throughout the UK and Europe, Skerryvore’s wide range of influences and talent produce a musically expansive, immersive yet intimate set that excites and captivates audiences.</p>
+
+<p> </p>
+
+<p>With a mix of bagpipes, fiddles, accordions, and whistles, alongside guitar and vocals, underpinned by driving bass, drums and keys, Skerryvore represent the best in contemporary Scottish traditional music. Their now 7 studio albums demonstrate the wide range of influences the individual musicians bring to the mix – a unique fusion of folk, trad, pop and rock.</p>
+
+<p> </p>
+
+<p> Three singles from the latest album ‘<i>Tempus</i>’, released in April 2023, all featured on the BBC Radio 2 new music playlist, and the album went to number 1 in both the Official Scottish Album and UK Folk Albums charts, and entered the top 40 in the Official UK Charts. Skerryvore took their <i>Tempus Tour</i> to audiences across the UK, Europe and USA, with their unique fusion appealing to a wider mix of age groups and tastes.</p>
+
+<p> </p>
+
+<p><i>“Skerryvore have crafted a world beating fusion, which takes pride in their heritage and above all else is a pure joy to listen to.” </i><b>– Folk Radio UK </b></p>
+
+<p> </p>
+
+<p><i>“A spectacular mix of traditional Scottish folk music and the most diverse rock elements.” </i><b>– Süddeutsche Zeitung, GERMANY </b></p>
+
+<p> </p>
+
+<p><i>“The highest rated show we have ever had on our post-concert surveys… people LOVED the show.” </i><b>– Anchorage Concert Association, ALASKA </b></p>
+
+<p> </p>
+
+<p><i>“Such a fresh, real, new sound… I love it” </i><b>– Jeremy Vine, BBC Radio 2 UK </b></p>
+
+<p> </p>
+
+<p><i>“Skerryvore have evolved to become one of Scotland’s greatest musical exports.” </i><b>– Wickham Festival, ENGLAND </b></p>
+
+<p> </p>
+
+<p><i>“See them now before they rocket up into the same musical orbit as the mighty Mumford & Sons.” </i><b>– Falkirk Herald, SCOTLANDxa</b></p>""";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1314;
+  schema:organizer presenter:762;
+  schema:performer artist:16188;
+  schema:contributor network:692;
+  schema:workPerformed show:16189 .
+
+tour:16736-5551 a ado:Event;
+  schema:name "Skerryvore";
+  schema:startDate "2026-10-01T23:30:00+00:00"^^xsd:dateTime;
+  schema:description """<p>What are Skerryvore? They’re like no one else. Epic of melody, intimate of feeling and plugged into the roots of Scotland but blasting out to the world. </p>
+
+<p> </p>
+
+<p>Three time winners of Scotland’s ‘Live Act of the Year’ award, Skerryvore have evolved from their humble beginnings to become one of the country’s leading forces in a thriving live music scene. At the forefront of a movement that has reinvented and reignited a traditional Scottish scene for a modern, multicultural audience, the band have brought their high energy performances to audiences across the globe. From their early days in Scottish West Coast halls and bars, to festival crowds in the USA, Canada, Australia and throughout the UK and Europe, Skerryvore’s wide range of influences and talent produce a musically expansive, immersive yet intimate set that excites and captivates audiences.</p>
+
+<p> </p>
+
+<p>With a mix of bagpipes, fiddles, accordions, and whistles, alongside guitar and vocals, underpinned by driving bass, drums and keys, Skerryvore represent the best in contemporary Scottish traditional music. Their now 7 studio albums demonstrate the wide range of influences the individual musicians bring to the mix – a unique fusion of folk, trad, pop and rock.</p>
+
+<p> </p>
+
+<p> Three singles from the latest album ‘<i>Tempus</i>’, released in April 2023, all featured on the BBC Radio 2 new music playlist, and the album went to number 1 in both the Official Scottish Album and UK Folk Albums charts, and entered the top 40 in the Official UK Charts. Skerryvore took their <i>Tempus Tour</i> to audiences across the UK, Europe and USA, with their unique fusion appealing to a wider mix of age groups and tastes.</p>
+
+<p> </p>
+
+<p><i>“Skerryvore have crafted a world beating fusion, which takes pride in their heritage and above all else is a pure joy to listen to.” </i><b>– Folk Radio UK </b></p>
+
+<p> </p>
+
+<p><i>“A spectacular mix of traditional Scottish folk music and the most diverse rock elements.” </i><b>– Süddeutsche Zeitung, GERMANY </b></p>
+
+<p> </p>
+
+<p><i>“The highest rated show we have ever had on our post-concert surveys… people LOVED the show.” </i><b>– Anchorage Concert Association, ALASKA </b></p>
+
+<p> </p>
+
+<p><i>“Such a fresh, real, new sound… I love it” </i><b>– Jeremy Vine, BBC Radio 2 UK </b></p>
+
+<p> </p>
+
+<p><i>“Skerryvore have evolved to become one of Scotland’s greatest musical exports.” </i><b>– Wickham Festival, ENGLAND </b></p>
+
+<p> </p>
+
+<p><i>“See them now before they rocket up into the same musical orbit as the mighty Mumford & Sons.” </i><b>– Falkirk Herald, SCOTLANDxa</b></p>""";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1355;
+  schema:organizer presenter:1354;
+  schema:performer artist:16188;
+  schema:contributor network:692;
+  schema:workPerformed show:16189 .
+
+tour:16737-5552 a ado:Event;
+  schema:name "Skerryvore";
+  schema:startDate "2026-10-02T23:30:00+00:00"^^xsd:dateTime;
+  schema:description """<p>What are Skerryvore? They’re like no one else. Epic of melody, intimate of feeling and plugged into the roots of Scotland but blasting out to the world. </p>
+
+<p> </p>
+
+<p>Three time winners of Scotland’s ‘Live Act of the Year’ award, Skerryvore have evolved from their humble beginnings to become one of the country’s leading forces in a thriving live music scene. At the forefront of a movement that has reinvented and reignited a traditional Scottish scene for a modern, multicultural audience, the band have brought their high energy performances to audiences across the globe. From their early days in Scottish West Coast halls and bars, to festival crowds in the USA, Canada, Australia and throughout the UK and Europe, Skerryvore’s wide range of influences and talent produce a musically expansive, immersive yet intimate set that excites and captivates audiences.</p>
+
+<p> </p>
+
+<p>With a mix of bagpipes, fiddles, accordions, and whistles, alongside guitar and vocals, underpinned by driving bass, drums and keys, Skerryvore represent the best in contemporary Scottish traditional music. Their now 7 studio albums demonstrate the wide range of influences the individual musicians bring to the mix – a unique fusion of folk, trad, pop and rock.</p>
+
+<p> </p>
+
+<p> Three singles from the latest album ‘<i>Tempus</i>’, released in April 2023, all featured on the BBC Radio 2 new music playlist, and the album went to number 1 in both the Official Scottish Album and UK Folk Albums charts, and entered the top 40 in the Official UK Charts. Skerryvore took their <i>Tempus Tour</i> to audiences across the UK, Europe and USA, with their unique fusion appealing to a wider mix of age groups and tastes.</p>
+
+<p> </p>
+
+<p><i>“Skerryvore have crafted a world beating fusion, which takes pride in their heritage and above all else is a pure joy to listen to.” </i><b>– Folk Radio UK </b></p>
+
+<p> </p>
+
+<p><i>“A spectacular mix of traditional Scottish folk music and the most diverse rock elements.” </i><b>– Süddeutsche Zeitung, GERMANY </b></p>
+
+<p> </p>
+
+<p><i>“The highest rated show we have ever had on our post-concert surveys… people LOVED the show.” </i><b>– Anchorage Concert Association, ALASKA </b></p>
+
+<p> </p>
+
+<p><i>“Such a fresh, real, new sound… I love it” </i><b>– Jeremy Vine, BBC Radio 2 UK </b></p>
+
+<p> </p>
+
+<p><i>“Skerryvore have evolved to become one of Scotland’s greatest musical exports.” </i><b>– Wickham Festival, ENGLAND </b></p>
+
+<p> </p>
+
+<p><i>“See them now before they rocket up into the same musical orbit as the mighty Mumford & Sons.” </i><b>– Falkirk Herald, SCOTLANDxa</b></p>""";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:782;
+  schema:organizer presenter:761;
+  schema:performer artist:16188;
+  schema:contributor network:692;
+  schema:workPerformed show:16189 .
+
+tour:16738-5553 a ado:Event;
+  schema:name "Skerryvore";
+  schema:startDate "2026-10-03T23:30:00+00:00"^^xsd:dateTime;
+  schema:description """<p>What are Skerryvore? They’re like no one else. Epic of melody, intimate of feeling and plugged into the roots of Scotland but blasting out to the world. </p>
+
+<p> </p>
+
+<p>Three time winners of Scotland’s ‘Live Act of the Year’ award, Skerryvore have evolved from their humble beginnings to become one of the country’s leading forces in a thriving live music scene. At the forefront of a movement that has reinvented and reignited a traditional Scottish scene for a modern, multicultural audience, the band have brought their high energy performances to audiences across the globe. From their early days in Scottish West Coast halls and bars, to festival crowds in the USA, Canada, Australia and throughout the UK and Europe, Skerryvore’s wide range of influences and talent produce a musically expansive, immersive yet intimate set that excites and captivates audiences.</p>
+
+<p> </p>
+
+<p>With a mix of bagpipes, fiddles, accordions, and whistles, alongside guitar and vocals, underpinned by driving bass, drums and keys, Skerryvore represent the best in contemporary Scottish traditional music. Their now 7 studio albums demonstrate the wide range of influences the individual musicians bring to the mix – a unique fusion of folk, trad, pop and rock.</p>
+
+<p> </p>
+
+<p> Three singles from the latest album ‘<i>Tempus</i>’, released in April 2023, all featured on the BBC Radio 2 new music playlist, and the album went to number 1 in both the Official Scottish Album and UK Folk Albums charts, and entered the top 40 in the Official UK Charts. Skerryvore took their <i>Tempus Tour</i> to audiences across the UK, Europe and USA, with their unique fusion appealing to a wider mix of age groups and tastes.</p>
+
+<p> </p>
+
+<p><i>“Skerryvore have crafted a world beating fusion, which takes pride in their heritage and above all else is a pure joy to listen to.” </i><b>– Folk Radio UK </b></p>
+
+<p> </p>
+
+<p><i>“A spectacular mix of traditional Scottish folk music and the most diverse rock elements.” </i><b>– Süddeutsche Zeitung, GERMANY </b></p>
+
+<p> </p>
+
+<p><i>“The highest rated show we have ever had on our post-concert surveys… people LOVED the show.” </i><b>– Anchorage Concert Association, ALASKA </b></p>
+
+<p> </p>
+
+<p><i>“Such a fresh, real, new sound… I love it” </i><b>– Jeremy Vine, BBC Radio 2 UK </b></p>
+
+<p> </p>
+
+<p><i>“Skerryvore have evolved to become one of Scotland’s greatest musical exports.” </i><b>– Wickham Festival, ENGLAND </b></p>
+
+<p> </p>
+
+<p><i>“See them now before they rocket up into the same musical orbit as the mighty Mumford & Sons.” </i><b>– Falkirk Herald, SCOTLANDxa</b></p>""";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1564;
+  schema:organizer presenter:1446;
+  schema:performer artist:16188;
+  schema:contributor network:692;
+  schema:workPerformed show:16189 .
+
 tour:16743-5554 a ado:Event;
   schema:name "Ventastic – Reimagining the Art of Ventriloquism";
   schema:startDate "2026-01-20T15:00:00+00:00"^^xsd:dateTime;
@@ -28119,6 +28401,53 @@ tour:16789-5591 a ado:Event;
   schema:performer artist:662;
   schema:contributor network:692;
   schema:workPerformed show:824 .
+
+tour:16791-5592 a ado:Event;
+  schema:name "Skerryvore";
+  schema:startDate "2026-10-05T23:30:00+00:00"^^xsd:dateTime;
+  schema:description """<p>What are Skerryvore? They’re like no one else. Epic of melody, intimate of feeling and plugged into the roots of Scotland but blasting out to the world. </p>
+
+<p> </p>
+
+<p>Three time winners of Scotland’s ‘Live Act of the Year’ award, Skerryvore have evolved from their humble beginnings to become one of the country’s leading forces in a thriving live music scene. At the forefront of a movement that has reinvented and reignited a traditional Scottish scene for a modern, multicultural audience, the band have brought their high energy performances to audiences across the globe. From their early days in Scottish West Coast halls and bars, to festival crowds in the USA, Canada, Australia and throughout the UK and Europe, Skerryvore’s wide range of influences and talent produce a musically expansive, immersive yet intimate set that excites and captivates audiences.</p>
+
+<p> </p>
+
+<p>With a mix of bagpipes, fiddles, accordions, and whistles, alongside guitar and vocals, underpinned by driving bass, drums and keys, Skerryvore represent the best in contemporary Scottish traditional music. Their now 7 studio albums demonstrate the wide range of influences the individual musicians bring to the mix – a unique fusion of folk, trad, pop and rock.</p>
+
+<p> </p>
+
+<p> Three singles from the latest album ‘<i>Tempus</i>’, released in April 2023, all featured on the BBC Radio 2 new music playlist, and the album went to number 1 in both the Official Scottish Album and UK Folk Albums charts, and entered the top 40 in the Official UK Charts. Skerryvore took their <i>Tempus Tour</i> to audiences across the UK, Europe and USA, with their unique fusion appealing to a wider mix of age groups and tastes.</p>
+
+<p> </p>
+
+<p><i>“Skerryvore have crafted a world beating fusion, which takes pride in their heritage and above all else is a pure joy to listen to.” </i><b>– Folk Radio UK </b></p>
+
+<p> </p>
+
+<p><i>“A spectacular mix of traditional Scottish folk music and the most diverse rock elements.” </i><b>– Süddeutsche Zeitung, GERMANY </b></p>
+
+<p> </p>
+
+<p><i>“The highest rated show we have ever had on our post-concert surveys… people LOVED the show.” </i><b>– Anchorage Concert Association, ALASKA </b></p>
+
+<p> </p>
+
+<p><i>“Such a fresh, real, new sound… I love it” </i><b>– Jeremy Vine, BBC Radio 2 UK </b></p>
+
+<p> </p>
+
+<p><i>“Skerryvore have evolved to become one of Scotland’s greatest musical exports.” </i><b>– Wickham Festival, ENGLAND </b></p>
+
+<p> </p>
+
+<p><i>“See them now before they rocket up into the same musical orbit as the mighty Mumford & Sons.” </i><b>– Falkirk Herald, SCOTLANDxa</b></p>""";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:6984;
+  schema:organizer presenter:5948;
+  schema:performer artist:16188;
+  schema:contributor network:692;
+  schema:workPerformed show:16189 .
 
 tour:16794-5593 a ado:Event;
   schema:name "Men Of The Deeps";
@@ -28906,6 +29235,7 @@ tour:16964-5698 a ado:Event;
   schema:organizer presenter:9683;
   schema:performer artist:24077;
   schema:contributor network:3901;
+  a ado:Event;
   schema:workPerformed show:10271 .
 
 tour:16965-5699 a ado:Event;
@@ -28987,7 +29317,6 @@ tour:16973-5710 a ado:Event;
   schema:organizer presenter:4102;
   schema:performer artist:10192;
   schema:contributor network:3901;
-  a ado:Event;
   schema:workPerformed show:10193 .
 
 tour:16974-5711 a ado:Event;
@@ -30115,6 +30444,7 @@ tour:17519-5926 a ado:Event;
   schema:location performance-space:7922;
   schema:organizer presenter:7921;
   schema:performer artist:5489;
+  a ado:Event;
   schema:contributor network:9;
   schema:workPerformed show:6670 .
 
@@ -30192,7 +30522,6 @@ tour:17531-5944 a ado:Event;
   schema:location performance-space:7453;
   schema:organizer presenter:2505;
   schema:performer artist:262;
-  a ado:Event;
   schema:contributor network:9;
   schema:workPerformed show:14121 .
 
@@ -31397,6 +31726,7 @@ tour:17755-6197 a ado:Event;
 tour:17755-6198 a ado:Event;
   schema:name "PINKALICIOUS The Musical";
   schema:startDate "2025-11-03T15:30:00+00:00"^^xsd:dateTime;
+  a ado:Event;
   schema:description "<p>Pinkalicious can't stop eating pink cupcakes despite warnings from her parents. Her pink indulgence lands her at the doctor's office with Pinkititis, an affliction that turns her pink from head to toe - a dream come true for this pink loving enthusiast. But when her hue goes too far, only Pinkalicious can figure out a way to get out of this predicament.<br>Book & Lyrics by Elizabeth Kann & Victoria Kann<br>Music & Lyrics by John Gregor<br>Directed by Teresa K. Pond</p><p>Video: <a href=\"https://youtu.be/XE8T8RyCBIE\">https://youtu.be/XE8T8RyCBIE</a></p><p>ALL assets for the show: <a href=\"https://www.pinkaliciousthemusical.com/tour/presenter/\">https://www.pinkaliciousthemusical.com/tour/presenter/</a> <br> </p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:74;
@@ -32713,6 +33043,7 @@ tour:19158-6547 a ado:Event;
 
 tour:19167-6551 a ado:Event;
   schema:name "Sam Roberts Band";
+  a ado:Event;
   schema:startDate "2026-02-05T00:30:00+00:00"^^xsd:dateTime;
   schema:description "<p>I do not know if the artist is touring. They canceled a tour in fall of 2021 due to COVID.</p>";
   schema:eventStatus schema:EventScheduled;
@@ -32802,7 +33133,6 @@ tour:19950-6564 a ado:Event;
   schema:startDate "2025-11-01T23:30:00+00:00"^^xsd:dateTime;
   schema:description "<p>Starring Damon Calderwood – Acknowledged as one of the finest Canadian musicals of all time, this one-man tour-de-force—starring Metro favourite Damon Calderwood as Billy Bishop, and accompanied by pianist Chris Robson—recounts the triumphs and horrors of World War One, “the war to end all wars” through raucous stories, haunting memories, and vibrant songs, as Bishop traces his journey from Royal Military College troublemaker to top flying ace.</p>";
   schema:eventStatus schema:EventScheduled;
-  a ado:Event;
   schema:location performance-space:806;
   schema:organizer presenter:745;
   schema:performer artist:9297;
@@ -33170,6 +33500,39 @@ tour:20918-6756 a ado:Event;
   schema:contributor network:10;
   schema:workPerformed show:16940 .
 
+tour:21382-6890 a ado:Event;
+  schema:name "The Black Feathers";
+  schema:startDate "2026-10-07T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>The ability to write songs that are both modern and ancient is a rare thing. The product of an arcane art of weaving in traditional influences so thoroughly that they become the warp and weft of fresh creations.</p><p>The Black Feathers, made up of Ray Hughes and Sian Chandler, are two such talents. They first became aware of the magic between them while collaborating on several musical projects, becoming The Black Feathers and life partners in 2012.</p><p>“Once in a blue moon, the whole soars far above the sum of its parts. That’s what happens when The Black Feathers perform live”</p>- Black Mountain News, North Carolina<p>Americana, Folk, and Acoustic Indie Rock sensibilities coexist comfortably in their musical world, with Hughes’ guitar work buoying the kind of harmonies often only heard in family bands. Their music quickly draw the interest of listeners, but it is the stage chemistry that will keep them riveted.</p><p>Having already built up a loyal following in the UK, The Black Feathers have been spreading their wings across the US. They have performed at Philadelphia Folk Festival, Kate Wolf Music Festival, and AmericanaFest, and have also been awarded official showcases at the International, North East Regional and Far-West Folk Alliance conferences.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1326;
+  schema:organizer presenter:1325;
+  schema:performer artist:21048;
+  schema:contributor network:692;
+  schema:workPerformed show:21050 .
+
+tour:21384-6891 a ado:Event;
+  schema:name "The Black Feathers";
+  schema:startDate "2026-10-08T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>The ability to write songs that are both modern and ancient is a rare thing. The product of an arcane art of weaving in traditional influences so thoroughly that they become the warp and weft of fresh creations.</p><p>The Black Feathers, made up of Ray Hughes and Sian Chandler, are two such talents. They first became aware of the magic between them while collaborating on several musical projects, becoming The Black Feathers and life partners in 2012.</p><p>“Once in a blue moon, the whole soars far above the sum of its parts. That’s what happens when The Black Feathers perform live”</p>- Black Mountain News, North Carolina<p>Americana, Folk, and Acoustic Indie Rock sensibilities coexist comfortably in their musical world, with Hughes’ guitar work buoying the kind of harmonies often only heard in family bands. Their music quickly draw the interest of listeners, but it is the stage chemistry that will keep them riveted.</p><p>Having already built up a loyal following in the UK, The Black Feathers have been spreading their wings across the US. They have performed at Philadelphia Folk Festival, Kate Wolf Music Festival, and AmericanaFest, and have also been awarded official showcases at the International, North East Regional and Far-West Folk Alliance conferences.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:807;
+  schema:organizer presenter:722;
+  schema:performer artist:21048;
+  schema:contributor network:692;
+  schema:workPerformed show:21050 .
+
+tour:21402-6897 a ado:Event;
+  schema:name "The Black Feathers";
+  schema:startDate "2026-10-10T23:50:00+00:00"^^xsd:dateTime;
+  schema:description "<p>The ability to write songs that are both modern and ancient is a rare thing. The product of an arcane art of weaving in traditional influences so thoroughly that they become the warp and weft of fresh creations.</p><p>The Black Feathers, made up of Ray Hughes and Sian Chandler, are two such talents. They first became aware of the magic between them while collaborating on several musical projects, becoming The Black Feathers and life partners in 2012.</p><p>“Once in a blue moon, the whole soars far above the sum of its parts. That’s what happens when The Black Feathers perform live”</p>- Black Mountain News, North Carolina<p>Americana, Folk, and Acoustic Indie Rock sensibilities coexist comfortably in their musical world, with Hughes’ guitar work buoying the kind of harmonies often only heard in family bands. Their music quickly draw the interest of listeners, but it is the stage chemistry that will keep them riveted.</p><p>Having already built up a loyal following in the UK, The Black Feathers have been spreading their wings across the US. They have performed at Philadelphia Folk Festival, Kate Wolf Music Festival, and AmericanaFest, and have also been awarded official showcases at the International, North East Regional and Far-West Folk Alliance conferences.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:7428;
+  schema:organizer presenter:2106;
+  schema:performer artist:21048;
+  schema:contributor network:692;
+  schema:workPerformed show:21050 .
+
 tour:22108-6986 a ado:Event;
   schema:name "Jimmy Rankin's Kitchen Party - Songwriters Edition";
   schema:startDate "2026-03-04T00:30:00+00:00"^^xsd:dateTime;
@@ -33192,6 +33555,671 @@ tour:22316-7062 a ado:Event;
   schema:contributor network:10;
   schema:workPerformed show:14669 .
 
+tour:23537-7236 a ado:Event;
+  schema:name "Hey Viola!";
+  schema:startDate "2027-02-20T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Hey Viola!,</strong> a musical exploration of Canadian Civil Rights hero, Viola Desmond. But who is Viola Desmond...? other than the newest face on Canada’s ten-dollar bill. She is best known for her courage in refusing to leave the whites-only section of Nova Scotia’s Roseland cinema in 1946, a decision that made history, but she was also a feminist and beauty product icon. What was the fire within this successful black Canadian businesswoman that gave her the courage and confidence to stand up to systemic racial injustices in Canada?</p><p>‍</p><p>In<em><strong> Hey Viola!,</strong></em> Vancouver songstress and performer Krystle Dos Santos, with the support of local musicians <strong>Chris Davis, Steven Charles and Mary Ancheta</strong>, brings the life of Viola Desmond to the stage using the dynamic and inspirational music that filled the home of this trailblazer of the civil rights movement. Using the musical format enriches the telling of her amazing and powerful story, ultimately an important Canadian story.</p><p>Teaming up to create this work are: <strong>Tracey Power,</strong> Co-creator and Director, who created Glory, Chelsea Hotel, The Songs of LeonardCohen and the musical <em>Miss Shakespeare</em> and <strong>Krystle Dos Santos</strong>, an extraordinary actor, blues, jazz and soul singer and creator of “BLAK”, exploring Canada’s Black history.  “I feel so honoured to be able to share Viola’s story, she was such an incredible, driven, intelligent and strong woman, an inspiration on so many levels,” stated Dos Santos. “Her story is such an important message to share, and is still relevant in today’s world. As Canadians, we have to recognize that this is not a unique story in our history, but one that reflects an imperfect culture, past and present, and is one of many examples of how we can always strive to be better.”</p><p>With brilliant hits of the era, and songs that influenced history; “Don’t Let Me Be Misunderstood”,  “A Change is Gonna Come”, “Sinnerman”, and “Mississippi Goddam”,  this personal, and powerful cabaret, gives audiences an opportunity to discover how the actions of one woman played such a huge role in a movement that Krystle herself continues today.</p><p> </p><strong>Full length video: </strong><a href=\"https://vimeo.com/822089050?share=copy\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/822089050?share%3Dcopy&source=gmail&ust=1737670449761000&usg=AOvVaw0mobQ8YDnxFZZAKr88WtEv\"><strong>https://vimeo.com/822089050?share=copy</strong></a><strong>Password: Viola</strong><br> <br> ";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1221;
+  schema:organizer presenter:712;
+  schema:contributor network:692;
+  schema:workPerformed show:17817 .
+
+tour:23538-7237 a ado:Event;
+  schema:name "Hey Viola!";
+  schema:startDate "2027-02-18T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Hey Viola!,</strong> a musical exploration of Canadian Civil Rights hero, Viola Desmond. But who is Viola Desmond...? other than the newest face on Canada’s ten-dollar bill. She is best known for her courage in refusing to leave the whites-only section of Nova Scotia’s Roseland cinema in 1946, a decision that made history, but she was also a feminist and beauty product icon. What was the fire within this successful black Canadian businesswoman that gave her the courage and confidence to stand up to systemic racial injustices in Canada?</p><p>‍</p><p>In<em><strong> Hey Viola!,</strong></em> Vancouver songstress and performer Krystle Dos Santos, with the support of local musicians <strong>Chris Davis, Steven Charles and Mary Ancheta</strong>, brings the life of Viola Desmond to the stage using the dynamic and inspirational music that filled the home of this trailblazer of the civil rights movement. Using the musical format enriches the telling of her amazing and powerful story, ultimately an important Canadian story.</p><p>Teaming up to create this work are: <strong>Tracey Power,</strong> Co-creator and Director, who created Glory, Chelsea Hotel, The Songs of LeonardCohen and the musical <em>Miss Shakespeare</em> and <strong>Krystle Dos Santos</strong>, an extraordinary actor, blues, jazz and soul singer and creator of “BLAK”, exploring Canada’s Black history.  “I feel so honoured to be able to share Viola’s story, she was such an incredible, driven, intelligent and strong woman, an inspiration on so many levels,” stated Dos Santos. “Her story is such an important message to share, and is still relevant in today’s world. As Canadians, we have to recognize that this is not a unique story in our history, but one that reflects an imperfect culture, past and present, and is one of many examples of how we can always strive to be better.”</p><p>With brilliant hits of the era, and songs that influenced history; “Don’t Let Me Be Misunderstood”,  “A Change is Gonna Come”, “Sinnerman”, and “Mississippi Goddam”,  this personal, and powerful cabaret, gives audiences an opportunity to discover how the actions of one woman played such a huge role in a movement that Krystle herself continues today.</p><p> </p><strong>Full length video: </strong><a href=\"https://vimeo.com/822089050?share=copy\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/822089050?share%3Dcopy&source=gmail&ust=1737670449761000&usg=AOvVaw0mobQ8YDnxFZZAKr88WtEv\"><strong>https://vimeo.com/822089050?share=copy</strong></a><strong>Password: Viola</strong><br> <br> ";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:782;
+  schema:organizer presenter:761;
+  schema:contributor network:692;
+  schema:workPerformed show:17817 .
+
+tour:23539-7238 a ado:Event;
+  schema:name "Hey Viola!";
+  schema:startDate "2027-02-21T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Hey Viola!,</strong> a musical exploration of Canadian Civil Rights hero, Viola Desmond. But who is Viola Desmond...? other than the newest face on Canada’s ten-dollar bill. She is best known for her courage in refusing to leave the whites-only section of Nova Scotia’s Roseland cinema in 1946, a decision that made history, but she was also a feminist and beauty product icon. What was the fire within this successful black Canadian businesswoman that gave her the courage and confidence to stand up to systemic racial injustices in Canada?</p><p>‍</p><p>In<em><strong> Hey Viola!,</strong></em> Vancouver songstress and performer Krystle Dos Santos, with the support of local musicians <strong>Chris Davis, Steven Charles and Mary Ancheta</strong>, brings the life of Viola Desmond to the stage using the dynamic and inspirational music that filled the home of this trailblazer of the civil rights movement. Using the musical format enriches the telling of her amazing and powerful story, ultimately an important Canadian story.</p><p>Teaming up to create this work are: <strong>Tracey Power,</strong> Co-creator and Director, who created Glory, Chelsea Hotel, The Songs of LeonardCohen and the musical <em>Miss Shakespeare</em> and <strong>Krystle Dos Santos</strong>, an extraordinary actor, blues, jazz and soul singer and creator of “BLAK”, exploring Canada’s Black history.  “I feel so honoured to be able to share Viola’s story, she was such an incredible, driven, intelligent and strong woman, an inspiration on so many levels,” stated Dos Santos. “Her story is such an important message to share, and is still relevant in today’s world. As Canadians, we have to recognize that this is not a unique story in our history, but one that reflects an imperfect culture, past and present, and is one of many examples of how we can always strive to be better.”</p><p>With brilliant hits of the era, and songs that influenced history; “Don’t Let Me Be Misunderstood”,  “A Change is Gonna Come”, “Sinnerman”, and “Mississippi Goddam”,  this personal, and powerful cabaret, gives audiences an opportunity to discover how the actions of one woman played such a huge role in a movement that Krystle herself continues today.</p><p> </p><strong>Full length video: </strong><a href=\"https://vimeo.com/822089050?share=copy\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/822089050?share%3Dcopy&source=gmail&ust=1737670449761000&usg=AOvVaw0mobQ8YDnxFZZAKr88WtEv\"><strong>https://vimeo.com/822089050?share=copy</strong></a><strong>Password: Viola</strong><br> <br> ";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1314;
+  schema:organizer presenter:762;
+  schema:contributor network:692;
+  schema:workPerformed show:17817 .
+
+tour:23540-7239 a ado:Event;
+  schema:name "Hey Viola!";
+  schema:startDate "2027-02-24T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Hey Viola!,</strong> a musical exploration of Canadian Civil Rights hero, Viola Desmond. But who is Viola Desmond...? other than the newest face on Canada’s ten-dollar bill. She is best known for her courage in refusing to leave the whites-only section of Nova Scotia’s Roseland cinema in 1946, a decision that made history, but she was also a feminist and beauty product icon. What was the fire within this successful black Canadian businesswoman that gave her the courage and confidence to stand up to systemic racial injustices in Canada?</p><p>‍</p><p>In<em><strong> Hey Viola!,</strong></em> Vancouver songstress and performer Krystle Dos Santos, with the support of local musicians <strong>Chris Davis, Steven Charles and Mary Ancheta</strong>, brings the life of Viola Desmond to the stage using the dynamic and inspirational music that filled the home of this trailblazer of the civil rights movement. Using the musical format enriches the telling of her amazing and powerful story, ultimately an important Canadian story.</p><p>Teaming up to create this work are: <strong>Tracey Power,</strong> Co-creator and Director, who created Glory, Chelsea Hotel, The Songs of LeonardCohen and the musical <em>Miss Shakespeare</em> and <strong>Krystle Dos Santos</strong>, an extraordinary actor, blues, jazz and soul singer and creator of “BLAK”, exploring Canada’s Black history.  “I feel so honoured to be able to share Viola’s story, she was such an incredible, driven, intelligent and strong woman, an inspiration on so many levels,” stated Dos Santos. “Her story is such an important message to share, and is still relevant in today’s world. As Canadians, we have to recognize that this is not a unique story in our history, but one that reflects an imperfect culture, past and present, and is one of many examples of how we can always strive to be better.”</p><p>With brilliant hits of the era, and songs that influenced history; “Don’t Let Me Be Misunderstood”,  “A Change is Gonna Come”, “Sinnerman”, and “Mississippi Goddam”,  this personal, and powerful cabaret, gives audiences an opportunity to discover how the actions of one woman played such a huge role in a movement that Krystle herself continues today.</p><p> </p><strong>Full length video: </strong><a href=\"https://vimeo.com/822089050?share=copy\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/822089050?share%3Dcopy&source=gmail&ust=1737670449761000&usg=AOvVaw0mobQ8YDnxFZZAKr88WtEv\"><strong>https://vimeo.com/822089050?share=copy</strong></a><strong>Password: Viola</strong><br> <br> ";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:805;
+  schema:organizer presenter:722;
+  schema:contributor network:692;
+  schema:workPerformed show:17817 .
+
+tour:23540-7240 a ado:Event;
+  schema:name "Hey Viola!";
+  schema:startDate "2027-02-24T14:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Hey Viola!,</strong> a musical exploration of Canadian Civil Rights hero, Viola Desmond. But who is Viola Desmond...? other than the newest face on Canada’s ten-dollar bill. She is best known for her courage in refusing to leave the whites-only section of Nova Scotia’s Roseland cinema in 1946, a decision that made history, but she was also a feminist and beauty product icon. What was the fire within this successful black Canadian businesswoman that gave her the courage and confidence to stand up to systemic racial injustices in Canada?</p><p>‍</p><p>In<em><strong> Hey Viola!,</strong></em> Vancouver songstress and performer Krystle Dos Santos, with the support of local musicians <strong>Chris Davis, Steven Charles and Mary Ancheta</strong>, brings the life of Viola Desmond to the stage using the dynamic and inspirational music that filled the home of this trailblazer of the civil rights movement. Using the musical format enriches the telling of her amazing and powerful story, ultimately an important Canadian story.</p><p>Teaming up to create this work are: <strong>Tracey Power,</strong> Co-creator and Director, who created Glory, Chelsea Hotel, The Songs of LeonardCohen and the musical <em>Miss Shakespeare</em> and <strong>Krystle Dos Santos</strong>, an extraordinary actor, blues, jazz and soul singer and creator of “BLAK”, exploring Canada’s Black history.  “I feel so honoured to be able to share Viola’s story, she was such an incredible, driven, intelligent and strong woman, an inspiration on so many levels,” stated Dos Santos. “Her story is such an important message to share, and is still relevant in today’s world. As Canadians, we have to recognize that this is not a unique story in our history, but one that reflects an imperfect culture, past and present, and is one of many examples of how we can always strive to be better.”</p><p>With brilliant hits of the era, and songs that influenced history; “Don’t Let Me Be Misunderstood”,  “A Change is Gonna Come”, “Sinnerman”, and “Mississippi Goddam”,  this personal, and powerful cabaret, gives audiences an opportunity to discover how the actions of one woman played such a huge role in a movement that Krystle herself continues today.</p><p> </p><strong>Full length video: </strong><a href=\"https://vimeo.com/822089050?share=copy\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/822089050?share%3Dcopy&source=gmail&ust=1737670449761000&usg=AOvVaw0mobQ8YDnxFZZAKr88WtEv\"><strong>https://vimeo.com/822089050?share=copy</strong></a><strong>Password: Viola</strong><br> <br> ";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:805;
+  schema:organizer presenter:722;
+  schema:contributor network:692;
+  schema:workPerformed show:17817 .
+
+tour:23541-7241 a ado:Event;
+  schema:name "Hey Viola!";
+  schema:startDate "2027-02-28T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Hey Viola!,</strong> a musical exploration of Canadian Civil Rights hero, Viola Desmond. But who is Viola Desmond...? other than the newest face on Canada’s ten-dollar bill. She is best known for her courage in refusing to leave the whites-only section of Nova Scotia’s Roseland cinema in 1946, a decision that made history, but she was also a feminist and beauty product icon. What was the fire within this successful black Canadian businesswoman that gave her the courage and confidence to stand up to systemic racial injustices in Canada?</p><p>‍</p><p>In<em><strong> Hey Viola!,</strong></em> Vancouver songstress and performer Krystle Dos Santos, with the support of local musicians <strong>Chris Davis, Steven Charles and Mary Ancheta</strong>, brings the life of Viola Desmond to the stage using the dynamic and inspirational music that filled the home of this trailblazer of the civil rights movement. Using the musical format enriches the telling of her amazing and powerful story, ultimately an important Canadian story.</p><p>Teaming up to create this work are: <strong>Tracey Power,</strong> Co-creator and Director, who created Glory, Chelsea Hotel, The Songs of LeonardCohen and the musical <em>Miss Shakespeare</em> and <strong>Krystle Dos Santos</strong>, an extraordinary actor, blues, jazz and soul singer and creator of “BLAK”, exploring Canada’s Black history.  “I feel so honoured to be able to share Viola’s story, she was such an incredible, driven, intelligent and strong woman, an inspiration on so many levels,” stated Dos Santos. “Her story is such an important message to share, and is still relevant in today’s world. As Canadians, we have to recognize that this is not a unique story in our history, but one that reflects an imperfect culture, past and present, and is one of many examples of how we can always strive to be better.”</p><p>With brilliant hits of the era, and songs that influenced history; “Don’t Let Me Be Misunderstood”,  “A Change is Gonna Come”, “Sinnerman”, and “Mississippi Goddam”,  this personal, and powerful cabaret, gives audiences an opportunity to discover how the actions of one woman played such a huge role in a movement that Krystle herself continues today.</p><p> </p><strong>Full length video: </strong><a href=\"https://vimeo.com/822089050?share=copy\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/822089050?share%3Dcopy&source=gmail&ust=1737670449761000&usg=AOvVaw0mobQ8YDnxFZZAKr88WtEv\"><strong>https://vimeo.com/822089050?share=copy</strong></a><strong>Password: Viola</strong><br> <br> ";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1214;
+  schema:organizer presenter:759;
+  schema:contributor network:692;
+  schema:workPerformed show:17817 .
+
+tour:23542-7242 a ado:Event;
+  schema:name "Hey Viola!";
+  schema:startDate "2027-02-26T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Hey Viola!,</strong> a musical exploration of Canadian Civil Rights hero, Viola Desmond. But who is Viola Desmond...? other than the newest face on Canada’s ten-dollar bill. She is best known for her courage in refusing to leave the whites-only section of Nova Scotia’s Roseland cinema in 1946, a decision that made history, but she was also a feminist and beauty product icon. What was the fire within this successful black Canadian businesswoman that gave her the courage and confidence to stand up to systemic racial injustices in Canada?</p><p>‍</p><p>In<em><strong> Hey Viola!,</strong></em> Vancouver songstress and performer Krystle Dos Santos, with the support of local musicians <strong>Chris Davis, Steven Charles and Mary Ancheta</strong>, brings the life of Viola Desmond to the stage using the dynamic and inspirational music that filled the home of this trailblazer of the civil rights movement. Using the musical format enriches the telling of her amazing and powerful story, ultimately an important Canadian story.</p><p>Teaming up to create this work are: <strong>Tracey Power,</strong> Co-creator and Director, who created Glory, Chelsea Hotel, The Songs of LeonardCohen and the musical <em>Miss Shakespeare</em> and <strong>Krystle Dos Santos</strong>, an extraordinary actor, blues, jazz and soul singer and creator of “BLAK”, exploring Canada’s Black history.  “I feel so honoured to be able to share Viola’s story, she was such an incredible, driven, intelligent and strong woman, an inspiration on so many levels,” stated Dos Santos. “Her story is such an important message to share, and is still relevant in today’s world. As Canadians, we have to recognize that this is not a unique story in our history, but one that reflects an imperfect culture, past and present, and is one of many examples of how we can always strive to be better.”</p><p>With brilliant hits of the era, and songs that influenced history; “Don’t Let Me Be Misunderstood”,  “A Change is Gonna Come”, “Sinnerman”, and “Mississippi Goddam”,  this personal, and powerful cabaret, gives audiences an opportunity to discover how the actions of one woman played such a huge role in a movement that Krystle herself continues today.</p><p> </p><strong>Full length video: </strong><a href=\"https://vimeo.com/822089050?share=copy\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/822089050?share%3Dcopy&source=gmail&ust=1737670449761000&usg=AOvVaw0mobQ8YDnxFZZAKr88WtEv\"><strong>https://vimeo.com/822089050?share=copy</strong></a><strong>Password: Viola</strong><br> <br> ";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:771;
+  schema:organizer presenter:763;
+  schema:contributor network:692;
+  schema:workPerformed show:17817 .
+
+tour:23971-7486 a ado:Event;
+  schema:name "God is a Scottish Drag Queen";
+  schema:startDate "2026-11-13T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Get ready for a night of side-splitting laughter with <em>God is a Scottish Drag Queen</em>, a two-act comedy of biblical proportions! Dressed in a vibrant floral power suit, God comes down to set the record straight—and He doesn’t hold back. From Adam and Eve to Star Wars, He’ll answer humankind’s most asked questions in a show that’s equal parts hilarious, heartfelt, and unforgettable.</p><p>This critically acclaimed production has charmed audiences across the globe—beloved by preachers and atheists alike—and has rapidly become one of the most popular touring shows today. Critics rave about its brilliant blend of pop culture, biblical history, and political satire, all told through the eyes of a lovable Scottish deity with a naughty sense of humor.</p><p><strong>What the Critics Say:</strong><br><em>“A cross between Dame Edna & Billy Connolly, with a dash of Eddie Izzard.”</em> — National Post<br><em>“God Is Great!”</em> — London Free Press<br><em>“Hilarious! Five-star stand-up comedy with soul.”</em> — Winnipeg Free Press</p><p><strong>A Word from the Creator:</strong><br>Originally conceived in a cabaret called Atomic Vaudeville, the character of God quickly captivated audiences. In 2011, Mike Delamont created the first one-act version of <em>God Is A Scottish Drag Queen</em>, which toured across North American fringe festivals. By 2015, it evolved into a larger, two-act theatrical show, inspiring two full-length sequels and a Christmas special. The inspiration came from the iconic Sistine Chapel depiction of God, turning a serious image into a comedic icon—blending political topics, biblical stories, and pop culture through the voice of a deity in on the joke.</p><p>One patron shared, <em>“Four years ago, my wife took me to see your show, and I thought, ‘What?!’ I didn’t want to go. Now we’ve seen it six times, and each time we bring more friends. We wouldn’t miss it for the world!”</em></p><p>Join us for this unique, heartfelt comedy that’s as brave as it is hilarious. Whether you’re religious or not, you’ll find yourself laughing along—and maybe even seeing the divine in a whole new light!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:771;
+  schema:organizer presenter:763;
+  schema:performer artist:21350;
+  schema:contributor network:692;
+  schema:workPerformed show:21351 .
+
+tour:23975-7490 a ado:Event;
+  schema:name "God is a Scottish Drag Queen";
+  schema:startDate "2026-11-16T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Get ready for a night of side-splitting laughter with <em>God is a Scottish Drag Queen</em>, a two-act comedy of biblical proportions! Dressed in a vibrant floral power suit, God comes down to set the record straight—and He doesn’t hold back. From Adam and Eve to Star Wars, He’ll answer humankind’s most asked questions in a show that’s equal parts hilarious, heartfelt, and unforgettable.</p><p>This critically acclaimed production has charmed audiences across the globe—beloved by preachers and atheists alike—and has rapidly become one of the most popular touring shows today. Critics rave about its brilliant blend of pop culture, biblical history, and political satire, all told through the eyes of a lovable Scottish deity with a naughty sense of humor.</p><p><strong>What the Critics Say:</strong><br><em>“A cross between Dame Edna & Billy Connolly, with a dash of Eddie Izzard.”</em> — National Post<br><em>“God Is Great!”</em> — London Free Press<br><em>“Hilarious! Five-star stand-up comedy with soul.”</em> — Winnipeg Free Press</p><p><strong>A Word from the Creator:</strong><br>Originally conceived in a cabaret called Atomic Vaudeville, the character of God quickly captivated audiences. In 2011, Mike Delamont created the first one-act version of <em>God Is A Scottish Drag Queen</em>, which toured across North American fringe festivals. By 2015, it evolved into a larger, two-act theatrical show, inspiring two full-length sequels and a Christmas special. The inspiration came from the iconic Sistine Chapel depiction of God, turning a serious image into a comedic icon—blending political topics, biblical stories, and pop culture through the voice of a deity in on the joke.</p><p>One patron shared, <em>“Four years ago, my wife took me to see your show, and I thought, ‘What?!’ I didn’t want to go. Now we’ve seen it six times, and each time we bring more friends. We wouldn’t miss it for the world!”</em></p><p>Join us for this unique, heartfelt comedy that’s as brave as it is hilarious. Whether you’re religious or not, you’ll find yourself laughing along—and maybe even seeing the divine in a whole new light!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:782;
+  schema:organizer presenter:761;
+  schema:performer artist:21350;
+  schema:contributor network:692;
+  schema:workPerformed show:21351 .
+
+tour:23977-7491 a ado:Event;
+  schema:name "God is a Scottish Drag Queen";
+  schema:startDate "2026-11-15T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Get ready for a night of side-splitting laughter with <em>God is a Scottish Drag Queen</em>, a two-act comedy of biblical proportions! Dressed in a vibrant floral power suit, God comes down to set the record straight—and He doesn’t hold back. From Adam and Eve to Star Wars, He’ll answer humankind’s most asked questions in a show that’s equal parts hilarious, heartfelt, and unforgettable.</p><p>This critically acclaimed production has charmed audiences across the globe—beloved by preachers and atheists alike—and has rapidly become one of the most popular touring shows today. Critics rave about its brilliant blend of pop culture, biblical history, and political satire, all told through the eyes of a lovable Scottish deity with a naughty sense of humor.</p><p><strong>What the Critics Say:</strong><br><em>“A cross between Dame Edna & Billy Connolly, with a dash of Eddie Izzard.”</em> — National Post<br><em>“God Is Great!”</em> — London Free Press<br><em>“Hilarious! Five-star stand-up comedy with soul.”</em> — Winnipeg Free Press</p><p><strong>A Word from the Creator:</strong><br>Originally conceived in a cabaret called Atomic Vaudeville, the character of God quickly captivated audiences. In 2011, Mike Delamont created the first one-act version of <em>God Is A Scottish Drag Queen</em>, which toured across North American fringe festivals. By 2015, it evolved into a larger, two-act theatrical show, inspiring two full-length sequels and a Christmas special. The inspiration came from the iconic Sistine Chapel depiction of God, turning a serious image into a comedic icon—blending political topics, biblical stories, and pop culture through the voice of a deity in on the joke.</p><p>One patron shared, <em>“Four years ago, my wife took me to see your show, and I thought, ‘What?!’ I didn’t want to go. Now we’ve seen it six times, and each time we bring more friends. We wouldn’t miss it for the world!”</em></p><p>Join us for this unique, heartfelt comedy that’s as brave as it is hilarious. Whether you’re religious or not, you’ll find yourself laughing along—and maybe even seeing the divine in a whole new light!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1564;
+  schema:organizer presenter:1446;
+  schema:performer artist:21350;
+  schema:contributor network:692;
+  schema:workPerformed show:21351 .
+
+tour:24441-7783 a ado:Event;
+  schema:name "ANNIKA";
+  schema:startDate "2027-01-17T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>With a voice as dynamic as her personality, <strong>ANNIKA</strong> is an accomplished musician, vocalist, and songwriter whose blend of raw talent and quick-witted charm has been winning over audiences for nearly three decades. Known for her soulful performances and sense of humour, she’s cultivated a loyal fanbase one song, one story, and one unforgettable performance at a time.</p><p>Raised in Calgary, Alberta, <strong>ANNIKA</strong> has built a thriving career as an independent artist with over 1 million global streams, 1.2 million YouTube views, and high-profile collaborations with Canadian country stars Chad Brownlee (2024) and Brett Kissel (2021). <strong>ANNIKA</strong> combines her love of country songwriting with soulful piano playing and rich, melodic vocals. Her music flows seamlessly across genres - mixing the warmth of country, the groove of soul, the edge of pop, and the depth of blues.</p><p>Following the success of her <em>Stand Still </em>project, <strong>ANNIKA</strong> is gearing up to release her highly anticipated sophomore album <em>Forever Changed</em>. Rooted in themes of resilience, identity, love, and emotional reckoning, the album marks a bold new chapter in her artistic journey.</p><p>The first single, “Don’t Get You A Man” (out July 25), is a slow-burn breakup anthem with a bluesy groove. Equal parts heartbreak and empowerment, it’s a reminder that love without maturity falls short, and that true connection takes more than just sweet talk.</p><p>As an iHeart Radio Future Star and Boots & Hearts semi-finalist, <strong>ANNIKA</strong> has been recognized for her talent and contributions to Canadian country music in the past. With multiple YYC award nominations and her debut single, “I Really Don’t Want To,” securing a spot in CBC Country’s Top 40 chart for five consecutive weeks and Billboard Country’s Top 50 chart for four weeks, she has made her mark on the Canadian music scene.</p><p>A professionally trained pianist and vocalist, <strong>ANNIKA</strong> has taken her talents around the world - from bustling cruise ship piano bars, to national television as a Top 11 finalist on Canadian Idol, and even as host of the Calgary Stampede Grandstand Show, where she performed for a combined audience of over 200,000 people. Her performance highlights include playing “In the Round” at The Bluebird Cafe in Nashville, Tennessee (2017) and performing at the Birdland Jazz Club in New York City, New York (2017). Whether she’s performing solo at the piano or fronting a full band, <strong>ANNIKA</strong> is known to deliver a performance that is authentic, passionate, and sure to leave audiences entertained!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:833;
+  schema:organizer presenter:816;
+  schema:performer artist:21131;
+  schema:contributor network:692;
+  schema:workPerformed show:21132 .
+
+tour:24442-7784 a ado:Event;
+  schema:name "ANNIKA";
+  schema:startDate "2027-01-24T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>With a voice as dynamic as her personality, <strong>ANNIKA</strong> is an accomplished musician, vocalist, and songwriter whose blend of raw talent and quick-witted charm has been winning over audiences for nearly three decades. Known for her soulful performances and sense of humour, she’s cultivated a loyal fanbase one song, one story, and one unforgettable performance at a time.</p><p>Raised in Calgary, Alberta, <strong>ANNIKA</strong> has built a thriving career as an independent artist with over 1 million global streams, 1.2 million YouTube views, and high-profile collaborations with Canadian country stars Chad Brownlee (2024) and Brett Kissel (2021). <strong>ANNIKA</strong> combines her love of country songwriting with soulful piano playing and rich, melodic vocals. Her music flows seamlessly across genres - mixing the warmth of country, the groove of soul, the edge of pop, and the depth of blues.</p><p>Following the success of her <em>Stand Still </em>project, <strong>ANNIKA</strong> is gearing up to release her highly anticipated sophomore album <em>Forever Changed</em>. Rooted in themes of resilience, identity, love, and emotional reckoning, the album marks a bold new chapter in her artistic journey.</p><p>The first single, “Don’t Get You A Man” (out July 25), is a slow-burn breakup anthem with a bluesy groove. Equal parts heartbreak and empowerment, it’s a reminder that love without maturity falls short, and that true connection takes more than just sweet talk.</p><p>As an iHeart Radio Future Star and Boots & Hearts semi-finalist, <strong>ANNIKA</strong> has been recognized for her talent and contributions to Canadian country music in the past. With multiple YYC award nominations and her debut single, “I Really Don’t Want To,” securing a spot in CBC Country’s Top 40 chart for five consecutive weeks and Billboard Country’s Top 50 chart for four weeks, she has made her mark on the Canadian music scene.</p><p>A professionally trained pianist and vocalist, <strong>ANNIKA</strong> has taken her talents around the world - from bustling cruise ship piano bars, to national television as a Top 11 finalist on Canadian Idol, and even as host of the Calgary Stampede Grandstand Show, where she performed for a combined audience of over 200,000 people. Her performance highlights include playing “In the Round” at The Bluebird Cafe in Nashville, Tennessee (2017) and performing at the Birdland Jazz Club in New York City, New York (2017). Whether she’s performing solo at the piano or fronting a full band, <strong>ANNIKA</strong> is known to deliver a performance that is authentic, passionate, and sure to leave audiences entertained!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:832;
+  schema:organizer presenter:831;
+  schema:performer artist:21131;
+  schema:contributor network:692;
+  schema:workPerformed show:21132 .
+
+tour:24443-7785 a ado:Event;
+  schema:name "ANNIKA";
+  schema:startDate "2027-01-21T00:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p>With a voice as dynamic as her personality, <strong>ANNIKA</strong> is an accomplished musician, vocalist, and songwriter whose blend of raw talent and quick-witted charm has been winning over audiences for nearly three decades. Known for her soulful performances and sense of humour, she’s cultivated a loyal fanbase one song, one story, and one unforgettable performance at a time.</p><p>Raised in Calgary, Alberta, <strong>ANNIKA</strong> has built a thriving career as an independent artist with over 1 million global streams, 1.2 million YouTube views, and high-profile collaborations with Canadian country stars Chad Brownlee (2024) and Brett Kissel (2021). <strong>ANNIKA</strong> combines her love of country songwriting with soulful piano playing and rich, melodic vocals. Her music flows seamlessly across genres - mixing the warmth of country, the groove of soul, the edge of pop, and the depth of blues.</p><p>Following the success of her <em>Stand Still </em>project, <strong>ANNIKA</strong> is gearing up to release her highly anticipated sophomore album <em>Forever Changed</em>. Rooted in themes of resilience, identity, love, and emotional reckoning, the album marks a bold new chapter in her artistic journey.</p><p>The first single, “Don’t Get You A Man” (out July 25), is a slow-burn breakup anthem with a bluesy groove. Equal parts heartbreak and empowerment, it’s a reminder that love without maturity falls short, and that true connection takes more than just sweet talk.</p><p>As an iHeart Radio Future Star and Boots & Hearts semi-finalist, <strong>ANNIKA</strong> has been recognized for her talent and contributions to Canadian country music in the past. With multiple YYC award nominations and her debut single, “I Really Don’t Want To,” securing a spot in CBC Country’s Top 40 chart for five consecutive weeks and Billboard Country’s Top 50 chart for four weeks, she has made her mark on the Canadian music scene.</p><p>A professionally trained pianist and vocalist, <strong>ANNIKA</strong> has taken her talents around the world - from bustling cruise ship piano bars, to national television as a Top 11 finalist on Canadian Idol, and even as host of the Calgary Stampede Grandstand Show, where she performed for a combined audience of over 200,000 people. Her performance highlights include playing “In the Round” at The Bluebird Cafe in Nashville, Tennessee (2017) and performing at the Birdland Jazz Club in New York City, New York (2017). Whether she’s performing solo at the piano or fronting a full band, <strong>ANNIKA</strong> is known to deliver a performance that is authentic, passionate, and sure to leave audiences entertained!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1201;
+  schema:organizer presenter:854;
+  schema:performer artist:21131;
+  schema:contributor network:692;
+  schema:workPerformed show:21132 .
+
+tour:24444-7786 a ado:Event;
+  schema:name "ANNIKA";
+  schema:startDate "2027-01-22T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>With a voice as dynamic as her personality, <strong>ANNIKA</strong> is an accomplished musician, vocalist, and songwriter whose blend of raw talent and quick-witted charm has been winning over audiences for nearly three decades. Known for her soulful performances and sense of humour, she’s cultivated a loyal fanbase one song, one story, and one unforgettable performance at a time.</p><p>Raised in Calgary, Alberta, <strong>ANNIKA</strong> has built a thriving career as an independent artist with over 1 million global streams, 1.2 million YouTube views, and high-profile collaborations with Canadian country stars Chad Brownlee (2024) and Brett Kissel (2021). <strong>ANNIKA</strong> combines her love of country songwriting with soulful piano playing and rich, melodic vocals. Her music flows seamlessly across genres - mixing the warmth of country, the groove of soul, the edge of pop, and the depth of blues.</p><p>Following the success of her <em>Stand Still </em>project, <strong>ANNIKA</strong> is gearing up to release her highly anticipated sophomore album <em>Forever Changed</em>. Rooted in themes of resilience, identity, love, and emotional reckoning, the album marks a bold new chapter in her artistic journey.</p><p>The first single, “Don’t Get You A Man” (out July 25), is a slow-burn breakup anthem with a bluesy groove. Equal parts heartbreak and empowerment, it’s a reminder that love without maturity falls short, and that true connection takes more than just sweet talk.</p><p>As an iHeart Radio Future Star and Boots & Hearts semi-finalist, <strong>ANNIKA</strong> has been recognized for her talent and contributions to Canadian country music in the past. With multiple YYC award nominations and her debut single, “I Really Don’t Want To,” securing a spot in CBC Country’s Top 40 chart for five consecutive weeks and Billboard Country’s Top 50 chart for four weeks, she has made her mark on the Canadian music scene.</p><p>A professionally trained pianist and vocalist, <strong>ANNIKA</strong> has taken her talents around the world - from bustling cruise ship piano bars, to national television as a Top 11 finalist on Canadian Idol, and even as host of the Calgary Stampede Grandstand Show, where she performed for a combined audience of over 200,000 people. Her performance highlights include playing “In the Round” at The Bluebird Cafe in Nashville, Tennessee (2017) and performing at the Birdland Jazz Club in New York City, New York (2017). Whether she’s performing solo at the piano or fronting a full band, <strong>ANNIKA</strong> is known to deliver a performance that is authentic, passionate, and sure to leave audiences entertained!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1343;
+  schema:organizer presenter:1342;
+  schema:performer artist:21131;
+  schema:contributor network:692;
+  schema:workPerformed show:21132 .
+
+tour:24445-7787 a ado:Event;
+  schema:name "ANNIKA";
+  schema:startDate "2027-01-23T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>With a voice as dynamic as her personality, <strong>ANNIKA</strong> is an accomplished musician, vocalist, and songwriter whose blend of raw talent and quick-witted charm has been winning over audiences for nearly three decades. Known for her soulful performances and sense of humour, she’s cultivated a loyal fanbase one song, one story, and one unforgettable performance at a time.</p><p>Raised in Calgary, Alberta, <strong>ANNIKA</strong> has built a thriving career as an independent artist with over 1 million global streams, 1.2 million YouTube views, and high-profile collaborations with Canadian country stars Chad Brownlee (2024) and Brett Kissel (2021). <strong>ANNIKA</strong> combines her love of country songwriting with soulful piano playing and rich, melodic vocals. Her music flows seamlessly across genres - mixing the warmth of country, the groove of soul, the edge of pop, and the depth of blues.</p><p>Following the success of her <em>Stand Still </em>project, <strong>ANNIKA</strong> is gearing up to release her highly anticipated sophomore album <em>Forever Changed</em>. Rooted in themes of resilience, identity, love, and emotional reckoning, the album marks a bold new chapter in her artistic journey.</p><p>The first single, “Don’t Get You A Man” (out July 25), is a slow-burn breakup anthem with a bluesy groove. Equal parts heartbreak and empowerment, it’s a reminder that love without maturity falls short, and that true connection takes more than just sweet talk.</p><p>As an iHeart Radio Future Star and Boots & Hearts semi-finalist, <strong>ANNIKA</strong> has been recognized for her talent and contributions to Canadian country music in the past. With multiple YYC award nominations and her debut single, “I Really Don’t Want To,” securing a spot in CBC Country’s Top 40 chart for five consecutive weeks and Billboard Country’s Top 50 chart for four weeks, she has made her mark on the Canadian music scene.</p><p>A professionally trained pianist and vocalist, <strong>ANNIKA</strong> has taken her talents around the world - from bustling cruise ship piano bars, to national television as a Top 11 finalist on Canadian Idol, and even as host of the Calgary Stampede Grandstand Show, where she performed for a combined audience of over 200,000 people. Her performance highlights include playing “In the Round” at The Bluebird Cafe in Nashville, Tennessee (2017) and performing at the Birdland Jazz Club in New York City, New York (2017). Whether she’s performing solo at the piano or fronting a full band, <strong>ANNIKA</strong> is known to deliver a performance that is authentic, passionate, and sure to leave audiences entertained!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1369;
+  schema:organizer presenter:1351;
+  schema:performer artist:21131;
+  schema:contributor network:692;
+  schema:workPerformed show:21132 .
+
+tour:24448-7788 a ado:Event;
+  schema:name "Burnstick";
+  schema:startDate "2027-03-20T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Built on emotion-stirring storytelling and unmistakable vocal harmonies accompanied by a century-old instrument, Burnstick, a JUNO nominated husband and wife Folk duo, are intent on creating affecting music that inspires listeners to feel. The Manitoba based Indigenous duo features Nadia and Jason Burnstick, esteemed independent artists who united over a decade ago to create deeply moving, cinematic Folk music using their trademark vocal pairing, and Jason's mastery of the lap slide Weissenborn guitar. Backed by their drummer, Daniel Roy, Nadia and Jason perform deeply resonant music that strikes a chord with audiences. With thought-provoking lyrics and engaging stories, they often leave listeners reflecting on their own experiences, feelings, and memories.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1326;
+  schema:organizer presenter:1325;
+  schema:performer artist:21083;
+  schema:contributor network:692;
+  schema:workPerformed show:21084 .
+
+tour:24450-7790 a ado:Event;
+  schema:name "Burnstick";
+  schema:startDate "2027-03-23T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Built on emotion-stirring storytelling and unmistakable vocal harmonies accompanied by a century-old instrument, Burnstick, a JUNO nominated husband and wife Folk duo, are intent on creating affecting music that inspires listeners to feel. The Manitoba based Indigenous duo features Nadia and Jason Burnstick, esteemed independent artists who united over a decade ago to create deeply moving, cinematic Folk music using their trademark vocal pairing, and Jason's mastery of the lap slide Weissenborn guitar. Backed by their drummer, Daniel Roy, Nadia and Jason perform deeply resonant music that strikes a chord with audiences. With thought-provoking lyrics and engaging stories, they often leave listeners reflecting on their own experiences, feelings, and memories.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:782;
+  schema:organizer presenter:761;
+  schema:performer artist:21083;
+  schema:contributor network:692;
+  schema:workPerformed show:21084 .
+
+tour:24451-7791 a ado:Event;
+  schema:name "Burnstick";
+  schema:startDate "2027-03-25T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Built on emotion-stirring storytelling and unmistakable vocal harmonies accompanied by a century-old instrument, Burnstick, a JUNO nominated husband and wife Folk duo, are intent on creating affecting music that inspires listeners to feel. The Manitoba based Indigenous duo features Nadia and Jason Burnstick, esteemed independent artists who united over a decade ago to create deeply moving, cinematic Folk music using their trademark vocal pairing, and Jason's mastery of the lap slide Weissenborn guitar. Backed by their drummer, Daniel Roy, Nadia and Jason perform deeply resonant music that strikes a chord with audiences. With thought-provoking lyrics and engaging stories, they often leave listeners reflecting on their own experiences, feelings, and memories.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:805;
+  schema:organizer presenter:722;
+  schema:performer artist:21083;
+  schema:contributor network:692;
+  schema:workPerformed show:21084 .
+
+tour:24572-7848 a ado:Event;
+  schema:name "Terra Spencer";
+  schema:startDate "2027-02-06T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bad ideas, VCRs, crumbling factories, hairy dogs, questionable tattoos...all are fair game for Nova Scotian funeral director-turned-songwriter Terra Spencer. And the songs are good ones, judging from the accolades her four albums have received, and from the caliber of collaborators like Ben Caplan, Dave Gunning, and David Francey, who welcomed Terra as a co-writer and performer on his JUNO-winning album 'The Breath Between'. Cinematic storytelling is a hallmark of many great Canadian folk songwriters, but in Terra's case, it is charged with the wood-paneled '70s warmth of Elton John, Carole King, and Jackson Browne. As a fun-loving and fearless solo performer, Terra has played some of Canada's most renowned festival stages, including Mariposa, Stan Rogers Folk Festival, and Lunenburg Folk Harbour Festival, where her Maritime waltz \"Lunenburg Moon\" has become an unofficial anthem.</p><p>Terra grew up as an only child on the banks of the Avon River with the world’s highest tides, surrounded by country music. As a shy teen, she took refuge in her grandparents' basement where she played Broadway show tunes on a battleship upright piano, learning guitar in secret from her granddad's Chet Atkins records. Her passion for songwriting came much later, after being hired on as a backup singer while scooping ice cream at a festival by country performer Ryan Cook. Their travels set the stage for Terra's solo debut in 2018, blooming into a solo career that quickly overshadowed her funeral ambitions. To date she has released four solo albums, toured in Canada, the US, UK, and Germany, and worked with the cream of Canadian folk.</p><p>Terra's recent solo album 'Sunset' was named the Penguin Eggs Album of the Year alongside Julian Taylor's 'Pathways' and features guests from East to West, including Matt Andersen and Stephen Fearing. Although her butterscotch voice, deft fingerstyle guitar, and gospel-charged piano make her a formidable musician, it's her onstage ease and crackling homespun wit that make each show feel like a knee-to-knee conversation in a room of 5 or 500, on either side of the Atlantic. “The real deal.” - Ron Sexsmith</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:855;
+  schema:organizer presenter:788;
+  schema:contributor network:692;
+  schema:workPerformed show:21295 .
+
+tour:24573-7850 a ado:Event;
+  schema:name "Terra Spencer";
+  schema:startDate "2027-02-14T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bad ideas, VCRs, crumbling factories, hairy dogs, questionable tattoos...all are fair game for Nova Scotian funeral director-turned-songwriter Terra Spencer. And the songs are good ones, judging from the accolades her four albums have received, and from the caliber of collaborators like Ben Caplan, Dave Gunning, and David Francey, who welcomed Terra as a co-writer and performer on his JUNO-winning album 'The Breath Between'. Cinematic storytelling is a hallmark of many great Canadian folk songwriters, but in Terra's case, it is charged with the wood-paneled '70s warmth of Elton John, Carole King, and Jackson Browne. As a fun-loving and fearless solo performer, Terra has played some of Canada's most renowned festival stages, including Mariposa, Stan Rogers Folk Festival, and Lunenburg Folk Harbour Festival, where her Maritime waltz \"Lunenburg Moon\" has become an unofficial anthem.</p><p>Terra grew up as an only child on the banks of the Avon River with the world’s highest tides, surrounded by country music. As a shy teen, she took refuge in her grandparents' basement where she played Broadway show tunes on a battleship upright piano, learning guitar in secret from her granddad's Chet Atkins records. Her passion for songwriting came much later, after being hired on as a backup singer while scooping ice cream at a festival by country performer Ryan Cook. Their travels set the stage for Terra's solo debut in 2018, blooming into a solo career that quickly overshadowed her funeral ambitions. To date she has released four solo albums, toured in Canada, the US, UK, and Germany, and worked with the cream of Canadian folk.</p><p>Terra's recent solo album 'Sunset' was named the Penguin Eggs Album of the Year alongside Julian Taylor's 'Pathways' and features guests from East to West, including Matt Andersen and Stephen Fearing. Although her butterscotch voice, deft fingerstyle guitar, and gospel-charged piano make her a formidable musician, it's her onstage ease and crackling homespun wit that make each show feel like a knee-to-knee conversation in a room of 5 or 500, on either side of the Atlantic. “The real deal.” - Ron Sexsmith</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:832;
+  schema:organizer presenter:831;
+  schema:contributor network:692;
+  schema:workPerformed show:21295 .
+
+tour:24574-7851 a ado:Event;
+  schema:name "Terra Spencer";
+  schema:startDate "2027-02-07T18:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bad ideas, VCRs, crumbling factories, hairy dogs, questionable tattoos...all are fair game for Nova Scotian funeral director-turned-songwriter Terra Spencer. And the songs are good ones, judging from the accolades her four albums have received, and from the caliber of collaborators like Ben Caplan, Dave Gunning, and David Francey, who welcomed Terra as a co-writer and performer on his JUNO-winning album 'The Breath Between'. Cinematic storytelling is a hallmark of many great Canadian folk songwriters, but in Terra's case, it is charged with the wood-paneled '70s warmth of Elton John, Carole King, and Jackson Browne. As a fun-loving and fearless solo performer, Terra has played some of Canada's most renowned festival stages, including Mariposa, Stan Rogers Folk Festival, and Lunenburg Folk Harbour Festival, where her Maritime waltz \"Lunenburg Moon\" has become an unofficial anthem.</p><p>Terra grew up as an only child on the banks of the Avon River with the world’s highest tides, surrounded by country music. As a shy teen, she took refuge in her grandparents' basement where she played Broadway show tunes on a battleship upright piano, learning guitar in secret from her granddad's Chet Atkins records. Her passion for songwriting came much later, after being hired on as a backup singer while scooping ice cream at a festival by country performer Ryan Cook. Their travels set the stage for Terra's solo debut in 2018, blooming into a solo career that quickly overshadowed her funeral ambitions. To date she has released four solo albums, toured in Canada, the US, UK, and Germany, and worked with the cream of Canadian folk.</p><p>Terra's recent solo album 'Sunset' was named the Penguin Eggs Album of the Year alongside Julian Taylor's 'Pathways' and features guests from East to West, including Matt Andersen and Stephen Fearing. Although her butterscotch voice, deft fingerstyle guitar, and gospel-charged piano make her a formidable musician, it's her onstage ease and crackling homespun wit that make each show feel like a knee-to-knee conversation in a room of 5 or 500, on either side of the Atlantic. “The real deal.” - Ron Sexsmith</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1353;
+  schema:organizer presenter:1324;
+  schema:contributor network:692;
+  schema:workPerformed show:21295 .
+
+tour:24575-7852 a ado:Event;
+  schema:name "Terra Spencer";
+  schema:startDate "2027-02-10T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bad ideas, VCRs, crumbling factories, hairy dogs, questionable tattoos...all are fair game for Nova Scotian funeral director-turned-songwriter Terra Spencer. And the songs are good ones, judging from the accolades her four albums have received, and from the caliber of collaborators like Ben Caplan, Dave Gunning, and David Francey, who welcomed Terra as a co-writer and performer on his JUNO-winning album 'The Breath Between'. Cinematic storytelling is a hallmark of many great Canadian folk songwriters, but in Terra's case, it is charged with the wood-paneled '70s warmth of Elton John, Carole King, and Jackson Browne. As a fun-loving and fearless solo performer, Terra has played some of Canada's most renowned festival stages, including Mariposa, Stan Rogers Folk Festival, and Lunenburg Folk Harbour Festival, where her Maritime waltz \"Lunenburg Moon\" has become an unofficial anthem.</p><p>Terra grew up as an only child on the banks of the Avon River with the world’s highest tides, surrounded by country music. As a shy teen, she took refuge in her grandparents' basement where she played Broadway show tunes on a battleship upright piano, learning guitar in secret from her granddad's Chet Atkins records. Her passion for songwriting came much later, after being hired on as a backup singer while scooping ice cream at a festival by country performer Ryan Cook. Their travels set the stage for Terra's solo debut in 2018, blooming into a solo career that quickly overshadowed her funeral ambitions. To date she has released four solo albums, toured in Canada, the US, UK, and Germany, and worked with the cream of Canadian folk.</p><p>Terra's recent solo album 'Sunset' was named the Penguin Eggs Album of the Year alongside Julian Taylor's 'Pathways' and features guests from East to West, including Matt Andersen and Stephen Fearing. Although her butterscotch voice, deft fingerstyle guitar, and gospel-charged piano make her a formidable musician, it's her onstage ease and crackling homespun wit that make each show feel like a knee-to-knee conversation in a room of 5 or 500, on either side of the Atlantic. “The real deal.” - Ron Sexsmith</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1239;
+  schema:organizer presenter:823;
+  schema:contributor network:692;
+  schema:workPerformed show:21295 .
+
+tour:24577-7853 a ado:Event;
+  schema:name "Terra Spencer";
+  schema:startDate "2027-02-11T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bad ideas, VCRs, crumbling factories, hairy dogs, questionable tattoos...all are fair game for Nova Scotian funeral director-turned-songwriter Terra Spencer. And the songs are good ones, judging from the accolades her four albums have received, and from the caliber of collaborators like Ben Caplan, Dave Gunning, and David Francey, who welcomed Terra as a co-writer and performer on his JUNO-winning album 'The Breath Between'. Cinematic storytelling is a hallmark of many great Canadian folk songwriters, but in Terra's case, it is charged with the wood-paneled '70s warmth of Elton John, Carole King, and Jackson Browne. As a fun-loving and fearless solo performer, Terra has played some of Canada's most renowned festival stages, including Mariposa, Stan Rogers Folk Festival, and Lunenburg Folk Harbour Festival, where her Maritime waltz \"Lunenburg Moon\" has become an unofficial anthem.</p><p>Terra grew up as an only child on the banks of the Avon River with the world’s highest tides, surrounded by country music. As a shy teen, she took refuge in her grandparents' basement where she played Broadway show tunes on a battleship upright piano, learning guitar in secret from her granddad's Chet Atkins records. Her passion for songwriting came much later, after being hired on as a backup singer while scooping ice cream at a festival by country performer Ryan Cook. Their travels set the stage for Terra's solo debut in 2018, blooming into a solo career that quickly overshadowed her funeral ambitions. To date she has released four solo albums, toured in Canada, the US, UK, and Germany, and worked with the cream of Canadian folk.</p><p>Terra's recent solo album 'Sunset' was named the Penguin Eggs Album of the Year alongside Julian Taylor's 'Pathways' and features guests from East to West, including Matt Andersen and Stephen Fearing. Although her butterscotch voice, deft fingerstyle guitar, and gospel-charged piano make her a formidable musician, it's her onstage ease and crackling homespun wit that make each show feel like a knee-to-knee conversation in a room of 5 or 500, on either side of the Atlantic. “The real deal.” - Ron Sexsmith</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:944;
+  schema:organizer presenter:817;
+  schema:contributor network:692;
+  schema:workPerformed show:21295 .
+
+tour:24579-7854 a ado:Event;
+  schema:name "Terra Spencer";
+  schema:startDate "2027-02-12T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bad ideas, VCRs, crumbling factories, hairy dogs, questionable tattoos...all are fair game for Nova Scotian funeral director-turned-songwriter Terra Spencer. And the songs are good ones, judging from the accolades her four albums have received, and from the caliber of collaborators like Ben Caplan, Dave Gunning, and David Francey, who welcomed Terra as a co-writer and performer on his JUNO-winning album 'The Breath Between'. Cinematic storytelling is a hallmark of many great Canadian folk songwriters, but in Terra's case, it is charged with the wood-paneled '70s warmth of Elton John, Carole King, and Jackson Browne. As a fun-loving and fearless solo performer, Terra has played some of Canada's most renowned festival stages, including Mariposa, Stan Rogers Folk Festival, and Lunenburg Folk Harbour Festival, where her Maritime waltz \"Lunenburg Moon\" has become an unofficial anthem.</p><p>Terra grew up as an only child on the banks of the Avon River with the world’s highest tides, surrounded by country music. As a shy teen, she took refuge in her grandparents' basement where she played Broadway show tunes on a battleship upright piano, learning guitar in secret from her granddad's Chet Atkins records. Her passion for songwriting came much later, after being hired on as a backup singer while scooping ice cream at a festival by country performer Ryan Cook. Their travels set the stage for Terra's solo debut in 2018, blooming into a solo career that quickly overshadowed her funeral ambitions. To date she has released four solo albums, toured in Canada, the US, UK, and Germany, and worked with the cream of Canadian folk.</p><p>Terra's recent solo album 'Sunset' was named the Penguin Eggs Album of the Year alongside Julian Taylor's 'Pathways' and features guests from East to West, including Matt Andersen and Stephen Fearing. Although her butterscotch voice, deft fingerstyle guitar, and gospel-charged piano make her a formidable musician, it's her onstage ease and crackling homespun wit that make each show feel like a knee-to-knee conversation in a room of 5 or 500, on either side of the Atlantic. “The real deal.” - Ron Sexsmith</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:7030;
+  schema:organizer presenter:7016;
+  schema:contributor network:692;
+  schema:workPerformed show:21295 .
+
+tour:24581-7855 a ado:Event;
+  schema:name "Terra Spencer";
+  schema:startDate "2027-02-13T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bad ideas, VCRs, crumbling factories, hairy dogs, questionable tattoos...all are fair game for Nova Scotian funeral director-turned-songwriter Terra Spencer. And the songs are good ones, judging from the accolades her four albums have received, and from the caliber of collaborators like Ben Caplan, Dave Gunning, and David Francey, who welcomed Terra as a co-writer and performer on his JUNO-winning album 'The Breath Between'. Cinematic storytelling is a hallmark of many great Canadian folk songwriters, but in Terra's case, it is charged with the wood-paneled '70s warmth of Elton John, Carole King, and Jackson Browne. As a fun-loving and fearless solo performer, Terra has played some of Canada's most renowned festival stages, including Mariposa, Stan Rogers Folk Festival, and Lunenburg Folk Harbour Festival, where her Maritime waltz \"Lunenburg Moon\" has become an unofficial anthem.</p><p>Terra grew up as an only child on the banks of the Avon River with the world’s highest tides, surrounded by country music. As a shy teen, she took refuge in her grandparents' basement where she played Broadway show tunes on a battleship upright piano, learning guitar in secret from her granddad's Chet Atkins records. Her passion for songwriting came much later, after being hired on as a backup singer while scooping ice cream at a festival by country performer Ryan Cook. Their travels set the stage for Terra's solo debut in 2018, blooming into a solo career that quickly overshadowed her funeral ambitions. To date she has released four solo albums, toured in Canada, the US, UK, and Germany, and worked with the cream of Canadian folk.</p><p>Terra's recent solo album 'Sunset' was named the Penguin Eggs Album of the Year alongside Julian Taylor's 'Pathways' and features guests from East to West, including Matt Andersen and Stephen Fearing. Although her butterscotch voice, deft fingerstyle guitar, and gospel-charged piano make her a formidable musician, it's her onstage ease and crackling homespun wit that make each show feel like a knee-to-knee conversation in a room of 5 or 500, on either side of the Atlantic. “The real deal.” - Ron Sexsmith</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1201;
+  schema:organizer presenter:854;
+  schema:contributor network:692;
+  schema:workPerformed show:21295 .
+
+tour:24623-7894 a ado:Event;
+  schema:name "The Unfaithful Servants";
+  schema:startDate "2026-11-05T00:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p>The Unfaithful Servants have gained a reputation in Western Canada as a must-see act. With an original and exciting approach to acoustic music, the group serves up explosive instrumentals, compelling story-telling and high-powered vocals. As Kelly Nakatsuka (Islands Folk Festival, CBC host) describes \"The Unfaithful Servants are one of the most exciting bands from Vancouver Island in some time...gorgeous harmonies and fine song writing, beautiful instrumental interplay and some seriously rippin' solos.\" With critically acclaimed performances under their belt (Vancouver Island MusicFest, Salmon Arm Roots & Blues, The Islands Folk Festival) and a Canadian Folk Music Award nomination (New Group of The Year) they continue to build upon that buzz. The band remains anchored by the virtuosic mandolin playing of Jesse Cobb and the prolific songwriting of Dylan Stone. They are excited to be joined by new members, young prodigy Quin Etheridge (Quin with one N) on fiddle and Louis Rudner on bass.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:7292;
+  schema:organizer presenter:2974;
+  schema:contributor network:692;
+  schema:workPerformed show:11167 .
+
+tour:24624-7895 a ado:Event;
+  schema:name "The Unfaithful Servants";
+  schema:startDate "2026-11-06T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>The Unfaithful Servants have gained a reputation in Western Canada as a must-see act. With an original and exciting approach to acoustic music, the group serves up explosive instrumentals, compelling story-telling and high-powered vocals. As Kelly Nakatsuka (Islands Folk Festival, CBC host) describes \"The Unfaithful Servants are one of the most exciting bands from Vancouver Island in some time...gorgeous harmonies and fine song writing, beautiful instrumental interplay and some seriously rippin' solos.\" With critically acclaimed performances under their belt (Vancouver Island MusicFest, Salmon Arm Roots & Blues, The Islands Folk Festival) and a Canadian Folk Music Award nomination (New Group of The Year) they continue to build upon that buzz. The band remains anchored by the virtuosic mandolin playing of Jesse Cobb and the prolific songwriting of Dylan Stone. They are excited to be joined by new members, young prodigy Quin Etheridge (Quin with one N) on fiddle and Louis Rudner on bass.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1343;
+  schema:organizer presenter:1342;
+  schema:contributor network:692;
+  schema:workPerformed show:11167 .
+
+tour:24625-7896 a ado:Event;
+  schema:name "The Unfaithful Servants";
+  schema:startDate "2026-11-08T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>The Unfaithful Servants have gained a reputation in Western Canada as a must-see act. With an original and exciting approach to acoustic music, the group serves up explosive instrumentals, compelling story-telling and high-powered vocals. As Kelly Nakatsuka (Islands Folk Festival, CBC host) describes \"The Unfaithful Servants are one of the most exciting bands from Vancouver Island in some time...gorgeous harmonies and fine song writing, beautiful instrumental interplay and some seriously rippin' solos.\" With critically acclaimed performances under their belt (Vancouver Island MusicFest, Salmon Arm Roots & Blues, The Islands Folk Festival) and a Canadian Folk Music Award nomination (New Group of The Year) they continue to build upon that buzz. The band remains anchored by the virtuosic mandolin playing of Jesse Cobb and the prolific songwriting of Dylan Stone. They are excited to be joined by new members, young prodigy Quin Etheridge (Quin with one N) on fiddle and Louis Rudner on bass.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:2738;
+  schema:organizer presenter:2736;
+  schema:contributor network:692;
+  schema:workPerformed show:11167 .
+
+tour:24710-7948 a ado:Event;
+  schema:name "The Unfaithful Servants";
+  schema:startDate "2026-11-07T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>The Unfaithful Servants have gained a reputation in Western Canada as a must-see act. With an original and exciting approach to acoustic music, the group serves up explosive instrumentals, compelling story-telling and high-powered vocals. As Kelly Nakatsuka (Islands Folk Festival, CBC host) describes \"The Unfaithful Servants are one of the most exciting bands from Vancouver Island in some time...gorgeous harmonies and fine song writing, beautiful instrumental interplay and some seriously rippin' solos.\" With critically acclaimed performances under their belt (Vancouver Island MusicFest, Salmon Arm Roots & Blues, The Islands Folk Festival) and a Canadian Folk Music Award nomination (New Group of The Year) they continue to build upon that buzz. The band remains anchored by the virtuosic mandolin playing of Jesse Cobb and the prolific songwriting of Dylan Stone. They are excited to be joined by new members, young prodigy Quin Etheridge (Quin with one N) on fiddle and Louis Rudner on bass.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:840;
+  schema:organizer presenter:810;
+  schema:contributor network:692;
+  schema:workPerformed show:11167 .
+
+tour:24713-7957 a ado:Event;
+  schema:name "Silly Billy - The Chimera Project";
+  schema:startDate "2027-01-16T20:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Silly Billy, a dance piece for young audiences, for grades K - 4.</p><p>Silly Billy is about a buffalo that wants to become a unicorn. Billy, a rare white-buffalo unhappy with his uniqueness, embarks on a quest to find a magical unicorn with the hope of achieving his greatest dream and to emulate this magnificent creature. Through adventures, obstacles, misunderstandings and mishaps, Billy is surprised to discover his own self-worth and embraces his identity, taking his place alongside the mythical Unicorn as the legendary great white buffalo of the plains. </p><p>The performance includes classical ballet, traditional hoop-dancing, puppetry, and loads of shenanigans. </p><p>HOW IT WAS CREATED Silly Billy was created in 2021, with the input of elder Shirley Horn, directed by by Malgorzata Nowacka-May and choreographed esteemed hoop dance artist Arik Pipe and contemporary dance artist Amy Hampton. The show has reached over 10,000 young people across Ontario, Québec, and the Maritimes since the creation of this work.</p><p> We'll have all the technical equipment we need, and will only need a few electrical outlets/extension cords.</p><p>NEW trailer: https://vimeo.com/890960219/365eec8a3f?share=copy&fbclid=IwAR3XYTiHXUM9S9bwbtRc9DlWUFYsjzz1QjIt82-V2jTiVklvBM_NzQC3Vr4</p><p>Full length video: <a href=\"https://vimeo.com/890942752?share=copy&fbclid=IwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/890942752?share%3Dcopy%26fbclid%3DIwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc&source=gmail&ust=1701786536770000&usg=AOvVaw1Pe5UdSc2IyRoZIVhEd7ch\">https://vimeo.com/890942752?share=copy&fbclid=IwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc</a></p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:16897;
+  schema:organizer presenter:785;
+  schema:performer artist:5489;
+  schema:contributor network:692;
+  schema:workPerformed show:6670 .
+
+tour:24721-7970 a ado:Event;
+  schema:name "Tomatoes Tried to Kill Me But Banjos Saved My Life";
+  schema:startDate "2026-10-22T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Tomatoes Tried to Kill Me But Banjos Saved My Life isn’t just a show, it’s a cause. A heartfelt passion project that began as a nudge after Keith Alessi’s life took a major turn, it has been his mission to raise money for causes close to his heart. Through donations, including 100% of all artist fees, the show has raised over $1,000,000 as of February 2025 for various cancer, community, music, and theatre charities.</p><p>Keith shares his exceptional true story of leaving the world of corporate board rooms behind to follow his long-delayed passion—playing the banjo!</p><p>When faced with a deadly cancer battle, his musical pursuit took him on a journey that became the key to saving his life. Told through authentic storytelling, heartfelt humor and music, this show is an uplifting story of challenge, triumph, and the power of positivity. The show has been highly awarded and has toured internationally, including sold out runs across Canada, Off-Broadway in New York City, and at the Edinburgh Fringe Festival in Scotland.</p><p>This intimate experience is one sure to leave you feeling empowered, inspired, and ready to dust off your own long forgotten dreams.</p><p>Everyone has a story.  Your stories matter.  </p><p>Keith Alessi had a story.  </p><p>He was neither an actor nor a musician, and his journey to the stage was a highly improbable one. But this show is a reflection of the power and purpose our stories can have when we share them with the world in an authentic and honest way.</p><p>The grassroots sound of the banjo lures you in and brings you back to a simpler time in life, as Keith takes you on the journey of his unique personal story about how music was the catalyst to ultimately saving his life.</p><p>A heartwarming, true story of transformation, this show is like a homecoming, and has captivated audiences internationally.</p><p>Everyone has a story.</p><p>What’s yours?</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:807;
+  schema:organizer presenter:722;
+  schema:performer artist:21298;
+  schema:contributor network:692;
+  schema:workPerformed show:21299 .
+
+tour:24721-7971 a ado:Event;
+  schema:name "Tomatoes Tried to Kill Me But Banjos Saved My Life";
+  schema:startDate "2026-10-24T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Tomatoes Tried to Kill Me But Banjos Saved My Life isn’t just a show, it’s a cause. A heartfelt passion project that began as a nudge after Keith Alessi’s life took a major turn, it has been his mission to raise money for causes close to his heart. Through donations, including 100% of all artist fees, the show has raised over $1,000,000 as of February 2025 for various cancer, community, music, and theatre charities.</p><p>Keith shares his exceptional true story of leaving the world of corporate board rooms behind to follow his long-delayed passion—playing the banjo!</p><p>When faced with a deadly cancer battle, his musical pursuit took him on a journey that became the key to saving his life. Told through authentic storytelling, heartfelt humor and music, this show is an uplifting story of challenge, triumph, and the power of positivity. The show has been highly awarded and has toured internationally, including sold out runs across Canada, Off-Broadway in New York City, and at the Edinburgh Fringe Festival in Scotland.</p><p>This intimate experience is one sure to leave you feeling empowered, inspired, and ready to dust off your own long forgotten dreams.</p><p>Everyone has a story.  Your stories matter.  </p><p>Keith Alessi had a story.  </p><p>He was neither an actor nor a musician, and his journey to the stage was a highly improbable one. But this show is a reflection of the power and purpose our stories can have when we share them with the world in an authentic and honest way.</p><p>The grassroots sound of the banjo lures you in and brings you back to a simpler time in life, as Keith takes you on the journey of his unique personal story about how music was the catalyst to ultimately saving his life.</p><p>A heartwarming, true story of transformation, this show is like a homecoming, and has captivated audiences internationally.</p><p>Everyone has a story.</p><p>What’s yours?</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:807;
+  schema:organizer presenter:722;
+  schema:performer artist:21298;
+  schema:contributor network:692;
+  schema:workPerformed show:21299 .
+
+tour:24721-7972 a ado:Event;
+  schema:name "Tomatoes Tried to Kill Me But Banjos Saved My Life";
+  schema:startDate "2026-10-25T19:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Tomatoes Tried to Kill Me But Banjos Saved My Life isn’t just a show, it’s a cause. A heartfelt passion project that began as a nudge after Keith Alessi’s life took a major turn, it has been his mission to raise money for causes close to his heart. Through donations, including 100% of all artist fees, the show has raised over $1,000,000 as of February 2025 for various cancer, community, music, and theatre charities.</p><p>Keith shares his exceptional true story of leaving the world of corporate board rooms behind to follow his long-delayed passion—playing the banjo!</p><p>When faced with a deadly cancer battle, his musical pursuit took him on a journey that became the key to saving his life. Told through authentic storytelling, heartfelt humor and music, this show is an uplifting story of challenge, triumph, and the power of positivity. The show has been highly awarded and has toured internationally, including sold out runs across Canada, Off-Broadway in New York City, and at the Edinburgh Fringe Festival in Scotland.</p><p>This intimate experience is one sure to leave you feeling empowered, inspired, and ready to dust off your own long forgotten dreams.</p><p>Everyone has a story.  Your stories matter.  </p><p>Keith Alessi had a story.  </p><p>He was neither an actor nor a musician, and his journey to the stage was a highly improbable one. But this show is a reflection of the power and purpose our stories can have when we share them with the world in an authentic and honest way.</p><p>The grassroots sound of the banjo lures you in and brings you back to a simpler time in life, as Keith takes you on the journey of his unique personal story about how music was the catalyst to ultimately saving his life.</p><p>A heartwarming, true story of transformation, this show is like a homecoming, and has captivated audiences internationally.</p><p>Everyone has a story.</p><p>What’s yours?</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:807;
+  schema:organizer presenter:722;
+  schema:performer artist:21298;
+  schema:contributor network:692;
+  schema:workPerformed show:21299 .
+
+tour:24722-7973 a ado:Event;
+  schema:name "Tomatoes Tried to Kill Me But Banjos Saved My Life";
+  schema:startDate "2026-10-23T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Tomatoes Tried to Kill Me But Banjos Saved My Life isn’t just a show, it’s a cause. A heartfelt passion project that began as a nudge after Keith Alessi’s life took a major turn, it has been his mission to raise money for causes close to his heart. Through donations, including 100% of all artist fees, the show has raised over $1,000,000 as of February 2025 for various cancer, community, music, and theatre charities.</p><p>Keith shares his exceptional true story of leaving the world of corporate board rooms behind to follow his long-delayed passion—playing the banjo!</p><p>When faced with a deadly cancer battle, his musical pursuit took him on a journey that became the key to saving his life. Told through authentic storytelling, heartfelt humor and music, this show is an uplifting story of challenge, triumph, and the power of positivity. The show has been highly awarded and has toured internationally, including sold out runs across Canada, Off-Broadway in New York City, and at the Edinburgh Fringe Festival in Scotland.</p><p>This intimate experience is one sure to leave you feeling empowered, inspired, and ready to dust off your own long forgotten dreams.</p><p>Everyone has a story.  Your stories matter.  </p><p>Keith Alessi had a story.  </p><p>He was neither an actor nor a musician, and his journey to the stage was a highly improbable one. But this show is a reflection of the power and purpose our stories can have when we share them with the world in an authentic and honest way.</p><p>The grassroots sound of the banjo lures you in and brings you back to a simpler time in life, as Keith takes you on the journey of his unique personal story about how music was the catalyst to ultimately saving his life.</p><p>A heartwarming, true story of transformation, this show is like a homecoming, and has captivated audiences internationally.</p><p>Everyone has a story.</p><p>What’s yours?</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:771;
+  schema:organizer presenter:763;
+  schema:performer artist:21298;
+  schema:contributor network:692;
+  schema:workPerformed show:21299 .
+
+tour:24723-7975 a ado:Event;
+  schema:name "Tomatoes Tried to Kill Me But Banjos Saved My Life";
+  schema:startDate "2026-09-25T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Tomatoes Tried to Kill Me But Banjos Saved My Life isn’t just a show, it’s a cause. A heartfelt passion project that began as a nudge after Keith Alessi’s life took a major turn, it has been his mission to raise money for causes close to his heart. Through donations, including 100% of all artist fees, the show has raised over $1,000,000 as of February 2025 for various cancer, community, music, and theatre charities.</p><p>Keith shares his exceptional true story of leaving the world of corporate board rooms behind to follow his long-delayed passion—playing the banjo!</p><p>When faced with a deadly cancer battle, his musical pursuit took him on a journey that became the key to saving his life. Told through authentic storytelling, heartfelt humor and music, this show is an uplifting story of challenge, triumph, and the power of positivity. The show has been highly awarded and has toured internationally, including sold out runs across Canada, Off-Broadway in New York City, and at the Edinburgh Fringe Festival in Scotland.</p><p>This intimate experience is one sure to leave you feeling empowered, inspired, and ready to dust off your own long forgotten dreams.</p><p>Everyone has a story.  Your stories matter.  </p><p>Keith Alessi had a story.  </p><p>He was neither an actor nor a musician, and his journey to the stage was a highly improbable one. But this show is a reflection of the power and purpose our stories can have when we share them with the world in an authentic and honest way.</p><p>The grassroots sound of the banjo lures you in and brings you back to a simpler time in life, as Keith takes you on the journey of his unique personal story about how music was the catalyst to ultimately saving his life.</p><p>A heartwarming, true story of transformation, this show is like a homecoming, and has captivated audiences internationally.</p><p>Everyone has a story.</p><p>What’s yours?</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:855;
+  schema:organizer presenter:788;
+  schema:performer artist:21298;
+  schema:contributor network:692;
+  schema:workPerformed show:21299 .
+
+tour:24724-7976 a ado:Event;
+  schema:name "Tomatoes Tried to Kill Me But Banjos Saved My Life";
+  schema:startDate "2026-10-16T23:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Tomatoes Tried to Kill Me But Banjos Saved My Life isn’t just a show, it’s a cause. A heartfelt passion project that began as a nudge after Keith Alessi’s life took a major turn, it has been his mission to raise money for causes close to his heart. Through donations, including 100% of all artist fees, the show has raised over $1,000,000 as of February 2025 for various cancer, community, music, and theatre charities.</p><p>Keith shares his exceptional true story of leaving the world of corporate board rooms behind to follow his long-delayed passion—playing the banjo!</p><p>When faced with a deadly cancer battle, his musical pursuit took him on a journey that became the key to saving his life. Told through authentic storytelling, heartfelt humor and music, this show is an uplifting story of challenge, triumph, and the power of positivity. The show has been highly awarded and has toured internationally, including sold out runs across Canada, Off-Broadway in New York City, and at the Edinburgh Fringe Festival in Scotland.</p><p>This intimate experience is one sure to leave you feeling empowered, inspired, and ready to dust off your own long forgotten dreams.</p><p>Everyone has a story.  Your stories matter.  </p><p>Keith Alessi had a story.  </p><p>He was neither an actor nor a musician, and his journey to the stage was a highly improbable one. But this show is a reflection of the power and purpose our stories can have when we share them with the world in an authentic and honest way.</p><p>The grassroots sound of the banjo lures you in and brings you back to a simpler time in life, as Keith takes you on the journey of his unique personal story about how music was the catalyst to ultimately saving his life.</p><p>A heartwarming, true story of transformation, this show is like a homecoming, and has captivated audiences internationally.</p><p>Everyone has a story.</p><p>What’s yours?</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1353;
+  schema:organizer presenter:1324;
+  schema:performer artist:21298;
+  schema:contributor network:692;
+  schema:workPerformed show:21299 .
+
+tour:24724-7977 a ado:Event;
+  schema:name "Tomatoes Tried to Kill Me But Banjos Saved My Life";
+  schema:startDate "2026-10-18T17:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Tomatoes Tried to Kill Me But Banjos Saved My Life isn’t just a show, it’s a cause. A heartfelt passion project that began as a nudge after Keith Alessi’s life took a major turn, it has been his mission to raise money for causes close to his heart. Through donations, including 100% of all artist fees, the show has raised over $1,000,000 as of February 2025 for various cancer, community, music, and theatre charities.</p><p>Keith shares his exceptional true story of leaving the world of corporate board rooms behind to follow his long-delayed passion—playing the banjo!</p><p>When faced with a deadly cancer battle, his musical pursuit took him on a journey that became the key to saving his life. Told through authentic storytelling, heartfelt humor and music, this show is an uplifting story of challenge, triumph, and the power of positivity. The show has been highly awarded and has toured internationally, including sold out runs across Canada, Off-Broadway in New York City, and at the Edinburgh Fringe Festival in Scotland.</p><p>This intimate experience is one sure to leave you feeling empowered, inspired, and ready to dust off your own long forgotten dreams.</p><p>Everyone has a story.  Your stories matter.  </p><p>Keith Alessi had a story.  </p><p>He was neither an actor nor a musician, and his journey to the stage was a highly improbable one. But this show is a reflection of the power and purpose our stories can have when we share them with the world in an authentic and honest way.</p><p>The grassroots sound of the banjo lures you in and brings you back to a simpler time in life, as Keith takes you on the journey of his unique personal story about how music was the catalyst to ultimately saving his life.</p><p>A heartwarming, true story of transformation, this show is like a homecoming, and has captivated audiences internationally.</p><p>Everyone has a story.</p><p>What’s yours?</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1353;
+  schema:organizer presenter:1324;
+  schema:performer artist:21298;
+  schema:contributor network:692;
+  schema:workPerformed show:21299 .
+
+tour:24785-8025 a ado:Event;
+  schema:name "Teagan Littlechief";
+  schema:startDate "2026-02-20T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Teagan Littlechief is a dynamic country rock artist with a voice that captivates and a spirit that inspires. Known for multi octave range  and commanding stage presence, Teagan has made a name for herself as one of Canada’s leading Indigenous country music musicians. Her music, a blend of country rock with elements of pop and storytelling, resonates deeply with listeners and has earned her multiple accolades, including the prestigious 2025 SASK Music Contemporary Indigenous Artists of The Year, 2024 SCMA Female Artist of the Year award. Teagan is also a three-time SCMA Indigenous Artist of the Year (2022, 2023, 2024), a testament to her talent and impact on the music scene.</strong></p><p><strong>Teagan’s journey is as inspiring as her music. Growing up in White Bear First Nation, she faced challenges that shaped her into the resilient, passionate artist she is today. Overcoming addiction and domestic abuse, Teagan uses her platform to not only entertain but also to uplift and inspire others through motivational speaking. She shares her personal story with raw honesty and courage, offering hope and empowerment to those facing similar struggles. Combining music and advocacy, Teagan’s live performances often include both singing and speaking, creating a powerful, unique experience for her audience.</strong></p><p><strong>With over 11 singles and 1 album, Teagan has seen her music reach new heights, consistently topping Indigenous music charts and finding success on SiriusXM-Indigiverse. Her most successful singles, including “Need You To Go,” “Scar On My Heart,” and “Every Child Matters,” reflect her ability to connect with listeners on a personal and emotional level.</strong></p><p><strong>Whether performing on stage or speaking to an audience, Teagan Littlechief is a force of nature, using her incredible voice and personal story to inspire change, empower others, and leave a lasting impact.</strong></p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:855;
+  schema:organizer presenter:788;
+  schema:performer artist:21273;
+  schema:contributor network:692;
+  schema:workPerformed show:21274 .
+
+tour:24786-8026 a ado:Event;
+  schema:name "Teagan Littlechief";
+  schema:startDate "2027-03-14T01:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Teagan Littlechief is a dynamic country rock artist with a voice that captivates and a spirit that inspires. Known for multi octave range  and commanding stage presence, Teagan has made a name for herself as one of Canada’s leading Indigenous country music musicians. Her music, a blend of country rock with elements of pop and storytelling, resonates deeply with listeners and has earned her multiple accolades, including the prestigious 2025 SASK Music Contemporary Indigenous Artists of The Year, 2024 SCMA Female Artist of the Year award. Teagan is also a three-time SCMA Indigenous Artist of the Year (2022, 2023, 2024), a testament to her talent and impact on the music scene.</strong></p><p><strong>Teagan’s journey is as inspiring as her music. Growing up in White Bear First Nation, she faced challenges that shaped her into the resilient, passionate artist she is today. Overcoming addiction and domestic abuse, Teagan uses her platform to not only entertain but also to uplift and inspire others through motivational speaking. She shares her personal story with raw honesty and courage, offering hope and empowerment to those facing similar struggles. Combining music and advocacy, Teagan’s live performances often include both singing and speaking, creating a powerful, unique experience for her audience.</strong></p><p><strong>With over 11 singles and 1 album, Teagan has seen her music reach new heights, consistently topping Indigenous music charts and finding success on SiriusXM-Indigiverse. Her most successful singles, including “Need You To Go,” “Scar On My Heart,” and “Every Child Matters,” reflect her ability to connect with listeners on a personal and emotional level.</strong></p><p><strong>Whether performing on stage or speaking to an audience, Teagan Littlechief is a force of nature, using her incredible voice and personal story to inspire change, empower others, and leave a lasting impact.</strong></p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:16593;
+  schema:organizer presenter:16586;
+  schema:performer artist:21273;
+  schema:contributor network:692;
+  schema:workPerformed show:21274 .
+
+tour:24787-8027 a ado:Event;
+  schema:name "Teagan Littlechief";
+  schema:startDate "2027-03-17T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Teagan Littlechief is a dynamic country rock artist with a voice that captivates and a spirit that inspires. Known for multi octave range  and commanding stage presence, Teagan has made a name for herself as one of Canada’s leading Indigenous country music musicians. Her music, a blend of country rock with elements of pop and storytelling, resonates deeply with listeners and has earned her multiple accolades, including the prestigious 2025 SASK Music Contemporary Indigenous Artists of The Year, 2024 SCMA Female Artist of the Year award. Teagan is also a three-time SCMA Indigenous Artist of the Year (2022, 2023, 2024), a testament to her talent and impact on the music scene.</strong></p><p><strong>Teagan’s journey is as inspiring as her music. Growing up in White Bear First Nation, she faced challenges that shaped her into the resilient, passionate artist she is today. Overcoming addiction and domestic abuse, Teagan uses her platform to not only entertain but also to uplift and inspire others through motivational speaking. She shares her personal story with raw honesty and courage, offering hope and empowerment to those facing similar struggles. Combining music and advocacy, Teagan’s live performances often include both singing and speaking, creating a powerful, unique experience for her audience.</strong></p><p><strong>With over 11 singles and 1 album, Teagan has seen her music reach new heights, consistently topping Indigenous music charts and finding success on SiriusXM-Indigiverse. Her most successful singles, including “Need You To Go,” “Scar On My Heart,” and “Every Child Matters,” reflect her ability to connect with listeners on a personal and emotional level.</strong></p><p><strong>Whether performing on stage or speaking to an audience, Teagan Littlechief is a force of nature, using her incredible voice and personal story to inspire change, empower others, and leave a lasting impact.</strong></p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1343;
+  schema:organizer presenter:1342;
+  schema:performer artist:21273;
+  schema:contributor network:692;
+  schema:workPerformed show:21274 .
+
+tour:24788-8028 a ado:Event;
+  schema:name "Teagan Littlechief";
+  schema:startDate "2027-03-19T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Teagan Littlechief is a dynamic country rock artist with a voice that captivates and a spirit that inspires. Known for multi octave range  and commanding stage presence, Teagan has made a name for herself as one of Canada’s leading Indigenous country music musicians. Her music, a blend of country rock with elements of pop and storytelling, resonates deeply with listeners and has earned her multiple accolades, including the prestigious 2025 SASK Music Contemporary Indigenous Artists of The Year, 2024 SCMA Female Artist of the Year award. Teagan is also a three-time SCMA Indigenous Artist of the Year (2022, 2023, 2024), a testament to her talent and impact on the music scene.</strong></p><p><strong>Teagan’s journey is as inspiring as her music. Growing up in White Bear First Nation, she faced challenges that shaped her into the resilient, passionate artist she is today. Overcoming addiction and domestic abuse, Teagan uses her platform to not only entertain but also to uplift and inspire others through motivational speaking. She shares her personal story with raw honesty and courage, offering hope and empowerment to those facing similar struggles. Combining music and advocacy, Teagan’s live performances often include both singing and speaking, creating a powerful, unique experience for her audience.</strong></p><p><strong>With over 11 singles and 1 album, Teagan has seen her music reach new heights, consistently topping Indigenous music charts and finding success on SiriusXM-Indigiverse. Her most successful singles, including “Need You To Go,” “Scar On My Heart,” and “Every Child Matters,” reflect her ability to connect with listeners on a personal and emotional level.</strong></p><p><strong>Whether performing on stage or speaking to an audience, Teagan Littlechief is a force of nature, using her incredible voice and personal story to inspire change, empower others, and leave a lasting impact.</strong></p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:840;
+  schema:organizer presenter:810;
+  schema:performer artist:21273;
+  schema:contributor network:692;
+  schema:workPerformed show:21274 .
+
+tour:24838-8060 a ado:Event;
+  schema:name "Teagan Littlechief";
+  schema:startDate "2027-03-20T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Teagan Littlechief is a dynamic country rock artist with a voice that captivates and a spirit that inspires. Known for multi octave range  and commanding stage presence, Teagan has made a name for herself as one of Canada’s leading Indigenous country music musicians. Her music, a blend of country rock with elements of pop and storytelling, resonates deeply with listeners and has earned her multiple accolades, including the prestigious 2025 SASK Music Contemporary Indigenous Artists of The Year, 2024 SCMA Female Artist of the Year award. Teagan is also a three-time SCMA Indigenous Artist of the Year (2022, 2023, 2024), a testament to her talent and impact on the music scene.</strong></p><p><strong>Teagan’s journey is as inspiring as her music. Growing up in White Bear First Nation, she faced challenges that shaped her into the resilient, passionate artist she is today. Overcoming addiction and domestic abuse, Teagan uses her platform to not only entertain but also to uplift and inspire others through motivational speaking. She shares her personal story with raw honesty and courage, offering hope and empowerment to those facing similar struggles. Combining music and advocacy, Teagan’s live performances often include both singing and speaking, creating a powerful, unique experience for her audience.</strong></p><p><strong>With over 11 singles and 1 album, Teagan has seen her music reach new heights, consistently topping Indigenous music charts and finding success on SiriusXM-Indigiverse. Her most successful singles, including “Need You To Go,” “Scar On My Heart,” and “Every Child Matters,” reflect her ability to connect with listeners on a personal and emotional level.</strong></p><p><strong>Whether performing on stage or speaking to an audience, Teagan Littlechief is a force of nature, using her incredible voice and personal story to inspire change, empower others, and leave a lasting impact.</strong></p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:833;
+  schema:organizer presenter:816;
+  schema:performer artist:21273;
+  schema:contributor network:692;
+  schema:workPerformed show:21274 .
+
+tour:24877-8074 a ado:Event;
+  schema:name "Bangs, Bobs & Banter - Gravity Theatre";
+  schema:startDate "2027-01-24T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bangs, Bobs & Banter: Confessions of a Hairstylist will have audiences laughing their heads off…without messing up their hair. Nikki, a charismatic hairstylist with a gift for storytelling, invites the audience into her salon, seamlessly shifting between characters and revealing a hilarious mix of sassy, saucy, and scandalous secrets. <br><br>Critic's Choice Award Winner-Best Solo Comedy – Orlando Fringe (2024) <br>Sold-Out Run – Edmonton Fringe (2024) <br>Patrons Pick Award – Orlando Fringe (2025) <br>Sold-Out Run – Orlando Fringe (2025)<br><br>Don’t miss out on this hilarious, heartfelt, must-see show!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:805;
+  schema:organizer presenter:722;
+  schema:performer artist:21306;
+  schema:contributor network:692;
+  schema:workPerformed show:21270 .
+
+tour:24878-8075 a ado:Event;
+  schema:name "Bangs, Bobs & Banter - Gravity Theatre";
+  schema:startDate "2027-01-23T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bangs, Bobs & Banter: Confessions of a Hairstylist will have audiences laughing their heads off…without messing up their hair. Nikki, a charismatic hairstylist with a gift for storytelling, invites the audience into her salon, seamlessly shifting between characters and revealing a hilarious mix of sassy, saucy, and scandalous secrets. <br><br>Critic's Choice Award Winner-Best Solo Comedy – Orlando Fringe (2024) <br>Sold-Out Run – Edmonton Fringe (2024) <br>Patrons Pick Award – Orlando Fringe (2025) <br>Sold-Out Run – Orlando Fringe (2025)<br><br>Don’t miss out on this hilarious, heartfelt, must-see show!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:855;
+  schema:organizer presenter:788;
+  schema:performer artist:21306;
+  schema:contributor network:692;
+  schema:workPerformed show:21270 .
+
+tour:24879-8076 a ado:Event;
+  schema:name "Bangs, Bobs & Banter - Gravity Theatre";
+  schema:startDate "2026-10-04T19:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bangs, Bobs & Banter: Confessions of a Hairstylist will have audiences laughing their heads off…without messing up their hair. Nikki, a charismatic hairstylist with a gift for storytelling, invites the audience into her salon, seamlessly shifting between characters and revealing a hilarious mix of sassy, saucy, and scandalous secrets. <br><br>Critic's Choice Award Winner-Best Solo Comedy – Orlando Fringe (2024) <br>Sold-Out Run – Edmonton Fringe (2024) <br>Patrons Pick Award – Orlando Fringe (2025) <br>Sold-Out Run – Orlando Fringe (2025)<br><br>Don’t miss out on this hilarious, heartfelt, must-see show!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:840;
+  schema:organizer presenter:810;
+  schema:performer artist:21306;
+  schema:contributor network:692;
+  schema:workPerformed show:21270 .
+
+tour:24896-8107 a ado:Event;
+  schema:name "Bangs, Bobs & Banter - Gravity Theatre";
+  schema:startDate "2026-10-03T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bangs, Bobs & Banter: Confessions of a Hairstylist will have audiences laughing their heads off…without messing up their hair. Nikki, a charismatic hairstylist with a gift for storytelling, invites the audience into her salon, seamlessly shifting between characters and revealing a hilarious mix of sassy, saucy, and scandalous secrets. <br><br>Critic's Choice Award Winner-Best Solo Comedy – Orlando Fringe (2024) <br>Sold-Out Run – Edmonton Fringe (2024) <br>Patrons Pick Award – Orlando Fringe (2025) <br>Sold-Out Run – Orlando Fringe (2025)<br><br>Don’t miss out on this hilarious, heartfelt, must-see show!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:806;
+  schema:organizer presenter:745;
+  schema:performer artist:21306;
+  schema:contributor network:692;
+  schema:workPerformed show:21270 .
+
+tour:24897-8108 a ado:Event;
+  schema:name "Bangs, Bobs & Banter - Gravity Theatre";
+  schema:startDate "2027-02-07T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bangs, Bobs & Banter: Confessions of a Hairstylist will have audiences laughing their heads off…without messing up their hair. Nikki, a charismatic hairstylist with a gift for storytelling, invites the audience into her salon, seamlessly shifting between characters and revealing a hilarious mix of sassy, saucy, and scandalous secrets. <br><br>Critic's Choice Award Winner-Best Solo Comedy – Orlando Fringe (2024) <br>Sold-Out Run – Edmonton Fringe (2024) <br>Patrons Pick Award – Orlando Fringe (2025) <br>Sold-Out Run – Orlando Fringe (2025)<br><br>Don’t miss out on this hilarious, heartfelt, must-see show!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:833;
+  schema:organizer presenter:816;
+  schema:performer artist:21306;
+  schema:contributor network:692;
+  schema:workPerformed show:21270 .
+
+tour:24898-8109 a ado:Event;
+  schema:name "Bangs, Bobs & Banter - Gravity Theatre";
+  schema:startDate "2027-02-07T19:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bangs, Bobs & Banter: Confessions of a Hairstylist will have audiences laughing their heads off…without messing up their hair. Nikki, a charismatic hairstylist with a gift for storytelling, invites the audience into her salon, seamlessly shifting between characters and revealing a hilarious mix of sassy, saucy, and scandalous secrets. <br><br>Critic's Choice Award Winner-Best Solo Comedy – Orlando Fringe (2024) <br>Sold-Out Run – Edmonton Fringe (2024) <br>Patrons Pick Award – Orlando Fringe (2025) <br>Sold-Out Run – Orlando Fringe (2025)<br><br>Don’t miss out on this hilarious, heartfelt, must-see show!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:2738;
+  schema:organizer presenter:2736;
+  schema:performer artist:21306;
+  schema:contributor network:692;
+  schema:workPerformed show:21270 .
+
+tour:24976-8182 a ado:Event;
+  schema:name "Ollee Owens";
+  schema:startDate "2027-04-16T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Far more than a vocal powerhouse, Calgary-based Blues/Soul/Rock artist Ollee Owens blends grit and intensity with exquisite skill, resulting in a contemporary blues sound that moves both body and soul. With the warmth of Mavis Staples, intensity of Etta James and the soulful delivery of Bonnie Raitt, Ollee’s voice goes directly to the heart, acknowledging the struggles of life while never losing sight of what truly matters.</strong></p> <p>After returning to music a decade ago and releasing 2022’s Cannot be Unheard, Owens is making waves in the Blues and Roots scene with the release of her newest album, Nowhere to Hide (2024), garnering well-earned attention across Canada and Internationally, earning rave reviews across North America and abroad:</p><p>“Ollee has the drive in her performance thrust that is conveyed through artists that are blues powerhouses like Bonnie Raitt, Karen Lawrence & Tracy Nelson… It’s a delight to hear a voice that understands the genre & can project as strongly as Ollee does… It takes expertise, practice & above all a dedicated effort to the genre.”</p><p>John Apice – Americana Highways (USA, 2024)</p><p>“For fans of powerful, soul-infused music, Nowhere to Hide is an album that cannot be missed. Its sophisticated soundscapes and relatable themes oTer a perfect blend of celebration and introspection. As Owens continues to expand her audience, she solidifies her place in the Canadian music landscape — one marked by talent, passion, and an unwavering commitment to her art.” Stevie Connor – The Sound Cafe (Canada, 2024)</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:832;
+  schema:organizer presenter:831;
+  schema:performer artist:21302;
+  schema:contributor network:692;
+  schema:workPerformed show:21303 .
+
+tour:24977-8183 a ado:Event;
+  schema:name "Ollee Owens";
+  schema:startDate "2027-04-18T00:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Far more than a vocal powerhouse, Calgary-based Blues/Soul/Rock artist Ollee Owens blends grit and intensity with exquisite skill, resulting in a contemporary blues sound that moves both body and soul. With the warmth of Mavis Staples, intensity of Etta James and the soulful delivery of Bonnie Raitt, Ollee’s voice goes directly to the heart, acknowledging the struggles of life while never losing sight of what truly matters.</strong></p> <p>After returning to music a decade ago and releasing 2022’s Cannot be Unheard, Owens is making waves in the Blues and Roots scene with the release of her newest album, Nowhere to Hide (2024), garnering well-earned attention across Canada and Internationally, earning rave reviews across North America and abroad:</p><p>“Ollee has the drive in her performance thrust that is conveyed through artists that are blues powerhouses like Bonnie Raitt, Karen Lawrence & Tracy Nelson… It’s a delight to hear a voice that understands the genre & can project as strongly as Ollee does… It takes expertise, practice & above all a dedicated effort to the genre.”</p><p>John Apice – Americana Highways (USA, 2024)</p><p>“For fans of powerful, soul-infused music, Nowhere to Hide is an album that cannot be missed. Its sophisticated soundscapes and relatable themes oTer a perfect blend of celebration and introspection. As Owens continues to expand her audience, she solidifies her place in the Canadian music landscape — one marked by talent, passion, and an unwavering commitment to her art.” Stevie Connor – The Sound Cafe (Canada, 2024)</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:16593;
+  schema:organizer presenter:16586;
+  schema:performer artist:21302;
+  schema:contributor network:692;
+  schema:workPerformed show:21303 .
+
+tour:24978-8184 a ado:Event;
+  schema:name "Ollee Owens";
+  schema:startDate "2027-04-15T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Far more than a vocal powerhouse, Calgary-based Blues/Soul/Rock artist Ollee Owens blends grit and intensity with exquisite skill, resulting in a contemporary blues sound that moves both body and soul. With the warmth of Mavis Staples, intensity of Etta James and the soulful delivery of Bonnie Raitt, Ollee’s voice goes directly to the heart, acknowledging the struggles of life while never losing sight of what truly matters.</strong></p> <p>After returning to music a decade ago and releasing 2022’s Cannot be Unheard, Owens is making waves in the Blues and Roots scene with the release of her newest album, Nowhere to Hide (2024), garnering well-earned attention across Canada and Internationally, earning rave reviews across North America and abroad:</p><p>“Ollee has the drive in her performance thrust that is conveyed through artists that are blues powerhouses like Bonnie Raitt, Karen Lawrence & Tracy Nelson… It’s a delight to hear a voice that understands the genre & can project as strongly as Ollee does… It takes expertise, practice & above all a dedicated effort to the genre.”</p><p>John Apice – Americana Highways (USA, 2024)</p><p>“For fans of powerful, soul-infused music, Nowhere to Hide is an album that cannot be missed. Its sophisticated soundscapes and relatable themes oTer a perfect blend of celebration and introspection. As Owens continues to expand her audience, she solidifies her place in the Canadian music landscape — one marked by talent, passion, and an unwavering commitment to her art.” Stevie Connor – The Sound Cafe (Canada, 2024)</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1201;
+  schema:organizer presenter:854;
+  schema:performer artist:21302;
+  schema:contributor network:692;
+  schema:workPerformed show:21303 .
+
+tour:24982-8186 a ado:Event;
+  schema:name "Ollee Owens";
+  schema:startDate "2027-04-13T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Far more than a vocal powerhouse, Calgary-based Blues/Soul/Rock artist Ollee Owens blends grit and intensity with exquisite skill, resulting in a contemporary blues sound that moves both body and soul. With the warmth of Mavis Staples, intensity of Etta James and the soulful delivery of Bonnie Raitt, Ollee’s voice goes directly to the heart, acknowledging the struggles of life while never losing sight of what truly matters.</strong></p> <p>After returning to music a decade ago and releasing 2022’s Cannot be Unheard, Owens is making waves in the Blues and Roots scene with the release of her newest album, Nowhere to Hide (2024), garnering well-earned attention across Canada and Internationally, earning rave reviews across North America and abroad:</p><p>“Ollee has the drive in her performance thrust that is conveyed through artists that are blues powerhouses like Bonnie Raitt, Karen Lawrence & Tracy Nelson… It’s a delight to hear a voice that understands the genre & can project as strongly as Ollee does… It takes expertise, practice & above all a dedicated effort to the genre.”</p><p>John Apice – Americana Highways (USA, 2024)</p><p>“For fans of powerful, soul-infused music, Nowhere to Hide is an album that cannot be missed. Its sophisticated soundscapes and relatable themes oTer a perfect blend of celebration and introspection. As Owens continues to expand her audience, she solidifies her place in the Canadian music landscape — one marked by talent, passion, and an unwavering commitment to her art.” Stevie Connor – The Sound Cafe (Canada, 2024)</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:782;
+  schema:organizer presenter:761;
+  schema:performer artist:21302;
+  schema:contributor network:692;
+  schema:workPerformed show:21303 .
+
+tour:25128-8301 a ado:Event;
+  schema:name "Valdy";
+  schema:startDate "2026-12-19T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Paul Valdemar Horsdal</strong>, commonly known as <strong>Valdy</strong>, is a Canadian folk and country musician whose solo career began in the early 1970s. He is known for \"Rock and Roll Song\", his first mainstream single. Valdy is the winner of two <a href=\"https://en.wikipedia.org/wiki/Juno_Award\" title=\"\">Juno Awards</a> for Folk Singer of the Year and Folk Entertainer of the Year and has received seven additional Juno nominations. His fourteen albums, including four which are certified gold, have achieved sales of nearly half a million copies.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1239;
+  schema:organizer presenter:823;
+  schema:performer artist:11205;
+  schema:contributor network:692;
+  schema:workPerformed show:11206 .
+
+tour:25129-8302 a ado:Event;
+  schema:name "Valdy";
+  schema:startDate "2026-12-20T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Paul Valdemar Horsdal</strong>, commonly known as <strong>Valdy</strong>, is a Canadian folk and country musician whose solo career began in the early 1970s. He is known for \"Rock and Roll Song\", his first mainstream single. Valdy is the winner of two <a href=\"https://en.wikipedia.org/wiki/Juno_Award\" title=\"\">Juno Awards</a> for Folk Singer of the Year and Folk Entertainer of the Year and has received seven additional Juno nominations. His fourteen albums, including four which are certified gold, have achieved sales of nearly half a million copies.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1201;
+  schema:organizer presenter:854;
+  schema:performer artist:11205;
+  schema:contributor network:692;
+  schema:workPerformed show:11206 .
+
+tour:25130-8303 a ado:Event;
+  schema:name "Valdy";
+  schema:startDate "2026-12-17T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p><strong>Paul Valdemar Horsdal</strong>, commonly known as <strong>Valdy</strong>, is a Canadian folk and country musician whose solo career began in the early 1970s. He is known for \"Rock and Roll Song\", his first mainstream single. Valdy is the winner of two <a href=\"https://en.wikipedia.org/wiki/Juno_Award\" title=\"\">Juno Awards</a> for Folk Singer of the Year and Folk Entertainer of the Year and has received seven additional Juno nominations. His fourteen albums, including four which are certified gold, have achieved sales of nearly half a million copies.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1369;
+  schema:organizer presenter:1351;
+  schema:performer artist:11205;
+  schema:contributor network:692;
+  schema:workPerformed show:11206 .
+
+tour:25230-8380 a ado:Event;
+  schema:name "Silly Billy - The Chimera Project";
+  schema:startDate "2027-01-14T17:45:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Silly Billy, a dance piece for young audiences, for grades K - 4.</p><p>Silly Billy is about a buffalo that wants to become a unicorn. Billy, a rare white-buffalo unhappy with his uniqueness, embarks on a quest to find a magical unicorn with the hope of achieving his greatest dream and to emulate this magnificent creature. Through adventures, obstacles, misunderstandings and mishaps, Billy is surprised to discover his own self-worth and embraces his identity, taking his place alongside the mythical Unicorn as the legendary great white buffalo of the plains. </p><p>The performance includes classical ballet, traditional hoop-dancing, puppetry, and loads of shenanigans. </p><p>HOW IT WAS CREATED Silly Billy was created in 2021, with the input of elder Shirley Horn, directed by by Malgorzata Nowacka-May and choreographed esteemed hoop dance artist Arik Pipe and contemporary dance artist Amy Hampton. The show has reached over 10,000 young people across Ontario, Québec, and the Maritimes since the creation of this work.</p><p> We'll have all the technical equipment we need, and will only need a few electrical outlets/extension cords.</p><p>NEW trailer: https://vimeo.com/890960219/365eec8a3f?share=copy&fbclid=IwAR3XYTiHXUM9S9bwbtRc9DlWUFYsjzz1QjIt82-V2jTiVklvBM_NzQC3Vr4</p><p>Full length video: <a href=\"https://vimeo.com/890942752?share=copy&fbclid=IwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/890942752?share%3Dcopy%26fbclid%3DIwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc&source=gmail&ust=1701786536770000&usg=AOvVaw1Pe5UdSc2IyRoZIVhEd7ch\">https://vimeo.com/890942752?share=copy&fbclid=IwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc</a></p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1214;
+  schema:organizer presenter:759;
+  schema:performer artist:5489;
+  schema:contributor network:692;
+  schema:workPerformed show:6670 .
+
+tour:25230-8381 a ado:Event;
+  schema:name "Silly Billy - The Chimera Project";
+  schema:startDate "2027-01-14T23:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Silly Billy, a dance piece for young audiences, for grades K - 4.</p><p>Silly Billy is about a buffalo that wants to become a unicorn. Billy, a rare white-buffalo unhappy with his uniqueness, embarks on a quest to find a magical unicorn with the hope of achieving his greatest dream and to emulate this magnificent creature. Through adventures, obstacles, misunderstandings and mishaps, Billy is surprised to discover his own self-worth and embraces his identity, taking his place alongside the mythical Unicorn as the legendary great white buffalo of the plains. </p><p>The performance includes classical ballet, traditional hoop-dancing, puppetry, and loads of shenanigans. </p><p>HOW IT WAS CREATED Silly Billy was created in 2021, with the input of elder Shirley Horn, directed by by Malgorzata Nowacka-May and choreographed esteemed hoop dance artist Arik Pipe and contemporary dance artist Amy Hampton. The show has reached over 10,000 young people across Ontario, Québec, and the Maritimes since the creation of this work.</p><p> We'll have all the technical equipment we need, and will only need a few electrical outlets/extension cords.</p><p>NEW trailer: https://vimeo.com/890960219/365eec8a3f?share=copy&fbclid=IwAR3XYTiHXUM9S9bwbtRc9DlWUFYsjzz1QjIt82-V2jTiVklvBM_NzQC3Vr4</p><p>Full length video: <a href=\"https://vimeo.com/890942752?share=copy&fbclid=IwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/890942752?share%3Dcopy%26fbclid%3DIwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc&source=gmail&ust=1701786536770000&usg=AOvVaw1Pe5UdSc2IyRoZIVhEd7ch\">https://vimeo.com/890942752?share=copy&fbclid=IwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc</a></p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1214;
+  schema:organizer presenter:759;
+  schema:performer artist:5489;
+  schema:contributor network:692;
+  schema:workPerformed show:6670 .
+
+tour:25231-8382 a ado:Event;
+  schema:name "Silly Billy - The Chimera Project";
+  a ado:Event;
+  schema:startDate "2027-01-20T17:45:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Silly Billy, a dance piece for young audiences, for grades K - 4.</p><p>Silly Billy is about a buffalo that wants to become a unicorn. Billy, a rare white-buffalo unhappy with his uniqueness, embarks on a quest to find a magical unicorn with the hope of achieving his greatest dream and to emulate this magnificent creature. Through adventures, obstacles, misunderstandings and mishaps, Billy is surprised to discover his own self-worth and embraces his identity, taking his place alongside the mythical Unicorn as the legendary great white buffalo of the plains. </p><p>The performance includes classical ballet, traditional hoop-dancing, puppetry, and loads of shenanigans. </p><p>HOW IT WAS CREATED Silly Billy was created in 2021, with the input of elder Shirley Horn, directed by by Malgorzata Nowacka-May and choreographed esteemed hoop dance artist Arik Pipe and contemporary dance artist Amy Hampton. The show has reached over 10,000 young people across Ontario, Québec, and the Maritimes since the creation of this work.</p><p> We'll have all the technical equipment we need, and will only need a few electrical outlets/extension cords.</p><p>NEW trailer: https://vimeo.com/890960219/365eec8a3f?share=copy&fbclid=IwAR3XYTiHXUM9S9bwbtRc9DlWUFYsjzz1QjIt82-V2jTiVklvBM_NzQC3Vr4</p><p>Full length video: <a href=\"https://vimeo.com/890942752?share=copy&fbclid=IwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/890942752?share%3Dcopy%26fbclid%3DIwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc&source=gmail&ust=1701786536770000&usg=AOvVaw1Pe5UdSc2IyRoZIVhEd7ch\">https://vimeo.com/890942752?share=copy&fbclid=IwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc</a></p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:6984;
+  schema:organizer presenter:5948;
+  schema:performer artist:5489;
+  schema:contributor network:692;
+  schema:workPerformed show:6670 .
+
+tour:25231-8470 a ado:Event;
+  schema:name "Silly Billy - The Chimera Project";
+  schema:startDate "2027-01-20T23:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Silly Billy, a dance piece for young audiences, for grades K - 4.</p><p>Silly Billy is about a buffalo that wants to become a unicorn. Billy, a rare white-buffalo unhappy with his uniqueness, embarks on a quest to find a magical unicorn with the hope of achieving his greatest dream and to emulate this magnificent creature. Through adventures, obstacles, misunderstandings and mishaps, Billy is surprised to discover his own self-worth and embraces his identity, taking his place alongside the mythical Unicorn as the legendary great white buffalo of the plains. </p><p>The performance includes classical ballet, traditional hoop-dancing, puppetry, and loads of shenanigans. </p><p>HOW IT WAS CREATED Silly Billy was created in 2021, with the input of elder Shirley Horn, directed by by Malgorzata Nowacka-May and choreographed esteemed hoop dance artist Arik Pipe and contemporary dance artist Amy Hampton. The show has reached over 10,000 young people across Ontario, Québec, and the Maritimes since the creation of this work.</p><p> We'll have all the technical equipment we need, and will only need a few electrical outlets/extension cords.</p><p>NEW trailer: https://vimeo.com/890960219/365eec8a3f?share=copy&fbclid=IwAR3XYTiHXUM9S9bwbtRc9DlWUFYsjzz1QjIt82-V2jTiVklvBM_NzQC3Vr4</p><p>Full length video: <a href=\"https://vimeo.com/890942752?share=copy&fbclid=IwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://vimeo.com/890942752?share%3Dcopy%26fbclid%3DIwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc&source=gmail&ust=1701786536770000&usg=AOvVaw1Pe5UdSc2IyRoZIVhEd7ch\">https://vimeo.com/890942752?share=copy&fbclid=IwAR25j8OQI6O6gRUpjQgm11EnSKLJs0Ah54EgsZHBtGDXnGWsjxXmvpbyXpc</a></p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:6984;
+  schema:organizer presenter:5948;
+  schema:performer artist:5489;
+  schema:contributor network:692;
+  schema:workPerformed show:6670 .
+
+tour:25232-8383 a ado:Event;
+  schema:name "Piano Heist";
+  schema:startDate "2027-04-24T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Lifelong friends, and colleagues, Nico Rhodes, and Patrick Courtin, shocked and appalled by the realization that piano just isn’t cool anymore, set off on a divine quest to redeem the keyboard and reinstate its reputation as the greatest instrument of ALL TIME! Armed with the music of the greatest composers, songwriters and performers of the past 300 years, and the technology of the 21st century - their virtual orchestra (D.O.U.G.I.), Nico and Patrick deliver everything from classical piano raptures to bombastic boogie woogie, from romantic piano ballads to 80’s keyboard synth battles in their show Piano Heist! What ensues is a mishmash of theatrical wonder, comedy, audience participation, heartfelt stories, a pinch of history, and a world of musical madness.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:14558;
+  schema:organizer presenter:14295;
+  schema:performer artist:5886, artist:5889;
+  schema:contributor network:692;
+  schema:workPerformed show:332 .
+
+tour:25232-8385 a ado:Event;
+  schema:name "Piano Heist";
+  schema:startDate "2027-04-26T14:00:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Lifelong friends, and colleagues, Nico Rhodes, and Patrick Courtin, shocked and appalled by the realization that piano just isn’t cool anymore, set off on a divine quest to redeem the keyboard and reinstate its reputation as the greatest instrument of ALL TIME! Armed with the music of the greatest composers, songwriters and performers of the past 300 years, and the technology of the 21st century - their virtual orchestra (D.O.U.G.I.), Nico and Patrick deliver everything from classical piano raptures to bombastic boogie woogie, from romantic piano ballads to 80’s keyboard synth battles in their show Piano Heist! What ensues is a mishmash of theatrical wonder, comedy, audience participation, heartfelt stories, a pinch of history, and a world of musical madness.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:14558;
+  schema:organizer presenter:14295;
+  schema:performer artist:5886, artist:5889;
+  schema:contributor network:692;
+  schema:workPerformed show:332 .
+
+tour:25235-8384 a ado:Event;
+  schema:name "Piano Heist";
+  schema:startDate "2027-04-27T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Lifelong friends, and colleagues, Nico Rhodes, and Patrick Courtin, shocked and appalled by the realization that piano just isn’t cool anymore, set off on a divine quest to redeem the keyboard and reinstate its reputation as the greatest instrument of ALL TIME! Armed with the music of the greatest composers, songwriters and performers of the past 300 years, and the technology of the 21st century - their virtual orchestra (D.O.U.G.I.), Nico and Patrick deliver everything from classical piano raptures to bombastic boogie woogie, from romantic piano ballads to 80’s keyboard synth battles in their show Piano Heist! What ensues is a mishmash of theatrical wonder, comedy, audience participation, heartfelt stories, a pinch of history, and a world of musical madness.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:805;
+  schema:organizer presenter:722;
+  schema:performer artist:5886, artist:5889;
+  schema:contributor network:692;
+  schema:workPerformed show:332 .
+
 tour:25267-8413 a ado:Event;
   schema:name "The Skeleton Dance";
   schema:startDate "2026-05-30T22:00:00+00:00"^^xsd:dateTime;
@@ -33202,6 +34230,28 @@ tour:25267-8413 a ado:Event;
   schema:performer artist:14624;
   schema:contributor network:10;
   schema:workPerformed show:14625 .
+
+tour:25305-8440 a ado:Event;
+  schema:name "Bangs, Bobs & Banter - Gravity Theatre";
+  schema:startDate "2027-01-22T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bangs, Bobs & Banter: Confessions of a Hairstylist will have audiences laughing their heads off…without messing up their hair. Nikki, a charismatic hairstylist with a gift for storytelling, invites the audience into her salon, seamlessly shifting between characters and revealing a hilarious mix of sassy, saucy, and scandalous secrets. <br><br>Critic's Choice Award Winner-Best Solo Comedy – Orlando Fringe (2024) <br>Sold-Out Run – Edmonton Fringe (2024) <br>Patrons Pick Award – Orlando Fringe (2025) <br>Sold-Out Run – Orlando Fringe (2025)<br><br>Don’t miss out on this hilarious, heartfelt, must-see show!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:7030;
+  schema:organizer presenter:7016;
+  schema:performer artist:21306;
+  schema:contributor network:692;
+  schema:workPerformed show:21270 .
+
+tour:25371-8480 a ado:Event;
+  schema:name "Bangs, Bobs & Banter - Gravity Theatre";
+  schema:startDate "2027-02-10T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Bangs, Bobs & Banter: Confessions of a Hairstylist will have audiences laughing their heads off…without messing up their hair. Nikki, a charismatic hairstylist with a gift for storytelling, invites the audience into her salon, seamlessly shifting between characters and revealing a hilarious mix of sassy, saucy, and scandalous secrets. <br><br>Critic's Choice Award Winner-Best Solo Comedy – Orlando Fringe (2024) <br>Sold-Out Run – Edmonton Fringe (2024) <br>Patrons Pick Award – Orlando Fringe (2025) <br>Sold-Out Run – Orlando Fringe (2025)<br><br>Don’t miss out on this hilarious, heartfelt, must-see show!</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1355;
+  schema:organizer presenter:1354;
+  schema:performer artist:21306;
+  schema:contributor network:692;
+  schema:workPerformed show:21270 .
 
 tour:25392-8507 a ado:Event;
   schema:name "Rachel Therrien";
@@ -33252,3 +34302,193 @@ tour:25396-8516 a ado:Event;
   schema:performer artist:10259;
   schema:contributor network:3901;
   schema:workPerformed show:10260 .
+
+tour:25410-8511 a ado:Event;
+  schema:name "Lewis and Royal";
+  schema:startDate "2026-11-28T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Hey there, we're Lewis & Royal, a couple of down-to-earth prairie boys with a passion for acoustic music and a knack for making folks smile.</p><p>We kicked off this musical journey back in '93, and from the moment we met, it was like our voices were meant to harmonize together. Our first big project, the musical CHICKENS, was a blast—a mix of blues, bluegrass, and old-time rock that folks couldn't get enough of.</p><p>Since then, we've been hitting the road, playing gigs at community halls, rodeos, fundraisers—you name it, we've probably played there. And yeah, we've had some cool moments, like sharing our tunes at places like the Jack Singer Concert Hall and the Olympic Saddledome.</p><p>But what really gets us going is the connection we make with our audience. We're all about keeping it real, having a laugh, and making sure everyone feels like part of the show. That's why our gigs are never the same twice—we love to riff off each other, crack jokes, and just go with the flow.</p><p>So if you're up for a good time and some toe-tapping tunes, come hang with us. We promise, you'll leave with a smile on your face and a song in your heart.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:855;
+  schema:organizer presenter:788;
+  schema:performer artist:21327;
+  schema:contributor network:692;
+  schema:workPerformed show:21328 .
+
+tour:25412-8512 a ado:Event;
+  schema:name "Lewis and Royal";
+  schema:startDate "2026-11-29T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Hey there, we're Lewis & Royal, a couple of down-to-earth prairie boys with a passion for acoustic music and a knack for making folks smile.</p><p>We kicked off this musical journey back in '93, and from the moment we met, it was like our voices were meant to harmonize together. Our first big project, the musical CHICKENS, was a blast—a mix of blues, bluegrass, and old-time rock that folks couldn't get enough of.</p><p>Since then, we've been hitting the road, playing gigs at community halls, rodeos, fundraisers—you name it, we've probably played there. And yeah, we've had some cool moments, like sharing our tunes at places like the Jack Singer Concert Hall and the Olympic Saddledome.</p><p>But what really gets us going is the connection we make with our audience. We're all about keeping it real, having a laugh, and making sure everyone feels like part of the show. That's why our gigs are never the same twice—we love to riff off each other, crack jokes, and just go with the flow.</p><p>So if you're up for a good time and some toe-tapping tunes, come hang with us. We promise, you'll leave with a smile on your face and a song in your heart.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1239;
+  schema:organizer presenter:823;
+  schema:performer artist:21327;
+  schema:contributor network:692;
+  schema:workPerformed show:21328 .
+
+tour:25416-8513 a ado:Event;
+  schema:name "Lewis and Royal";
+  schema:startDate "2027-03-05T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Hey there, we're Lewis & Royal, a couple of down-to-earth prairie boys with a passion for acoustic music and a knack for making folks smile.</p><p>We kicked off this musical journey back in '93, and from the moment we met, it was like our voices were meant to harmonize together. Our first big project, the musical CHICKENS, was a blast—a mix of blues, bluegrass, and old-time rock that folks couldn't get enough of.</p><p>Since then, we've been hitting the road, playing gigs at community halls, rodeos, fundraisers—you name it, we've probably played there. And yeah, we've had some cool moments, like sharing our tunes at places like the Jack Singer Concert Hall and the Olympic Saddledome.</p><p>But what really gets us going is the connection we make with our audience. We're all about keeping it real, having a laugh, and making sure everyone feels like part of the show. That's why our gigs are never the same twice—we love to riff off each other, crack jokes, and just go with the flow.</p><p>So if you're up for a good time and some toe-tapping tunes, come hang with us. We promise, you'll leave with a smile on your face and a song in your heart.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1215;
+  schema:organizer presenter:759;
+  schema:performer artist:21327;
+  schema:contributor network:692;
+  schema:workPerformed show:21328 .
+
+tour:25417-8514 a ado:Event;
+  schema:name "Lewis and Royal";
+  schema:startDate "2027-02-20T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Hey there, we're Lewis & Royal, a couple of down-to-earth prairie boys with a passion for acoustic music and a knack for making folks smile.</p><p>We kicked off this musical journey back in '93, and from the moment we met, it was like our voices were meant to harmonize together. Our first big project, the musical CHICKENS, was a blast—a mix of blues, bluegrass, and old-time rock that folks couldn't get enough of.</p><p>Since then, we've been hitting the road, playing gigs at community halls, rodeos, fundraisers—you name it, we've probably played there. And yeah, we've had some cool moments, like sharing our tunes at places like the Jack Singer Concert Hall and the Olympic Saddledome.</p><p>But what really gets us going is the connection we make with our audience. We're all about keeping it real, having a laugh, and making sure everyone feels like part of the show. That's why our gigs are never the same twice—we love to riff off each other, crack jokes, and just go with the flow.</p><p>So if you're up for a good time and some toe-tapping tunes, come hang with us. We promise, you'll leave with a smile on your face and a song in your heart.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1369;
+  schema:organizer presenter:1351;
+  schema:performer artist:21327;
+  schema:contributor network:692;
+  schema:workPerformed show:21328 .
+
+tour:25430-8526 a ado:Event;
+  schema:name "Trio Fibonacci";
+  schema:startDate "2027-04-22T17:00:00+00:00"^^xsd:dateTime;
+  schema:description "<a href=\"https://circulationmusique.com/concert/1476\" target=\"_blank\" rel=\"noreferrer noopener\">THE GIANTS OF MINIMALISM</a><p>Discover a captivating body of works that go straight to the heart of melody. The highlight of this concert: Max Richter's masterly recomposition of the Four Seasons by Vivaldi, which takes us to the convergence of past and present. Works by Glass, Nyman, Amar, Eno and Einaudi complete this programme of spellbinding simplicity.</p><p>Works featured<br>Armand Amar: Castells<br>Michael Nyman: The Heart Asks Pleasure First<br>Philip Glass: The Hours<br>Brian Eno: By This River<br>Ludovico Einaudi: I Giorni and Petricor<br>Max Richter: The Seasons Recomposed</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:27417;
+  schema:organizer presenter:817;
+  schema:performer artist:21261;
+  schema:contributor network:692;
+  schema:workPerformed show:21262 .
+
+tour:25430-8527 a ado:Event;
+  schema:name "Trio Fibonacci";
+  schema:startDate "2027-04-23T23:00:00+00:00"^^xsd:dateTime;
+  schema:description "<a href=\"https://circulationmusique.com/concert/1476\" target=\"_blank\" rel=\"noreferrer noopener\">THE GIANTS OF MINIMALISM</a><p>Discover a captivating body of works that go straight to the heart of melody. The highlight of this concert: Max Richter's masterly recomposition of the Four Seasons by Vivaldi, which takes us to the convergence of past and present. Works by Glass, Nyman, Amar, Eno and Einaudi complete this programme of spellbinding simplicity.</p><p>Works featured<br>Armand Amar: Castells<br>Michael Nyman: The Heart Asks Pleasure First<br>Philip Glass: The Hours<br>Brian Eno: By This River<br>Ludovico Einaudi: I Giorni and Petricor<br>Max Richter: The Seasons Recomposed</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:944;
+  schema:organizer presenter:817;
+  schema:performer artist:21261;
+  schema:contributor network:692;
+  schema:workPerformed show:21262 .
+
+tour:25430-8775 a ado:Event;
+  schema:name "Trio Fibonacci";
+  schema:startDate "2027-04-22T18:00:00+00:00"^^xsd:dateTime;
+  schema:description "<a href=\"https://circulationmusique.com/concert/1476\" target=\"_blank\" rel=\"noreferrer noopener\">THE GIANTS OF MINIMALISM</a><p>Discover a captivating body of works that go straight to the heart of melody. The highlight of this concert: Max Richter's masterly recomposition of the Four Seasons by Vivaldi, which takes us to the convergence of past and present. Works by Glass, Nyman, Amar, Eno and Einaudi complete this programme of spellbinding simplicity.</p><p>Works featured<br>Armand Amar: Castells<br>Michael Nyman: The Heart Asks Pleasure First<br>Philip Glass: The Hours<br>Brian Eno: By This River<br>Ludovico Einaudi: I Giorni and Petricor<br>Max Richter: The Seasons Recomposed</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:27417;
+  schema:organizer presenter:817;
+  schema:performer artist:21261;
+  schema:contributor network:692;
+  schema:workPerformed show:21262 .
+
+tour:25432-8528 a ado:Event;
+  schema:name "Trio Fibonacci";
+  schema:startDate "2027-04-24T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<a href=\"https://circulationmusique.com/concert/1476\" target=\"_blank\" rel=\"noreferrer noopener\">THE GIANTS OF MINIMALISM</a><p>Discover a captivating body of works that go straight to the heart of melody. The highlight of this concert: Max Richter's masterly recomposition of the Four Seasons by Vivaldi, which takes us to the convergence of past and present. Works by Glass, Nyman, Amar, Eno and Einaudi complete this programme of spellbinding simplicity.</p><p>Works featured<br>Armand Amar: Castells<br>Michael Nyman: The Heart Asks Pleasure First<br>Philip Glass: The Hours<br>Brian Eno: By This River<br>Ludovico Einaudi: I Giorni and Petricor<br>Max Richter: The Seasons Recomposed</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:840;
+  schema:organizer presenter:810;
+  schema:performer artist:21261;
+  schema:contributor network:692;
+  schema:workPerformed show:21262 .
+
+tour:25565-8646 a ado:Event;
+  schema:name "Lewis and Royal";
+  schema:startDate "2027-03-06T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Hey there, we're Lewis & Royal, a couple of down-to-earth prairie boys with a passion for acoustic music and a knack for making folks smile.</p><p>We kicked off this musical journey back in '93, and from the moment we met, it was like our voices were meant to harmonize together. Our first big project, the musical CHICKENS, was a blast—a mix of blues, bluegrass, and old-time rock that folks couldn't get enough of.</p><p>Since then, we've been hitting the road, playing gigs at community halls, rodeos, fundraisers—you name it, we've probably played there. And yeah, we've had some cool moments, like sharing our tunes at places like the Jack Singer Concert Hall and the Olympic Saddledome.</p><p>But what really gets us going is the connection we make with our audience. We're all about keeping it real, having a laugh, and making sure everyone feels like part of the show. That's why our gigs are never the same twice—we love to riff off each other, crack jokes, and just go with the flow.</p><p>So if you're up for a good time and some toe-tapping tunes, come hang with us. We promise, you'll leave with a smile on your face and a song in your heart.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:806;
+  schema:organizer presenter:745;
+  schema:performer artist:21327;
+  schema:contributor network:692;
+  schema:workPerformed show:21328 .
+
+tour:25590-8667 a ado:Event;
+  schema:name "Piano Heist";
+  schema:startDate "2027-04-29T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Lifelong friends, and colleagues, Nico Rhodes, and Patrick Courtin, shocked and appalled by the realization that piano just isn’t cool anymore, set off on a divine quest to redeem the keyboard and reinstate its reputation as the greatest instrument of ALL TIME! Armed with the music of the greatest composers, songwriters and performers of the past 300 years, and the technology of the 21st century - their virtual orchestra (D.O.U.G.I.), Nico and Patrick deliver everything from classical piano raptures to bombastic boogie woogie, from romantic piano ballads to 80’s keyboard synth battles in their show Piano Heist! What ensues is a mishmash of theatrical wonder, comedy, audience participation, heartfelt stories, a pinch of history, and a world of musical madness.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:782;
+  schema:organizer presenter:761;
+  schema:performer artist:5886, artist:5889;
+  schema:contributor network:692;
+  schema:workPerformed show:332 .
+
+tour:26552-8670 a ado:Event;
+  schema:name "BLAK: Iconic Canadian Women in Music";
+  schema:startDate "2027-03-01T00:30:00+00:00"^^xsd:dateTime;
+  schema:description """BLAK: Iconic Canadian Women in Music
+
+Created & Performed by KRYSTLE DOS SANTOS
+
+
+	
+		
+			
+			A CELEBRATION OF BLACK WOMEN, HISTORY, AND MUSIC.
+
+			<p>A powerful musical journey celebrating notable Black Canadian women in music. Krystle Dos Santos shares historically important stories about the underground railroad, civil rights movement, and key events in Black history while weaving in iconic songs from the eras in which these women lived and performed. Experience the music of talented and influential Black Canadian icons all while learning about their life and inspirations.<br />
+			<br />
+			Celebrate International Women’s Day with WCT fan-favourite Krystle Dos Santos (co-creator and performer of <em>Hey Viola!</em>) and her band for an evening of Canadian history and music unlike anything you’ve experienced before. Featuring songs and stories from a variety of classical and contemporary Canadian artists in an array of musical styles including spirituals, jazz, blues, soul, R&B, pop, and hip hop.</p>
+			
+		
+	
+
+
+<p dir=\"ltr\"> </p>""";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:14558;
+  schema:organizer presenter:14295;
+  schema:performer artist:16428;
+  schema:contributor network:692;
+  schema:workPerformed show:16429 .
+
+tour:26552-8671 a ado:Event;
+  schema:name "BLAK: Iconic Canadian Women in Music";
+  schema:startDate "2027-03-01T15:30:00+00:00"^^xsd:dateTime;
+  schema:description """BLAK: Iconic Canadian Women in Music
+
+Created & Performed by KRYSTLE DOS SANTOS
+
+
+	
+		
+			
+			A CELEBRATION OF BLACK WOMEN, HISTORY, AND MUSIC.
+
+			<p>A powerful musical journey celebrating notable Black Canadian women in music. Krystle Dos Santos shares historically important stories about the underground railroad, civil rights movement, and key events in Black history while weaving in iconic songs from the eras in which these women lived and performed. Experience the music of talented and influential Black Canadian icons all while learning about their life and inspirations.<br />
+			<br />
+			Celebrate International Women’s Day with WCT fan-favourite Krystle Dos Santos (co-creator and performer of <em>Hey Viola!</em>) and her band for an evening of Canadian history and music unlike anything you’ve experienced before. Featuring songs and stories from a variety of classical and contemporary Canadian artists in an array of musical styles including spirituals, jazz, blues, soul, R&B, pop, and hip hop.</p>
+			
+		
+	
+
+
+<p dir=\"ltr\"> </p>""";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:14558;
+  schema:organizer presenter:14295;
+  schema:performer artist:16428;
+  schema:contributor network:692;
+  schema:workPerformed show:16429 .
+
+tour:26561-8677 a ado:Event;
+  schema:name "Piano Heist";
+  schema:startDate "2027-05-01T23:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Lifelong friends, and colleagues, Nico Rhodes, and Patrick Courtin, shocked and appalled by the realization that piano just isn’t cool anymore, set off on a divine quest to redeem the keyboard and reinstate its reputation as the greatest instrument of ALL TIME! Armed with the music of the greatest composers, songwriters and performers of the past 300 years, and the technology of the 21st century - their virtual orchestra (D.O.U.G.I.), Nico and Patrick deliver everything from classical piano raptures to bombastic boogie woogie, from romantic piano ballads to 80’s keyboard synth battles in their show Piano Heist! What ensues is a mishmash of theatrical wonder, comedy, audience participation, heartfelt stories, a pinch of history, and a world of musical madness.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:771;
+  schema:organizer presenter:763;
+  schema:performer artist:5886, artist:5889;
+  schema:contributor network:692;
+  schema:workPerformed show:332 .
+
+tour:27356-8805 a ado:Event;
+  schema:name "Lewis and Royal";
+  schema:startDate "2027-03-13T00:30:00+00:00"^^xsd:dateTime;
+  schema:description "<p>Hey there, we're Lewis & Royal, a couple of down-to-earth prairie boys with a passion for acoustic music and a knack for making folks smile.</p><p>We kicked off this musical journey back in '93, and from the moment we met, it was like our voices were meant to harmonize together. Our first big project, the musical CHICKENS, was a blast—a mix of blues, bluegrass, and old-time rock that folks couldn't get enough of.</p><p>Since then, we've been hitting the road, playing gigs at community halls, rodeos, fundraisers—you name it, we've probably played there. And yeah, we've had some cool moments, like sharing our tunes at places like the Jack Singer Concert Hall and the Olympic Saddledome.</p><p>But what really gets us going is the connection we make with our audience. We're all about keeping it real, having a laugh, and making sure everyone feels like part of the show. That's why our gigs are never the same twice—we love to riff off each other, crack jokes, and just go with the flow.</p><p>So if you're up for a good time and some toe-tapping tunes, come hang with us. We promise, you'll leave with a smile on your face and a song in your heart.</p>";
+  schema:eventStatus schema:EventScheduled;
+  schema:location performance-space:1201;
+  schema:organizer presenter:854;
+  schema:performer artist:21327;
+  schema:contributor network:692;
+  schema:workPerformed show:21328 .

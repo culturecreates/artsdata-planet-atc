@@ -2799,3 +2799,12 @@ performance-space:28197 a schema:Place;
   schema:name "McPherson Playhouse";
   schema:sameAs wd:Q6802599, adr:K25-488;
   schema:maximumAttendeeCapacity "772" .
+
+presenter:28250 a schema:Organization;
+  schema:location performance-space:28325;
+  schema:name "Kingsbrae International Residence for the Arts & Amphitheatre" .
+
+performance-space:28325 a schema:Place;
+  schema:name "Kira Amphitheatre";
+  schema:sameAs wd:Q116787546, adr:K2-4974;
+  schema:maximumAttendeeCapacity "950" .
