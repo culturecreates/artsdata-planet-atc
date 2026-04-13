@@ -1999,7 +1999,7 @@ performance-space:7616 a schema:Place;
 
 presenter:4050 a schema:Organization;
   schema:location performance-space:7707, performance-space:7708;
-  schema:name "ACT Arts Centre" .
+  schema:name "ACT Arts Centre & Theatre" .
 
 performance-space:7707 a schema:Place;
   schema:name "ACT Arts Centre - Mainstage Theatre";
