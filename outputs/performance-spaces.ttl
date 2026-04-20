@@ -2808,3 +2808,11 @@ performance-space:28325 a schema:Place;
   schema:name "Kira Amphitheatre";
   schema:sameAs wd:Q116787546, adr:K2-4974;
   schema:maximumAttendeeCapacity "950" .
+
+presenter:18142 a schema:Organization;
+  schema:location performance-space:28397;
+  schema:name "Crimson Coast Dance Society" .
+
+performance-space:28397 a schema:Place;
+  schema:name "The OV Arts Centre";
+  schema:maximumAttendeeCapacity "97" .
