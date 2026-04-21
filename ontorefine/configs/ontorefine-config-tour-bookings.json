@@ -107,7 +107,7 @@
                   {
                     "valueSource": {
                       "source": "column",
-                      "columnName": "_ - attributes - event_date"
+                      "columnName": "_ - attributes - event_date_local"
                     },
                     "valueType": {
                       "type": "datatype_literal",
