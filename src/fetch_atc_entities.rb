@@ -114,6 +114,9 @@ def main
       else
         LOGGER.info "Adding event status URIs..."
         data = Artsdata::Attributes.add_event_status(data, LOGGER)
+
+        LOGGER.info "Converting event_date to floating local time..."
+        data = Artsdata::Attributes.add_event_date_local(data, LOGGER)
       end
     end
     
