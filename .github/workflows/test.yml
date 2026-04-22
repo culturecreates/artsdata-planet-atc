@@ -26,6 +26,7 @@ jobs:
         run: |
           gem install minitest
           gem install webmock
+          gem install tzinfo
 
       - name: Run filter and status tests
         run: |
