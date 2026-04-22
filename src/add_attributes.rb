@@ -87,6 +87,9 @@ module Artsdata
           end
         }
       )
+    rescue TZInfo::DataSourceNotFound => e
+      logger&.error "TZInfo data not available: #{e.message}"
+      data
     end
   end
 end
