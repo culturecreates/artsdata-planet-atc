@@ -58,8 +58,10 @@ module Artsdata
       )
     end
 
-    # This method shifts the value back to the correct Toronto wall-clock time 
-    # and strips the timezone suffix to produce a floating xsd:dateTime. 
+    # Converts event_date (a UTC instant) to a floating America/Toronto
+    # wall-clock xsd:dateTime by applying the correct DST-aware offset.
+    # The result has no timezone suffix, allowing Artsdata's auto-mint
+    # process to assign the correct offset from the venue's timezone ID. 
     def self.add_event_date_local(data, logger = nil)
       add_attribute(
         data,
