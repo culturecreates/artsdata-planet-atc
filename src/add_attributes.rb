@@ -8,8 +8,6 @@ module Artsdata
       'postponed' => 'http://schema.org/EventPostponed'
     }.freeze
 
-    TORONTO_TZ = TZInfo::Timezone.get('America/Toronto')
-
     def self.add_attribute(
       data,
       source_key:,
@@ -79,19 +77,21 @@ module Artsdata
 
             # utc_to_local is the correct tzinfo API: given a UTC instant,
             # return the Toronto wall-clock time, handling DST automatically.
-            local_time = TORONTO_TZ.utc_to_local(utc_time)
+            local_time = toronto_timezone.utc_to_local(utc_time)
 
             # Return a floating dateTime — no Z, no offset suffix.
             local_time.strftime('%Y-%m-%dT%H:%M:%S')
-          rescue ArgumentError, TZInfo::InvalidTimezoneIdentifier => e
+          rescue ArgumentError, TZInfo::InvalidTimezoneIdentifier, TZInfo::DataSourceNotFound => e
             logger&.warn "Could not convert event_date '#{event_date_str}': #{e.message}"
             nil
           end
         }
       )
-    rescue TZInfo::DataSourceNotFound => e
-      logger&.error "TZInfo data not available: #{e.message}"
-      data
     end
+
+    def self.toronto_timezone
+      @toronto_timezone ||= TZInfo::Timezone.get('America/Toronto')
+    end
+    private_class_method :toronto_timezone
   end
 end
