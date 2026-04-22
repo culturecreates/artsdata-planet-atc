@@ -105,6 +105,13 @@ class AddEventDateLocalTest < Minitest::Test
     assert_equal original, data[0]['attributes']['event_date']
   end
 
+  def test_positive_zero_offset_format
+    data = [make_record('10', '2027-03-10T00:30:00+00:00')]
+    run_transform(data)
+    # March 10, 2027 is after spring-forward (EDT, UTC-4): 00:30 - 4h = 20:30 Mar 9
+    assert_equal '2027-03-09T20:30:00', data[0]['attributes']['event_date_local']
+  end
+
   # Multiple records — all transformed independently
   def test_multiple_records
     data = [
