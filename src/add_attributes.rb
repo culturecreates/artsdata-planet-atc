@@ -1,4 +1,5 @@
-# Artsdata module for attribute utilities
+require 'tzinfo'
+require 'time'
 module Artsdata
   module Attributes
     STATUS_MAPPING = {
@@ -54,5 +55,43 @@ module Artsdata
         }
       )
     end
+
+    # Converts event_date (a UTC instant) to a floating America/Toronto
+    # wall-clock xsd:dateTime by applying the correct DST-aware offset.
+    # The result has no timezone suffix, allowing Artsdata's auto-mint
+    # process to assign the correct offset from the venue's timezone ID. 
+    def self.add_event_date_local(data, logger = nil)
+      add_attribute(
+        data,
+        source_key: 'event_date',
+        target_key: 'event_date_local',
+        logger: logger,
+        transformer: ->(event_date_str, _attrs) {
+          return nil if event_date_str.nil? || event_date_str.strip.empty?
+
+          begin
+            # Parse the incoming value as UTC (it is mislabeled — it is
+            # actually the user's Toronto local time passed through as UTC).
+            # Time.iso8601 always interprets Z as UTC regardless of host TZ.
+            utc_time = Time.iso8601(event_date_str).utc
+
+            # utc_to_local is the correct tzinfo API: given a UTC instant,
+            # return the Toronto wall-clock time, handling DST automatically.
+            local_time = toronto_timezone.utc_to_local(utc_time)
+
+            # Return a floating dateTime — no Z, no offset suffix.
+            local_time.strftime('%Y-%m-%dT%H:%M:%S')
+          rescue ArgumentError, TZInfo::InvalidTimezoneIdentifier, TZInfo::DataSourceNotFound => e
+            logger&.warn "Could not convert event_date '#{event_date_str}': #{e.message}"
+            nil
+          end
+        }
+      )
+    end
+
+    def self.toronto_timezone
+      @toronto_timezone ||= TZInfo::Timezone.get('America/Toronto')
+    end
+    private_class_method :toronto_timezone
   end
 end

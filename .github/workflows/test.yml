@@ -26,6 +26,8 @@ jobs:
         run: |
           gem install minitest
           gem install webmock
+          gem install tzinfo
+          gem install concurrent-ruby
 
       - name: Run filter and status tests
         run: |
