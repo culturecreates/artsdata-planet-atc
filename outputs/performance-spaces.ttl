@@ -2816,3 +2816,12 @@ presenter:18142 a schema:Organization;
 performance-space:28397 a schema:Place;
   schema:name "The OV Arts Centre";
   schema:maximumAttendeeCapacity "97" .
+
+presenter:28468 a schema:Organization;
+  schema:location performance-space:28469;
+  schema:name "Arts On Maple Ridge-Pitt Meadows" .
+
+performance-space:28469 a schema:Place;
+  schema:name "The ACT Arts Centre";
+  schema:sameAs wd:Q75641709, adr:K25-490;
+  schema:maximumAttendeeCapacity "486" .
