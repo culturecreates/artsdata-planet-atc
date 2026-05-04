@@ -171,7 +171,7 @@ presenter:283 a schema:Organization;
 
 performance-space:301 a schema:Place;
   schema:name "The Rose Theatre Main Hall";
-  schema:maximumAttendeeCapacity "868" .
+  schema:maximumAttendeeCapacity "854" .
 
 performance-space:302 a schema:Place;
   schema:name "The Rose Theatre Studio";
@@ -2825,3 +2825,12 @@ performance-space:28469 a schema:Place;
   schema:name "The ACT Arts Centre";
   schema:sameAs wd:Q75641709, adr:K25-490;
   schema:maximumAttendeeCapacity "486" .
+
+presenter:28424 a schema:Organization;
+  schema:location performance-space:28563;
+  schema:name "Al Whittle Theatre" .
+
+performance-space:28563 a schema:Place;
+  schema:name "Al Whittle Theatre";
+  schema:sameAs wd:Q38280959, adr:K2-6748;
+  schema:maximumAttendeeCapacity "160" .
