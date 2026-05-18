@@ -2834,3 +2834,11 @@ performance-space:28563 a schema:Place;
   schema:name "Al Whittle Theatre";
   schema:sameAs wd:Q38280959, adr:K2-6748;
   schema:maximumAttendeeCapacity "160" .
+
+presenter:28590 a schema:Organization;
+  schema:location performance-space:28653;
+  schema:name "The Langham Cultural Society" .
+
+performance-space:28653 a schema:Place;
+  schema:name "Langham Cultural Centre";
+  schema:maximumAttendeeCapacity "70" .
