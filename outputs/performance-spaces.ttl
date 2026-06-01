@@ -2842,3 +2842,11 @@ presenter:28590 a schema:Organization;
 performance-space:28653 a schema:Place;
   schema:name "Langham Cultural Centre";
   schema:maximumAttendeeCapacity "70" .
+
+presenter:28705 a schema:Organization;
+  schema:location performance-space:28706;
+  schema:name "Springboard Performance" .
+
+performance-space:28706 a schema:Place;
+  schema:name "Grand Theatre";
+  schema:sameAs wd:Q5595141, adr:K2-5309 .
