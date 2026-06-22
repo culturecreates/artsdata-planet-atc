@@ -2850,3 +2850,11 @@ presenter:28705 a schema:Organization;
 performance-space:28706 a schema:Place;
   schema:name "Grand Theatre";
   schema:sameAs wd:Q5595141, adr:K2-5309 .
+
+presenter:28903 a schema:Organization;
+  schema:location performance-space:28918;
+  schema:name "Festival Hall " .
+
+performance-space:28918 a schema:Place;
+  schema:name "Festival Hall";
+  schema:maximumAttendeeCapacity "520" .
