@@ -51,7 +51,7 @@ genre:18 a skos:Concept;
   skos:prefLabel "Music";
   skos:inScheme genre:ATCGenreScheme;
   skos:narrower genre:19, genre:20, genre:21, genre:22, genre:23, genre:24, genre:25,
-    genre:26 .
+    genre:26, genre:8074 .
 
 genre:19 a skos:Concept;
   skos:prefLabel "Classical";
@@ -108,4 +108,8 @@ genre:31 a skos:Concept;
 
 genre:32 a skos:Concept;
   skos:prefLabel "Young Audience/Family";
+  skos:inScheme genre:ATCGenreScheme .
+
+genre:8074 a skos:Concept;
+  skos:prefLabel "Hip Hop / R&B";
   skos:inScheme genre:ATCGenreScheme .
