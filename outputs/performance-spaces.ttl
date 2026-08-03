@@ -2858,3 +2858,19 @@ presenter:28903 a schema:Organization;
 performance-space:28918 a schema:Place;
   schema:name "Festival Hall";
   schema:maximumAttendeeCapacity "520" .
+
+presenter:29009 a schema:Organization;
+  schema:location performance-space:29010;
+  schema:name "The Arts Guild" .
+
+performance-space:29010 a schema:Place;
+  schema:name "The Arts Guild Black Box";
+  schema:maximumAttendeeCapacity "90" .
+
+presenter:28995 a schema:Organization;
+  schema:location performance-space:29019;
+  schema:name "Regent Theatre" .
+
+performance-space:29019 a schema:Place;
+  schema:name "Regent Theatre - Oshawa";
+  schema:maximumAttendeeCapacity "604" .
