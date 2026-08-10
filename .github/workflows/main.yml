@@ -93,7 +93,7 @@ jobs:
           
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
             name: ttl-file
             path: outputs/
@@ -103,11 +103,11 @@ jobs:
     needs: process-using-ontorefine
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download artifacts
         id: download-step
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
             name: ttl-file
             path: outputs/
@@ -129,7 +129,7 @@ jobs:
         artifact: ["artists", "networks", "presenters", "performance-spaces", "representatives", "shows", "tour-bookings"]
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v2
+        uses: culturecreates/artsdata-pipeline-action@v4
         with:
             artifact: ${{ matrix.artifact }}
             publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
