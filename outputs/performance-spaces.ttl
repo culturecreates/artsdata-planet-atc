@@ -2874,3 +2874,10 @@ presenter:28995 a schema:Organization;
 performance-space:29019 a schema:Place;
   schema:name "Regent Theatre - Oshawa";
   schema:maximumAttendeeCapacity "604" .
+
+presenter:29159 a schema:Organization;
+  schema:location performance-space:29160;
+  schema:name "Musique Saint-Joachim" .
+
+performance-space:29160 a schema:Place;
+  schema:name "Église Saint-Joachim " .
