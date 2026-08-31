@@ -2881,3 +2881,11 @@ presenter:29159 a schema:Organization;
 
 performance-space:29160 a schema:Place;
   schema:name "Église Saint-Joachim " .
+
+presenter:4487 a schema:Organization;
+  schema:location performance-space:29279;
+  schema:name "CENTRE IN THE SQUARE" .
+
+performance-space:29279 a schema:Place;
+  schema:name "Centre in the Square Studio Theatre";
+  schema:sameAs wd:Q136663168, adr:K2-6169 .
