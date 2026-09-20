@@ -287,7 +287,7 @@ presenter:680 a schema:Organization;
 
 performance-space:681 a schema:Place;
   schema:name "Bernard Childs Auditorium";
-  schema:maximumAttendeeCapacity "400" .
+  schema:maximumAttendeeCapacity "380" .
 
 presenter:699 a schema:Organization;
   schema:location performance-space:700;
@@ -2771,7 +2771,7 @@ performance-space:27448 a schema:Place;
   schema:maximumAttendeeCapacity "200" .
 
 presenter:27965 a schema:Organization;
-  schema:location performance-space:27972;
+  schema:location performance-space:27972, performance-space:30076;
   schema:name "Kimberley Arts Council-Centre 64" .
 
 performance-space:27972 a schema:Place;
@@ -2779,7 +2779,7 @@ performance-space:27972 a schema:Place;
   schema:maximumAttendeeCapacity "126" .
 
 presenter:680 a schema:Organization;
-  schema:location performance-space:28018;
+  schema:location performance-space:28018, performance-space:30070;
   schema:name "THEOP" .
 
 performance-space:28018 a schema:Place;
@@ -2889,3 +2889,11 @@ presenter:4487 a schema:Organization;
 performance-space:29279 a schema:Place;
   schema:name "Centre in the Square Studio Theatre";
   schema:sameAs wd:Q136663168, adr:K2-6169 .
+
+performance-space:30070 a schema:Place;
+  schema:name "Deep River Community Church";
+  schema:maximumAttendeeCapacity "250" .
+
+performance-space:30076 a schema:Place;
+  schema:name "Centre 64 Arts Centre outdoor stage";
+  schema:maximumAttendeeCapacity "250" .
