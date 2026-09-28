@@ -41,15 +41,12 @@
         "service": "https://api.artsdata.ca/recon",
         "identifierSpace": "http://kg.artsdata.ca/resource/",
         "schemaSpace": "http://schema.org/",
-        "type": {
-          "id": "http://kg.artsdata.ca/ontology/Genre",
-          "name": "http://kg.artsdata.ca/ontology/Genre"
-        },
+        "type": {},
         "autoMatch": true,
         "columnDetails": [],
         "limit": 0
       },
-      "description": "Reconcile cells in column _ - attributes - genres - _ - name to type http://kg.artsdata.ca/ontology/Genre"
+      "description": "Reconcile cells in column _ - attributes - genres - _ - name"
     },
     {
       "op": "core/column-addition",
@@ -94,11 +91,11 @@
               {
                 "valueSource": {
                   "source": "constant",
-                  "constant": "LivePerformanceWork"
+                  "constant": "PerformanceWork"
                 },
                 "transformation": {
                   "language": "prefix",
-                  "expression": "ado"
+                  "expression": "schema"
                 }
               }
             ],
