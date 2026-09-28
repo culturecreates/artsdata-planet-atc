@@ -167,7 +167,7 @@ performance-space:300 a schema:Place;
 
 presenter:283 a schema:Organization;
   schema:location performance-space:301, performance-space:302;
-  schema:name "Brampton On Stage Presents" .
+  schema:name "The Rose Brampton" .
 
 performance-space:301 a schema:Place;
   schema:name "The Rose Theatre Main Hall";
@@ -2897,3 +2897,21 @@ performance-space:30070 a schema:Place;
 performance-space:30076 a schema:Place;
   schema:name "Centre 64 Arts Centre outdoor stage";
   schema:maximumAttendeeCapacity "250" .
+
+presenter:30114 a schema:Organization;
+  schema:location performance-space:30149;
+  schema:name "Roxy Theatre " .
+
+performance-space:30149 a schema:Place;
+  schema:name "The Historic Roxy Theatre";
+  schema:sameAs wd:Q38521103, adr:K26-485;
+  schema:maximumAttendeeCapacity "400" .
+
+presenter:30165 a schema:Organization;
+  schema:location performance-space:30172;
+  schema:name "Mile Zero Dance" .
+
+performance-space:30172 a schema:Place;
+  schema:name "Mile Zero Dance Warehouse";
+  schema:sameAs wd:Q126369617, adr:K25-741;
+  schema:maximumAttendeeCapacity "100" .
