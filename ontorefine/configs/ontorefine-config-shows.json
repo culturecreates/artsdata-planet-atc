@@ -71,7 +71,6 @@
           "artist": "http://arts-tc.ca/artist/",
           "category": "http://arts-tc.ca/category/",
           "genre": "http://arts-tc.ca/genre/",
-          "ado": "http://kg.artsdata.ca/ontology/",
           "skos": "http://www.w3.org/2004/02/skos/core#",
           "adr": "http://kg.artsdata.ca/resource/"
         },
