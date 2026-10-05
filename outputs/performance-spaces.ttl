@@ -2915,3 +2915,28 @@ performance-space:30172 a schema:Place;
   schema:name "Mile Zero Dance Warehouse";
   schema:sameAs wd:Q126369617, adr:K25-741;
   schema:maximumAttendeeCapacity "100" .
+
+presenter:30115 a schema:Organization;
+  schema:location performance-space:30281;
+  schema:name "Gravenhurst Opera House" .
+
+performance-space:30281 a schema:Place;
+  schema:name "Gravenhurst Opera House";
+  schema:sameAs wd:Q140193190, adr:K27-385;
+  schema:maximumAttendeeCapacity "305" .
+
+presenter:14779 a schema:Organization;
+  schema:location performance-space:30285, performance-space:30286, performance-space:30287;
+  schema:name "Lethbridge Folk Club" .
+
+performance-space:30285 a schema:Place;
+  schema:name "Army Navy Air Force Veterans Club";
+  schema:maximumAttendeeCapacity "109" .
+
+performance-space:30286 a schema:Place;
+  schema:name "Casa Community Room";
+  schema:maximumAttendeeCapacity "200" .
+
+performance-space:30287 a schema:Place;
+  schema:name "Analog Books";
+  schema:maximumAttendeeCapacity "50" .
