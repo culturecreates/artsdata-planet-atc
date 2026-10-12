@@ -1703,7 +1703,7 @@ performance-space:4244 a schema:Place;
 
 presenter:4063 a schema:Organization;
   schema:location performance-space:4341;
-  schema:name "Evergreen Cultural Centre" .
+  schema:name "Evergreen Cultural Centre (dba Evergreen Arts)" .
 
 performance-space:4341 a schema:Place;
   schema:name "Evergreen Cultural Centre";
@@ -2578,7 +2578,7 @@ performance-space:23486 a schema:Place;
   schema:maximumAttendeeCapacity "120" .
 
 presenter:766 a schema:Organization;
-  schema:location performance-space:23560, performance-space:23879;
+  schema:location performance-space:23560, performance-space:23879, performance-space:30450;
   schema:name "Whitecourt and Woodlands Performing Arts Society" .
 
 performance-space:23560 a schema:Place;
@@ -2940,3 +2940,119 @@ performance-space:30286 a schema:Place;
 performance-space:30287 a schema:Place;
   schema:name "Analog Books";
   schema:maximumAttendeeCapacity "50" .
+
+presenter:3685 a schema:Organization;
+  schema:location performance-space:30330;
+  schema:name "Fish Creek Concerts" .
+
+performance-space:30330 a schema:Place;
+  schema:name "River Park Church";
+  schema:sameAs wd:Q130350956, adr:K2-5351;
+  schema:maximumAttendeeCapacity "420" .
+
+presenter:22306 a schema:Organization;
+  schema:location performance-space:30334, performance-space:30335;
+  schema:name "Victoria Conservatory of Music" .
+
+performance-space:30334 a schema:Place;
+  schema:name "Alix Goolden Hall" .
+
+performance-space:30335 a schema:Place;
+  schema:name "Greenhouse";
+  schema:maximumAttendeeCapacity "167" .
+
+performance-space:30450 a schema:Place;
+  schema:name "Canfor Culture & Events Centre Seating Configuration 4";
+  schema:maximumAttendeeCapacity "668" .
+
+presenter:30602 a schema:Organization;
+  schema:location performance-space:30603;
+  schema:name "Corporation de la Salle de spectacle de Sept-Îles" .
+
+performance-space:30603 a schema:Place;
+  schema:name "Salle de spectacle de Sept-Iles";
+  schema:maximumAttendeeCapacity "841" .
+
+presenter:30439 a schema:Organization;
+  schema:location performance-space:30604;
+  schema:name "Rogue Folk Club" .
+
+performance-space:30604 a schema:Place;
+  schema:name "Mel Lehan Hall, St. James Community Square";
+  schema:maximumAttendeeCapacity "207" .
+
+presenter:30606 a schema:Organization;
+  schema:location performance-space:30607;
+  schema:name "Klondike Institute of Art & Culture" .
+
+performance-space:30607 a schema:Place;
+  schema:name "Dënäkär Zho (Mixed Colours House) / KIAC Ballroom";
+  schema:maximumAttendeeCapacity "120" .
+
+presenter:30608 a schema:Organization;
+  schema:location performance-space:30609;
+  schema:name "Dance Victoria" .
+
+performance-space:30609 a schema:Place;
+  schema:name "Royal Theatre";
+  schema:sameAs wd:Q138578049, adr:K2-6972;
+  schema:maximumAttendeeCapacity "1400" .
+
+presenter:30611 a schema:Organization;
+  schema:location performance-space:30612;
+  schema:name "Friends of Writers at Woody Point" .
+
+performance-space:30612 a schema:Place;
+  schema:name "Woody Point Heritage Theatre";
+  schema:maximumAttendeeCapacity "208" .
+
+presenter:30613 a schema:Organization;
+  schema:location performance-space:30614;
+  schema:name "Odyscène" .
+
+performance-space:30614 a schema:Place;
+  schema:name "Théâtre Lionel-Groulx";
+  schema:sameAs wd:Q106292267, adr:K2-193;
+  schema:maximumAttendeeCapacity "811" .
+
+presenter:30615 a schema:Organization;
+  schema:location performance-space:30616;
+  schema:name "Brookside Music Association" .
+
+performance-space:30616 a schema:Place;
+  schema:name "Midland Cultural Centre";
+  schema:sameAs wd:Q111948491, adr:K2-6065;
+  schema:maximumAttendeeCapacity "250" .
+
+presenter:30617 a schema:Organization;
+  schema:location performance-space:30618;
+  schema:name "Wonderbolt Productions Inc." .
+
+performance-space:30618 a schema:Place;
+  schema:name "John C Perlin Arts and Culture Centre";
+  schema:sameAs wd:Q56187018, adr:K2-5172;
+  schema:maximumAttendeeCapacity "1200" .
+
+presenter:30620 a schema:Organization;
+  schema:location performance-space:30621;
+  schema:name "PRISMA" .
+
+performance-space:30621 a schema:Place;
+  schema:name "Illahie Recital Hall - The Arts Hub at tiskwat";
+  schema:maximumAttendeeCapacity "240" .
+
+presenter:30601 a schema:Organization;
+  schema:location performance-space:30625, performance-space:30626, performance-space:30627;
+  schema:name "Music on Main" .
+
+performance-space:30625 a schema:Place;
+  schema:name "Roundhouse Community Arts Centre - Performance Centre";
+  schema:maximumAttendeeCapacity "223" .
+
+performance-space:30626 a schema:Place;
+  schema:name "Roundhouse Community Arts Centre - Exhibition Hall";
+  schema:maximumAttendeeCapacity "300" .
+
+performance-space:30627 a schema:Place;
+  schema:name "Vancouver Civic Theatres - ANNEX";
+  schema:sameAs wd:Q107436777, adr:K11-85 .
