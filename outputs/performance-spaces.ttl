@@ -3056,3 +3056,11 @@ performance-space:30626 a schema:Place;
 performance-space:30627 a schema:Place;
   schema:name "Vancouver Civic Theatres - ANNEX";
   schema:sameAs wd:Q107436777, adr:K11-85 .
+
+presenter:30630 a schema:Organization;
+  schema:location performance-space:30724;
+  schema:name "The Arts Hub at tiskwat" .
+
+performance-space:30724 a schema:Place;
+  schema:name "The Arts Hub at tiskʷat";
+  schema:maximumAttendeeCapacity "240" .

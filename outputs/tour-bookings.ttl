@@ -23063,37 +23063,9 @@ tour:15631-4900 a schema:Event;
   schema:workPerformed show:12808 .
 
 tour:15635-4901 a schema:Event;
-  schema:name "Colin James";
+  schema:name "Colin James: Acoustic Duo with Special Guest";
   schema:startDate "2025-11-29T20:00:00"^^xsd:dateTime;
-  schema:description """<p></p>
-
-<p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p>
-
-<p> </p>
-
-<p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p>
-
-<p> </p>
-
-<p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p>
-
-<p> </p>
-
-<p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p>
-
-<p> </p>
-
-<p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p>
-
-<p> </p>
-
-<p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p>
-
-<p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p>
-
-<p> </p>
-
-<p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>""";
+  schema:description "<p><strong>NOTE: This is not the description of the tour, rather of Mr. James work. </strong></p><p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p><p> </p><p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p><p> </p><p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p><p> </p><p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p><p> </p><p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p><p> </p><p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p><p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p><p> </p><p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:297;
   schema:organizer presenter:284;
@@ -23102,37 +23074,9 @@ tour:15635-4901 a schema:Event;
   schema:workPerformed show:15601 .
 
 tour:15636-4902 a schema:Event;
-  schema:name "Colin James";
+  schema:name "Colin James: Acoustic Duo with Special Guest";
   schema:startDate "2025-12-04T20:00:00"^^xsd:dateTime;
-  schema:description """<p></p>
-
-<p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p>
-
-<p> </p>
-
-<p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p>
-
-<p> </p>
-
-<p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p>
-
-<p> </p>
-
-<p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p>
-
-<p> </p>
-
-<p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p>
-
-<p> </p>
-
-<p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p>
-
-<p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p>
-
-<p> </p>
-
-<p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>""";
+  schema:description "<p><strong>NOTE: This is not the description of the tour, rather of Mr. James work. </strong></p><p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p><p> </p><p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p><p> </p><p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p><p> </p><p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p><p> </p><p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p><p> </p><p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p><p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p><p> </p><p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:230;
   schema:organizer presenter:161;
@@ -23141,37 +23085,9 @@ tour:15636-4902 a schema:Event;
   schema:workPerformed show:15601 .
 
 tour:15636-4980 a schema:Event;
-  schema:name "Colin James";
+  schema:name "Colin James: Acoustic Duo with Special Guest";
   schema:startDate "2025-12-05T20:00:00"^^xsd:dateTime;
-  schema:description """<p></p>
-
-<p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p>
-
-<p> </p>
-
-<p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p>
-
-<p> </p>
-
-<p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p>
-
-<p> </p>
-
-<p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p>
-
-<p> </p>
-
-<p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p>
-
-<p> </p>
-
-<p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p>
-
-<p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p>
-
-<p> </p>
-
-<p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>""";
+  schema:description "<p><strong>NOTE: This is not the description of the tour, rather of Mr. James work. </strong></p><p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p><p> </p><p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p><p> </p><p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p><p> </p><p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p><p> </p><p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p><p> </p><p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p><p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p><p> </p><p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:566;
   schema:organizer presenter:161;
@@ -23180,37 +23096,9 @@ tour:15636-4980 a schema:Event;
   schema:workPerformed show:15601 .
 
 tour:15637-4903 a schema:Event;
-  schema:name "Colin James";
+  schema:name "Colin James: Acoustic Duo with Special Guest";
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
-  schema:description """<p></p>
-
-<p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p>
-
-<p> </p>
-
-<p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p>
-
-<p> </p>
-
-<p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p>
-
-<p> </p>
-
-<p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p>
-
-<p> </p>
-
-<p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p>
-
-<p> </p>
-
-<p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p>
-
-<p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p>
-
-<p> </p>
-
-<p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>""";
+  schema:description "<p><strong>NOTE: This is not the description of the tour, rather of Mr. James work. </strong></p><p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p><p> </p><p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p><p> </p><p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p><p> </p><p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p><p> </p><p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p><p> </p><p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p><p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p><p> </p><p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:677;
   schema:organizer presenter:288;
@@ -23219,37 +23107,9 @@ tour:15637-4903 a schema:Event;
   schema:workPerformed show:15601 .
 
 tour:15638-4904 a schema:Event;
-  schema:name "Colin James";
+  schema:name "Colin James: Acoustic Duo with Special Guest";
   schema:startDate "2025-11-28T20:00:00"^^xsd:dateTime;
-  schema:description """<p></p>
-
-<p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p>
-
-<p> </p>
-
-<p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p>
-
-<p> </p>
-
-<p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p>
-
-<p> </p>
-
-<p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p>
-
-<p> </p>
-
-<p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p>
-
-<p> </p>
-
-<p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p>
-
-<p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p>
-
-<p> </p>
-
-<p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>""";
+  schema:description "<p><strong>NOTE: This is not the description of the tour, rather of Mr. James work. </strong></p><p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p><p> </p><p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p><p> </p><p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p><p> </p><p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p><p> </p><p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p><p> </p><p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p><p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p><p> </p><p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:294;
   schema:organizer presenter:289;
@@ -23708,37 +23568,9 @@ tour:15675-4926 a schema:Event;
   schema:workPerformed show:15608 .
 
 tour:15676-4927 a schema:Event;
-  schema:name "Colin James";
+  schema:name "Colin James: Acoustic Duo with Special Guest";
   schema:startDate "2025-11-30T20:00:00"^^xsd:dateTime;
-  schema:description """<p></p>
-
-<p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p>
-
-<p> </p>
-
-<p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p>
-
-<p> </p>
-
-<p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p>
-
-<p> </p>
-
-<p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p>
-
-<p> </p>
-
-<p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p>
-
-<p> </p>
-
-<p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p>
-
-<p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p>
-
-<p> </p>
-
-<p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>""";
+  schema:description "<p><strong>NOTE: This is not the description of the tour, rather of Mr. James work. </strong></p><p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p><p> </p><p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p><p> </p><p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p><p> </p><p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p><p> </p><p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p><p> </p><p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p><p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p><p> </p><p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:143;
   schema:organizer presenter:142;
@@ -27793,37 +27625,9 @@ tour:16743-5612 a schema:Event;
   schema:workPerformed show:16314 .
 
 tour:16751-5564 a schema:Event;
-  schema:name "Colin James";
+  schema:name "Colin James: Acoustic Duo with Special Guest";
   schema:startDate "2025-12-03T19:30:00"^^xsd:dateTime;
-  schema:description """<p></p>
-
-<p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p>
-
-<p> </p>
-
-<p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p>
-
-<p> </p>
-
-<p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p>
-
-<p> </p>
-
-<p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p>
-
-<p> </p>
-
-<p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p>
-
-<p> </p>
-
-<p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p>
-
-<p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p>
-
-<p> </p>
-
-<p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>""";
+  schema:description "<p><strong>NOTE: This is not the description of the tour, rather of Mr. James work. </strong></p><p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p><p> </p><p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p><p> </p><p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p><p> </p><p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p><p> </p><p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p><p> </p><p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p><p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p><p> </p><p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:714;
   schema:organizer presenter:351;
@@ -31980,37 +31784,9 @@ tour:18041-6379 a schema:Event;
   schema:workPerformed show:14371 .
 
 tour:18045-6380 a schema:Event;
-  schema:name "Colin James";
+  schema:name "Colin James: Acoustic Duo with Special Guest";
   schema:startDate "2025-12-06T20:00:00"^^xsd:dateTime;
-  schema:description """<p></p>
-
-<p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p>
-
-<p> </p>
-
-<p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p>
-
-<p> </p>
-
-<p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p>
-
-<p> </p>
-
-<p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p>
-
-<p> </p>
-
-<p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p>
-
-<p> </p>
-
-<p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p>
-
-<p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p>
-
-<p> </p>
-
-<p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>""";
+  schema:description "<p><strong>NOTE: This is not the description of the tour, rather of Mr. James work. </strong></p><p>From the prairies of Saskatchewan to sharing the stage with arguably the greatest and most influential guitarists of all time, Colin James still remembers those words of advice given to him by the late, great, Stevie Ray Vaughan.</p><p> </p><p>Colin James has taken those words to heart. His career has spanned over 30 years, with a track record that includes 20 studio albums, 8 Juno Awards, 30 Maple Blues Awards and multi-platinum record sales.  His latest 2021 release, <em>Open Road</em>, for which he won a 2022 Juno Award for best Blues Album and was nominated for Blues Foundation 2023 best Blues Rock Album, is a celebration of personal connections. It includes original tunes written with long time collaborators such as Colin Linden, Craig Northey and Tom Wilson and reinterpretations of covers by a diverse group of songwriters including Bob Dylan, Albert King, Tony Joe White and others.</p><p> </p><p>His 2018 album <em>Miles To Go </em>garnered worldwide attention, debuting on the Billboard Blues Charts and holding a position on the RMR Blues Chart for 24 weeks, 14 weeks in the top 10. He continues to sell out shows across Canada with over 100,000 tickets sold on tours over the past 3 years. Colin was inducted into the Canadian Music Industry Hall of Fame in 2013.</p><p> </p><p>Looking back over Colin’s career, it’s a timeline rich in highlights. His 1988 self-titled debut, featuring his two self-penned hits “Voodoo Thing” and “Five Long Years,” was the fastest-selling album in Canadian history. It won him his first Juno and an opening spot on tour with Keith Richards. His second album, <em>Sudden Stop</em>, featured his hit “Just Came Back,” which reached #3 on the U.S. radio charts and earned him the Juno Award for “Single of the Year.” Colin was next credited with launching the swing revival, thanks to his wildly popular Little Big Band, which has released four successful albums to date.</p><p> </p><p>However, it wasn’t until 2016’s <em>Blue Highways </em>that James found himself on a blues chart: the album spent 10 weeks at No. 1 on the Roots Music Report’s Blues Chart. It also landed him one of his biggest hits: “Riding in the Moonlight,” a Willie Dixon song that garnered millions of streams on Spotify.</p><p> </p><p>Over the years Colin has worked with some of the world’s most revered artists including, Bonnie Raitt, Albert Collins, Pops Staples, Robert Cray, Albert King, Keith Richards,</p><p>Lenny Kravitz, ZZ Top, Mavis Staples, Luther Allison, Roomful of Blues, Bobby King and Terry Evans, John Hammond Jr., The Chieftains, Carlos Santana, Little Feat, Johnny Hallyday, Jeff Healey, and Buddy Guy. In addition to his own recording and touring Colin is a prolific songwriter, his music has been recorded by the likes of Maria Muldaur, Johnny Hallyday and Lucinda Williams.</p><p> </p><p>Colin has set the bar for consistency and talent in Canadian music and even after 20 acclaimed albums remains at the top of his game, always challenging himself musically. A consummate professional and a superb guitarist, Colin is a musician’s musician. The confidence that comes with maturity can be heard in his voice and seen in his electrifying stage performance. He does what comes naturally – he always has – he knows no other way and no other life.</p>";
   schema:eventStatus schema:EventScheduled;
   schema:location performance-space:37;
   schema:organizer presenter:281;
@@ -40239,7 +40015,7 @@ tour:24951-8156 a schema:Event;
 
 tour:24971-8179 a schema:Event;
   schema:name "The McDades";
-  schema:startDate "2027-04-23T19:30:00"^^xsd:dateTime;
+  schema:startDate "2028-03-22T19:30:00"^^xsd:dateTime;
   schema:description "<p class=\"MsoNormal\" style=\"box-sizing:inherit;margin:0px;\">Punching through the walls of tradition, the McDades’ celtic-rooted music fuses the spontaneity of jazz improvisation and infectious global rhythms. The Juno award winner’s cutting edge sound is the perfect complement to their fiery performances. </p><p style=\"box-sizing:inherit;margin:0px;\"> </p><p class=\"MsoNormal\" style=\"box-sizing:inherit;margin:0px;\">At the heart of the group are siblings Shannon, Solon & Jeremiah who grew up playing Canadian folk music alongside their parents and among artists from around the world; a unique upbringing that led to a love and respect for all music.  Their ground-breaking compositions and innovative arrangements are characterized by stunning virtuosity and a near-telepathic interaction on stage. </p><p style=\"box-sizing:inherit;margin:0px;\"> </p><p class=\"MsoNormal\" style=\"box-sizing:inherit;margin:0px;\">With vocal harmonies that can only come from a family, and an obvious love for each other and their music, the McDades’ sound is immersed in the spirit of improvisation.  Combining original tunes and unique interpretations of traditional songs, their performances feature both energetic instrumentals and moving vocals performed in English and French.  This compelling and dynamic group “finds their groove somewhere between a down-home kitchen party, a jazzy after hours club, and a folk festival.” (London free press) </p><p style=\"box-sizing:inherit;margin:0px;\"> </p><p class=\"MsoNormal\" style=\"box-sizing:inherit;margin:0px;\">The McDades are winners of the Juno award for best roots album (group) and two Canadian folk music awards (world group of the year and instrumental album of the year).  Their new album “The Empress” continues to highlight the group’s one-of-a-kind sound and irresistible groove.  “This kicks!” (froots)</p><p style=\"box-sizing:inherit;margin:0px;\"> </p><p><a class=\"button\" style=\"-webkit-box-align:center;-webkit-box-pack:center;-webkit-text-stroke-width:0px;align-items:center;background-color:rgb(191, 77, 11);border-radius:2px;border:1px solid rgb(191, 77, 11);box-sizing:inherit;color:rgb(255, 255, 255);cursor:pointer;display:inline-flex;font-family:\"Open Sans\", Arial, sans-serif;font-size:1rem;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;justify-content:center;letter-spacing:normal;line-height:1rem;margin:0px 0.75rem 0px 0px;orphans:2;padding:0.9375rem 2.4375rem;text-align:center;text-decoration:none;text-indent:0px;text-transform:none;transition:all 0.2s ease 0s;white-space:normal;widows:2;word-spacing:0px;\" href=\"https://arts-tc.ca/artists/847/edit\">Edit</a></p>";
   schema:eventStatus schema:EventPostponed;
   schema:location performance-space:4225;
@@ -40261,7 +40037,7 @@ tour:24973-8180 a schema:Event;
 
 tour:24975-8181 a schema:Event;
   schema:name "The McDades";
-  schema:startDate "2027-04-25T19:30:00"^^xsd:dateTime;
+  schema:startDate "2028-03-25T19:30:00"^^xsd:dateTime;
   schema:description "<p class=\"MsoNormal\" style=\"box-sizing:inherit;margin:0px;\">Punching through the walls of tradition, the McDades’ celtic-rooted music fuses the spontaneity of jazz improvisation and infectious global rhythms. The Juno award winner’s cutting edge sound is the perfect complement to their fiery performances. </p><p style=\"box-sizing:inherit;margin:0px;\"> </p><p class=\"MsoNormal\" style=\"box-sizing:inherit;margin:0px;\">At the heart of the group are siblings Shannon, Solon & Jeremiah who grew up playing Canadian folk music alongside their parents and among artists from around the world; a unique upbringing that led to a love and respect for all music.  Their ground-breaking compositions and innovative arrangements are characterized by stunning virtuosity and a near-telepathic interaction on stage. </p><p style=\"box-sizing:inherit;margin:0px;\"> </p><p class=\"MsoNormal\" style=\"box-sizing:inherit;margin:0px;\">With vocal harmonies that can only come from a family, and an obvious love for each other and their music, the McDades’ sound is immersed in the spirit of improvisation.  Combining original tunes and unique interpretations of traditional songs, their performances feature both energetic instrumentals and moving vocals performed in English and French.  This compelling and dynamic group “finds their groove somewhere between a down-home kitchen party, a jazzy after hours club, and a folk festival.” (London free press) </p><p style=\"box-sizing:inherit;margin:0px;\"> </p><p class=\"MsoNormal\" style=\"box-sizing:inherit;margin:0px;\">The McDades are winners of the Juno award for best roots album (group) and two Canadian folk music awards (world group of the year and instrumental album of the year).  Their new album “The Empress” continues to highlight the group’s one-of-a-kind sound and irresistible groove.  “This kicks!” (froots)</p><p style=\"box-sizing:inherit;margin:0px;\"> </p><p><a class=\"button\" style=\"-webkit-box-align:center;-webkit-box-pack:center;-webkit-text-stroke-width:0px;align-items:center;background-color:rgb(191, 77, 11);border-radius:2px;border:1px solid rgb(191, 77, 11);box-sizing:inherit;color:rgb(255, 255, 255);cursor:pointer;display:inline-flex;font-family:\"Open Sans\", Arial, sans-serif;font-size:1rem;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;justify-content:center;letter-spacing:normal;line-height:1rem;margin:0px 0.75rem 0px 0px;orphans:2;padding:0.9375rem 2.4375rem;text-align:center;text-decoration:none;text-indent:0px;text-transform:none;transition:all 0.2s ease 0s;white-space:normal;widows:2;word-spacing:0px;\" href=\"https://arts-tc.ca/artists/847/edit\">Edit</a></p>";
   schema:eventStatus schema:EventPostponed;
   schema:location performance-space:4207;
