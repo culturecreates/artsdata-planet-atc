@@ -3064,3 +3064,95 @@ presenter:30630 a schema:Organization;
 performance-space:30724 a schema:Place;
   schema:name "The Arts Hub at tiskʷat";
   schema:maximumAttendeeCapacity "240" .
+
+presenter:767 a schema:Organization;
+  schema:location performance-space:34166;
+  schema:name "City of Spruce Grove - Horizon Stage" .
+
+performance-space:34166 a schema:Place;
+  schema:name "Black Box Theatre";
+  schema:maximumAttendeeCapacity "150" .
+
+presenter:34168 a schema:Organization;
+  schema:location performance-space:34169;
+  schema:name "Sackville Festival of Early Music" .
+
+performance-space:34169 a schema:Place;
+  schema:name "Mount Allison University";
+  schema:maximumAttendeeCapacity "330" .
+
+presenter:34170 a schema:Organization;
+  schema:location performance-space:34171;
+  schema:name "Théâtre de la Ville" .
+
+performance-space:34171 a schema:Place;
+  schema:name "Salle Pratt & Whitney Canada";
+  schema:maximumAttendeeCapacity "850" .
+
+presenter:34173 a schema:Organization;
+  schema:location performance-space:34174;
+  schema:name "Eastern Edge artist-run centre" .
+
+performance-space:34174 a schema:Place;
+  schema:name "Eastern Edge Gallery";
+  schema:maximumAttendeeCapacity "50" .
+
+presenter:34175 a schema:Organization;
+  schema:location performance-space:34176;
+  schema:name "Wavelength Music Arts Projects" .
+
+performance-space:34176 a schema:Place;
+  schema:name "Wavelength @ St. Anne's";
+  schema:maximumAttendeeCapacity "350" .
+
+presenter:34177 a schema:Organization;
+  schema:location performance-space:34178;
+  schema:name "Aurora Cultural Centre" .
+
+performance-space:34178 a schema:Place;
+  schema:name "Davide de Simone Performance Hall";
+  schema:maximumAttendeeCapacity "250" .
+
+presenter:34179 a schema:Organization;
+  schema:location performance-space:34180, performance-space:34181;
+  schema:name "Montreal Celtic Festival Foundation" .
+
+performance-space:34180 a schema:Place;
+  schema:name "Théâtre Lac-Brome";
+  schema:maximumAttendeeCapacity "161" .
+
+performance-space:34181 a schema:Place;
+  schema:name "Maison de la culture de Waterloo";
+  schema:maximumAttendeeCapacity "232" .
+
+presenter:34314 a schema:Organization;
+  schema:location performance-space:34315;
+  schema:name "The Works International Visual Arts Society" .
+
+performance-space:34315 a schema:Place;
+  schema:name "Churchill Square";
+  schema:maximumAttendeeCapacity "500" .
+
+presenter:34318 a schema:Organization;
+  schema:location performance-space:34319;
+  schema:name "Yukon Arts Centre" .
+
+performance-space:34319 a schema:Place;
+  schema:name "Yukon Arts Centre ";
+  schema:maximumAttendeeCapacity "418" .
+
+presenter:34321 a schema:Organization;
+  schema:location performance-space:34322;
+  schema:name "Hillside Community Festival of Guelph" .
+
+performance-space:34322 a schema:Place;
+  schema:name "Hillside Festival (Guelph Lake Island)";
+  schema:maximumAttendeeCapacity "6000" .
+
+presenter:34377 a schema:Organization;
+  schema:location performance-space:34378;
+  schema:name "Winnipeg Folk Festival" .
+
+performance-space:34378 a schema:Place;
+  schema:name "Birds Hill Provincial Park ";
+  schema:maximumAttendeeCapacity "20000" .
