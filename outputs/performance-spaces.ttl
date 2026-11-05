@@ -1360,7 +1360,7 @@ performance-space:3364 a schema:Place;
   schema:name "Meadowvale Theatre" .
 
 presenter:265 a schema:Organization;
-  schema:location performance-space:3374;
+  schema:location performance-space:3374, performance-space:22418;
   schema:name "Acadia Performing Arts Series" .
 
 performance-space:3374 a schema:Place;
@@ -1981,14 +1981,6 @@ performance-space:7598 a schema:Place;
   schema:name "Southwood United Church";
   schema:maximumAttendeeCapacity "300" .
 
-presenter:766 a schema:Organization;
-  schema:location performance-space:7611;
-  schema:name "Whitecourt and Woodlands Performing Arts Society" .
-
-performance-space:7611 a schema:Place;
-  schema:name "St. Joseph Parish Hall";
-  schema:maximumAttendeeCapacity "320" .
-
 presenter:2675 a schema:Organization;
   schema:location performance-space:7616;
   schema:name "Moose Jaw Cultural Centre" .
@@ -2551,18 +2543,13 @@ performance-space:22180 a schema:Place;
   schema:maximumAttendeeCapacity "657" .
 
 presenter:22321 a schema:Organization;
-  schema:location performance-space:22322 .
+  schema:location performance-space:22322;
+  schema:name "Presentation House Theatre" .
 
 performance-space:22322 a schema:Place;
   schema:name "Presentation House Theatre";
   schema:sameAs wd:Q134296633, adr:K25-869;
   schema:maximumAttendeeCapacity "150" .
-
-presenter:22321 schema:name "Presentation House Theatre" .
-
-presenter:265 a schema:Organization;
-  schema:location performance-space:22418;
-  schema:name "Acadia Performing Arts Series" .
 
 performance-space:22418 a schema:Place;
   schema:name "Al Whittle Theatre";
@@ -3156,3 +3143,78 @@ presenter:34377 a schema:Organization;
 performance-space:34378 a schema:Place;
   schema:name "Birds Hill Provincial Park ";
   schema:maximumAttendeeCapacity "20000" .
+
+presenter:34416 a schema:Organization;
+  schema:location performance-space:34417;
+  schema:name "The Broadway Theatre" .
+
+performance-space:34417 a schema:Place;
+  schema:name "The Broadway Theatre";
+  schema:maximumAttendeeCapacity "430" .
+
+presenter:34420 a schema:Organization;
+  schema:location performance-space:34421;
+  schema:name "Hermione Presents ~ SpringWorks Festival" .
+
+performance-space:34421 a schema:Place;
+  schema:name "Factory163";
+  schema:maximumAttendeeCapacity "150" .
+
+presenter:34422 a schema:Organization;
+  schema:location performance-space:34423;
+  schema:name "Folk On The Rocks" .
+
+performance-space:34423 a schema:Place;
+  schema:name "Folk On The Rocks Site";
+  schema:maximumAttendeeCapacity "5000" .
+
+presenter:28492 a schema:Organization;
+  schema:location performance-space:34446;
+  schema:name "Elliot Lake Entertainment Series" .
+
+performance-space:34446 a schema:Place;
+  schema:name "W.H. Collins Centre";
+  schema:maximumAttendeeCapacity "400" .
+
+presenter:4050 a schema:Organization;
+  schema:location performance-space:34477, performance-space:34478;
+  schema:name "ACT Arts Centre & Theatre" .
+
+performance-space:34477 a schema:Place;
+  schema:name "Russ Brummer";
+  schema:maximumAttendeeCapacity "486" .
+
+performance-space:34478 a schema:Place;
+  schema:name "MainStage Theatre";
+  schema:sameAs wd:Q126398326, adr:K11-188;
+  schema:maximumAttendeeCapacity "954" .
+
+presenter:29636 a schema:Organization;
+  schema:location performance-space:34479, performance-space:34480;
+  schema:name "Arts On" .
+
+performance-space:34479 a schema:Place;
+  schema:name "ACT Arts Centre Mainstage Theatre";
+  schema:sameAs wd:Q112777913, adr:K2-6461;
+  schema:maximumAttendeeCapacity "486" .
+
+performance-space:34480 a schema:Place;
+  schema:name "ACT Arts Centre Studio Theatre";
+  schema:sameAs wd:Q112778319, adr:K2-6462;
+  schema:maximumAttendeeCapacity "120" .
+
+presenter:34656 a schema:Organization;
+  schema:location performance-space:34672;
+  schema:name "Stan Rogers Folk Festival " .
+
+performance-space:34672 a schema:Place;
+  schema:name "Stan Rogers Folk Festival ";
+  schema:maximumAttendeeCapacity "5000" .
+
+presenter:30605 a schema:Organization;
+  schema:location performance-space:34686;
+  schema:name "Mariposa Folk Festival" .
+
+performance-space:34686 a schema:Place;
+  schema:name "Mariposa Folk Festival";
+  schema:maximumAttendeeCapacity "10000" .
